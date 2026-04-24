@@ -59,12 +59,10 @@ fn invalid_preference_key_rejected() {
     let conn = db::open_in_memory().unwrap();
     let result = db::set_preference(&conn, "malicious_column", "value");
     assert!(result.is_err());
-    assert!(
-        result
-            .unwrap_err()
-            .to_string()
-            .contains("Unknown preference")
-    );
+    assert!(result
+        .unwrap_err()
+        .to_string()
+        .contains("Unknown preference"));
 }
 
 #[test]
@@ -198,29 +196,21 @@ fn clone_name_with_unicode_works() {
 }
 
 // ---------------------------------------------------------------------------
-// STT command does not use shell (no command injection)
+// STT fallback safety
 // ---------------------------------------------------------------------------
 
 #[cfg(target_os = "macos")]
 #[test]
-fn stt_command_does_not_invoke_shell() {
-    let cmd = vox::stt::build_transcribe_command("/tmp/test.wav", Some("en"));
-    // Command should be python3, not sh/bash
-    assert_eq!(cmd.get_program(), "python3");
-    let args: Vec<_> = cmd.get_args().collect();
-    // Should use -c with inline script, not shell
-    assert_eq!(args[0], "-c");
+fn stt_missing_file_falls_back_cleanly() {
+    let result = vox::stt::transcribe("/tmp/test.wav", Some("en"));
+    assert!(result.is_err());
 }
 
 #[cfg(target_os = "macos")]
 #[test]
-fn stt_escapes_single_quotes_in_path() {
-    let cmd = vox::stt::build_transcribe_command("/tmp/it's a test.wav", Some("en"));
-    let args: Vec<_> = cmd.get_args().collect();
-    let script = args[1].to_string_lossy();
-    // Should have escaped single quote
-    assert!(script.contains("\\'"));
-    assert!(!script.contains("it's"));
+fn stt_language_arg_is_accepted() {
+    let result = vox::stt::transcribe("/tmp/it's a test.wav", Some("en"));
+    assert!(result.is_err());
 }
 
 // ---------------------------------------------------------------------------

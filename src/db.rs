@@ -18,6 +18,10 @@ pub struct Preferences {
     pub style: Option<String>,
     pub model: Option<String>,
     pub pack: Option<String>,
+    pub stt_threshold: Option<f64>,
+    pub stt_silence: Option<f64>,
+    pub stt_trim_silence: Option<bool>,
+    pub stt_auto_enter: Option<bool>,
 }
 
 #[derive(Debug, Clone)]
@@ -65,7 +69,11 @@ fn migrate(conn: &Connection) -> Result<()> {
             rate    INTEGER,
             gender  TEXT,
             style   TEXT,
-            model   TEXT
+            model   TEXT,
+            stt_threshold REAL,
+            stt_silence REAL,
+            stt_trim_silence INTEGER,
+            stt_auto_enter INTEGER
         );
 
         CREATE TABLE IF NOT EXISTS usage_log (
@@ -92,6 +100,34 @@ fn migrate(conn: &Connection) -> Result<()> {
         conn.execute_batch("ALTER TABLE preferences ADD COLUMN pack TEXT;")?;
     }
 
+    let has_stt_threshold = conn
+        .prepare("SELECT stt_threshold FROM preferences LIMIT 0")
+        .is_ok();
+    if !has_stt_threshold {
+        conn.execute_batch("ALTER TABLE preferences ADD COLUMN stt_threshold REAL;")?;
+    }
+
+    let has_stt_silence = conn
+        .prepare("SELECT stt_silence FROM preferences LIMIT 0")
+        .is_ok();
+    if !has_stt_silence {
+        conn.execute_batch("ALTER TABLE preferences ADD COLUMN stt_silence REAL;")?;
+    }
+
+    let has_stt_trim_silence = conn
+        .prepare("SELECT stt_trim_silence FROM preferences LIMIT 0")
+        .is_ok();
+    if !has_stt_trim_silence {
+        conn.execute_batch("ALTER TABLE preferences ADD COLUMN stt_trim_silence INTEGER;")?;
+    }
+
+    let has_stt_auto_enter = conn
+        .prepare("SELECT stt_auto_enter FROM preferences LIMIT 0")
+        .is_ok();
+    if !has_stt_auto_enter {
+        conn.execute_batch("ALTER TABLE preferences ADD COLUMN stt_auto_enter INTEGER;")?;
+    }
+
     Ok(())
 }
 
@@ -99,7 +135,7 @@ fn migrate(conn: &Connection) -> Result<()> {
 
 pub fn get_preferences(conn: &Connection) -> Result<Preferences> {
     let mut stmt = conn.prepare(
-        "SELECT backend, voice, lang, rate, gender, style, model, pack FROM preferences WHERE id = 1",
+        "SELECT backend, voice, lang, rate, gender, style, model, pack, stt_threshold, stt_silence, stt_trim_silence, stt_auto_enter FROM preferences WHERE id = 1",
     )?;
     let result = stmt.query_row([], |row| {
         Ok(Preferences {
@@ -111,6 +147,10 @@ pub fn get_preferences(conn: &Connection) -> Result<Preferences> {
             style: row.get(5)?,
             model: row.get(6)?,
             pack: row.get(7)?,
+            stt_threshold: row.get(8)?,
+            stt_silence: row.get(9)?,
+            stt_trim_silence: row.get::<_, Option<i64>>(10)?.map(|v| v != 0),
+            stt_auto_enter: row.get::<_, Option<i64>>(11)?.map(|v| v != 0),
         })
     });
     match result {
@@ -122,7 +162,18 @@ pub fn get_preferences(conn: &Connection) -> Result<Preferences> {
 
 pub fn set_preference(conn: &Connection, key: &str, value: &str) -> Result<()> {
     let valid_keys = [
-        "backend", "voice", "lang", "rate", "gender", "style", "model", "pack",
+        "backend",
+        "voice",
+        "lang",
+        "rate",
+        "gender",
+        "style",
+        "model",
+        "pack",
+        "stt_threshold",
+        "stt_silence",
+        "stt_trim_silence",
+        "stt_auto_enter",
     ];
     if !valid_keys.contains(&key) {
         anyhow::bail!(
@@ -152,6 +203,27 @@ pub fn set_preference(conn: &Connection, key: &str, value: &str) -> Result<()> {
                 );
             }
         }
+        "stt_threshold" => {
+            let parsed = value
+                .parse::<f64>()
+                .context("stt_threshold must be a number")?;
+            if !(0.1..=10.0).contains(&parsed) {
+                anyhow::bail!("stt_threshold must be between 0.1 and 10.0 (percent)");
+            }
+        }
+        "stt_silence" => {
+            let parsed = value
+                .parse::<f64>()
+                .context("stt_silence must be a number")?;
+            if !(0.2..=15.0).contains(&parsed) {
+                anyhow::bail!("stt_silence must be between 0.2 and 15.0 seconds");
+            }
+        }
+        "stt_trim_silence" | "stt_auto_enter" => {
+            if !matches!(value, "true" | "false" | "1" | "0") {
+                anyhow::bail!("{key} must be one of: true, false, 1, 0");
+            }
+        }
         "backend" => {
             #[cfg(target_os = "macos")]
             let valid_backends = ["kokoro", "say", "qwen", "qwen-native"];
@@ -169,13 +241,23 @@ pub fn set_preference(conn: &Connection, key: &str, value: &str) -> Result<()> {
 
     // Upsert: insert or update
     conn.execute(
-        "INSERT INTO preferences (id, backend, voice, lang, rate, gender, style, model, pack)
-         VALUES (1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+        "INSERT INTO preferences (id, backend, voice, lang, rate, gender, style, model, pack, stt_threshold, stt_silence, stt_trim_silence, stt_auto_enter)
+         VALUES (1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
          ON CONFLICT(id) DO NOTHING",
         [],
     )?;
     let sql = format!("UPDATE preferences SET {key} = ?1 WHERE id = 1");
-    conn.execute(&sql, [value])?;
+    let normalized = match key {
+        "stt_trim_silence" | "stt_auto_enter" => {
+            if matches!(value, "true" | "1") {
+                "1"
+            } else {
+                "0"
+            }
+        }
+        _ => value,
+    };
+    conn.execute(&sql, [normalized])?;
     Ok(())
 }
 

@@ -27,12 +27,15 @@ serde_json = "1"
 tempfile = "3"
 rodio = "0.20"
 hound = "3"
+whisper-rs = { version = "0.16.0", features = ["metal"] }
 qwen3-tts = { git = "https://github.com/TrevorS/qwen3-tts-rs", features = ["hub"], default-features = false }
 piper-rs = { git = "https://github.com/thewh1teagle/piper-rs" }
 kokoro-tts = { version = "0.3", optional = true }
 toml = "0.8"
 ratatui = "0.29"
 crossterm = "0.28"
+eframe = { version = "0.29", default-features = false, features = ["default_fonts", "glow"] }
+egui = "0.29"
 
 [dev-dependencies]
 assert_cmd = "2"

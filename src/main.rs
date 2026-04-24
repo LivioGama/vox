@@ -5,7 +5,7 @@ use clap::{Parser, Subcommand, ValueEnum};
 
 use vox::backend::{self, SpeakOptions};
 use vox::config::DEFAULT_BACKEND;
-use vox::{clone, daemon, db, init, input, mcp, pack, tui};
+use vox::{clone, daemon, db, gui, init, input, mcp, pack};
 
 fn parse_volume(s: &str) -> Result<f32, String> {
     let v: f32 = s.parse().map_err(|e| format!("{e}"))?;
@@ -111,7 +111,7 @@ enum Commands {
     #[cfg(target_os = "macos")]
     Hear {
         /// Language code for transcription (default: fr)
-        #[arg(short = 'l', long, default_value = "fr")]
+        #[arg(short = 'l', long, default_value = "en")]
         lang: String,
         /// Maximum recording duration in seconds
         #[arg(short = 't', long, default_value = "30")]
@@ -119,6 +119,34 @@ enum Commands {
         /// Seconds of silence before stopping
         #[arg(short = 's', long, default_value = "2.0")]
         silence: f64,
+        /// Input level threshold in percent for voice activation (default: 0.1)
+        #[arg(long, default_value = "0.1")]
+        threshold: f64,
+        /// Trim extra leading/trailing silence from captured audio
+        #[arg(long, default_value_t = true)]
+        trim_silence: bool,
+    },
+    /// Always-on voice activation mode: speak, transcribe, paste, repeat (macOS only)
+    #[cfg(target_os = "macos")]
+    Always {
+        /// Language code for transcription (default: fr)
+        #[arg(short = 'l', long, default_value = "en")]
+        lang: String,
+        /// Maximum recording duration per phrase in seconds
+        #[arg(short = 't', long, default_value = "30")]
+        timeout: u32,
+        /// Seconds of silence before considering phrase complete
+        #[arg(short = 's', long, default_value = "2.0")]
+        silence: f64,
+        /// Input level threshold in percent for voice activation
+        #[arg(long, default_value = "0.1")]
+        threshold: f64,
+        /// Trim leading/trailing silence from captured audio
+        #[arg(long, default_value_t = true)]
+        trim_silence: bool,
+        /// Press Enter automatically after pasting transcript
+        #[arg(long, default_value_t = false)]
+        auto_enter: bool,
     },
 }
 
@@ -201,7 +229,7 @@ enum PackAction {
 enum ConfigAction {
     /// Show current preferences
     Show,
-    /// Set a preference (backend, voice, lang, rate, gender, style, model)
+    /// Set a preference (backend, voice, lang, rate, gender, style, model, pack, stt_threshold, stt_silence, stt_trim_silence, stt_auto_enter)
     Set {
         /// Preference key
         key: String,
@@ -239,7 +267,7 @@ fn main() -> Result<()> {
         Some(Commands::Clone { action }) => handle_clone(action),
         Some(Commands::Config { action }) => handle_config(action),
         Some(Commands::Stats) => handle_stats(),
-        Some(Commands::Setup) => tui::run(),
+        Some(Commands::Setup) => gui::run(),
         Some(Commands::Bench) => handle_bench(),
         Some(Commands::Daemon { action }) => handle_daemon(action),
         Some(Commands::Init { mode }) => handle_init(mode),
@@ -252,7 +280,18 @@ fn main() -> Result<()> {
             lang,
             timeout,
             silence,
-        }) => handle_hear(lang, timeout, silence),
+            threshold,
+            trim_silence,
+        }) => handle_hear(lang, timeout, silence, threshold, trim_silence),
+        #[cfg(target_os = "macos")]
+        Some(Commands::Always {
+            lang,
+            timeout,
+            silence,
+            threshold,
+            trim_silence,
+            auto_enter,
+        }) => handle_always(lang, timeout, silence, threshold, trim_silence, auto_enter),
         None => handle_speak(cli),
     }
 }
@@ -430,6 +469,34 @@ fn handle_config(action: ConfigAction) -> Result<()> {
             println!("style:   {}", prefs.style.as_deref().unwrap_or("(default)"));
             println!("model:   {}", prefs.model.as_deref().unwrap_or("(default)"));
             println!("pack:    {}", prefs.pack.as_deref().unwrap_or("(none)"));
+            println!(
+                "stt_threshold: {}",
+                prefs
+                    .stt_threshold
+                    .map(|v| format!("{v}%"))
+                    .unwrap_or_else(|| "1.0%".to_string())
+            );
+            println!(
+                "stt_silence: {}",
+                prefs
+                    .stt_silence
+                    .map(|v| format!("{v}s"))
+                    .unwrap_or_else(|| "2.0s".to_string())
+            );
+            println!(
+                "stt_trim_silence: {}",
+                prefs
+                    .stt_trim_silence
+                    .map(|v| v.to_string())
+                    .unwrap_or_else(|| "true".to_string())
+            );
+            println!(
+                "stt_auto_enter: {}",
+                prefs
+                    .stt_auto_enter
+                    .map(|v| v.to_string())
+                    .unwrap_or_else(|| "false".to_string())
+            );
         }
         ConfigAction::Set { key, value } => {
             db::set_preference(&conn, &key, &value)?;
@@ -473,31 +540,57 @@ fn handle_chat(voice: Option<String>, lang: Option<String>) -> Result<()> {
 }
 
 #[cfg(target_os = "macos")]
-fn handle_hear(lang: String, timeout: u32, silence: f64) -> Result<()> {
+fn build_hear_command(
+    audio_str: &str,
+    timeout: u32,
+    silence: f64,
+    threshold: f64,
+    trim_silence: bool,
+) -> std::process::Command {
+    let mut cmd = std::process::Command::new("rec");
+    cmd.arg(audio_str)
+        .arg("rate")
+        .arg("16k")
+        .arg("silence")
+        .arg("1")
+        .arg("0.1")
+        .arg(format!("{threshold}%"))
+        .arg("1")
+        .arg(format!("{silence}"))
+        .arg(format!("{threshold}%"));
+
+    if trim_silence {
+        cmd.arg("reverse")
+            .arg("silence")
+            .arg("1")
+            .arg("0.1")
+            .arg(format!("{threshold}%"))
+            .arg("reverse");
+    }
+
+    cmd.arg("trim")
+        .arg("0")
+        .arg(timeout.to_string())
+        .stdout(std::process::Stdio::null())
+        .stderr(std::process::Stdio::null());
+    cmd
+}
+
+#[cfg(target_os = "macos")]
+fn record_and_transcribe(
+    lang: &str,
+    timeout: u32,
+    silence: f64,
+    threshold: f64,
+    trim_silence: bool,
+) -> Result<Option<String>> {
     use vox::stt;
 
     let tmp_dir = std::env::temp_dir();
     let audio_path = tmp_dir.join("vox_hear_input.wav");
     let audio_str = audio_path.to_string_lossy().to_string();
 
-    eprintln!("Listening... (speak now, will stop after {silence}s of silence)");
-
-    let status = std::process::Command::new("rec")
-        .arg(&audio_str)
-        .arg("rate")
-        .arg("16k")
-        .arg("silence")
-        .arg("1")
-        .arg("0.1")
-        .arg("1%")
-        .arg("1")
-        .arg(format!("{silence}"))
-        .arg("1%")
-        .arg("trim")
-        .arg("0")
-        .arg(timeout.to_string())
-        .stdout(std::process::Stdio::null())
-        .stderr(std::process::Stdio::null())
+    let status = build_hear_command(&audio_str, timeout, silence, threshold, trim_silence)
         .status()
         .context(clone::sox_install_hint())?;
 
@@ -510,21 +603,104 @@ fn handle_hear(lang: String, timeout: u32, silence: f64) -> Result<()> {
         && m.len() < 1000
     {
         let _ = std::fs::remove_file(&audio_path);
-        eprintln!("(no speech detected)");
-        return Ok(());
+        return Ok(None);
     }
 
-    eprintln!("Transcribing...");
-    let text = stt::transcribe(&audio_str, Some(&lang))?;
+    let text = stt::transcribe(&audio_str, Some(lang))?;
     let _ = std::fs::remove_file(&audio_path);
 
     if text.is_empty() {
+        return Ok(None);
+    }
+
+    Ok(Some(text))
+}
+
+#[cfg(target_os = "macos")]
+fn handle_hear(
+    lang: String,
+    timeout: u32,
+    silence: f64,
+    threshold: f64,
+    trim_silence: bool,
+) -> Result<()> {
+    eprintln!(
+        "Listening... (threshold: {threshold}%, stop after {silence}s of silence, trim_silence: {trim_silence})"
+    );
+    eprintln!("Transcribing...");
+    let Some(text) = record_and_transcribe(&lang, timeout, silence, threshold, trim_silence)?
+    else {
         eprintln!("(no speech detected)");
-    } else {
-        println!("{text}");
+        return Ok(());
+    };
+
+    println!("{text}");
+
+    Ok(())
+}
+
+#[cfg(target_os = "macos")]
+fn paste_transcript(text: &str, auto_enter: bool) -> Result<()> {
+    use std::io::Write;
+
+    let mut pbcopy = std::process::Command::new("pbcopy")
+        .stdin(std::process::Stdio::piped())
+        .spawn()
+        .context("Failed to run pbcopy")?;
+    pbcopy
+        .stdin
+        .as_mut()
+        .context("Failed to open pbcopy stdin")?
+        .write_all(text.as_bytes())
+        .context("Failed to write transcript to clipboard")?;
+    let status = pbcopy.wait().context("Failed waiting for pbcopy")?;
+    if !status.success() {
+        anyhow::bail!("pbcopy failed");
+    }
+
+    let mut script =
+        String::from("tell application \"System Events\" to keystroke \"v\" using command down");
+    if auto_enter {
+        script.push_str("\ntell application \"System Events\" to key code 36");
+    }
+
+    let status = std::process::Command::new("osascript")
+        .arg("-e")
+        .arg(script)
+        .status()
+        .context("Failed to run osascript for paste automation")?;
+    if !status.success() {
+        anyhow::bail!(
+            "Paste automation failed. Ensure Accessibility permissions are enabled for vox/Terminal"
+        );
     }
 
     Ok(())
+}
+
+#[cfg(target_os = "macos")]
+fn handle_always(
+    lang: String,
+    timeout: u32,
+    silence: f64,
+    threshold: f64,
+    trim_silence: bool,
+    auto_enter: bool,
+) -> Result<()> {
+    eprintln!("Always-on mode enabled. Press Ctrl+C to stop.");
+    eprintln!(
+        "Settings -> threshold: {threshold}%, break: {silence}s, trim_silence: {trim_silence}, auto_enter: {auto_enter}"
+    );
+    loop {
+        eprintln!("Listening...");
+        match record_and_transcribe(&lang, timeout, silence, threshold, trim_silence)? {
+            Some(text) => {
+                eprintln!("Heard: {text}");
+                paste_transcript(&text, auto_enter)?;
+            }
+            None => eprintln!("(silence)"),
+        }
+    }
 }
 
 fn handle_init(mode: InitMode) -> Result<()> {
