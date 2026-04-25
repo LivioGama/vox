@@ -827,26 +827,47 @@ fn handle_always(
         eprintln!("(no Groq key — run `vox config set groq_api_key gsk_...` or set GROQ_API_KEY)");
     }
 
+    let log_path = std::env::temp_dir().join("vox_always.log");
+    let mut log = std::fs::OpenOptions::new()
+        .create(true)
+        .append(true)
+        .open(&log_path)?;
+
+    let log_line = |f: &mut std::fs::File, msg: &str| {
+        use std::io::Write;
+        let ts = chrono::Local::now().format("%H:%M:%S");
+        let _ = writeln!(f, "[{ts}] {msg}");
+    };
+
     eprintln!("Always-on mode enabled. Press Ctrl+C to stop.");
+    eprintln!("Log: {}", log_path.display());
     eprintln!(
         "Settings -> threshold: {threshold}%, break: {silence}s, trim_silence: {trim_silence}, auto_enter: {auto_enter}, filter: {}",
         api_key.is_some()
     );
+    log_line(&mut log, &format!(
+        "START threshold:{threshold}% silence:{silence}s filter:{}",
+        api_key.is_some()
+    ));
+
     loop {
-        eprintln!("Listening...");
         match record_and_transcribe(&lang, timeout, silence, threshold, trim_silence)? {
             Some(text) => {
-                eprintln!("Heard: {text}");
                 if let Some(ref key) = api_key {
                     if !is_intent_prompt(&text, key) {
-                        eprintln!("(filtered — not a prompt)");
+                        eprintln!("✗ {text}");
+                        log_line(&mut log, &format!("FILTERED  {text}"));
                         continue;
                     }
                 }
+                eprintln!("✓ {text}");
+                log_line(&mut log, &format!("PASTING   {text}"));
                 notify_macos("vox ✓", &text, true);
                 paste_transcript(&text, auto_enter)?;
             }
-            None => {}
+            None => {
+                log_line(&mut log, "SILENCE");
+            }
         }
     }
 }
