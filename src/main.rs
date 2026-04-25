@@ -618,6 +618,123 @@ fn has_speech_energy(path: &std::path::Path) -> bool {
 }
 
 #[cfg(target_os = "macos")]
+fn record_streaming_vad(
+    lang: &str,
+    silence_secs: f64,
+    timeout_secs: u32,
+) -> Result<RecordResult> {
+    use std::io::Read;
+    use webrtc_vad::{Vad, VadMode};
+
+    const RATE: u32 = 16_000;
+    const FRAME_MS: u32 = 30;
+    const FRAME_SAMPLES: usize = (RATE * FRAME_MS / 1000) as usize; // 480
+    const FRAME_BYTES: usize = FRAME_SAMPLES * 2;
+
+    let silence_frames = ((silence_secs * 1000.0) / FRAME_MS as f64).ceil() as usize;
+    let max_frames = (timeout_secs as usize * 1000) / FRAME_MS as usize;
+
+    let mut vad = Vad::new_with_rate_and_mode(
+        webrtc_vad::SampleRate::Rate16kHz,
+        VadMode::VeryAggressive,
+    );
+
+    let mut child = std::process::Command::new("rec")
+        .args(["-r", "16000", "-c", "1", "-t", "raw", "-e", "signed-integer", "-b", "16", "-"])
+        .stdout(std::process::Stdio::piped())
+        .stderr(std::process::Stdio::null())
+        .spawn()
+        .context(clone::sox_install_hint())?;
+
+    let mut stdout = child.stdout.take().context("sox stdout missing")?;
+    let mut frame_buf = vec![0u8; FRAME_BYTES];
+    let mut speech_samples: Vec<i16> = Vec::new();
+    let mut consecutive_silence = 0usize;
+    let mut in_speech = false;
+    let mut total_frames = 0usize;
+
+    'capture: loop {
+        let mut read = 0;
+        while read < FRAME_BYTES {
+            match stdout.read(&mut frame_buf[read..]) {
+                Ok(0) | Err(_) => break 'capture,
+                Ok(n) => read += n,
+            }
+        }
+        if read < FRAME_BYTES {
+            break;
+        }
+
+        let samples: Vec<i16> = frame_buf
+            .chunks_exact(2)
+            .map(|c| i16::from_le_bytes([c[0], c[1]]))
+            .collect();
+
+        let is_speech = vad.is_voice_segment(&samples).unwrap_or(false);
+
+        if is_speech {
+            if !in_speech {
+                in_speech = true;
+            }
+            consecutive_silence = 0;
+            speech_samples.extend_from_slice(&samples);
+        } else if in_speech {
+            consecutive_silence += 1;
+            speech_samples.extend_from_slice(&samples);
+            if consecutive_silence >= silence_frames {
+                break;
+            }
+        }
+
+        total_frames += 1;
+        if total_frames >= max_frames {
+            break;
+        }
+    }
+
+    let _ = child.kill();
+
+    if speech_samples.is_empty() {
+        return Ok(RecordResult::Silence);
+    }
+
+    // Write collected speech to WAV
+    let audio_path = std::env::temp_dir().join("vox_hear_input.wav");
+    {
+        let spec = hound::WavSpec {
+            channels: 1,
+            sample_rate: RATE,
+            bits_per_sample: 16,
+            sample_format: hound::SampleFormat::Int,
+        };
+        let mut w = hound::WavWriter::create(&audio_path, spec)
+            .context("failed to create WAV")?;
+        for s in &speech_samples {
+            w.write_sample(*s).context("failed to write sample")?;
+        }
+        w.finalize().context("failed to finalize WAV")?;
+    }
+
+    let audio_str = audio_path.to_string_lossy().to_string();
+    let raw = vox::stt::transcribe(&audio_str, Some(lang))?;
+    let _ = std::fs::remove_file(&audio_path);
+
+    let text: String = {
+        let mut s = raw.clone();
+        while let (Some(a), Some(b)) = (s.find('<'), s.find('>')) {
+            if a < b { s.replace_range(a..=b, ""); } else { break; }
+        }
+        s.trim().to_string()
+    };
+
+    if text.is_empty() || text.split_whitespace().count() < 2 {
+        return Ok(RecordResult::DroppedWhisperNoise(raw));
+    }
+
+    Ok(RecordResult::Speech(text))
+}
+
+#[cfg(target_os = "macos")]
 enum RecordResult {
     Speech(String),
     Silence,
@@ -859,7 +976,7 @@ fn handle_always(
     ));
 
     loop {
-        match record_and_transcribe(&lang, timeout, silence, threshold, trim_silence)? {
+        match record_streaming_vad(&lang, silence, timeout)? {
             RecordResult::Speech(text) => {
                 if let Some(ref key) = api_key {
                     if !is_intent_prompt(&text, key) {

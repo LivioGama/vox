@@ -28,6 +28,7 @@ tempfile = "3"
 rodio = "0.20"
 hound = "3"
 chrono = { version = "0.4", features = ["clock"] }
+webrtc-vad = "0.4"
 whisper-rs = { version = "0.16.0", features = ["metal"] }
 qwen3-tts = { git = "https://github.com/TrevorS/qwen3-tts-rs", features = ["hub"], default-features = false }
 piper-rs = { git = "https://github.com/thewh1teagle/piper-rs" }
