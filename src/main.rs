@@ -633,6 +633,8 @@ fn record_streaming_vad(
 
     let silence_frames = ((silence_secs * 1000.0) / FRAME_MS as f64).ceil() as usize;
     let max_frames = (timeout_secs as usize * 1000) / FRAME_MS as usize;
+    // Require at least 800ms of continuous speech before accepting — filters game/music transients
+    let min_speech_frames = (800 / FRAME_MS) as usize;
 
     let mut vad = Vad::new_with_rate_and_mode(
         webrtc_vad::SampleRate::Rate16kHz,
@@ -659,6 +661,7 @@ fn record_streaming_vad(
     let mut frame_buf = vec![0u8; FRAME_BYTES];
     let mut speech_samples: Vec<i16> = Vec::new();
     let mut consecutive_silence = 0usize;
+    let mut consecutive_speech = 0usize;
     let mut in_speech = false;
     let mut total_frames = 0usize;
 
@@ -682,17 +685,23 @@ fn record_streaming_vad(
         let is_speech = vad.is_voice_segment(&samples).unwrap_or(false);
 
         if is_speech {
-            if !in_speech {
+            consecutive_speech += 1;
+            consecutive_silence = 0;
+            if consecutive_speech >= min_speech_frames {
                 in_speech = true;
             }
-            consecutive_silence = 0;
-            speech_samples.extend_from_slice(&samples);
+            if in_speech {
+                speech_samples.extend_from_slice(&samples);
+            }
         } else if in_speech {
             consecutive_silence += 1;
+            consecutive_speech = 0;
             speech_samples.extend_from_slice(&samples);
             if consecutive_silence >= silence_frames {
                 break;
             }
+        } else {
+            consecutive_speech = 0;
         }
 
         total_frames += 1;
@@ -984,9 +993,18 @@ fn handle_always(
         api_key.is_some()
     ));
 
+    let mut last_process = std::time::Instant::now() - std::time::Duration::from_secs(5);
+
     loop {
         match record_streaming_vad(&lang, silence, timeout).unwrap_or(RecordResult::Silence) {
             RecordResult::Speech(text) => {
+                // Cooldown: ignore if processed within last 1.5s
+                let now = std::time::Instant::now();
+                if now.duration_since(last_process).as_millis() < 1500 {
+                    continue;
+                }
+                last_process = now;
+
                 if let Some(ref key) = api_key {
                     if !is_intent_prompt(&text, key) {
                         eprintln!("✗ groq  {text}");
