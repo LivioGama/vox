@@ -805,11 +805,10 @@ fn handle_always(
                 if let Some(ref key) = api_key {
                     if !is_intent_prompt(&text, key) {
                         eprintln!("(filtered — not a prompt)");
-                        notify_macos("vox ✗ filtered", &text, false);
                         continue;
                     }
                 }
-                notify_macos("vox ✓ pasting", &text, true);
+                notify_macos("vox ✓", &text, true);
                 paste_transcript(&text, auto_enter)?;
             }
             None => {}
