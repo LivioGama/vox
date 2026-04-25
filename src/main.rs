@@ -119,8 +119,8 @@ enum Commands {
         /// Seconds of silence before stopping
         #[arg(short = 's', long, default_value = "2.0")]
         silence: f64,
-        /// Input level threshold in percent for voice activation (default: 0.1)
-        #[arg(long, default_value = "0.1")]
+        /// Input level threshold in percent for voice activation
+        #[arg(long, default_value = "2.0")]
         threshold: f64,
         /// Trim extra leading/trailing silence from captured audio
         #[arg(long, default_value_t = true)]
@@ -139,7 +139,7 @@ enum Commands {
         #[arg(short = 's', long, default_value = "2.0")]
         silence: f64,
         /// Input level threshold in percent for voice activation
-        #[arg(long, default_value = "0.1")]
+        #[arg(long, default_value = "2.0")]
         threshold: f64,
         /// Trim leading/trailing silence from captured audio
         #[arg(long, default_value_t = true)]
@@ -597,6 +597,27 @@ fn build_hear_command(
 }
 
 #[cfg(target_os = "macos")]
+fn has_speech_energy(path: &std::path::Path) -> bool {
+    use hound::WavReader;
+    let Ok(mut reader) = WavReader::open(path) else {
+        return true; // can't read → let whisper decide
+    };
+    let spec = reader.spec();
+    let bits = spec.bits_per_sample.max(1) as u32;
+    let max = ((1_i64 << (bits - 1)) - 1) as f64;
+    let samples: Vec<f64> = reader
+        .samples::<i32>()
+        .filter_map(|s| s.ok())
+        .map(|s| s as f64 / max)
+        .collect();
+    if samples.is_empty() {
+        return false;
+    }
+    let rms = (samples.iter().map(|s| s * s).sum::<f64>() / samples.len() as f64).sqrt();
+    rms > 0.002 // ~-54 dBFS — below this is just mic hiss
+}
+
+#[cfg(target_os = "macos")]
 fn record_and_transcribe(
     lang: &str,
     timeout: u32,
@@ -618,10 +639,15 @@ fn record_and_transcribe(
         anyhow::bail!("Recording failed");
     }
 
-    // Check for empty recording
+    // Check for empty or near-silent recording
     if let Ok(m) = std::fs::metadata(&audio_path)
         && m.len() < 1000
     {
+        let _ = std::fs::remove_file(&audio_path);
+        return Ok(None);
+    }
+
+    if !has_speech_energy(&audio_path) {
         let _ = std::fs::remove_file(&audio_path);
         return Ok(None);
     }
