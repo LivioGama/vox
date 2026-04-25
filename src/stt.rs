@@ -10,22 +10,18 @@ use std::sync::{Mutex, OnceLock};
 use anyhow::{Context, Result};
 use hound::WavReader;
 use reqwest::blocking::Client;
-use whisper_rs::{
-    FullParams, SamplingStrategy, WhisperContext, WhisperContextParameters, WhisperState,
-};
+use whisper_rs::{FullParams, SamplingStrategy, WhisperContext, WhisperContextParameters};
 
 const MODEL_URL: &str =
     "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-turbo.bin";
 const MODEL_FILENAME: &str = "ggml-large-v3-turbo.bin";
 
 static WHISPER_CTX: OnceLock<Mutex<WhisperContext>> = OnceLock::new();
-static WHISPER_STATE: OnceLock<Mutex<WhisperState>> = OnceLock::new();
 static WHISPER_LOG_SILENCED: OnceLock<()> = OnceLock::new();
 
 pub fn transcribe(audio_path: &str, lang: Option<&str>) -> Result<String> {
     if let Ok(ctx) = whisper_ctx()
-        && let Ok(state) = whisper_state(ctx)
-        && let Ok(text) = transcribe_whisper(state, audio_path, lang)
+        && let Ok(text) = transcribe_whisper(ctx, audio_path, lang)
         && !text.trim().is_empty()
     {
         return Ok(text);
@@ -53,25 +49,6 @@ fn silence_whisper_logs() {
     WHISPER_LOG_SILENCED.get_or_init(|| {
         whisper_rs::install_logging_hooks();
     });
-}
-
-fn whisper_state(ctx: &'static Mutex<WhisperContext>) -> Result<&'static Mutex<WhisperState>> {
-    if let Some(state) = WHISPER_STATE.get() {
-        return Ok(state);
-    }
-
-    let state = {
-        let ctx = ctx
-            .lock()
-            .map_err(|_| anyhow::anyhow!("whisper context lock poisoned"))?;
-        ctx.create_state()
-            .context("failed to create whisper state")?
-    };
-
-    let _ = WHISPER_STATE.set(Mutex::new(state));
-    WHISPER_STATE
-        .get()
-        .ok_or_else(|| anyhow::anyhow!("failed to cache whisper state"))
 }
 
 pub fn ensure_whisper_model() -> Result<PathBuf> {
@@ -128,14 +105,16 @@ pub fn ensure_whisper_model() -> Result<PathBuf> {
 }
 
 fn transcribe_whisper(
-    state: &'static Mutex<WhisperState>,
+    ctx: &'static Mutex<WhisperContext>,
     audio_path: &str,
     lang: Option<&str>,
 ) -> Result<String> {
-    let mut state = state
-        .lock()
-        .map_err(|_| anyhow::anyhow!("whisper state lock poisoned"))?;
     let samples = load_wav_mono_16k(audio_path)?;
+    let mut state = ctx
+        .lock()
+        .map_err(|_| anyhow::anyhow!("whisper context lock poisoned"))?
+        .create_state()
+        .context("failed to create whisper state")?;
     let mut params = FullParams::new(SamplingStrategy::Greedy { best_of: 1 });
     params.set_print_progress(false);
     params.set_print_realtime(false);
