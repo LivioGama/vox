@@ -618,13 +618,22 @@ fn has_speech_energy(path: &std::path::Path) -> bool {
 }
 
 #[cfg(target_os = "macos")]
+enum RecordResult {
+    Speech(String),
+    Silence,
+    DroppedSmall,
+    DroppedLowEnergy,
+    DroppedWhisperNoise(String),
+}
+
+#[cfg(target_os = "macos")]
 fn record_and_transcribe(
     lang: &str,
     timeout: u32,
     silence: f64,
     threshold: f64,
     trim_silence: bool,
-) -> Result<Option<String>> {
+) -> Result<RecordResult> {
     use vox::stt;
 
     let tmp_dir = std::env::temp_dir();
@@ -639,17 +648,16 @@ fn record_and_transcribe(
         anyhow::bail!("Recording failed");
     }
 
-    // Check for empty or near-silent recording
     if let Ok(m) = std::fs::metadata(&audio_path)
         && m.len() < 1000
     {
         let _ = std::fs::remove_file(&audio_path);
-        return Ok(None);
+        return Ok(RecordResult::DroppedSmall);
     }
 
     if !has_speech_energy(&audio_path) {
         let _ = std::fs::remove_file(&audio_path);
-        return Ok(None);
+        return Ok(RecordResult::DroppedLowEnergy);
     }
 
     let raw = stt::transcribe(&audio_str, Some(lang))?;
@@ -665,10 +673,10 @@ fn record_and_transcribe(
     };
 
     if text.is_empty() || text.split_whitespace().count() < 2 {
-        return Ok(None);
+        return Ok(RecordResult::DroppedWhisperNoise(raw));
     }
 
-    Ok(Some(text))
+    Ok(RecordResult::Speech(text))
 }
 
 #[cfg(target_os = "macos")]
@@ -683,7 +691,7 @@ fn handle_hear(
         "Listening... (threshold: {threshold}%, stop after {silence}s of silence, trim_silence: {trim_silence})"
     );
     eprintln!("Transcribing...");
-    let Some(text) = record_and_transcribe(&lang, timeout, silence, threshold, trim_silence)?
+    let RecordResult::Speech(text) = record_and_transcribe(&lang, timeout, silence, threshold, trim_silence)?
     else {
         eprintln!("(no speech detected)");
         return Ok(());
@@ -852,10 +860,10 @@ fn handle_always(
 
     loop {
         match record_and_transcribe(&lang, timeout, silence, threshold, trim_silence)? {
-            Some(text) => {
+            RecordResult::Speech(text) => {
                 if let Some(ref key) = api_key {
                     if !is_intent_prompt(&text, key) {
-                        eprintln!("✗ {text}");
+                        eprintln!("✗ groq  {text}");
                         log_line(&mut log, &format!("FILTERED  {text}"));
                         continue;
                     }
@@ -865,8 +873,18 @@ fn handle_always(
                 notify_macos("vox ✓", &text, true);
                 paste_transcript(&text, auto_enter)?;
             }
-            None => {
+            RecordResult::Silence => {
                 log_line(&mut log, "SILENCE");
+            }
+            RecordResult::DroppedSmall => {
+                log_line(&mut log, "DROPPED   (file too small)");
+            }
+            RecordResult::DroppedLowEnergy => {
+                log_line(&mut log, "DROPPED   (low energy)");
+            }
+            RecordResult::DroppedWhisperNoise(raw) => {
+                eprintln!("✗ noise {raw:?}");
+                log_line(&mut log, &format!("DROPPED   (whisper noise) {raw:?}"));
             }
         }
     }
