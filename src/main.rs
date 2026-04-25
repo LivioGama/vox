@@ -509,6 +509,14 @@ fn handle_config(action: ConfigAction) -> Result<()> {
                     .map(|k| format!("{}...", &k[..k.len().min(12)]))
                     .unwrap_or_else(|| "(not set)".to_string())
             );
+            println!(
+                "groq_api_key: {}",
+                prefs
+                    .groq_api_key
+                    .as_deref()
+                    .map(|k| format!("{}...", &k[..k.len().min(12)]))
+                    .unwrap_or_else(|| "(not set)".to_string())
+            );
         }
         ConfigAction::Set { key, value } => {
             db::set_preference(&conn, &key, &value)?;
@@ -692,40 +700,51 @@ fn paste_transcript(text: &str, auto_enter: bool) -> Result<()> {
 
 #[cfg(target_os = "macos")]
 fn is_intent_prompt(text: &str, api_key: &str) -> bool {
-    use vox::chat::claude_api::{ClaudeRequest, ClaudeResponse};
-    use vox::chat::{API_URL, API_VERSION};
+    use serde::Deserialize;
 
-    let request = ClaudeRequest {
-        model: "claude-haiku-4-5-20251001".to_string(),
-        max_tokens: 4,
-        system: "You classify speech transcripts. Reply YES if the text is an intentional technical instruction, task, or prompt directed at an AI assistant or developer tool (e.g. code task, VPS command, feature request, bug description, deployment step). Reply NO for ambient conversation, noise, filler words, unrelated chatter, or accidental audio. Reply only YES or NO.".to_string(),
-        messages: vec![vox::chat::Message {
-            role: "user".to_string(),
-            content: text.to_string(),
-        }],
-    };
+    #[derive(Deserialize)]
+    struct GroqResp {
+        choices: Vec<GroqChoice>,
+    }
+    #[derive(Deserialize)]
+    struct GroqChoice {
+        message: GroqMsg,
+    }
+    #[derive(Deserialize)]
+    struct GroqMsg {
+        content: String,
+    }
+
+    let body = serde_json::json!({
+        "model": "llama-3.1-8b-instant",
+        "max_tokens": 4,
+        "messages": [
+            {
+                "role": "system",
+                "content": "Classify speech transcripts. Reply YES if the text is an intentional technical instruction, task, or prompt directed at an AI assistant or developer tool (code task, VPS command, feature request, bug description, deployment step). Reply NO for ambient conversation, noise, filler words, unrelated chatter, or accidental audio. Reply only YES or NO."
+            },
+            { "role": "user", "content": text }
+        ]
+    });
 
     let client = reqwest::blocking::Client::new();
     let Ok(resp) = client
-        .post(API_URL)
-        .header("x-api-key", api_key)
-        .header("anthropic-version", API_VERSION)
+        .post("https://api.groq.com/openai/v1/chat/completions")
+        .bearer_auth(api_key)
         .header("content-type", "application/json")
-        .json(&request)
+        .json(&body)
         .send()
     else {
-        return true; // network error: pass through
-    };
-    let Ok(body) = resp.text() else {
         return true;
     };
-    let Ok(parsed) = serde_json::from_str::<ClaudeResponse>(&body) else {
+    let Ok(text) = resp.text() else { return true };
+    let Ok(parsed) = serde_json::from_str::<GroqResp>(&text) else {
         return true;
     };
     parsed
-        .content
+        .choices
         .first()
-        .map(|b| b.text.trim().to_uppercase().starts_with("YES"))
+        .map(|c| c.message.content.trim().to_uppercase().starts_with("YES"))
         .unwrap_or(true)
 }
 
@@ -742,15 +761,15 @@ fn handle_always(
     let api_key = if no_filter {
         None
     } else {
-        std::env::var("ANTHROPIC_API_KEY").ok().or_else(|| {
+        std::env::var("GROQ_API_KEY").ok().or_else(|| {
             db::open()
                 .ok()
                 .and_then(|conn| db::get_preferences(&conn).ok())
-                .and_then(|p| p.anthropic_api_key)
+                .and_then(|p| p.groq_api_key)
         })
     };
     if api_key.is_none() && !no_filter {
-        eprintln!("(no API key — run `vox config set anthropic_api_key sk-ant-...` or set ANTHROPIC_API_KEY)");
+        eprintln!("(no Groq key — run `vox config set groq_api_key gsk_...` or set GROQ_API_KEY)");
     }
 
     eprintln!("Always-on mode enabled. Press Ctrl+C to stop.");
