@@ -640,7 +640,16 @@ fn record_streaming_vad(
     );
 
     let mut child = std::process::Command::new("rec")
-        .args(["-r", "16000", "-c", "1", "-t", "raw", "-e", "signed-integer", "-b", "16", "-"])
+        .args([
+            "--no-show-progress",
+            "-r", "16000",
+            "-c", "1",
+            "-t", "raw",
+            "-e", "signed-integer",
+            "-b", "16",
+            "-d",   // record indefinitely
+            "-",
+        ])
         .stdout(std::process::Stdio::piped())
         .stderr(std::process::Stdio::null())
         .spawn()
@@ -976,7 +985,7 @@ fn handle_always(
     ));
 
     loop {
-        match record_streaming_vad(&lang, silence, timeout)? {
+        match record_streaming_vad(&lang, silence, timeout).unwrap_or(RecordResult::Silence) {
             RecordResult::Speech(text) => {
                 if let Some(ref key) = api_key {
                     if !is_intent_prompt(&text, key) {
