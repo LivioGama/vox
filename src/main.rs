@@ -652,10 +652,19 @@ fn record_and_transcribe(
         return Ok(None);
     }
 
-    let text = stt::transcribe(&audio_str, Some(lang))?;
+    let raw = stt::transcribe(&audio_str, Some(lang))?;
     let _ = std::fs::remove_file(&audio_path);
 
-    if text.is_empty() {
+    // Strip whisper hallucination tokens like <|en|>, <|transcribe|>, etc.
+    let text: String = {
+        let mut s = raw.clone();
+        while let (Some(a), Some(b)) = (s.find('<'), s.find('>')) {
+            if a < b { s.replace_range(a..=b, ""); } else { break; }
+        }
+        s.trim().to_string()
+    };
+
+    if text.is_empty() || text.split_whitespace().count() < 2 {
         return Ok(None);
     }
 
@@ -728,7 +737,7 @@ fn paste_transcript(text: &str, auto_enter: bool) -> Result<()> {
 fn quick_reject(text: &str) -> bool {
     let t = text.trim().to_lowercase();
     // Too short to be a prompt
-    if t.split_whitespace().count() < 4 {
+    if t.split_whitespace().count() < 3 {
         return true;
     }
     // Common filler/social phrases
@@ -767,7 +776,7 @@ fn is_intent_prompt(text: &str, api_key: &str) -> bool {
         "messages": [
             {
                 "role": "system",
-                "content": "Classify speech transcripts. Reply YES only if the text is a clear, intentional technical instruction directed at an AI assistant or developer tool: code tasks, VPS/server commands, feature requests, bug descriptions, deployment steps. Reply NO for everything else: greetings, thank-yous, filler words, short phrases, ambient conversation, unrelated chatter, social pleasantries, or anything under 5 words. When in doubt, reply NO. Reply only YES or NO."
+                "content": "Classify speech transcripts. Reply YES if the text looks like a technical instruction, task, or request directed at an AI assistant or developer tool: code tasks, VPS commands, feature requests, bug reports, deployment steps, system administration. Reply NO for greetings, thank-yous, filler, ambient chat, or social phrases. Reply only YES or NO."
             },
             { "role": "user", "content": text }
         ]
