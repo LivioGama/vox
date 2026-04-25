@@ -785,14 +785,29 @@ fn handle_always(
                 if let Some(ref key) = api_key {
                     if !is_intent_prompt(&text, key) {
                         eprintln!("(filtered — not a prompt)");
+                        notify_macos("vox ✗ filtered", &text, false);
                         continue;
                     }
                 }
+                notify_macos("vox ✓ pasting", &text, true);
                 paste_transcript(&text, auto_enter)?;
             }
-            None => eprintln!("(silence)"),
+            None => {}
         }
     }
+}
+
+#[cfg(target_os = "macos")]
+fn notify_macos(title: &str, body: &str, allowed: bool) {
+    let preview = if body.len() > 80 { &body[..80] } else { body };
+    let sound = if allowed { "Glass" } else { "Basso" };
+    let script = format!(
+        "display notification {preview:?} with title {title:?} sound name {sound:?}"
+    );
+    let _ = std::process::Command::new("osascript")
+        .arg("-e")
+        .arg(script)
+        .status();
 }
 
 fn handle_init(mode: InitMode) -> Result<()> {
