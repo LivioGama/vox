@@ -501,6 +501,14 @@ fn handle_config(action: ConfigAction) -> Result<()> {
                     .map(|v| v.to_string())
                     .unwrap_or_else(|| "false".to_string())
             );
+            println!(
+                "anthropic_api_key: {}",
+                prefs
+                    .anthropic_api_key
+                    .as_deref()
+                    .map(|k| format!("{}...", &k[..k.len().min(12)]))
+                    .unwrap_or_else(|| "(not set)".to_string())
+            );
         }
         ConfigAction::Set { key, value } => {
             db::set_preference(&conn, &key, &value)?;
@@ -734,14 +742,16 @@ fn handle_always(
     let api_key = if no_filter {
         None
     } else {
-        match std::env::var("ANTHROPIC_API_KEY") {
-            Ok(k) => Some(k),
-            Err(_) => {
-                eprintln!("(no ANTHROPIC_API_KEY — intent filter disabled)");
-                None
-            }
-        }
+        std::env::var("ANTHROPIC_API_KEY").ok().or_else(|| {
+            db::open()
+                .ok()
+                .and_then(|conn| db::get_preferences(&conn).ok())
+                .and_then(|p| p.anthropic_api_key)
+        })
     };
+    if api_key.is_none() && !no_filter {
+        eprintln!("(no API key — run `vox config set anthropic_api_key sk-ant-...` or set ANTHROPIC_API_KEY)");
+    }
 
     eprintln!("Always-on mode enabled. Press Ctrl+C to stop.");
     eprintln!(

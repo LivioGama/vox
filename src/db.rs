@@ -22,6 +22,7 @@ pub struct Preferences {
     pub stt_silence: Option<f64>,
     pub stt_trim_silence: Option<bool>,
     pub stt_auto_enter: Option<bool>,
+    pub anthropic_api_key: Option<String>,
 }
 
 #[derive(Debug, Clone)]
@@ -128,6 +129,13 @@ fn migrate(conn: &Connection) -> Result<()> {
         conn.execute_batch("ALTER TABLE preferences ADD COLUMN stt_auto_enter INTEGER;")?;
     }
 
+    let has_anthropic_api_key = conn
+        .prepare("SELECT anthropic_api_key FROM preferences LIMIT 0")
+        .is_ok();
+    if !has_anthropic_api_key {
+        conn.execute_batch("ALTER TABLE preferences ADD COLUMN anthropic_api_key TEXT;")?;
+    }
+
     Ok(())
 }
 
@@ -135,7 +143,7 @@ fn migrate(conn: &Connection) -> Result<()> {
 
 pub fn get_preferences(conn: &Connection) -> Result<Preferences> {
     let mut stmt = conn.prepare(
-        "SELECT backend, voice, lang, rate, gender, style, model, pack, stt_threshold, stt_silence, stt_trim_silence, stt_auto_enter FROM preferences WHERE id = 1",
+        "SELECT backend, voice, lang, rate, gender, style, model, pack, stt_threshold, stt_silence, stt_trim_silence, stt_auto_enter, anthropic_api_key FROM preferences WHERE id = 1",
     )?;
     let result = stmt.query_row([], |row| {
         Ok(Preferences {
@@ -151,6 +159,7 @@ pub fn get_preferences(conn: &Connection) -> Result<Preferences> {
             stt_silence: row.get(9)?,
             stt_trim_silence: row.get::<_, Option<i64>>(10)?.map(|v| v != 0),
             stt_auto_enter: row.get::<_, Option<i64>>(11)?.map(|v| v != 0),
+            anthropic_api_key: row.get(12)?,
         })
     });
     match result {
@@ -174,6 +183,7 @@ pub fn set_preference(conn: &Connection, key: &str, value: &str) -> Result<()> {
         "stt_silence",
         "stt_trim_silence",
         "stt_auto_enter",
+        "anthropic_api_key",
     ];
     if !valid_keys.contains(&key) {
         anyhow::bail!(
@@ -241,8 +251,8 @@ pub fn set_preference(conn: &Connection, key: &str, value: &str) -> Result<()> {
 
     // Upsert: insert or update
     conn.execute(
-        "INSERT INTO preferences (id, backend, voice, lang, rate, gender, style, model, pack, stt_threshold, stt_silence, stt_trim_silence, stt_auto_enter)
-         VALUES (1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+        "INSERT INTO preferences (id, backend, voice, lang, rate, gender, style, model, pack, stt_threshold, stt_silence, stt_trim_silence, stt_auto_enter, anthropic_api_key)
+         VALUES (1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
          ON CONFLICT(id) DO NOTHING",
         [],
     )?;
