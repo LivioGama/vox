@@ -649,7 +649,6 @@ fn record_streaming_vad(
             "-t", "raw",
             "-e", "signed-integer",
             "-b", "16",
-            "-d",   // record indefinitely
             "-",
         ])
         .stdout(std::process::Stdio::piped())
