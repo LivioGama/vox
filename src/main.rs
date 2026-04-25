@@ -699,7 +699,27 @@ fn paste_transcript(text: &str, auto_enter: bool) -> Result<()> {
 }
 
 #[cfg(target_os = "macos")]
+fn quick_reject(text: &str) -> bool {
+    let t = text.trim().to_lowercase();
+    // Too short to be a prompt
+    if t.split_whitespace().count() < 4 {
+        return true;
+    }
+    // Common filler/social phrases
+    const FILLERS: &[&str] = &[
+        "thank you", "thanks", "merci", "ok", "okay", "oui", "non",
+        "yes", "no", "hmm", "ugh", "ah", "oh", "wow", "cool", "nice",
+        "sorry", "pardon", "excuse me", "alright", "sure", "right",
+    ];
+    FILLERS.iter().any(|f| t.starts_with(f) && t.len() < f.len() + 8)
+}
+
+#[cfg(target_os = "macos")]
 fn is_intent_prompt(text: &str, api_key: &str) -> bool {
+    if quick_reject(text) {
+        return false;
+    }
+
     use serde::Deserialize;
 
     #[derive(Deserialize)]
@@ -721,7 +741,7 @@ fn is_intent_prompt(text: &str, api_key: &str) -> bool {
         "messages": [
             {
                 "role": "system",
-                "content": "Classify speech transcripts. Reply YES if the text is an intentional technical instruction, task, or prompt directed at an AI assistant or developer tool (code task, VPS command, feature request, bug description, deployment step). Reply NO for ambient conversation, noise, filler words, unrelated chatter, or accidental audio. Reply only YES or NO."
+                "content": "Classify speech transcripts. Reply YES only if the text is a clear, intentional technical instruction directed at an AI assistant or developer tool: code tasks, VPS/server commands, feature requests, bug descriptions, deployment steps. Reply NO for everything else: greetings, thank-yous, filler words, short phrases, ambient conversation, unrelated chatter, social pleasantries, or anything under 5 words. When in doubt, reply NO. Reply only YES or NO."
             },
             { "role": "user", "content": text }
         ]
