@@ -147,6 +147,9 @@ enum Commands {
         /// Press Enter automatically after pasting transcript
         #[arg(long, default_value_t = false)]
         auto_enter: bool,
+        /// Disable Claude intent filter (pass all transcripts through)
+        #[arg(long, default_value_t = false)]
+        no_filter: bool,
     },
 }
 
@@ -291,7 +294,8 @@ fn main() -> Result<()> {
             threshold,
             trim_silence,
             auto_enter,
-        }) => handle_always(lang, timeout, silence, threshold, trim_silence, auto_enter),
+            no_filter,
+        }) => handle_always(lang, timeout, silence, threshold, trim_silence, auto_enter, no_filter),
         None => handle_speak(cli),
     }
 }
@@ -679,6 +683,45 @@ fn paste_transcript(text: &str, auto_enter: bool) -> Result<()> {
 }
 
 #[cfg(target_os = "macos")]
+fn is_intent_prompt(text: &str, api_key: &str) -> bool {
+    use vox::chat::claude_api::{ClaudeRequest, ClaudeResponse};
+    use vox::chat::{API_URL, API_VERSION};
+
+    let request = ClaudeRequest {
+        model: "claude-haiku-4-5-20251001".to_string(),
+        max_tokens: 4,
+        system: "You classify speech transcripts. Reply YES if the text is an intentional technical instruction, task, or prompt directed at an AI assistant or developer tool (e.g. code task, VPS command, feature request, bug description, deployment step). Reply NO for ambient conversation, noise, filler words, unrelated chatter, or accidental audio. Reply only YES or NO.".to_string(),
+        messages: vec![vox::chat::Message {
+            role: "user".to_string(),
+            content: text.to_string(),
+        }],
+    };
+
+    let client = reqwest::blocking::Client::new();
+    let Ok(resp) = client
+        .post(API_URL)
+        .header("x-api-key", api_key)
+        .header("anthropic-version", API_VERSION)
+        .header("content-type", "application/json")
+        .json(&request)
+        .send()
+    else {
+        return true; // network error: pass through
+    };
+    let Ok(body) = resp.text() else {
+        return true;
+    };
+    let Ok(parsed) = serde_json::from_str::<ClaudeResponse>(&body) else {
+        return true;
+    };
+    parsed
+        .content
+        .first()
+        .map(|b| b.text.trim().to_uppercase().starts_with("YES"))
+        .unwrap_or(true)
+}
+
+#[cfg(target_os = "macos")]
 fn handle_always(
     lang: String,
     timeout: u32,
@@ -686,16 +729,36 @@ fn handle_always(
     threshold: f64,
     trim_silence: bool,
     auto_enter: bool,
+    no_filter: bool,
 ) -> Result<()> {
+    let api_key = if no_filter {
+        None
+    } else {
+        match std::env::var("ANTHROPIC_API_KEY") {
+            Ok(k) => Some(k),
+            Err(_) => {
+                eprintln!("(no ANTHROPIC_API_KEY — intent filter disabled)");
+                None
+            }
+        }
+    };
+
     eprintln!("Always-on mode enabled. Press Ctrl+C to stop.");
     eprintln!(
-        "Settings -> threshold: {threshold}%, break: {silence}s, trim_silence: {trim_silence}, auto_enter: {auto_enter}"
+        "Settings -> threshold: {threshold}%, break: {silence}s, trim_silence: {trim_silence}, auto_enter: {auto_enter}, filter: {}",
+        api_key.is_some()
     );
     loop {
         eprintln!("Listening...");
         match record_and_transcribe(&lang, timeout, silence, threshold, trim_silence)? {
             Some(text) => {
                 eprintln!("Heard: {text}");
+                if let Some(ref key) = api_key {
+                    if !is_intent_prompt(&text, key) {
+                        eprintln!("(filtered — not a prompt)");
+                        continue;
+                    }
+                }
                 paste_transcript(&text, auto_enter)?;
             }
             None => eprintln!("(silence)"),
