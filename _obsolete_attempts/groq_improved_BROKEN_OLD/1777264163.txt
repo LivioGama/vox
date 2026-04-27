@@ -1,0 +1,1 @@
+I'm really lost because my project used to generate a website in less than 45 seconds. It's working when we still had a Chimik 2 model with Grok. The problem is that Grok has been discontinued, so we replaced it with GPT-OSS-120B. But then we started to do a few changes like moving to Next.js, but also introducing a RAG loop and also using Open UI.

@@ -1,0 +1,60 @@
+{
+  "speakers" : [
+
+  ],
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Claude",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "duration" : 10206,
+  "rawResult" : " You know you had to commit this on a new branch, not on the Johnny branch. So if you did, you should do it on a new branch and remove it from the Johnny branch.",
+  "prompt" : "",
+  "modeName" : "Default",
+  "processingTime" : 928,
+  "languageSelected" : "en",
+  "datetime" : "2026-04-16T06:38:04",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "appVersion" : "2.12.0",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "You know you had to commit this on a new branch, not on the Johnny branch. So if you did, you should do it on a new branch and remove it from the Johnny branch.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "text" : "You know you had to commit this on a new branch, not on the Johnny branch.",
+      "start" : 0,
+      "end" : 4.84
+    },
+    {
+      "text" : "So if you did, you should do it on a new branch and remove it from the Johnny branch.",
+      "start" : 5.04,
+      "end" : 10
+    }
+  ],
+  "languageModelName" : ""
+}

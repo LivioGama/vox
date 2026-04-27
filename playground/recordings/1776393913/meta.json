@@ -1,0 +1,55 @@
+{
+  "datetime" : "2026-04-17T02:45:13",
+  "languageModelName" : "",
+  "processingTime" : 798,
+  "speakers" : [
+
+  ],
+  "systemAudioEnabled" : false,
+  "rawResult" : " Alright, but the font inside CMAX is really pixelated. Can you fix it?",
+  "recordingDevice" : "",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "modeName" : "Default",
+  "separateSpeakersEnabled" : false,
+  "duration" : 6120,
+  "appVersion" : "2.12.0",
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "result" : "Alright, but the font inside CMAX is really pixelated. Can you fix it?",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Alright, but the font inside CMAX is really pixelated. Can you fix it?",
+      "start" : 0,
+      "end" : 6
+    }
+  ]
+}

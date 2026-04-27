@@ -1,0 +1,1 @@
+Using this file, add a new test for SWE 1.6 FAST and other model from windsurf No need to put the regular model like Sone, Oppus and so on Maybe just 2 Sone and something like this

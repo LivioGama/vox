@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I really want it oriented to work with Claude Code or Cursor. I don't need to have this globally, I really want the AI to replace automatically and grab the RM command in order to do soft delete.",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "rawResult" : " I really want it oriented to work with Claude Code or Cursor. I don't need to have this globally, I really want the AI to replace automatically and grab the RM command in order to do soft delete.",
+  "duration" : 17965,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "datetime" : "2026-04-27T01:52:01",
+  "realtimeEnabled" : false,
+  "processingTime" : 1179,
+  "appVersion" : "2.13.0",
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "end" : 17.965687,
+      "text" : "I really want it oriented to work with Claude Code or Cursor. I don't need to have this globally, I really want the AI to replace automatically and grab the RM command in order to do soft delete.",
+      "start" : 0.48
+    }
+  ]
+}

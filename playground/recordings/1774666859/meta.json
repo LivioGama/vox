@@ -1,0 +1,55 @@
+{
+  "duration" : 17249,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Considering those are my three biggest achievements and the fact that I live in Switzerland and that my value and my level in AI is out of this world, for example, I built a website that can generate any lending or SaaS in 45 seconds.",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Google Gemini"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1042,
+  "languageModelName" : "",
+  "rawResult" : " Considering those are my three biggest achievements and the fact that I live in Switzerland and that my value and my level in AI is out of this world, for example, I built a website that can generate any lending or SaaS in 45 seconds.",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T03:00:59",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Considering those are my three biggest achievements and the fact that I live in Switzerland and that my value and my level in AI is out of this world, for example, I built a website that can generate any lending or SaaS in 45 seconds.",
+      "start" : 0,
+      "end" : 16.7
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

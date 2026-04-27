@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " The date and Vram variables to automatically boot into Debian.",
+  "duration" : 6100,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "The date and Vram variables to automatically boot into Debian.",
+      "start" : 0,
+      "end" : 5.9
+    }
+  ],
+  "result" : "The date and Vram variables to automatically boot into Debian.",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "languageSelected" : "en",
+  "processingTime" : 764,
+  "recordingDevice" : "",
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "datetime" : "2026-04-24T21:24:03",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false
+}

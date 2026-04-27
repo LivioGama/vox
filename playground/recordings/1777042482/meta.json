@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "result" : "Do the necessary. What matters to me is that the browser inside CMAX is being able to be read at the console network and DOM code from here, Claude Code.",
+  "datetime" : "2026-04-24T14:54:42",
+  "appVersion" : "2.12.1",
+  "prompt" : "",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "rawResult" : " Do the necessary. What matters to me is that the browser inside CMAX is being able to be read at the console network and DOM code from here, Claude Code.",
+  "duration" : 21396,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 21,
+      "text" : "Do the necessary. What matters to me is that the browser inside CMAX is being able to be read at the console network and DOM code from here, Claude Code."
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "processingTime" : 1139
+}

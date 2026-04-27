@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "end" : 4.22,
+      "text" : "Can you find me an alternative free on Docploy templates?",
+      "start" : 0
+    }
+  ],
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Can you find me an alternative free on Docploy templates?",
+  "duration" : 5055,
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "result" : "Can you find me an alternative free on Docploy templates?",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "processingTime" : 776,
+  "datetime" : "2026-04-24T04:20:43",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Comet"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : ""
+}

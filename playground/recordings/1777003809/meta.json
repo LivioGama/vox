@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Comet"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "result" : "With this repo installed, can I use windsurf model on my other agents like for example SWE.",
+  "datetime" : "2026-04-24T04:10:09",
+  "appVersion" : "2.12.1",
+  "prompt" : "",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "rawResult" : " With this repo installed, can I use windsurf model on my other agents like for example SWE.",
+  "duration" : 9405,
+  "segments" : [
+    {
+      "text" : "With this repo installed, can I use windsurf model on my other agents like for example SWE.",
+      "end" : 9.18,
+      "start" : 0
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "processingTime" : 946
+}

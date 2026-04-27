@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Then you can delete the branch RALF Bootstrap locally and remotely.",
+  "duration" : 6081,
+  "prompt" : "",
+  "processingTime" : 864,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.12.1",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "result" : "Then you can delete the branch RALF Bootstrap locally and remotely.",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "segments" : [
+    {
+      "end" : 5.4,
+      "text" : "Then you can delete the branch RALF Bootstrap locally and remotely.",
+      "start" : 0
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-22T21:05:59"
+}

@@ -1,0 +1,70 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "I'm currently being hacked on the NBT app.",
+      "end" : 6.88,
+      "start" : 0
+    },
+    {
+      "text" : "So could you introduce a way that first of all in the notification, you include the IP of people making the request and then actually blocked the IP that made more than...",
+      "end" : 27.74,
+      "start" : 11.12
+    },
+    {
+      "text" : "15 requests with OpenAI",
+      "end" : 42.74,
+      "start" : 38.78
+    },
+    {
+      "text" : "in 24 hours.",
+      "end" : 50,
+      "start" : 48.66
+    }
+  ],
+  "recordingDevice" : "",
+  "duration" : 53640,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.0",
+  "processingTime" : 1825,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-14T11:12:37",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "rawResult" : " I'm currently being hacked on the NBT app. So could you introduce a way that first of all in the notification, you include the IP of people making the request and then actually blocked the IP that made more than... 15 requests with OpenAI in 24 hours.",
+  "result" : "I'm currently being hacked on the NBT app. So could you introduce a way that first of all in the notification, you include the IP of people making the request and then actually blocked the IP that made more than... 15 requests with OpenAI in 24 hours.",
+  "realtimeEnabled" : false,
+  "languageModelName" : ""
+}

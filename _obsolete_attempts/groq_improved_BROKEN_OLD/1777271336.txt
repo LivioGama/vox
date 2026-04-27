@@ -1,0 +1,1 @@
+Also, when we cargo build, are we using correctly my machine? Because I am a M4 Max, 64 GB of RAM, so I would like to take advantage of the parallelism to a maximum.

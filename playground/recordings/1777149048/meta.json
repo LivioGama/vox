@@ -1,0 +1,60 @@
+{
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "result" : "In order to decide if my speech is an intent of prompt, I don't want to use Claudeiku. I want to use something faster. So could you configure Grok?",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "datetime" : "2026-04-25T20:30:48",
+  "appVersion" : "2.13.0",
+  "separateSpeakersEnabled" : false,
+  "duration" : 18681,
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "processingTime" : 1027,
+  "rawResult" : " In order to decide if my speech is an intent of prompt, I don't want to use Claudeiku. I want to use something faster. So could you configure Grok?",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux DEV latest-build",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0.16,
+      "text" : "In order to decide if my speech is an intent of prompt, I don't want to use Claudeiku.",
+      "end" : 10.276
+    },
+    {
+      "start" : 10.636,
+      "text" : "I want to use something faster. So could you configure Grok?",
+      "end" : 16.704
+    }
+  ],
+  "realtimeEnabled" : false,
+  "modeName" : "Default"
+}

@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "text" : "No, I'm talking for the M.P. behind them.",
+      "end" : 2.12,
+      "start" : 0
+    }
+  ],
+  "result" : "No, I'm talking for the M.P. behind them.",
+  "prompt" : "",
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-01T23:39:54",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 658,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "duration" : 2426,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " No, I'm talking for the M.P. behind them.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

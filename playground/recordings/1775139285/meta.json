@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-02T14:14:45",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " Make the skill Enforced to never use an entropy API key, even to unset it and to enforce using Cloud or token.",
+  "translationEnabled" : false,
+  "processingTime" : 720,
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Make the skill Enforced to never use an entropy API key, even to unset it and to enforce using Cloud or token.",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Make the skill Enforced to never use an entropy API key, even to unset it and to enforce using Cloud or token.",
+      "end" : 11.2
+    }
+  ],
+  "duration" : 12002,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Terminal"
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "speakers" : [
+
+  ],
+  "duration" : 3762,
+  "languageModelName" : "",
+  "prompt" : "",
+  "processingTime" : 629,
+  "segments" : [
+    {
+      "text" : "Can you list the git rock trees from this?",
+      "end" : 3.04,
+      "start" : 0.448
+    }
+  ],
+  "languageModelKey" : "",
+  "datetime" : "2026-04-27T05:57:23",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "realtimeEnabled" : false,
+  "result" : "Can you list the git rock trees from this?",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.13.0",
+  "rawResult" : " Can you list the git rock trees from this?",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false
+}

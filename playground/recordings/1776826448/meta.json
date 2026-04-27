@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "duration" : 4649,
+  "datetime" : "2026-04-22T02:54:08",
+  "result" : "For now, don't touch to sanity yet, nor to medusa.",
+  "realtimeEnabled" : false,
+  "processingTime" : 826,
+  "rawResult" : " For now, don't touch to sanity yet, nor to medusa.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 3.96,
+      "start" : 0,
+      "text" : "For now, don't touch to sanity yet, nor to medusa."
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Zed"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

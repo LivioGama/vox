@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Maybe you should look on the internet to get the real solution. Jesus Christ.",
+      "end" : 4.7
+    }
+  ],
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Warp"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Maybe you should look on the internet to get the real solution. Jesus Christ.",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-17T03:59:28",
+  "result" : "Maybe you should look on the internet to get the real solution. Jesus Christ.",
+  "systemAudioEnabled" : false,
+  "duration" : 5060,
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "processingTime" : 735
+}

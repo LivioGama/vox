@@ -1,0 +1,60 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Yeah, but the thing is I don't want you to put in the rules something like spawning Claude P because this is a bad practice.",
+      "end" : 7.02
+    },
+    {
+      "start" : 7.24,
+      "text" : "I want you to use Claude ACP in every case.",
+      "end" : 11.94
+    }
+  ],
+  "result" : "Yeah, but the thing is I don't want you to put in the rules something like spawning Claude P because this is a bad practice. I want you to use Claude ACP in every case.",
+  "prompt" : "",
+  "appVersion" : "2.11.0",
+  "languageModelName" : "",
+  "datetime" : "2026-04-02T03:21:23",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 782,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "duration" : 12654,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " Yeah, but the thing is I don't want you to put in the rules something like spawning Claude P because this is a bad practice. I want you to use Claude ACP in every case.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

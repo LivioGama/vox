@@ -1,0 +1,105 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 17.18,
+      "text" : "Make sure it's not too harsh because most people actually try a few examples consulted, but I think that somebody normal should not check more than 15 examples ever."
+    },
+    {
+      "start" : 18.1,
+      "end" : 24.28,
+      "text" : "So it's not about the frequency or the speed, it's really about the quantity."
+    },
+    {
+      "start" : 25.3,
+      "end" : 34.06,
+      "text" : "and then actually if it goes over I don't know 20 or maybe 30 and it's less"
+    },
+    {
+      "start" : 34.06,
+      "end" : 45.52,
+      "text" : "it's those 30 are in less than half hour or maybe find something that works rather"
+    },
+    {
+      "start" : 45.52,
+      "end" : 51.04,
+      "text" : "than what I said something reasonable according to everything I mean somebody"
+    },
+    {
+      "start" : 51.04,
+      "end" : 58.06,
+      "text" : "normal normally don't do that many requests they test maybe three type and they test maybe four or"
+    },
+    {
+      "start" : 58.06,
+      "end" : 66.4,
+      "text" : "five uh example consulted so do something that works and there is someone really uh that needs"
+    },
+    {
+      "start" : 66.4,
+      "end" : 70.98,
+      "text" : "to be banished right now so do it quick refactor everything that we did from the beginning of this"
+    },
+    {
+      "start" : 70.98,
+      "end" : 77.62,
+      "text" : "conversation to make it aligned and so on and to still keep me informed if that person is still"
+    },
+    {
+      "start" : 77.62,
+      "end" : 83.6,
+      "text" : "trying and if she has been banned and make sure that the consequence that her being banned is"
+    },
+    {
+      "start" : 83.6,
+      "end" : 94.32,
+      "text" : "that she cannot even try to to call again my web services because it's unfair"
+    }
+  ],
+  "recordingDevice" : "",
+  "duration" : 101883,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.0",
+  "processingTime" : 2819,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-14T11:25:20",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "rawResult" : " Make sure it's not too harsh because most people actually try a few examples consulted, but I think that somebody normal should not check more than 15 examples ever. So it's not about the frequency or the speed, it's really about the quantity. and then actually if it goes over I don't know 20 or maybe 30 and it's less it's those 30 are in less than half hour or maybe find something that works rather than what I said something reasonable according to everything I mean somebody normal normally don't do that many requests they test maybe three type and they test maybe four or five uh example consulted so do something that works and there is someone really uh that needs to be banished right now so do it quick refactor everything that we did from the beginning of this conversation to make it aligned and so on and to still keep me informed if that person is still trying and if she has been banned and make sure that the consequence that her being banned is that she cannot even try to to call again my web services because it's unfair",
+  "result" : "Make sure it's not too harsh because most people actually try a few examples consulted, but I think that somebody normal should not check more than 15 examples ever. So it's not about the frequency or the speed, it's really about the quantity. and then actually if it goes over I don't know 20 or maybe 30 and it's less it's those 30 are in less than half hour or maybe find something that works rather than what I said something reasonable according to everything I mean somebody normal normally don't do that many requests they test maybe three type and they test maybe four or five example consulted so do something that works and there is someone really that needs to be banished right now so do it quick refactor everything that we did from the beginning of this conversation to make it aligned and so on and to still keep me informed if that person is still trying and if she has been banned and make sure that the consequence that her being banned is that she cannot even try to to call again my web services because it's unfair",
+  "realtimeEnabled" : false,
+  "languageModelName" : ""
+}

@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0.98,
+      "end" : 4.42,
+      "text" : "For now the language is French, I would like English."
+    }
+  ],
+  "rawResult" : " For now the language is French, I would like English.",
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "languageModelKey" : "",
+  "datetime" : "2026-04-22T22:59:01",
+  "processingTime" : 991,
+  "result" : "For now the language is French, I would like English.",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "duration" : 5130,
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  }
+}

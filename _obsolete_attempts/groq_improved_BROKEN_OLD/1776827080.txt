@@ -1,0 +1,1 @@
+Can you open it's on Storyrun repo and show me the list of files and their git diff when I click on them? If you didn't implement it's, use 10 sub-agents in parallel to do it faster.

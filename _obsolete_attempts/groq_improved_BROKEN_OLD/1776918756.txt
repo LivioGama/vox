@@ -1,0 +1,1 @@
+True, it's working. It's a bug of cache in the cursor cache browser. But the problem is that now the preview is below the right sidebar and it's not aligned to the left of the window like it was before. Fix it.

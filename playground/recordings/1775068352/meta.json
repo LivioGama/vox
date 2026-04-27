@@ -1,0 +1,60 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "text" : "...shmark for...",
+      "start" : 0,
+      "end" : 1.18
+    },
+    {
+      "text" : "...b-stem.",
+      "start" : 8,
+      "end" : 8.94
+    }
+  ],
+  "result" : "...shmark for... ...b-stem.",
+  "prompt" : "",
+  "languageModelName" : "",
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-01T18:32:32",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1277,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "duration" : 9340,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " ...shmark for... ...b-stem.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Terminal",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

@@ -1,0 +1,1 @@
+Now I want to do something. Instead of having the step 3 where we spawn workers by pasting the generated commands in separate terminals could you actually replace that specific step by spawning the terminal automatically using Westerm or cmux?

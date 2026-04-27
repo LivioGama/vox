@@ -1,0 +1,1 @@
+Why the ShipFast form glitched down after closing a session instead of being correctly positioned?

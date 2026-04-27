@@ -1,0 +1,60 @@
+{
+  "result" : "Can you now stop checking over my headphones and also... And also it doesn't look like you respect the principle of never rebooting IRIS.",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "rawResult" : " Can you now stop checking over my headphones and also... And also it doesn't look like you respect the principle of never rebooting IRIS.",
+  "segments" : [
+    {
+      "text" : "Can you now stop checking over my headphones and also...",
+      "start" : 6.04,
+      "end" : 11.12
+    },
+    {
+      "text" : "And also it doesn't look like you respect the principle of never rebooting IRIS.",
+      "start" : 34.14,
+      "end" : 39.68
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "duration" : 41040,
+  "processingTime" : 1385,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T05:40:01",
+  "languageSelected" : "en"
+}

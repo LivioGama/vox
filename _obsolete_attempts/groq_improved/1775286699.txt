@@ -1,0 +1,1 @@
+and you migrate the notification settings from Coolify to Dokploy via telegram and slack

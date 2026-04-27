@@ -1,0 +1,1 @@
+You still didn't do an example where you generate a new project in ShipFast from the home page with the browser in Cursor and check that it works.

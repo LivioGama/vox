@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "speakers" : [
+
+  ],
+  "rawResult" : " Should I change the back-off priority? Should I check the integrity of media installation? Should I save ? Should I execute cell? Should I execute a CD from Rav about installation? What should I do?",
+  "systemAudioEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "result" : "Should I change the back-off priority? Should I check the integrity of media installation? Should I save ? Should I execute cell? Should I execute a CD from Rav about installation? What should I do?",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "duration" : 11860,
+  "prompt" : "",
+  "recordingDevice" : "",
+  "translationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Should I change the back-off priority? Should I check the integrity of media installation? Should I save ? Should I execute cell? Should I execute a CD from Rav about installation? What should I do?",
+      "end" : 11.84
+    }
+  ],
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "datetime" : "2026-04-24T21:25:19",
+  "processingTime" : 1326,
+  "appVersion" : "2.12.1",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : ""
+}

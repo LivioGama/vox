@@ -1,0 +1,55 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 2.98,
+      "start" : 0,
+      "text" : "We are not talking about Reflektar, we are talking about..."
+    }
+  ],
+  "recordingDevice" : "",
+  "duration" : 3366,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.0",
+  "processingTime" : 675,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-14T11:22:30",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "rawResult" : " We are not talking about Reflektar, we are talking about...",
+  "result" : "We are not talking about Reflektar, we are talking about...",
+  "realtimeEnabled" : false,
+  "languageModelName" : ""
+}

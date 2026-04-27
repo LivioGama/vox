@@ -1,0 +1,1 @@
+I actually have a monitor that I bought that we need to detect through USB that is touch, but I cannot use because I rotated the screen angle to 280 degrees and now it's offset. So can you do the same then touch base UPD and implement a fixed driver?

@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "rawResult" : " That's not Coolify, actually you install Coolify.",
+  "result" : "That's not Coolify, actually you install Coolify.",
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "duration" : 3548,
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "That's not Coolify, actually you install Coolify.",
+      "end" : 3.16
+    }
+  ],
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "processingTime" : 693,
+  "datetime" : "2026-04-24T16:18:58",
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "languageSelected" : "en"
+}

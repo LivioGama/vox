@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Are you sure it's the right MCP?",
+  "languageSelected" : "en",
+  "result" : "Are you sure it's the right MCP?",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0.192,
+      "end" : 2.332,
+      "text" : "Are you sure it's the right MCP?"
+    }
+  ],
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux DEV latest-build"
+    }
+  },
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "duration" : 2372,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 482,
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.13.0",
+  "datetime" : "2026-04-25T21:13:19",
+  "prompt" : ""
+}

@@ -1,0 +1,65 @@
+{
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "result" : "Now listen carefully. Both Sanity and Medusa are implemented at the shipfast level but they are not meant to be this way, they are meant to be multi-tenant which means that inside a website we should be able to generate dynamically a Medusa or a... sanity so can you do the change in order to generate those dynamically when we click on the button in the sidebar inside the preview not before it should not be automatic",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "recordingDevice" : "",
+  "processingTime" : 1658,
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Now listen carefully. Both Sanity and Medusa are implemented at the shipfast level but they are not meant to be this way, they are meant to be multi-tenant which means that inside a website we should be able to generate dynamically a Medusa or a...",
+      "start" : 1,
+      "end" : 24.06
+    },
+    {
+      "text" : "sanity so can you do the change in order to generate those dynamically when we click on",
+      "start" : 34.18,
+      "end" : 39.74
+    },
+    {
+      "text" : "the button in the sidebar inside the preview not before it should not be automatic",
+      "start" : 39.74,
+      "end" : 46.24
+    }
+  ],
+  "duration" : 46918,
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "rawResult" : " Now listen carefully. Both Sanity and Medusa are implemented at the shipfast level but they are not meant to be this way, they are meant to be multi-tenant which means that inside a website we should be able to generate dynamically a Medusa or a... sanity so can you do the change in order to generate those dynamically when we click on the button in the sidebar inside the preview not before it should not be automatic",
+  "datetime" : "2026-04-22T04:10:50",
+  "appVersion" : "2.12.1"
+}

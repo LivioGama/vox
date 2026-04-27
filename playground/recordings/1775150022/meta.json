@@ -1,0 +1,55 @@
+{
+  "duration" : 14032,
+  "datetime" : "2026-04-02T17:13:42",
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " I'm on Codify server and I configured shipfast.io to use wildcard but now my main domain is not accessible. I'm supposed to fix it.",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "result" : "I'm on Codify server and I configured shipfast.io to use wildcard but now my main domain is not accessible. I'm supposed to fix it.",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "end" : 13.54,
+      "start" : 0,
+      "text" : "I'm on Codify server and I configured shipfast.io to use wildcard but now my main domain is not accessible. I'm supposed to fix it."
+    }
+  ],
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "processingTime" : 979,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.11.0",
+  "languageSelected" : "en"
+}

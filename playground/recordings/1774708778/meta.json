@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Superwhisper.",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 662,
+  "processingTime" : 428,
+  "datetime" : "2026-03-28T14:39:38",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "result" : "Superwhisper.",
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 0.64,
+      "text" : "Superwhisper."
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false
+}

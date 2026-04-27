@@ -1,0 +1,70 @@
+{
+  "applicationContextEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "UTM",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "systemAudioEnabled" : false,
+  "duration" : 43305,
+  "processingTime" : 1432,
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " Now, without modifying anything, can you tell me what would be the best approach in order to address all the fixes in parallel and also make sure they work in an autonomous way? I'm thinking for example about a Ralph Righam loop but I'm not sure that's the best approach so can you search on the internet what would be the best way that I just launch this and come back even if it's one hour later or two but at least it's perfect and verified with proof",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-16T03:47:31",
+  "languageSelected" : "en",
+  "appVersion" : "2.12.0",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Now, without modifying anything, can you tell me what would be the best approach in order to address all the fixes in parallel and also make sure they work in an autonomous way?",
+      "end" : 16.82
+    },
+    {
+      "start" : 17.06,
+      "text" : "I'm thinking for example about a Ralph Righam loop but I'm not sure that's the best approach so can you search on the internet",
+      "end" : 24.48
+    },
+    {
+      "start" : 24.48,
+      "text" : "what would be the best way that I just launch this and come back even if it's",
+      "end" : 33.48
+    },
+    {
+      "start" : 36.78,
+      "text" : "one hour later or two but at least it's perfect and verified with proof",
+      "end" : 42.52
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "result" : "Now, without modifying anything, can you tell me what would be the best approach in order to address all the fixes in parallel and also make sure they work in an autonomous way? I'm thinking for example about a Ralph Righam loop but I'm not sure that's the best approach so can you search on the internet what would be the best way that I just launch this and come back even if it's one hour later or two but at least it's perfect and verified with proof",
+  "translationEnabled" : false
+}

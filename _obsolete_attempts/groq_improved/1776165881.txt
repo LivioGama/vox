@@ -1,0 +1,1 @@
+Je veux être informé sur Slack quand quelqu'un a été ban et je veux que cette personne ne puisse plus faire des queries et juste... juste abuser mon API parce qu'ils sont en train de dégager mon quota OpenAI, vous savez ?

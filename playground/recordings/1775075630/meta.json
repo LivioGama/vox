@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 0.08,
+      "text" : "Thank you."
+    }
+  ],
+  "result" : "",
+  "prompt" : "",
+  "languageModelName" : "",
+  "datetime" : "2026-04-01T20:33:50",
+  "appVersion" : "2.11.0",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 324,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "duration" : 128,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " Thank you.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

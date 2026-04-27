@@ -1,0 +1,105 @@
+{
+  "rawResult" : " I just found this repo that actually have the perfect GitD viewer that I wanted. So, I'm a bit pissed and annoyed because basically I'm working on this project so hard for nothing since I could have been taking inspiration from this one. But at least you know what is cool is that you will be able to fix what we have missing thanks to that because we still have a few problems on, for example, the merge conflict stuff. So actually address this point and you can take inspiration of this one. You can check it out in the root. You can then indicate in the readme that it's a reference and that you should not touch anything in it but that you can read some stuff to get some strategies is about how to implement stuff that are actually working in this project. Great!",
+  "separateSpeakersEnabled" : false,
+  "duration" : 64402,
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-16T12:23:29",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "I just found this repo that actually have the perfect GitD viewer that I wanted. So, I'm a bit pissed and annoyed because basically I'm working on this project so hard for nothing since I could have been taking inspiration from this one. But at least you know what is cool is that you will be able to fix what we have missing thanks to that because we still have a few problems on, for example, the merge conflict stuff. So actually address this point and you can take inspiration of this one. You can check it out in the root. You can then indicate in the readme that it's a reference and that you should not touch anything in it but that you can read some stuff to get some strategies is about how to implement stuff that are actually working in this project. Great!",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "languageModelName" : "",
+  "segments" : [
+    {
+      "text" : "I just found this repo that actually have the perfect GitD viewer that I wanted.",
+      "end" : 7.74,
+      "start" : 0
+    },
+    {
+      "text" : "So, I'm a bit pissed and annoyed because basically I'm working on this project so hard for nothing since I could have been taking inspiration from this one.",
+      "end" : 20.72,
+      "start" : 8.3
+    },
+    {
+      "text" : "But at least you know what is cool is that you will be able to fix what we have missing thanks to that",
+      "end" : 28.14,
+      "start" : 20.94
+    },
+    {
+      "text" : "because we still have a few problems on, for example,",
+      "end" : 33.28,
+      "start" : 28.14
+    },
+    {
+      "text" : "the merge conflict stuff.",
+      "end" : 37.74,
+      "start" : 35.58
+    },
+    {
+      "text" : "So actually address this point and you can take inspiration of this one.",
+      "end" : 41.7,
+      "start" : 38.16
+    },
+    {
+      "text" : "You can check it out in the root.",
+      "end" : 47.1,
+      "start" : 41.76
+    },
+    {
+      "text" : "You can then indicate in the readme that it's a reference",
+      "end" : 52.74,
+      "start" : 48.36
+    },
+    {
+      "text" : "and that you should not touch anything in it",
+      "end" : 54.92,
+      "start" : 52.74
+    },
+    {
+      "text" : "but that you can read some stuff to get some strategies",
+      "end" : 57.46,
+      "start" : 54.92
+    },
+    {
+      "text" : "is about how to implement stuff that are actually working in this project. Great!",
+      "end" : 63.52,
+      "start" : 57.46
+    }
+  ],
+  "appVersion" : "2.12.0",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "processingTime" : 1941,
+  "languageModelKey" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : ""
+}

@@ -1,0 +1,1 @@
+Scan a bit my project which is in Vandala and consider which framework I should might do too. I hesitated between Next.js, React.js and other options, so try the best considering that what I'm targeting is maximum performance for the website.

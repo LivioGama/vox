@@ -1,0 +1,65 @@
+{
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "prompt" : "",
+  "appVersion" : "2.12.1",
+  "segments" : [
+    {
+      "start" : 0.72,
+      "end" : 11.42,
+      "text" : "The chip still looks inside the card, where there is a form, although it should be below."
+    },
+    {
+      "start" : 11.74,
+      "end" : 14,
+      "text" : "And I still don't have the..."
+    },
+    {
+      "start" : 18.26,
+      "end" : 20.46,
+      "text" : "...the zero version I asked for."
+    }
+  ],
+  "rawResult" : " The chip still looks inside the card, where there is a form, although it should be below. And I still don't have the... ...the zero version I asked for.",
+  "languageModelKey" : "",
+  "duration" : 20616,
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "result" : "The chip still looks inside the card, where there is a form, although it should be below. And I still don't have the... ...the zero version I asked for.",
+  "datetime" : "2026-04-24T14:48:37",
+  "languageModelName" : "",
+  "processingTime" : 1263
+}

@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "result" : "Can you set up everything so the keyboard works with the macOS French keyboard from Switzerland?",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "UTM",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "recordingDevice" : "",
+  "processingTime" : 880,
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 8.42,
+      "text" : "Can you set up everything so the keyboard works with the macOS French keyboard from Switzerland?"
+    }
+  ],
+  "duration" : 8924,
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "rawResult" : " Can you set up everything so the keyboard works with the macOS French keyboard from Switzerland?",
+  "datetime" : "2026-04-22T12:52:58",
+  "appVersion" : "2.12.1"
+}

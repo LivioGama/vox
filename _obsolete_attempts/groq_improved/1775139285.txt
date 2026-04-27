@@ -1,0 +1,1 @@
+makes the skill enforce to never use Anthropic API key even to unset it and to enforce using Claude or token

@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "result" : "Wait, you mean that the local OS proxy is running on Netcap and on OFF?",
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " Wait, you mean that the local OS proxy is running on Netcap and on OFF?",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "recordingDevice" : "",
+  "datetime" : "2026-04-23T11:32:05",
+  "duration" : 7192,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 6.6,
+      "text" : "Wait, you mean that the local OS proxy is running on Netcap and on OFF?"
+    }
+  ],
+  "processingTime" : 777,
+  "modeName" : "Default"
+}

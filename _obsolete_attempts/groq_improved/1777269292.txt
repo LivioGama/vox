@@ -1,0 +1,1 @@
+It still does not work at its worst because now there is a silence log every few milliseconds.

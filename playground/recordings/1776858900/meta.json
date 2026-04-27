@@ -1,0 +1,60 @@
+{
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "result" : "Create this user there and copy the config from Claude Code from this server to the other one. And install the Claude Code there also.",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Zed"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "recordingDevice" : "",
+  "processingTime" : 1064,
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Create this user there and copy the config from Claude Code from this server to the other one.",
+      "start" : 0,
+      "end" : 10.4
+    },
+    {
+      "text" : "And install the Claude Code there also.",
+      "start" : 10.52,
+      "end" : 13.08
+    }
+  ],
+  "duration" : 14043,
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "rawResult" : " Create this user there and copy the config from Claude Code from this server to the other one. And install the Claude Code there also.",
+  "datetime" : "2026-04-22T11:55:00",
+  "appVersion" : "2.12.1"
+}

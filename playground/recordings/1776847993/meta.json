@@ -1,0 +1,55 @@
+{
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T08:53:13",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "duration" : 7898,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "GitHub Copilot CLI, how to use YOLO mode but still with some deny command where permission is asked.",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "processingTime" : 624,
+  "appVersion" : "2.12.1",
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 7.58,
+      "text" : "GitHub Copilot CLI, how to use YOLO mode but still with some deny command where permission is asked."
+    }
+  ],
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "rawResult" : " GitHub Copilot CLI, how to use YOLO mode but still with some deny command where permission is asked.",
+  "systemAudioEnabled" : false
+}

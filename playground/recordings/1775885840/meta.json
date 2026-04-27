@@ -1,0 +1,100 @@
+{
+  "recordingDevice" : "",
+  "duration" : 111481,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-11T05:37:20",
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "processingTime" : 2530,
+  "rawResult" : " Alright bro, so the goal is to make a testimonial website for a friend's dad that is dead inviting people to join to an event. So the main inspiration that you have to follow is the initial flyer. Originally I was supposed to redo the flyer but I don't have any design skill and so far we agreed to rebuild a website that would be easier to make people invited because the event will take place in Ireland and it would be nice to also include a map and to have both phone numbers dynamic. So this is initial flyer that should take inspiration from our website But then you will find also a lot of resources inside the current folder that are images and videos sent by the son of the deceased guy, father. that actually should be part of gallery somewhere in the website but don't keep them the way they are organized in bulk in the woods folder build a next yes with Tailwind app that actually really commemorate the memory of this disease father and taking over the info provided in the flyer which is",
+  "literalPunctuationEnabled" : false,
+  "result" : "Alright bro, so the goal is to make a testimonial website for a friend's dad that is dead inviting people to join to an event. So the main inspiration that you have to follow is the initial flyer. Originally I was supposed to redo the flyer but I don't have any design skill and so far we agreed to rebuild a website that would be easier to make people invited because the event will take place in Ireland and it would be nice to also include a map and to have both phone numbers dynamic. So this is initial flyer that should take inspiration from our website But then you will find also a lot of resources inside the current folder that are images and videos sent by the son of the deceased guy, father. that actually should be part of gallery somewhere in the website but don't keep them the way they are organized in bulk in the woods folder build a next yes with Tailwind app that actually really commemorate the memory of this disease father and taking over the info provided in the flyer which is",
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Alright bro, so the goal is to make a testimonial website for a friend's dad that is dead inviting people to join to an event.",
+      "end" : 18.66
+    },
+    {
+      "start" : 20.06,
+      "text" : "So the main inspiration that you have to follow is the initial flyer.",
+      "end" : 32.54
+    },
+    {
+      "end" : 40.56,
+      "text" : "Originally I was supposed to redo the flyer but I don't have any design skill and so far we agreed to rebuild a website",
+      "start" : 32.66
+    },
+    {
+      "end" : 48.88,
+      "text" : "that would be easier to make people invited because the event will take place in Ireland",
+      "start" : 40.56
+    },
+    {
+      "end" : 56.72,
+      "text" : "and it would be nice to also include a map and to have both phone numbers dynamic.",
+      "start" : 49.58
+    },
+    {
+      "end" : 62.78,
+      "text" : "So this is initial flyer that should take inspiration from our website",
+      "start" : 58.3
+    },
+    {
+      "end" : 81.64,
+      "text" : "But then you will find also a lot of resources inside the current folder that are images and videos sent by the son of the deceased guy, father.",
+      "start" : 62.78
+    },
+    {
+      "end" : 92.34,
+      "text" : "that actually should be part of gallery somewhere in the website but don't keep them the way they",
+      "start" : 82.52
+    },
+    {
+      "end" : 101.18,
+      "text" : "are organized in bulk in the woods folder build a next yes with Tailwind app that actually really",
+      "start" : 92.34
+    },
+    {
+      "end" : 111.24,
+      "text" : "commemorate the memory of this disease father and taking over the info provided in the flyer which is",
+      "start" : 101.18
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "applicationContextEnabled" : false,
+  "processingTime" : 2742,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T07:01:10",
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " Of course, do not destroy anything. You were right to ask me before and I'm very happy about this behavior especially since we are about to lose work. What I want to be achieved is that we actually commit and push everything that we worked on that is important about prompt fine tuning, model change on the free branch in order to improve the quality of the generated website without introducing too much breaking changes. But then I want the change that we started to work on the develop branch in order to incorporate the library and also other improvements related to that. I want them to be also commit and push in the develop branch. For now we don't need to share the same code on both because the logic is very different, they are not doing the same project, they don't need to be in sync. But for sure I don't want you to lose anything, I want you to just be careful by proper hittings elsewhere, maybe in the .idr folder that you get ignored, to actually make the right thing and dispatch all the files where this should belong. and that we have three versions working with lightning-line generation and the developed version, a distiller work in progress where we will improve the different components that we inject into the renderer and the library.",
+  "segments" : [
+    {
+      "text" : "Of course, do not destroy anything. You were right to ask me before and I'm very happy about this behavior especially since we are about to lose work.",
+      "start" : 0,
+      "end" : 9.94
+    },
+    {
+      "text" : "What I want to be achieved is that we actually commit and push everything that we worked on that is important about prompt fine tuning, model change",
+      "start" : 10.76,
+      "end" : 25.58
+    },
+    {
+      "text" : "on the free branch in order to improve the quality of the generated website without introducing too much breaking changes.",
+      "start" : 25.58,
+      "end" : 35.52
+    },
+    {
+      "text" : "But then I want the change that we started to work on the develop branch in order to incorporate the library and also other improvements related to that.",
+      "start" : 35.52,
+      "end" : 58.7
+    },
+    {
+      "text" : "I want them to be also commit and push in the develop branch.",
+      "start" : 58.7,
+      "end" : 67.12
+    },
+    {
+      "text" : "For now we don't need to share the same code on both because the logic is very different,",
+      "start" : 67.4,
+      "end" : 73.76
+    },
+    {
+      "text" : "they are not doing the same project, they don't need to be in sync.",
+      "start" : 74.04,
+      "end" : 76.4
+    },
+    {
+      "text" : "But for sure I don't want you to lose anything,",
+      "start" : 76.62,
+      "end" : 80.26
+    },
+    {
+      "text" : "I want you to just be careful by proper hittings elsewhere, maybe in the .idr folder that you get ignored,",
+      "start" : 80.26,
+      "end" : 94.64
+    },
+    {
+      "text" : "to actually make the right thing and dispatch all the files where this should belong.",
+      "start" : 96.1,
+      "end" : 99.74
+    },
+    {
+      "text" : "and that we have three versions working with lightning-line generation",
+      "start" : 99.74,
+      "end" : 105.24
+    },
+    {
+      "text" : "and the developed version, a distiller work in progress",
+      "start" : 107.08,
+      "end" : 110.74
+    },
+    {
+      "text" : "where we will improve the different components",
+      "start" : 110.74,
+      "end" : 113.38
+    },
+    {
+      "text" : "that we inject into the renderer and the library.",
+      "start" : 113.38,
+      "end" : 116.48
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.1",
+  "duration" : 117273,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "result" : "Of course, do not destroy anything. You were right to ask me before and I'm very happy about this behavior especially since we are about to lose work. What I want to be achieved is that we actually commit and push everything that we worked on that is important about prompt fine tuning, model change on the free branch in order to improve the quality of the generated website without introducing too much breaking changes. But then I want the change that we started to work on the develop branch in order to incorporate the library and also other improvements related to that. I want them to be also commit and push in the develop branch. For now we don't need to share the same code on both because the logic is very different, they are not doing the same project, they don't need to be in sync. But for sure I don't want you to lose anything, I want you to just be careful by proper hittings elsewhere, maybe in the .idr folder that you get ignored, to actually make the right thing and dispatch all the files where this should belong. and that we have three versions working with lightning-line generation and the developed version, a distiller work in progress where we will improve the different components that we inject into the renderer and the library.",
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "prompt" : ""
+}

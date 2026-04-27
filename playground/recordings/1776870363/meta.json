@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Focus only on the design, we don't care about Medusa and Sanity.",
+  "duration" : 4499,
+  "prompt" : "",
+  "processingTime" : 473,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.12.1",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "result" : "Focus only on the design, we don't care about Medusa and Sanity.",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Zed"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "segments" : [
+    {
+      "end" : 4.28,
+      "text" : "Focus only on the design, we don't care about Medusa and Sanity.",
+      "start" : 0
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-22T15:06:03"
+}

@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-03T01:53:45",
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 9.38,
+      "text" : "I guess I want the finish of both to be a bit less-spreaded and could you also change their direction?",
+      "start" : 0
+    }
+  ],
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "duration" : 9950,
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "I guess I want the finish of both to be a bit less-spreaded and could you also change their direction?",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Claude",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "processingTime" : 1017,
+  "rawResult" : " I guess I want the finish of both to be a bit less-spreaded and could you also change their direction?",
+  "appVersion" : "2.11.0"
+}

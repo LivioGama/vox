@@ -1,0 +1,1 @@
+I think at the hand we will just merge the two repo. The voice stuff will be just an example inside the project and we will rename the repo to migrate SDK to ACP.

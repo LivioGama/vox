@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T22:41:11",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "duration" : 10960,
+  "languageModelKey" : "",
+  "result" : "Never, ever ask me to reload the app. When you finish, reload shit. That's your fucking job. Save it in the agent.md that you should edit in the project.",
+  "rawResult" : " Never, ever ask me to reload the app. When you finish, reload shit. That's your fucking job. Save it in the agent.md that you should edit in the project.",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Never, ever ask me to reload the app. When you finish, reload shit. That's your fucking job. Save it in the agent.md that you should edit in the project.",
+      "end" : 10.78,
+      "start" : 1.04
+    }
+  ],
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "processingTime" : 932,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false
+}

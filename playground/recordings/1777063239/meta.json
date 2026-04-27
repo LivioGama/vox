@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "rawResult" : " Can I install with Graphical User Expert mode? It will not have any concerns.",
+  "result" : "Can I install with Graphical User Expert mode? It will not have any concerns.",
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "duration" : 6300,
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 4.66,
+      "text" : "Can I install with Graphical User Expert mode? It will not have any concerns."
+    }
+  ],
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "processingTime" : 764,
+  "datetime" : "2026-04-24T20:40:39",
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "languageSelected" : "en"
+}

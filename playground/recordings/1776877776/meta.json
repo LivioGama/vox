@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T17:09:36",
+  "duration" : 4371,
+  "appVersion" : "2.12.1",
+  "result" : "I insist, I want the plugin to intercept a RAM commands.",
+  "realtimeEnabled" : false,
+  "processingTime" : 697,
+  "rawResult" : " I insist, I want the plugin to intercept a RAM commands.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 3.66,
+      "text" : "I insist, I want the plugin to intercept a RAM commands."
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "ChatGPT"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

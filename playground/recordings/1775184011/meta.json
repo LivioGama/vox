@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "recordingDevice" : "",
+  "processingTime" : 741,
+  "rawResult" : " Neuron now runs a base 10 benchmark on every model because they got unliked.",
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Neuron now runs a base 10 benchmark on every model because they got unliked.",
+  "realtimeEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Neuron now runs a base 10 benchmark on every model because they got unliked.",
+      "start" : 0,
+      "end" : 6.58
+    }
+  ],
+  "translationEnabled" : false,
+  "datetime" : "2026-04-03T02:40:11",
+  "appVersion" : "2.11.0",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "duration" : 6807,
+  "modelName" : "Ultra (Cloud)"
+}

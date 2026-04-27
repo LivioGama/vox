@@ -1,0 +1,60 @@
+{
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    }
+  },
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1077,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "text" : "What else can you find configured in Qualify that would be nice to move to Docploy? I think there is a GitHub app, maybe also Google",
+      "start" : 0,
+      "end" : 12.28
+    },
+    {
+      "text" : "credentials for authenticating with Google signing etc.",
+      "start" : 14.7,
+      "end" : 20.54
+    }
+  ],
+  "languageModelName" : "",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-04T07:16:15",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " What else can you find configured in Qualify that would be nice to move to Docploy? I think there is a GitHub app, maybe also Google credentials for authenticating with Google signing etc.",
+  "duration" : 21065,
+  "result" : "What else can you find configured in Qualify that would be nice to move to Docploy? I think there is a GitHub app, maybe also Google credentials for authenticating with Google signing etc.",
+  "realtimeEnabled" : false,
+  "appVersion" : "2.11.0",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ]
+}

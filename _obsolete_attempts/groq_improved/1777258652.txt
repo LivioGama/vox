@@ -1,0 +1,1 @@
+Without doing any action, can you tell me why the voxbin is so long to build?

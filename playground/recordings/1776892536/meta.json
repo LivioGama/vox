@@ -1,0 +1,55 @@
+{
+  "rawResult" : " This is doing too much, you forgot that we have DOG PLY on my VPS.",
+  "duration" : 5514,
+  "prompt" : "",
+  "processingTime" : 962,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.12.1",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "result" : "This is doing too much, you forgot that we have DOG PLY on my VPS.",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "segments" : [
+    {
+      "end" : 4.2,
+      "text" : "This is doing too much, you forgot that we have DOG PLY on my VPS.",
+      "start" : 0
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-22T21:15:36"
+}

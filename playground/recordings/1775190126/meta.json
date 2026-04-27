@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "processingTime" : 908,
+  "duration" : 10890,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-03T04:22:06",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Cursor"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "rawResult" : " Implemented with Colyfy CLI to deploy this service following those indications.",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 9.28,
+      "text" : "Implemented with Colyfy CLI to deploy this service following those indications."
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Implemented with Colyfy CLI to deploy this service following those indications."
+}

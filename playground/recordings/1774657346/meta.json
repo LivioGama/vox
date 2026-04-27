@@ -1,0 +1,60 @@
+{
+  "duration" : 16405,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "So I want a post that reflects that nobody can pay me and that I build impossible stuff and I have proof. And that I'm only curious to see if somebody could maybe see my potential but at the same time I don't give a shit.",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Comet"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1030,
+  "languageModelName" : "",
+  "rawResult" : " So I want a post that reflects that nobody can pay me and that I build impossible stuff and I have proof. And that I'm only curious to see if somebody could maybe see my potential but at the same time I don't give a shit.",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T00:22:26",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "So I want a post that reflects that nobody can pay me and that I build impossible stuff and I have proof.",
+      "end" : 7.52,
+      "start" : 0
+    },
+    {
+      "text" : "And that I'm only curious to see if somebody could maybe see my potential but at the same time I don't give a shit.",
+      "end" : 15.9,
+      "start" : 8.32
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

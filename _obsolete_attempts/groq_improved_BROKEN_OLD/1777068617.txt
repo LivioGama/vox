@@ -1,0 +1,1 @@
+I'm reinstalling. Now I reach the screen where I same to select the software. There is Debian Desktop Environment checked, Xerix NUM, then the rest is unchecked, then there is Web Server, SSH Server, and Standard System Utility.

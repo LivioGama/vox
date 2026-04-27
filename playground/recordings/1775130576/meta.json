@@ -1,0 +1,55 @@
+{
+  "datetime" : "2026-04-02T11:49:36",
+  "duration" : 8817,
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " It looks like the code was truncated at 2048 characters, I think it's because of the way we launched the model. Is there something you can do about it?",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "result" : "It looks like the code was truncated at 2048 characters, I think it's because of the way we launched the model. Is there something you can do about it?",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 8.22,
+      "text" : "It looks like the code was truncated at 2048 characters, I think it's because of the way we launched the model. Is there something you can do about it?"
+    }
+  ],
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "processingTime" : 957,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.11.0",
+  "languageSelected" : "en"
+}

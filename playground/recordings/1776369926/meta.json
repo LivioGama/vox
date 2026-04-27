@@ -1,0 +1,65 @@
+{
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "datetime" : "2026-04-16T20:05:26",
+  "languageSelected" : "en",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "recordingDevice" : "",
+  "appVersion" : "2.12.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "processingTime" : 921,
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "duration" : 17591,
+  "result" : "When I change the language in the drop-down on the home page, for example to French, the generate button should translate and the Shipfast logo too but not in place. The translation should appear below.",
+  "prompt" : "",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "rawResult" : " When I change the language in the drop-down on the home page, for example to French, the generate button should translate and the Shipfast logo too but not in place. The translation should appear below.",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 6.32,
+      "text" : "When I change the language in the drop-down on the home page, for example to French,"
+    },
+    {
+      "start" : 6.92,
+      "end" : 14.4,
+      "text" : "the generate button should translate and the Shipfast logo too but not in place."
+    },
+    {
+      "start" : 14.86,
+      "end" : 16.84,
+      "text" : "The translation should appear below."
+    }
+  ]
+}

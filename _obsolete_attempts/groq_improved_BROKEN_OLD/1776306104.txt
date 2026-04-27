@@ -1,0 +1,1 @@
+Can you restore the logo and the textiles for Shipfast? And also the layout inspiration toggle should not same influence on the form width. It's should remain constant regardless that it's to go down or off.

@@ -1,0 +1,1 @@
+All right, so now we miss the part where you use that image to generate a full website, one shot, using Codex CLI ACP with the model GPT-4, including in your Stashat description. And yeah.

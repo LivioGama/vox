@@ -1,0 +1,1 @@
+Actually, before even doing that, what I would recommend is that you init a git repo because I'm very satisfied with this current version. And you do your initial commit, of course, after including the gitignore files that you should. And then you start doing what I said before.

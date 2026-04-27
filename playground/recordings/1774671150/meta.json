@@ -1,0 +1,60 @@
+{
+  "duration" : 12803,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I don't get it. When I click on start, which I shouldn't... It spawns the machine but then actually it doesn't display the content. It was working before! What the fuck?",
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Warp"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1039,
+  "languageModelName" : "",
+  "rawResult" : " I don't get it. When I click on start, which I shouldn't... It spawns the machine but then actually it doesn't display the content. It was working before! What the fuck?",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T04:12:30",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "I don't get it. When I click on start, which I shouldn't... It spawns the machine but then actually it doesn't display the content.",
+      "start" : 0,
+      "end" : 9.1
+    },
+    {
+      "text" : "It was working before! What the fuck?",
+      "start" : 9.96,
+      "end" : 12.52
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

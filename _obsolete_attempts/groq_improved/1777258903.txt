@@ -1,0 +1,1 @@
+No, I want to see actually the filter. The problem is that before the log was showing filtering, pasting, but now it just shows Grok instead of what it had before.

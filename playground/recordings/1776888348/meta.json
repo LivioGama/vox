@@ -1,0 +1,55 @@
+{
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T20:05:48",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "duration" : 11392,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Let's say I want to test the security of a website by checking if for example there are firebase credentials and other stuff with an agent LLM. How should I do it?",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "processingTime" : 1034,
+  "appVersion" : "2.12.1",
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "end" : 10.86,
+      "text" : "Let's say I want to test the security of a website by checking if for example there are firebase credentials and other stuff with an agent LLM. How should I do it?",
+      "start" : 0
+    }
+  ],
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "rawResult" : " Let's say I want to test the security of a website by checking if for example there are firebase credentials and other stuff with an agent LLM. How should I do it?",
+  "systemAudioEnabled" : false
+}

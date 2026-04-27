@@ -1,0 +1,1 @@
+I see a web folder with the website and the media in the root. I was expecting the website to be in the root directly. So could you arrange everything and also launch the Bun run dev target so I can actually preview the website inside the Cursor embedded browser to see what it looks like.

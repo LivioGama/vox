@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "rawResult" : " I'm tired of this shit, nothing that you do works. It was working at the beginning. Fuck! Why can't you do something smart that works and try to revert some of the shitty stuff you made?",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-04-01T18:05:08",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    }
+  },
+  "processingTime" : 1023,
+  "duration" : 12130,
+  "segments" : [
+    {
+      "text" : "I'm tired of this shit, nothing that you do works. It was working at the beginning. Fuck! Why can't you do something smart that works and try to revert some of the shitty stuff you made?",
+      "end" : 11.96,
+      "start" : 0
+    }
+  ],
+  "result" : "I'm tired of this shit, nothing that you do works. It was working at the beginning. Fuck! Why can't you do something smart that works and try to revert some of the shitty stuff you made?",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.11.0"
+}

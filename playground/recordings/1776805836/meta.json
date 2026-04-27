@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "end" : 7.68,
+      "text" : "How can I know if I have a DSC? I'm already registered in Estonia company with a card.",
+      "start" : 0
+    }
+  ],
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Comet"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "rawResult" : " How can I know if I have a DSC? I'm already registered in Estonia company with a card.",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-21T21:10:36",
+  "result" : "How can I know if I have a DSC? I'm already registered in Estonia company with a card.",
+  "systemAudioEnabled" : false,
+  "recordingDevice" : "",
+  "duration" : 8026,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "processingTime" : 838
+}

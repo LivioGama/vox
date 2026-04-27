@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "rawResult" : " But I still want the agent when he finishes to watch the build in CargoWatch.",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-03-27T16:07:29",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "processingTime" : 933,
+  "duration" : 10773,
+  "segments" : [
+    {
+      "end" : 10.08,
+      "text" : "But I still want the agent when he finishes to watch the build in CargoWatch.",
+      "start" : 0
+    }
+  ],
+  "result" : "But I still want the agent when he finishes to watch the build in CargoWatch.",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.11.0"
+}

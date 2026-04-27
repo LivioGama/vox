@@ -1,0 +1,70 @@
+{
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "result" : "Well, to summarize for now what I want to do imperatively is to test the cursor ACP with Codex Spark 5.3 without using OpenAI to see what kind of result it gives for generation. So focus on this. You don't need to do proper change, I just want to test it the fastest possible and we might probably revert what you're going to do so really be efficient.",
+  "duration" : 38080,
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T10:38:48",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "rawResult" : " Well, to summarize for now what I want to do imperatively is to test the cursor ACP with Codex Spark 5.3 without using OpenAI to see what kind of result it gives for generation. So focus on this. You don't need to do proper change, I just want to test it the fastest possible and we might probably revert what you're going to do so really be efficient.",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Well, to summarize for now what I want to do imperatively is to test the cursor ACP with Codex Spark 5.3 without using OpenAI to see what kind of result it gives for generation.",
+      "end" : 23.2,
+      "start" : 0
+    },
+    {
+      "text" : "So focus on this. You don't need to do proper change, I just want to test it the",
+      "end" : 30.44,
+      "start" : 23.2
+    },
+    {
+      "text" : "fastest possible and we might probably revert what you're going to do so really",
+      "end" : 37.18,
+      "start" : 30.44
+    },
+    {
+      "text" : "be efficient.",
+      "end" : 37.8,
+      "start" : 37.18
+    }
+  ],
+  "appVersion" : "2.12.1",
+  "languageModelKey" : "",
+  "processingTime" : 2125
+}

@@ -1,0 +1,1 @@
+When you work on the app, you find a way to never, even if you recompile, to never have to re-trigger the permissions for accessibility and so on.

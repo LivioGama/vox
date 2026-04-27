@@ -1,0 +1,60 @@
+{
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "languageSelected" : "en",
+  "appVersion" : "2.11.0",
+  "duration" : 21652,
+  "rawResult" : " Actually, before even doing that, what I would recommend is that you init a Git repo because I'm very satisfied with the current version. And you do your initial commit of course after including the Gitignore 5 that you should and then you start doing what I said before.",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 11.14,
+      "text" : "Actually, before even doing that, what I would recommend is that you init a Git repo because I'm very satisfied with the current version.",
+      "start" : 0
+    },
+    {
+      "end" : 21.34,
+      "text" : "And you do your initial commit of course after including the Gitignore 5 that you should and then you start doing what I said before.",
+      "start" : 11.78
+    }
+  ],
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "processingTime" : 1145,
+  "result" : "Actually, before even doing that, what I would recommend is that you init a Git repo because I'm very satisfied with the current version. And you do your initial commit of course after including the Gitignore 5 that you should and then you start doing what I said before.",
+  "datetime" : "2026-04-11T06:11:21",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "speakers" : [
+
+  ]
+}

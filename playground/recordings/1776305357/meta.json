@@ -1,0 +1,55 @@
+{
+  "segments" : [
+    {
+      "text" : "On GitHub to see if the new installation method allow me to make lighter my Claude than MD Global because maybe it has changed and improved.",
+      "start" : 0,
+      "end" : 11.34
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "processingTime" : 1022,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "rawResult" : " On GitHub to see if the new installation method allow me to make lighter my Claude than MD Global because maybe it has changed and improved.",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "duration" : 11756,
+  "result" : "On GitHub to see if the new installation method allow me to make lighter my Claude than MD Global because maybe it has changed and improved.",
+  "prompt" : "",
+  "translationEnabled" : false,
+  "appVersion" : "2.12.0",
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "datetime" : "2026-04-16T02:09:17"
+}

@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T21:51:45",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "duration" : 5060,
+  "languageModelKey" : "",
+  "result" : "I'm on the Mac keyboard, when I do Ctrl plus X it actually just adds an X.",
+  "rawResult" : " I'm on the Mac keyboard, when I do Ctrl plus X it actually just adds an X.",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 4.96,
+      "text" : "I'm on the Mac keyboard, when I do Ctrl plus X it actually just adds an X."
+    }
+  ],
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 851,
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false
+}

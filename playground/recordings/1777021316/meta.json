@@ -1,0 +1,55 @@
+{
+  "segments" : [
+    {
+      "text" : "Change my OpenCode Slim Config. Replace every Sony 4.6 models with Sony 4.5.",
+      "start" : 0,
+      "end" : 11.76
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "duration" : 13120,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Change my OpenCode Slim Config. Replace every Sony 4.6 models with Sony 4.5.",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "processingTime" : 858,
+  "speakers" : [
+
+  ],
+  "rawResult" : " Change my OpenCode Slim Config. Replace every Sony 4.6 models with Sony 4.5.",
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-24T09:01:56",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

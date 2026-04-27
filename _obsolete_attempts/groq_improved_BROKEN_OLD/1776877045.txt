@@ -1,0 +1,1 @@
+Can you include in the spec the fact that we should intercept the ARAM command to replace it's and all the stuff like you show in AI Trash and maybe also there could be a way to same a local history? Very light. I don't want something very heavy.

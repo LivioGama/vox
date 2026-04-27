@@ -1,0 +1,60 @@
+{
+  "processingTime" : 1100,
+  "modeName" : "Default",
+  "prompt" : "",
+  "result" : "I have English, French and Italian. And now when I load the webpage my only choice is English. I should have French selected and English as an option.",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "datetime" : "2026-04-02T18:49:37",
+  "duration" : 13156,
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "rawResult" : " I have English, French and Italian. And now when I load the webpage my only choice is English. I should have French selected and English as an option.",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "I have English, French and Italian. And now when I load the webpage my only choice is English.",
+      "end" : 8.04
+    },
+    {
+      "start" : 8.34,
+      "text" : "I should have French selected and English as an option.",
+      "end" : 12.84
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageSelected" : "en"
+}

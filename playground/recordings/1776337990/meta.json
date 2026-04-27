@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "languageModelKey" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "speakers" : [
+
+  ],
+  "duration" : 8411,
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "appVersion" : "2.12.0",
+  "rawResult" : " What video series is easily installable on EasyPanel?",
+  "datetime" : "2026-04-16T11:13:10",
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "What video series is easily installable on EasyPanel?",
+  "processingTime" : 881,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 8.28,
+      "text" : "What video series is easily installable on EasyPanel?",
+      "start" : 0
+    }
+  ],
+  "translationEnabled" : false,
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

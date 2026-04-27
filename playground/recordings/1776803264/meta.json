@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 8432,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "processingTime" : 876,
+  "recordingDevice" : "",
+  "rawResult" : " Can you continue and set up my whole project MK and then develop it?",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Can you continue and set up my whole project MK and then develop it?",
+      "start" : 0,
+      "end" : 8.16
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-21T20:27:44",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "Can you continue and set up my whole project MK and then develop it?"
+}

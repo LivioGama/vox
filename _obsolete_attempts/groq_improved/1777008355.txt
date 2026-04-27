@@ -1,0 +1,1 @@
+Look at this, I still have an issue on the two-code parsing and it stops and OpenCode in this way. So can you fix it and verify it till the end and then deploy it on the Dokploy.

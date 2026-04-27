@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "rawResult" : " Start setting up NetCup in order so I can work remotely the Rust project there and then run it and see the UI locally on my Mac through the best way to forward UI.",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-03-27T20:24:51",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "processingTime" : 1183,
+  "duration" : 22625,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 21.62,
+      "text" : "Start setting up NetCup in order so I can work remotely the Rust project there and then run it and see the UI locally on my Mac through the best way to forward UI."
+    }
+  ],
+  "result" : "Start setting up NetCup in order so I can work remotely the Rust project there and then run it and see the UI locally on my Mac through the best way to forward UI.",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "appVersion" : "2.11.0",
+  "modelName" : "Ultra (Cloud)"
+}

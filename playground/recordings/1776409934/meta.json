@@ -1,0 +1,55 @@
+{
+  "rawResult" : " So, brother, I want to see you generate a prompt and see that it works.",
+  "duration" : 4040,
+  "prompt" : "",
+  "processingTime" : 686,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.12.1",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "result" : "So, brother, I want to see you generate a prompt and see that it works.",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 3.92,
+      "text" : "So, brother, I want to see you generate a prompt and see that it works."
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-17T07:12:14"
+}

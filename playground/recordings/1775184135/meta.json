@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "processingTime" : 747,
+  "duration" : 6840,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-03T02:42:15",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " I think you should rename the repo, uh, migrate Claude SDK to ACP.",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "end" : 6.72,
+      "start" : 0,
+      "text" : "I think you should rename the repo, uh, migrate Claude SDK to ACP."
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I think you should rename the repo, uh, migrate Claude SDK to ACP."
+}

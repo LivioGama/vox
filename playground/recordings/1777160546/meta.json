@@ -1,0 +1,60 @@
+{
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "appVersion" : "2.13.0",
+  "prompt" : "",
+  "datetime" : "2026-04-25T23:42:26",
+  "duration" : 14770,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "processingTime" : 1205,
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "I don't know, I have the feeling that context is saturated, that's why it cannot follow up. Maybe you should review my OpenCode Steam config, especially about the tools.",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " I don't know, I have the feeling that context is saturated, that's why it cannot follow up. Maybe you should review my OpenCode Steam config, especially about the tools.",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "end" : 6.432,
+      "text" : "I don't know, I have the feeling that context is saturated, that's why it cannot follow up.",
+      "start" : 0.192
+    },
+    {
+      "end" : 14.528,
+      "text" : "Maybe you should review my OpenCode Steam config, especially about the tools.",
+      "start" : 6.672
+    }
+  ]
+}

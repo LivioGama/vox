@@ -1,0 +1,1 @@
+where when I would do command plus one or command plus two or command plus three, it would autofill a prepared prompt.

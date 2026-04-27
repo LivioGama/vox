@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Comet"
+    }
+  },
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 932,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "end" : 14.42,
+      "start" : 0,
+      "text" : "It still limits me to the model that I can deploy myself. For example, it won't help me accessing Cursor Composer to model, right?"
+    }
+  ],
+  "languageModelName" : "",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-04T09:52:40",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " It still limits me to the model that I can deploy myself. For example, it won't help me accessing Cursor Composer to model, right?",
+  "duration" : 14823,
+  "result" : "It still limits me to the model that I can deploy myself. For example, it won't help me accessing Cursor Composer to model, right?",
+  "realtimeEnabled" : false,
+  "appVersion" : "2.11.0",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ]
+}

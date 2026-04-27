@@ -1,0 +1,1 @@
+I'm on the Mac keyboard. When I do control plus X, it actually just adds an X.

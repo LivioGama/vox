@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "rawResult" : " Are you serious? Can't you do something that works? Jesus Christ.",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-04-01T17:59:32",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "processingTime" : 1554,
+  "duration" : 5172,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Are you serious? Can't you do something that works? Jesus Christ.",
+      "end" : 4.88
+    }
+  ],
+  "result" : "Are you serious? Can't you do something that works? Jesus Christ.",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.11.0"
+}

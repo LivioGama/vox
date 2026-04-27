@@ -1,0 +1,1 @@
+Alright, one last detail, bro, before you could commit and push this. Can you make sure that if we play any video from the gallery, the main music, of course, should stop and pause, to not clash with two sources of sound.

@@ -1,0 +1,1 @@
+Also, I noticed that the last ShipFast is not the last Dokploy, so can you fix both issues? You have the Dokploy CLI and I already set the persistent token, so you can use the CLI directly.

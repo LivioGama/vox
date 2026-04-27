@@ -1,0 +1,55 @@
+{
+  "appVersion" : "2.12.1",
+  "processingTime" : 955,
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "result" : "Once you finish the edit about the tool, or this model you need to deploy, I mean to commit and push and deploy the model on DuckPloy.",
+  "duration" : 12237,
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T05:12:51",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "rawResult" : " Once you finish the edit about the tool, or this model you need to deploy, I mean to commit and push and deploy the model on DuckPloy.",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0.66,
+      "text" : "Once you finish the edit about the tool, or this model you need to deploy, I mean to commit and push and deploy the model on DuckPloy.",
+      "end" : 11.94
+    }
+  ],
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "languageSelected" : "en"
+}

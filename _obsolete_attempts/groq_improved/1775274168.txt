@@ -1,0 +1,1 @@
+Can you try to see what are the missing features I need for my git dev viewer that should do the same features that the JetBrains one?

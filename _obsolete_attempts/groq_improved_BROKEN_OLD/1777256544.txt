@@ -1,0 +1,1 @@
+The test I asked for. I want you to monitor until the generation is done. Right now I see many mistakes. For example, I don't open anymore the page for generating. I actually have a bar and so on, although it's should be full screen. And actually it's never ends generating. Normally the generation should take less than 70 seconds.

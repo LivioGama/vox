@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "duration" : 4884,
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Windsurf"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "result" : "Fix Vox and run it.",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-27T00:43:24",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "end" : 4.8841877,
+      "text" : "Fix Vox and run it.",
+      "start" : 1.696
+    }
+  ],
+  "recordingDevice" : "",
+  "processingTime" : 701,
+  "languageModelKey" : "",
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "rawResult" : " Fix Vox and run it."
+}

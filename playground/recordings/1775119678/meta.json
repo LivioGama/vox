@@ -1,0 +1,55 @@
+{
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "rawResult" : " Only the one-bit version exists.",
+  "languageModelName" : "",
+  "datetime" : "2026-04-02T08:47:58",
+  "literalPunctuationEnabled" : false,
+  "result" : "Only the one-bit version exists.",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "text" : "Only the one-bit version exists.",
+      "start" : 0,
+      "end" : 2.02
+    }
+  ],
+  "processingTime" : 396,
+  "languageModelKey" : "",
+  "duration" : 2394,
+  "appVersion" : "2.11.0",
+  "modeName" : "Default"
+}

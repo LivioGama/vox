@@ -1,0 +1,55 @@
+{
+  "rawResult" : " No, I want to see actually the filter. The problem is that before the log was showing filtering, pasting but now it just shows grok instead of what it had before.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "duration" : 15122,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 999,
+  "datetime" : "2026-04-27T03:01:43",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "result" : "No, I want to see actually the filter. The problem is that before the log was showing filtering, pasting but now it just shows grok instead of what it had before.",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 15.122812,
+      "text" : "No, I want to see actually the filter. The problem is that before the log was showing filtering, pasting but now it just shows grok instead of what it had before.",
+      "start" : 0.288
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "applicationContextEnabled" : false,
+  "processingTime" : 883,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T06:39:53",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    }
+  },
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " I want new benchmark for the windsurf model SWE, etc. It's deployed at windsurf.devlib.io",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 12.28,
+      "text" : "I want new benchmark for the windsurf model SWE, etc. It's deployed at windsurf.devlib.io"
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.1",
+  "duration" : 12450,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "result" : "I want new benchmark for the windsurf model SWE, etc. It's deployed at windsurf.devlib.io",
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "prompt" : ""
+}

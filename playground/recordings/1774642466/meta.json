@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "rawResult" : " I swear to god, I saw this sidebar in the software at some point. So where is it? The implementation.",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-03-27T20:14:26",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "processingTime" : 1066,
+  "duration" : 7908,
+  "segments" : [
+    {
+      "end" : 6.98,
+      "text" : "I swear to god, I saw this sidebar in the software at some point. So where is it? The implementation.",
+      "start" : 0
+    }
+  ],
+  "result" : "I swear to god, I saw this sidebar in the software at some point. So where is it? The implementation.",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.11.0"
+}

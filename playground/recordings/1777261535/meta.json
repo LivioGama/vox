@@ -1,0 +1,65 @@
+{
+  "rawResult" : " Can you assess everything that was done in this branch and actually propose a rewrite plan because I think it's really, really messy. It does not respect the standard. It's really fuzzy spaghetti and the code is shit. I still want like the exact same feature but I want it to be written clean like it was done by an expert.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 2237,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "duration" : 26515,
+  "datetime" : "2026-04-27T03:45:35",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf"
+    }
+  },
+  "result" : "Can you assess everything that was done in this branch and actually propose a rewrite plan because I think it's really, really messy. It does not respect the standard. It's really fuzzy spaghetti and the code is shit. I still want like the exact same feature but I want it to be written clean like it was done by an expert.",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 12.064,
+      "start" : 0.256,
+      "text" : "Can you assess everything that was done in this branch and actually propose a rewrite plan because I think it's really, really messy."
+    },
+    {
+      "end" : 20.348,
+      "start" : 12.324,
+      "text" : "It does not respect the standard. It's really fuzzy spaghetti and the code is shit."
+    },
+    {
+      "end" : 26.208,
+      "start" : 20.508,
+      "text" : "I still want like the exact same feature but I want it to be written clean like it was done by an expert."
+    }
+  ]
+}

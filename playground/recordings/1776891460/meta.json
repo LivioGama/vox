@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T20:57:40",
+  "appVersion" : "2.12.1",
+  "duration" : 5033,
+  "result" : "Did you take the Claude folder on the VPS, not the local one?",
+  "realtimeEnabled" : false,
+  "processingTime" : 1974,
+  "rawResult" : " Did you take the Claude folder on the VPS, not the local one?",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Did you take the Claude folder on the VPS, not the local one?",
+      "end" : 4.58,
+      "start" : 0
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

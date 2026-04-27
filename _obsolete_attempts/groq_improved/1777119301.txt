@@ -1,0 +1,1 @@
+quickly fix the CSS and the liquid glass effect that is not working on the home page and then tell me how I'm supposed to launch to see the product. You can launch it in the web browser and then commit everything that we currently have on a new branch called demo2.

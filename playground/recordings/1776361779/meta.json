@@ -1,0 +1,55 @@
+{
+  "modelName" : "Ultra (Cloud)",
+  "duration" : 12450,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Comet"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "separateSpeakersEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "result" : "I would like to create a SnapEmail application in order to have a webmail client configured to my stalwart server email.",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.0",
+  "datetime" : "2026-04-16T17:49:39",
+  "systemAudioEnabled" : false,
+  "processingTime" : 1122,
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "rawResult" : " I would like to create a SnapEmail application in order to have a webmail client configured to my stalwart server email.",
+  "prompt" : "",
+  "applicationContextEnabled" : false,
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "I would like to create a SnapEmail application in order to have a webmail client configured to my stalwart server email.",
+      "end" : 12.3
+    }
+  ]
+}

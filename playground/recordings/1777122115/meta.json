@@ -1,0 +1,135 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Scan the current repo where we had to replace, unfortunately, Grok Kimi K2 that was a very good model at design and at 1000 DPS or 5000 I don't remember. The goal is to keep at least the same level of quality. This is really non-negotiable. Don't do anything, find, look on the internet or do what you have to but this is the most important. And then we need to also keep at least a maximum of the speed that we had before. So it shouldn't be slower, it should be equal or better for both those criteria. So dig really deep and prepare the best plan possible for this, taking into account the fact that now we use OpenUI, so it's even better because when we start to get the stream, we can already display the front-end page and we can see it build under our eyes. If you can make it even better than the original renderer do. But what I want to avoid is that I want to avoid back and forth, which is not in cheap fast policy. And I want to avoid also like self-fix. I prefer to have something that is efficient that just works like just like what we had before. So think it really deep and find the solution.",
+  "applicationContextEnabled" : false,
+  "processingTime" : 2328,
+  "languageModelName" : "",
+  "datetime" : "2026-04-25T13:01:55",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Claude",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "duration" : 95182,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "start" : 1.344,
+      "end" : 17.548,
+      "text" : "Scan the current repo where we had to replace, unfortunately, Grok Kimi K2 that was a very good model at design and at 1000 DPS or 5000 I don't remember."
+    },
+    {
+      "start" : 18.188,
+      "end" : 37.848,
+      "text" : "The goal is to keep at least the same level of quality. This is really non-negotiable. Don't do anything, find, look on the internet or do what you have to but this is the most important."
+    },
+    {
+      "start" : 37.848,
+      "end" : 46.404,
+      "text" : "And then we need to also keep at least a maximum of the speed that we had before."
+    },
+    {
+      "start" : 46.604,
+      "end" : 52.608,
+      "text" : "So it shouldn't be slower, it should be equal or better for both those criteria."
+    },
+    {
+      "start" : 53.408,
+      "end" : 59.196,
+      "text" : "So dig really deep and prepare the best plan possible for this,"
+    },
+    {
+      "start" : 59.316,
+      "end" : 67.176,
+      "text" : "taking into account the fact that now we use OpenUI,"
+    },
+    {
+      "start" : 67.296,
+      "end" : 69.752,
+      "text" : "so it's even better because when we start to get the stream,"
+    },
+    {
+      "start" : 69.752,
+      "end" : 75.208,
+      "text" : "we can already display the front-end page"
+    },
+    {
+      "start" : 75.208,
+      "end" : 77.308,
+      "text" : "and we can see it build under our eyes."
+    },
+    {
+      "start" : 78.048,
+      "end" : 83.916,
+      "text" : "If you can make it even better than the original renderer do."
+    },
+    {
+      "start" : 84.376,
+      "end" : 86.46,
+      "text" : "But what I want to avoid is that"
+    },
+    {
+      "start" : 86.46,
+      "end" : 88.22,
+      "text" : "I want to avoid back and forth,"
+    },
+    {
+      "start" : 88.26,
+      "end" : 91.264,
+      "text" : "which is not in cheap fast policy."
+    },
+    {
+      "start" : 91.844,
+      "end" : 93.952,
+      "text" : "And I want to avoid also like self-fix."
+    },
+    {
+      "start" : 93.952,
+      "end" : 93.952,
+      "text" : "I prefer to have something that is efficient"
+    },
+    {
+      "start" : 93.952,
+      "end" : 93.952,
+      "text" : "that just works like just like what we had before."
+    },
+    {
+      "start" : 93.952,
+      "end" : 93.952,
+      "text" : "So think it really deep and find the solution."
+    }
+  ],
+  "result" : "Scan the current repo where we had to replace, unfortunately, Grok Kimi K2 that was a very good model at design and at 1000 DPS or 5000 I don't remember. The goal is to keep at least the same level of quality. This is really non-negotiable. Don't do anything, find, look on the internet or do what you have to but this is the most important. And then we need to also keep at least a maximum of the speed that we had before. So it shouldn't be slower, it should be equal or better for both those criteria. So dig really deep and prepare the best plan possible for this, taking into account the fact that now we use OpenUI, so it's even better because when we start to get the stream, we can already display the front-end page and we can see it build under our eyes. If you can make it even better than the original renderer do. But what I want to avoid is that I want to avoid back and forth, which is not in cheap fast policy. And I want to avoid also like self-fix. I prefer to have something that is efficient that just works like just like what we had before. So think it really deep and find the solution.",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "appVersion" : "2.13.0",
+  "separateSpeakersEnabled" : false,
+  "prompt" : ""
+}

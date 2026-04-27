@@ -1,0 +1,1 @@
+When I close the preview, I don't want the jump for the top bar pricing signing to appear. It was so scary.

@@ -1,0 +1,1 @@
+The orchestrator should be SWE and the planner should be Claude Sonnet.

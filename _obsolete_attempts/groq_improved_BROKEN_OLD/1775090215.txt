@@ -1,0 +1,1 @@
+Why time shipfast form glitched down after closing a session instead of able correctly positioned?

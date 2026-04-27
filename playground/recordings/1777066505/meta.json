@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.12.1",
+  "segments" : [
+    {
+      "text" : "Say something like cannot set terminal process group, you appropriate EO CTL for device, no job control in this shell and then I cannot type.",
+      "start" : 0,
+      "end" : 7.32
+    }
+  ],
+  "datetime" : "2026-04-24T21:35:05",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "duration" : 7440,
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "processingTime" : 863,
+  "result" : "Say something like cannot set terminal process group, you appropriate EO CTL for device, no job control in this shell and then I cannot type.",
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Say something like cannot set terminal process group, you appropriate EO CTL for device, no job control in this shell and then I cannot type.",
+  "realtimeEnabled" : false
+}

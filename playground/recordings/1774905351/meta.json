@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-03-30T21:15:51",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " Why does it write Sune 4.6 instead of OpenAI model?",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "processingTime" : 789,
+  "result" : "Why does it write Sune 4.6 instead of OpenAI model?",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 6.72,
+      "text" : "Why does it write Sune 4.6 instead of OpenAI model?"
+    }
+  ],
+  "duration" : 7192,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "datetime" : "2026-04-11T06:25:58",
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " Please set a remote to a private repo on my github and also deploy on Versa.",
+  "duration" : 9661,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 8.3,
+      "text" : "Please set a remote to a private repo on my github and also deploy on Versa.",
+      "start" : 0
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "processingTime" : 778,
+  "languageModelKey" : "",
+  "result" : "Please set a remote to a private repo on my github and also deploy on Versa.",
+  "modelName" : "Ultra (Cloud)"
+}

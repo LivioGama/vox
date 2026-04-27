@@ -1,0 +1,1 @@
+once you finished the edit about the tool or model you need to deploy commit and push and deploy the model on Dokploy

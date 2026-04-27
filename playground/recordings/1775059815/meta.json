@@ -1,0 +1,70 @@
+{
+  "rawResult" : " Can't you find the exact commit where you managed to fix it in this conversation? There was really one just before you break the connectors and right after you started to rezone like a master scroll with editor disabled and to have something similar to the canvas.",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 24485,
+  "processingTime" : 1438,
+  "datetime" : "2026-04-01T16:10:15",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Warp",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "result" : "Can't you find the exact commit where you managed to fix it in this conversation? There was really one just before you break the connectors and right after you started to rezone like a master scroll with editor disabled and to have something similar to the canvas.",
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 4.9,
+      "start" : 0,
+      "text" : "Can't you find the exact commit where you managed to fix it in this conversation?"
+    },
+    {
+      "end" : 11.92,
+      "start" : 5.76,
+      "text" : "There was really one just before you break the connectors and right after you started to"
+    },
+    {
+      "end" : 17.28,
+      "start" : 11.92,
+      "text" : "rezone like a master scroll with editor disabled and"
+    },
+    {
+      "end" : 24.2,
+      "start" : 21.54,
+      "text" : "to have something similar to the canvas."
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false
+}

@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Ask me any better shell in. I just stopped the shell directly.",
+  "duration" : 5180,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 4.74,
+      "start" : 0,
+      "text" : "Ask me any better shell in. I just stopped the shell directly."
+    }
+  ],
+  "result" : "Ask me any better shell in. I just stopped the shell directly.",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "languageSelected" : "en",
+  "processingTime" : 855,
+  "recordingDevice" : "",
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "datetime" : "2026-04-24T21:46:39",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false
+}

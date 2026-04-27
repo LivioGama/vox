@@ -1,0 +1,75 @@
+{
+  "rawResult" : " Can you think the missing errors among them? You should tell that... Levels from taxi correlation in the GDF is not working. That you took actually some body skis that you have to return. And when I say U, I'm not meaning you cloud code. I mean a colleague that will go tomorrow. Or maybe what I'm thinking about is just U dropped, but I cannot find it.",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 41841,
+  "processingTime" : 1519,
+  "datetime" : "2026-03-28T21:20:56",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "result" : "Can you think the missing errors among them? You should tell that... Levels from taxi correlation in the GDF is not working. That you took actually some body skis that you have to return. And when I say U, I'm not meaning you cloud code. I mean a colleague that will go tomorrow. Or maybe what I'm thinking about is just U dropped, but I cannot find it.",
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Can you think the missing errors among them? You should tell that... Levels from taxi correlation in the GDF is not working.",
+      "start" : 0.82,
+      "end" : 15.16
+    },
+    {
+      "text" : "That you took actually some body skis that you have to return.",
+      "start" : 15.74,
+      "end" : 24.52
+    },
+    {
+      "text" : "And when I say U, I'm not meaning you cloud code.",
+      "start" : 24.52,
+      "end" : 29.14
+    },
+    {
+      "text" : "I mean a colleague that will go tomorrow.",
+      "start" : 29.3,
+      "end" : 31.86
+    },
+    {
+      "text" : "Or maybe what I'm thinking about is just U dropped, but I cannot find it.",
+      "start" : 35.04,
+      "end" : 40.78
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false
+}

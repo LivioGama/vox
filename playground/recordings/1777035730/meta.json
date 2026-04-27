@@ -1,0 +1,60 @@
+{
+  "segments" : [
+    {
+      "end" : 12.74,
+      "text" : "I don't expect Codex PARC to produce the OpenUI output. I want to test a home page inside the product.",
+      "start" : 0
+    },
+    {
+      "end" : 18.74,
+      "text" : "We can implement this quickly, dirty and run it in the browser so we can test.",
+      "start" : 13.08
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "duration" : 19440,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I don't expect Codex PARC to produce the OpenUI output. I want to test a home page inside the product. We can implement this quickly, dirty and run it in the browser so we can test.",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 1424,
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "rawResult" : " I don't expect Codex PARC to produce the OpenUI output. I want to test a home page inside the product. We can implement this quickly, dirty and run it in the browser so we can test.",
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-24T13:02:10",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

@@ -1,0 +1,1 @@
+Can you try to run it's on local to build it's to see if everything this OK? And if everything this OK, open it's and show me and try using MCP tool to control the browser to see if it's working and you can do a generation with the homepage with Kimmy.

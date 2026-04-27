@@ -1,0 +1,60 @@
+{
+  "rawResult" : " Other reasons you give me are really bad ones because I have a very powerful computer, an M4 Max with 64GB of RAM. About the LTO, I don't know but I want you to follow the best advice considering that the program should be at best performance.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "processingTime" : 1162,
+  "duration" : 23480,
+  "appVersion" : "2.13.0",
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-27T02:59:33",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf"
+    }
+  },
+  "result" : "Other reasons you give me are really bad ones because I have a very powerful computer, an M4 Max with 64GB of RAM. About the LTO, I don't know but I want you to follow the best advice considering that the program should be at best performance.",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Other reasons you give me are really bad ones because I have a very powerful computer, an M4 Max with 64GB of RAM.",
+      "start" : 0.768,
+      "end" : 10.792
+    },
+    {
+      "text" : "About the LTO, I don't know but I want you to follow the best advice considering that the program should be at best performance.",
+      "start" : 11.112,
+      "end" : 23.480438
+    }
+  ]
+}

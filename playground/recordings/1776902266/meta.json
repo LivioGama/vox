@@ -1,0 +1,125 @@
+{
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "end" : 22.84,
+      "text" : "Alright, so note all the changes that you have to do. First of all, when you are generating a new project and that there is the sound and the animation, in parallel you should generate the image and start displaying them in the prompt animation view.",
+      "start" : 0
+    },
+    {
+      "end" : 32.46,
+      "text" : "Then at the moment we receive the first chunk, you should display the preview browser studio",
+      "start" : 22.84
+    },
+    {
+      "end" : 38.36,
+      "text" : "and there should not be any space below the studio like it currently is.",
+      "start" : 32.46
+    },
+    {
+      "end" : 43.68,
+      "text" : "Then it should start streaming and displaying the element inside",
+      "start" : 39.42
+    },
+    {
+      "end" : 47.86,
+      "text" : "which means actually we don't wait anymore when the home page is finished",
+      "start" : 43.68
+    },
+    {
+      "end" : 53.44,
+      "text" : "to display the preview we actually displayed immediately when we receive",
+      "start" : 47.86
+    },
+    {
+      "end" : 54.38,
+      "text" : "the first chunk.",
+      "start" : 53.44
+    },
+    {
+      "end" : 65.62,
+      "text" : "Then some other things that you have to do is that when I click back I should",
+      "start" : 59.7
+    },
+    {
+      "end" : 75.02,
+      "text" : "immediately go back to the form. Currently it actually is not working and",
+      "start" : 66.9
+    },
+    {
+      "end" : 78.68,
+      "text" : "it's not free enough, it should already be loaded behind.",
+      "start" : 75.02
+    },
+    {
+      "end" : 83.08,
+      "text" : "And then you have a lot of optimization to do",
+      "start" : 79.94
+    },
+    {
+      "end" : 88.02,
+      "text" : "because it takes a lot of time to load the session page",
+      "start" : 83.08
+    },
+    {
+      "end" : 91.68,
+      "text" : "It takes a lot of time to load also the previously generated",
+      "start" : 88.02
+    },
+    {
+      "end" : 97.32,
+      "text" : "All of this should be kind of cached and imitated to display",
+      "start" : 91.68
+    },
+    {
+      "end" : 103.84,
+      "text" : "So work on those different points using 20 parallel sub-agent to go faster",
+      "start" : 98.02
+    }
+  ],
+  "rawResult" : " Alright, so note all the changes that you have to do. First of all, when you are generating a new project and that there is the sound and the animation, in parallel you should generate the image and start displaying them in the prompt animation view. Then at the moment we receive the first chunk, you should display the preview browser studio and there should not be any space below the studio like it currently is. Then it should start streaming and displaying the element inside which means actually we don't wait anymore when the home page is finished to display the preview we actually displayed immediately when we receive the first chunk. Then some other things that you have to do is that when I click back I should immediately go back to the form. Currently it actually is not working and it's not free enough, it should already be loaded behind. And then you have a lot of optimization to do because it takes a lot of time to load the session page It takes a lot of time to load also the previously generated All of this should be kind of cached and imitated to display So work on those different points using 20 parallel sub-agent to go faster",
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "languageModelKey" : "",
+  "datetime" : "2026-04-22T23:57:46",
+  "processingTime" : 9433,
+  "result" : "Alright, so note all the changes that you have to do. First of all, when you are generating a new project and that there is the sound and the animation, in parallel you should generate the image and start displaying them in the prompt animation view. Then at the moment we receive the first chunk, you should display the preview browser studio and there should not be any space below the studio like it currently is. Then it should start streaming and displaying the element inside which means actually we don't wait anymore when the home page is finished to display the preview we actually displayed immediately when we receive the first chunk. Then some other things that you have to do is that when I click back I should immediately go back to the form. Currently it actually is not working and it's not free enough, it should already be loaded behind. And then you have a lot of optimization to do because it takes a lot of time to load the session page It takes a lot of time to load also the previously generated All of this should be kind of cached and imitated to display So work on those different points using 20 parallel sub-agent to go faster",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "duration" : 104395,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "prompt" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  }
+}

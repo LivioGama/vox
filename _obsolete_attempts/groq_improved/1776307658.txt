@@ -1,0 +1,1 @@
+I often have to run this command to start the VPN, but sometimes I want to stop it too, but I don't want this to be blocking my terminal. So could you create and configure two alias in order to start and stop, but in the background,

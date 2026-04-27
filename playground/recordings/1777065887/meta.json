@@ -1,0 +1,60 @@
+{
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "speakers" : [
+
+  ],
+  "rawResult" : " Uh, OSPRO did not detect any operating system or computer this time but did not switch a domain right in the case of OSPRO. Yes or no?",
+  "systemAudioEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "result" : "Uh, OSPRO did not detect any operating system or computer this time but did not switch a domain right in the case of OSPRO. Yes or no?",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "duration" : 9520,
+  "prompt" : "",
+  "recordingDevice" : "",
+  "translationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 1.5,
+      "end" : 7.92,
+      "text" : "Uh, OSPRO did not detect any operating system or computer this time but did not switch a domain right in the case of OSPRO."
+    },
+    {
+      "start" : 8.74,
+      "end" : 9.4,
+      "text" : "Yes or no?"
+    }
+  ],
+  "languageModelKey" : "",
+  "datetime" : "2026-04-24T21:24:47",
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "processingTime" : 937,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : ""
+}

@@ -1,0 +1,1 @@
+Wait, you mean that the local auth proxy is running on NetCup and on auth?

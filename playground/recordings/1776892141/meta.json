@@ -1,0 +1,70 @@
+{
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T21:09:01",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 34200,
+  "result" : "Ok, so now I often have to run Bunex Copilot API start. I kind of want to have this as a service on my Docploy VPS that you have a CLI that you can configure it with. So can you help me with that? I would like also to have a public https URL allowing me to exploit it.",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "processingTime" : 2287,
+  "appVersion" : "2.12.1",
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "text" : "Ok, so now I often have to run Bunex Copilot API start.",
+      "start" : 1.12,
+      "end" : 8.32
+    },
+    {
+      "text" : "I kind of want to have this as a service on my Docploy VPS that you have a CLI that you can configure it with.",
+      "start" : 8.64,
+      "end" : 19.76
+    },
+    {
+      "text" : "So can you help me with that?",
+      "start" : 20.08,
+      "end" : 21.72
+    },
+    {
+      "text" : "I would like also to have a public https URL allowing me to exploit it.",
+      "start" : 21.72,
+      "end" : 33.94
+    }
+  ],
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "rawResult" : " Ok, so now I often have to run Bunex Copilot API start. I kind of want to have this as a service on my Docploy VPS that you have a CLI that you can configure it with. So can you help me with that? I would like also to have a public https URL allowing me to exploit it.",
+  "systemAudioEnabled" : false
+}

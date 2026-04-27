@@ -1,0 +1,60 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "speakers" : [
+
+  ],
+  "result" : "It's the closest harness currently to do what I want, which means spinning up sub-agent autonomously so I shouldn't have to ask. I feel also always block-like in a sequential regardless of the tool I use even with Claude Code.",
+  "prompt" : "",
+  "modeName" : "Default",
+  "rawResult" : " It's the closest harness currently to do what I want, which means spinning up sub-agent autonomously so I shouldn't have to ask. I feel also always block-like in a sequential regardless of the tool I use even with Claude Code.",
+  "processingTime" : 1103,
+  "duration" : 18820,
+  "appVersion" : "2.12.0",
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "It's the closest harness currently to do what I want, which means spinning up sub-agent autonomously so I shouldn't have to ask.",
+      "start" : 0,
+      "end" : 12.44
+    },
+    {
+      "text" : "I feel also always block-like in a sequential regardless of the tool I use even with Claude Code.",
+      "start" : 12.78,
+      "end" : 18.34
+    }
+  ],
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-16T04:46:22"
+}

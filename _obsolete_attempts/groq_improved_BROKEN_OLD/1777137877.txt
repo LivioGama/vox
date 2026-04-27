@@ -1,0 +1,1 @@
+All right, so first thing this I would like you to configure WindTerm shortcuts so that command plus one toggles the session's panel, sidebar, sorry. Time command plus two opens the terminal or close it, toggle it. And command plus three opens the right sidebar or close it.

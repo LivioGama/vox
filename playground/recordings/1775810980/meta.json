@@ -1,0 +1,60 @@
+{
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Comet"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-10T08:49:40",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " No, I'm not sure this is it. Actually could you give me a full list and I think I will... I think if I see it written I will see if it's that but don't target one sample. Give me maybe the 10 biggest Netflix tool tests that seems related close or far.",
+  "duration" : 26547,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "No, I'm not sure this is it. Actually could you give me a full list and I think I will...",
+      "start" : 0,
+      "end" : 6.48
+    },
+    {
+      "text" : "I think if I see it written I will see if it's that but don't target one sample. Give me maybe the 10 biggest Netflix tool tests that seems related close or far.",
+      "start" : 7,
+      "end" : 26.24
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "processingTime" : 1108,
+  "languageModelKey" : "",
+  "result" : "No, I'm not sure this is it. Actually could you give me a full list and I think I will... I think if I see it written I will see if it's that but don't target one sample. Give me maybe the 10 biggest Netflix tool tests that seems related close or far.",
+  "modelName" : "Ultra (Cloud)"
+}

@@ -1,0 +1,1 @@
+What I call a zombie is a thing running, but it's not attached to any program that I run. Like, for example, old open code, old cloud code, old rust. I don't understand how to find them.

@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "In.",
+      "end" : 0.56
+    }
+  ],
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    }
+  },
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "rawResult" : " In.",
+  "languageModelName" : "",
+  "translationEnabled" : false,
+  "datetime" : "2026-04-17T03:39:11",
+  "appVersion" : "2.12.1",
+  "result" : "In.",
+  "systemAudioEnabled" : false,
+  "duration" : 860,
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "processingTime" : 424
+}

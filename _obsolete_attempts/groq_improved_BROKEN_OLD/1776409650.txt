@@ -1,0 +1,1 @@
+So for now, can you replace it's with GPT-OSS-120B on GROK and then commit push that please. And then we will switch to the free branch and we will do the same change because now it's broken since Kimi is disabled.

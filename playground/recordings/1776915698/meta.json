@@ -1,0 +1,60 @@
+{
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-23T03:41:38",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 870,
+  "rawResult" : " What I'm looking for is what we had just before we started to integrate the OTH model. Spacing there was perfect.",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "result" : "What I'm looking for is what we had just before we started to integrate the OTH model. Spacing there was perfect.",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "end" : 6.26,
+      "start" : 0,
+      "text" : "What I'm looking for is what we had just before we started to integrate the OTH model."
+    },
+    {
+      "end" : 8.2,
+      "start" : 6.86,
+      "text" : "Spacing there was perfect."
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 8528,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "speakers" : [
+
+  ]
+}

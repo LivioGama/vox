@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Claude"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "appVersion" : "2.12.0",
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "duration" : 8977,
+  "processingTime" : 2628,
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Using 10 sub-agents to go the fastest possible and then commit and push and open up all requests.",
+      "end" : 8.5,
+      "start" : 0
+    }
+  ],
+  "languageModelKey" : "",
+  "datetime" : "2026-04-16T05:28:15",
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Using 10 sub-agents to go the fastest possible and then commit and push and open up all requests.",
+  "prompt" : "",
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "result" : "Using 10 sub-agents to go the fastest possible and then commit and push and open up all requests.",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false
+}

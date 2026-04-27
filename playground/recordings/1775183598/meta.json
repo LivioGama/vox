@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "processingTime" : 993,
+  "duration" : 12515,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-03T02:33:18",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Terminal",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Should we precise in the documentation the fact that we can get an easy preview for free or not?",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 11.9,
+      "text" : "Should we precise in the documentation the fact that we can get an easy preview for free or not?"
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Should we precise in the documentation the fact that we can get an easy preview for free or not?"
+}

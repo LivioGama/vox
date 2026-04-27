@@ -1,0 +1,70 @@
+{
+  "recordingDevice" : "",
+  "datetime" : "2026-04-27T03:28:45",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "result" : "It means that the commit I was looking for is not that one. The commit I'm looking for does not use reference tier, the wolf loop and it does not have the afterHTML and it has also GPT OSS120B with no reasoning if I believe. I'm not sure about this point.",
+  "realtimeEnabled" : false,
+  "processingTime" : 1740,
+  "systemAudioEnabled" : false,
+  "rawResult" : " It means that the commit I was looking for is not that one. The commit I'm looking for does not use reference tier, the wolf loop and it does not have the afterHTML and it has also GPT OSS120B with no reasoning if I believe. I'm not sure about this point.",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "It means that the commit I was looking for is not that one.",
+      "start" : 0,
+      "end" : 3.16
+    },
+    {
+      "text" : "The commit I'm looking for does not use reference tier, the wolf loop and it does not have the afterHTML",
+      "start" : 3.32,
+      "end" : 22.852
+    },
+    {
+      "text" : "and it has also GPT OSS120B with no reasoning if I believe.",
+      "start" : 23.672,
+      "end" : 30.619688
+    },
+    {
+      "text" : "I'm not sure about this point.",
+      "start" : 30.619688,
+      "end" : 30.619688
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    }
+  },
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "prompt" : "",
+  "duration" : 30619,
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)"
+}

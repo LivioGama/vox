@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "duration" : 6091,
+  "rawResult" : " Alright, not bad. It's just that the Command 1 and Command 3 shortcut are inverted.",
+  "realtimeEnabled" : false,
+  "result" : "Alright, not bad. It's just that the Command 1 and Command 3 shortcut are inverted.",
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Alright, not bad. It's just that the Command 1 and Command 3 shortcut are inverted.",
+      "start" : 0.288,
+      "end" : 6.091875
+    }
+  ],
+  "prompt" : "",
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 828,
+  "modeName" : "Default",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Windsurf"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "languageModelName" : "",
+  "translationEnabled" : false,
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-25T17:26:58",
+  "languageSelected" : "en"
+}

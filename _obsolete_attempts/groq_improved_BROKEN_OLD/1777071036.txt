@@ -1,0 +1,1 @@
+Then you also set everything up so the Linux fits the MacBook Pro French AZERTY keyboard. Also, I want to same the command key that acts like control, so I don't have to think about adaptation.

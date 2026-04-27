@@ -1,0 +1,1 @@
+Here is a behavior of my model in the orchestrator. It fails for a tool. So can you fix either the proxy or my OpenCode Slim? Maybe there are some tools missing or something, but open code cannot use the model. There is some incompatibility. Okay.

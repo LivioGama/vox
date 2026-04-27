@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T21:53:27",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "duration" : 3420,
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "result" : "I should type one actually, I start with Bean Bash.",
+  "rawResult" : " I should type one actually, I start with Bean Bash.",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 3.04,
+      "text" : "I should type one actually, I start with Bean Bash."
+    }
+  ],
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "processingTime" : 690,
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.12.1",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false
+}

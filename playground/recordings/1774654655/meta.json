@@ -1,0 +1,55 @@
+{
+  "rawResult" : " The segmented control is bigger but it should also enlarge the bar size because now it's cutted.",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 22112,
+  "processingTime" : 1108,
+  "datetime" : "2026-03-27T23:37:35",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Codex",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "result" : "The segmented control is bigger but it should also enlarge the bar size because now it's cutted.",
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 14.54,
+      "start" : 0,
+      "text" : "The segmented control is bigger but it should also enlarge the bar size because now it's cutted."
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false
+}

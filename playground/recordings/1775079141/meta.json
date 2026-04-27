@@ -1,0 +1,55 @@
+{
+  "duration" : 2907,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Can you install GitHub MCP?",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1305,
+  "languageModelName" : "",
+  "rawResult" : " Can you install GitHub MCP?",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-01T21:32:21",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Can you install GitHub MCP?",
+      "end" : 2.36,
+      "start" : 0
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

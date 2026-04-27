@@ -1,0 +1,1 @@
+So now, what do you think this missing? Also, what we could do fast a nice test is that you could maybe curl all the URL from the project to see if you get 200.

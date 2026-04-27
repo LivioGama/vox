@@ -1,0 +1,55 @@
+{
+  "applicationContextEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "systemAudioEnabled" : false,
+  "duration" : 10206,
+  "processingTime" : 987,
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " The history is completely broken in warp. I can't even take back the command I just ran, why?",
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "datetime" : "2026-04-16T02:30:07",
+  "recordingDevice" : "",
+  "appVersion" : "2.12.0",
+  "segments" : [
+    {
+      "text" : "The history is completely broken in warp. I can't even take back the command I just ran, why?",
+      "start" : 0,
+      "end" : 9.7
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "result" : "The history is completely broken in warp. I can't even take back the command I just ran, why?",
+  "translationEnabled" : false
+}

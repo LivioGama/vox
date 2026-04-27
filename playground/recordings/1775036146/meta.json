@@ -1,0 +1,55 @@
+{
+  "rawResult" : " The gerf connectors are completely broken.",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "The gerf connectors are completely broken.",
+      "start" : 0,
+      "end" : 2.54
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "The gerf connectors are completely broken.",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Warp",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "datetime" : "2026-04-01T09:35:46",
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "duration" : 3078,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 832,
+  "recordingDevice" : "",
+  "appVersion" : "2.11.0",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)"
+}

@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "datetime" : "2026-04-25T20:04:00",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "appVersion" : "2.13.0",
+  "duration" : 7171,
+  "result" : "Actually, I would prefer that you do it in a pre-hook of Claude Code Agent.",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "prompt" : "",
+  "processingTime" : 1042,
+  "segments" : [
+    {
+      "text" : "Actually, I would prefer that you do it in a pre-hook of Claude Code Agent.",
+      "end" : 6.592,
+      "start" : 0.224
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "rawResult" : " Actually, I would prefer that you do it in a pre-hook of Claude Code Agent.",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "modeName" : "Default"
+}

@@ -1,0 +1,65 @@
+{
+  "translationEnabled" : false,
+  "processingTime" : 1157,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Can you restore the logo and the textiles for Shipfast?",
+      "end" : 7.54
+    },
+    {
+      "start" : 7.78,
+      "text" : "And also the layout inspiration toggle should not have influence on the form width.",
+      "end" : 17.74
+    },
+    {
+      "start" : 18.72,
+      "text" : "It should remain constant regardless that it's to go down or off.",
+      "end" : 23.7
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "datetime" : "2026-04-16T02:21:44",
+  "result" : "Can you restore the logo and the textiles for Shipfast? And also the layout inspiration toggle should not have influence on the form width. It should remain constant regardless that it's to go down or off.",
+  "languageModelKey" : "",
+  "appVersion" : "2.12.0",
+  "duration" : 25596,
+  "rawResult" : " Can you restore the logo and the textiles for Shipfast? And also the layout inspiration toggle should not have influence on the form width. It should remain constant regardless that it's to go down or off.",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

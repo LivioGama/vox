@@ -1,0 +1,60 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "text" : "Yeah, I could see the image like the response inserted in some app.",
+      "start" : 0,
+      "end" : 4.96
+    },
+    {
+      "text" : "So maybe to make it faster for the image you could use a Gemini free flash.",
+      "start" : 5.78,
+      "end" : 10.74
+    }
+  ],
+  "result" : "Yeah, I could see the image like the response inserted in some app. So maybe to make it faster for the image you could use a Gemini free flash.",
+  "prompt" : "",
+  "appVersion" : "2.11.0",
+  "languageModelName" : "",
+  "datetime" : "2026-04-02T03:17:53",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 909,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "duration" : 11670,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " Yeah, I could see the image like the response inserted in some app. So maybe to make it faster for the image you could use a Gemini free flash.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

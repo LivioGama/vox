@@ -1,0 +1,55 @@
+{
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Everything for HolaMacCloud can use Quash Gemi2 into a single commit and then open a new pull request, but mentioning the pull request that journey provider has to be merged first at the beginning with a warning.",
+      "end" : 18.8
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "processingTime" : 1066,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "rawResult" : " Everything for HolaMacCloud can use Quash Gemi2 into a single commit and then open a new pull request, but mentioning the pull request that journey provider has to be merged first at the beginning with a warning.",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "duration" : 19237,
+  "result" : "Everything for HolaMacCloud can use Quash Gemi2 into a single commit and then open a new pull request, but mentioning the pull request that journey provider has to be merged first at the beginning with a warning.",
+  "prompt" : "",
+  "translationEnabled" : false,
+  "appVersion" : "2.12.0",
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Claude"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageSelected" : "en",
+  "datetime" : "2026-04-16T07:17:12",
+  "languageModelName" : ""
+}

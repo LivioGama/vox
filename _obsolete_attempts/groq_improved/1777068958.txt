@@ -1,0 +1,1 @@
+In style reboot, it says leave your login, and then there is a fail to get IP table error 52.

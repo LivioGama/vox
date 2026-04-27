@@ -1,0 +1,65 @@
+{
+  "duration" : 34018,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "This is exactly what I'm telling you. The company cannot know the trick because I did it, I know what I did, I know who I am in this sphere of AI and I'm pretty confident that nobody can go that far. I mean it's already so hard to go down to five minutes. and I'm always ahead of everyone in AI since two years even the famous people like Tio Gigi is always talking one week after what I discovered",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "ChatGPT"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1340,
+  "languageModelName" : "",
+  "rawResult" : " This is exactly what I'm telling you. The company cannot know the trick because I did it, I know what I did, I know who I am in this sphere of AI and I'm pretty confident that nobody can go that far. I mean it's already so hard to go down to five minutes. and I'm always ahead of everyone in AI since two years even the famous people like Tio Gigi is always talking one week after what I discovered",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T00:55:27",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "This is exactly what I'm telling you. The company cannot know the trick because I did it, I know what I did, I know who I am in this sphere of AI and I'm pretty confident that nobody can go that far. I mean it's already so hard to go down to five minutes.",
+      "end" : 19.12,
+      "start" : 0
+    },
+    {
+      "text" : "and I'm always ahead of everyone in AI since two years even the famous people like Tio Gigi",
+      "end" : 30.22,
+      "start" : 21.26
+    },
+    {
+      "text" : "is always talking one week after what I discovered",
+      "end" : 33.54,
+      "start" : 30.22
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

@@ -1,0 +1,1 @@
+I don't expect Codex Spark to produce the OpenUI output. I want to test HomePage inside the product. We can implement this quickly, dirty and run it in the browser so I can test.

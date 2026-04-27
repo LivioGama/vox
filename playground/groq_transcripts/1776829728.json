@@ -1,0 +1,7 @@
+{
+  "recording_id": "1776829728",
+  "text": " But before doing that, actually keep a local copy of Redesign Branch called Redesign Backup. And then when you finish to do the squash of Redesign in 5 nice commits, you can merge it to develop branch. And then from develop branch, you can create a new branch called Multitenant.",
+  "segments": null,
+  "language": null,
+  "duration": null
+}

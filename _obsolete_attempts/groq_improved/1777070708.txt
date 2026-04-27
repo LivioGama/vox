@@ -1,0 +1,1 @@
+When I use Super Whisper and I press the toggle keyboard record, it actually changes the quality of the music until I release. Why? And how can I fix it?

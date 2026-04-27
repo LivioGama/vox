@@ -1,0 +1,1 @@
+Alright, now you can commit locally this version and then you will switch to a new branch where we will implement pretty much the same thing except that we will replace Westerm with

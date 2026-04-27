@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-02T13:41:01",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " Is the 1B model still okay because it looks like it's not generating anymore.",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 848,
+  "recordingDevice" : "",
+  "result" : "Is the 1B model still okay because it looks like it's not generating anymore.",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 6.6,
+      "text" : "Is the 1B model still okay because it looks like it's not generating anymore."
+    }
+  ],
+  "duration" : 6914,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Terminal",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

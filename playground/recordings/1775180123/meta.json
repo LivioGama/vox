@@ -1,0 +1,65 @@
+{
+  "literalPunctuationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " No, I want each of the animations going out of the screen be completely like it was before. But then actually I wanna break before the second one. FART! Start.",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "prompt" : "",
+  "duration" : 15080,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 8.76,
+      "text" : "No, I want each of the animations going out of the screen be completely like it was before."
+    },
+    {
+      "start" : 9.14,
+      "end" : 13.1,
+      "text" : "But then actually I wanna break before the second one."
+    },
+    {
+      "start" : 13.66,
+      "end" : 14.8,
+      "text" : "FART! Start."
+    }
+  ],
+  "recordingDevice" : "",
+  "result" : "No, I want each of the animations going out of the screen be completely like it was before. But then actually I wanna break before the second one. FART! Start.",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-03T01:35:23",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "languageModelKey" : "",
+  "appVersion" : "2.11.0",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1040,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Claude",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "datetime" : "2026-03-27T03:17:55",
+  "duration" : 1036,
+  "rawResult" : " Thank you.",
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Thank you.",
+      "end" : 0.16
+    }
+  ],
+  "languageModelName" : "",
+  "translationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "recordingDevice" : "BuiltInMicrophoneDevice",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Raycast",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "languageSelected" : "en",
+  "result" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 545,
+  "modeName" : "Default",
+  "appVersion" : "2.11.0",
+  "speakers" : [
+
+  ]
+}

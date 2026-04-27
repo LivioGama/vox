@@ -1,0 +1,1 @@
+What else can you find configured in Coolify that would be nice to move to Dokploy? I think there is a GitHub app, maybe also a Google credential for authenticating with Google signing, etc.

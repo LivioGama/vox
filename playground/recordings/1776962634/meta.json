@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "segments" : [
+    {
+      "text" : "The goal would be to run Android Emulators, GPUI Rust application. So choose the best.",
+      "start" : 0,
+      "end" : 8.56
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "result" : "The goal would be to run Android Emulators, GPUI Rust application. So choose the best.",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 819,
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "datetime" : "2026-04-23T16:43:54",
+  "translationEnabled" : false,
+  "duration" : 8780,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " The goal would be to run Android Emulators, GPUI Rust application. So choose the best."
+}

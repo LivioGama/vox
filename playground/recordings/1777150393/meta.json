@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Actually, do you know why it didn't use RTK?",
+  "languageSelected" : "en",
+  "result" : "Actually, do you know why it didn't use RTK?",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "end" : 5.365125,
+      "start" : 0.672,
+      "text" : "Actually, do you know why it didn't use RTK?"
+    }
+  ],
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux DEV latest-build"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "duration" : 5365,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 727,
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.13.0",
+  "datetime" : "2026-04-25T20:53:13",
+  "prompt" : ""
+}

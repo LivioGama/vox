@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "duration" : 29486,
+  "result" : "Last conversation, a conversation where I was migrating a project from ClaudeP to ClaudeACP and that the measured performance were indicating a percentage for the time to run.",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "end" : 27.56,
+      "start" : 0,
+      "text" : "Last conversation, a conversation where I was migrating a project from ClaudeP to ClaudeACP and that the measured performance were indicating a percentage for the time to run."
+    }
+  ],
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-04T06:57:32",
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "rawResult" : " Last conversation, a conversation where I was migrating a project from ClaudeP to ClaudeACP and that the measured performance were indicating a percentage for the time to run.",
+  "appVersion" : "2.11.0",
+  "speakers" : [
+
+  ],
+  "processingTime" : 1121
+}

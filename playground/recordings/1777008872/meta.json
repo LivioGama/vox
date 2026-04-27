@@ -1,0 +1,60 @@
+{
+  "segments" : [
+    {
+      "text" : "Make 100% sure that the tool call does not use those tags anymore by any means.",
+      "start" : 0,
+      "end" : 5.06
+    },
+    {
+      "text" : "If you have to use the opencode CLI with a flag parameter, do...",
+      "start" : 5.34,
+      "end" : 13.48
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "duration" : 13519,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Make 100% sure that the tool call does not use those tags anymore by any means. If you have to use the opencode CLI with a flag parameter, do...",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 878,
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "rawResult" : " Make 100% sure that the tool call does not use those tags anymore by any means. If you have to use the opencode CLI with a flag parameter, do...",
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-24T05:34:32",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

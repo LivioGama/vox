@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Slack",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "recordingDevice" : "",
+  "processingTime" : 664,
+  "rawResult" : " We reached out to Google Workspace ASAP but the thing is, it's a paid service so there is no point to start like this.",
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "We reached out to Google Workspace ASAP but the thing is, it's a paid service so there is no point to start like this.",
+  "realtimeEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 6.42,
+      "text" : "We reached out to Google Workspace ASAP but the thing is, it's a paid service so there is no point to start like this."
+    }
+  ],
+  "translationEnabled" : false,
+  "datetime" : "2026-04-03T04:22:32",
+  "appVersion" : "2.11.0",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "duration" : 6498,
+  "modelName" : "Ultra (Cloud)"
+}

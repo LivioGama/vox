@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "result" : "The squirrel sink is not like the rock tree.",
+  "translationEnabled" : false,
+  "appVersion" : "2.11.0",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 3323,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "rawResult" : " The squirrel sink is not like the rock tree.",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "The squirrel sink is not like the rock tree.",
+      "start" : 0,
+      "end" : 3.18
+    }
+  ],
+  "recordingDevice" : "",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-01T16:17:25",
+  "processingTime" : 11044
+}

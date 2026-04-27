@@ -1,0 +1,55 @@
+{
+  "applicationContextEnabled" : false,
+  "processingTime" : 923,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-23T22:04:44",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    }
+  },
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " Do you confirm that you use Codex 5.3 SPAR for the home page generation?",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Do you confirm that you use Codex 5.3 SPAR for the home page generation?",
+      "end" : 4.54
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.1",
+  "duration" : 5162,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "result" : "Do you confirm that you use Codex 5.3 SPAR for the home page generation?",
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "prompt" : ""
+}

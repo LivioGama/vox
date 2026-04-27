@@ -1,0 +1,60 @@
+{
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "duration" : 21503,
+  "separateSpeakersEnabled" : false,
+  "modeName" : "Default",
+  "rawResult" : " When I click on Generate Website, it actually triggers the Generate Website funnel instead of just opening it. Also, I would like you to restore the EtherEd when I hover a project and hit the PD, it will delete the project.",
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-16T15:28:29",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "When I click on Generate Website, it actually triggers the Generate Website funnel instead of just opening it.",
+      "end" : 10.62
+    },
+    {
+      "start" : 10.88,
+      "text" : "Also, I would like you to restore the EtherEd when I hover a project and hit the PD, it will delete the project.",
+      "end" : 21.16
+    }
+  ],
+  "languageSelected" : "en",
+  "result" : "When I click on Generate Website, it actually triggers the Generate Website funnel instead of just opening it. Also, I would like you to restore the EtherEd when I hover a project and hit the PD, it will delete the project.",
+  "processingTime" : 1119,
+  "recordingDevice" : "",
+  "prompt" : "",
+  "languageModelName" : "",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.0"
+}

@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "end" : 12.76,
+      "text" : "Why the Shipfast Forum glitched down after closing a session instead of being correctly positioned?",
+      "start" : 0
+    }
+  ],
+  "result" : "Why the Shipfast Forum glitched down after closing a session instead of being correctly positioned?",
+  "prompt" : "",
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-02T00:36:55",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1017,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "duration" : 13167,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " Why the Shipfast Forum glitched down after closing a session instead of being correctly positioned?",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

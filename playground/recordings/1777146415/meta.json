@@ -1,0 +1,130 @@
+{
+  "systemAudioEnabled" : false,
+  "duration" : 81043,
+  "rawResult" : " I think that now we are ready to generate the next.js frontend that will allow to insert a prompt, should have the same autocomplete that we did in Shipfast. And actually when regenerate it should trigger the image generation with an animation and display it in the frontend so we can visualize it. there should be a button to be able to regenerate but still saving the old image that we did so it would be like one more variant that will display sideways and so on then I can pick the image among the list by selecting it on the XJS frontend then I can generate the website based on this image and see it in an iframe preview like Shipfast. Don't try to do too much from scratch. Really take inspiration from what is already existing in terms of habitat briefing, design and so on in Shipfast.",
+  "realtimeEnabled" : false,
+  "result" : "I think that now we are ready to generate the next.js frontend that will allow to insert a prompt, should have the same autocomplete that we did in Shipfast. And actually when regenerate it should trigger the image generation with an animation and display it in the frontend so we can visualize it. there should be a button to be able to regenerate but still saving the old image that we did so it would be like one more variant that will display sideways and so on then I can pick the image among the list by selecting it on the XJS frontend then I can generate the website based on this image and see it in an iframe preview like Shipfast. Don't try to do too much from scratch. Really take inspiration from what is already existing in terms of habitat briefing, design and so on in Shipfast.",
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0.224,
+      "text" : "I think that now we are ready to generate the next.js frontend that will allow to insert a prompt, should have the same autocomplete that we did in Shipfast.",
+      "end" : 17.856
+    },
+    {
+      "start" : 18.196,
+      "text" : "And actually when regenerate it should trigger the image generation with an animation and display it in the frontend so we can visualize it.",
+      "end" : 30.136
+    },
+    {
+      "start" : 30.136,
+      "text" : "there should be a button to be able to regenerate",
+      "end" : 36.232
+    },
+    {
+      "start" : 36.232,
+      "text" : "but still saving the old image that we did",
+      "end" : 40.316
+    },
+    {
+      "start" : 40.316,
+      "text" : "so it would be like one more variant",
+      "end" : 43.696
+    },
+    {
+      "start" : 43.696,
+      "text" : "that will display sideways and so on",
+      "end" : 50.972
+    },
+    {
+      "start" : 50.972,
+      "text" : "then I can pick the image among the list",
+      "end" : 56.708
+    },
+    {
+      "start" : 56.708,
+      "text" : "by selecting it on the XJS frontend",
+      "end" : 59.584
+    },
+    {
+      "start" : 59.584,
+      "text" : "then I can generate the website based on this image",
+      "end" : 71.484
+    },
+    {
+      "start" : 71.484,
+      "text" : "and see it in an iframe preview",
+      "end" : 78.188
+    },
+    {
+      "start" : 79.796,
+      "text" : "like Shipfast.",
+      "end" : 80.864
+    },
+    {
+      "start" : 80.864,
+      "text" : "Don't try to do too much from scratch.",
+      "end" : 80.864
+    },
+    {
+      "start" : 80.864,
+      "text" : "Really take inspiration",
+      "end" : 80.864
+    },
+    {
+      "start" : 80.864,
+      "text" : "from what is already existing",
+      "end" : 80.864
+    },
+    {
+      "start" : 80.864,
+      "text" : "in terms of habitat briefing, design and so on",
+      "end" : 80.864
+    },
+    {
+      "start" : 80.864,
+      "text" : "in Shipfast.",
+      "end" : 80.864
+    }
+  ],
+  "prompt" : "",
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 2556,
+  "modeName" : "Default",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf",
+      "includeInPrompt" : false
+    }
+  },
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "languageModelName" : "",
+  "translationEnabled" : false,
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-25T19:46:55",
+  "languageSelected" : "en"
+}

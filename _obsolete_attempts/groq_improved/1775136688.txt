@@ -1,0 +1,1 @@
+Can you define an alias where node is Bun and npx is banx?

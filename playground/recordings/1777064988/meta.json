@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.12.1",
+  "segments" : [
+    {
+      "end" : 7.96,
+      "start" : 0,
+      "text" : "Ask me to choose between Linux Image 6.3-039-AMD64 or Linux Image AMD64."
+    }
+  ],
+  "datetime" : "2026-04-24T21:09:48",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "duration" : 8220,
+  "modelName" : "Ultra (Cloud)",
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "processingTime" : 893,
+  "result" : "Ask me to choose between Linux Image 6.3-039-AMD64 or Linux Image AMD64.",
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Ask me to choose between Linux Image 6.3-039-AMD64 or Linux Image AMD64.",
+  "realtimeEnabled" : false
+}

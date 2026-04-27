@@ -1,0 +1,1 @@
+In the agentic world, the tool for developers, most of the time the message piles up is called steering. Do you know if there are some models that are able to take a message that was sent to analyze if it's rough to pile or to queue automatically or maybe even to merge when

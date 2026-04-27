@@ -1,0 +1,55 @@
+{
+  "processingTime" : 1128,
+  "modeName" : "Default",
+  "prompt" : "",
+  "result" : "It still doesn't work. I'm desperate. If you don't manage to do it in one shot, I think I will hurt myself.",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "duration" : 6572,
+  "datetime" : "2026-04-02T19:41:51",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "rawResult" : " It still doesn't work. I'm desperate. If you don't manage to do it in one shot, I think I will hurt myself.",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "end" : 6.18,
+      "start" : 0,
+      "text" : "It still doesn't work. I'm desperate. If you don't manage to do it in one shot, I think I will hurt myself."
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageSelected" : "en"
+}

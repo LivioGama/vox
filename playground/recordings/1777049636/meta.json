@@ -1,0 +1,60 @@
+{
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.12.1",
+  "processingTime" : 1036,
+  "modelName" : "Ultra (Cloud)",
+  "duration" : 16512,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "translationEnabled" : false,
+  "datetime" : "2026-04-24T16:53:56",
+  "result" : "Alright, so now how can you explain the ZA? Files from Unixconfig are not decrypted on NetCup.",
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "rawResult" : " Alright, so now how can you explain the ZA? Files from Unixconfig are not decrypted on NetCup.",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Alright, so now how can you explain the ZA?",
+      "end" : 2.44
+    },
+    {
+      "start" : 11.24,
+      "text" : "Files from Unixconfig are not decrypted on NetCup.",
+      "end" : 16.1
+    }
+  ],
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "speakers" : [
+
+  ],
+  "recordingDevice" : ""
+}

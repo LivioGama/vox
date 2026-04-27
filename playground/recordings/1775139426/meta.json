@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-02T14:17:06",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " Don't keep T-Max, only Westerm and C-Max.",
+  "translationEnabled" : false,
+  "processingTime" : 651,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "result" : "Don't keep T-Max, only Westerm and C-Max.",
+  "segments" : [
+    {
+      "text" : "Don't keep T-Max, only Westerm and C-Max.",
+      "end" : 3.52,
+      "start" : 0
+    }
+  ],
+  "duration" : 3986,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Terminal",
+      "includeInPrompt" : false
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

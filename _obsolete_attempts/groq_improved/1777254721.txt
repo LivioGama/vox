@@ -1,0 +1,1 @@
+I really want it oriented to work with Claude Code or Cursor. I don't need to have this globally. I really want the AI to replace automatically and grab the RM command in order to do a soft delete.

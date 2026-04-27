@@ -1,0 +1,60 @@
+{
+  "systemAudioEnabled" : false,
+  "duration" : 15935,
+  "rawResult" : " Create another Ralph Guming loop to improve even better the design that we can use to create random upsides for people. And then run it.",
+  "realtimeEnabled" : false,
+  "result" : "Create another Ralph Guming loop to improve even better the design that we can use to create random upsides for people. And then run it.",
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0.576,
+      "text" : "Create another Ralph Guming loop to improve even better the design that we can use to create random upsides for people.",
+      "end" : 14.368
+    },
+    {
+      "start" : 14.368,
+      "text" : "And then run it.",
+      "end" : 14.368
+    }
+  ],
+  "prompt" : "",
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 736,
+  "modeName" : "Default",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Claude",
+      "includeInPrompt" : false
+    }
+  },
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "languageModelName" : "",
+  "translationEnabled" : false,
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-25T16:24:04",
+  "languageSelected" : "en"
+}

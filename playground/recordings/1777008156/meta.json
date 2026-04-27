@@ -1,0 +1,60 @@
+{
+  "appVersion" : "2.12.1",
+  "result" : "Actually, I want you to run agent browser to figure out yourself and make an assessment of the ugly old project and fix them, run into them, make a screenshot and then pipe them in a folder. Then open this folder to show me the result of your work with the progress that we made to validate this Ralph Riggum loop process till the end.",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "processingTime" : 1226,
+  "prompt" : "",
+  "duration" : 29369,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 18.4,
+      "text" : "Actually, I want you to run agent browser to figure out yourself and make an assessment of the ugly old project and fix them, run into them, make a screenshot and then pipe them in a folder."
+    },
+    {
+      "start" : 18.62,
+      "end" : 28.86,
+      "text" : "Then open this folder to show me the result of your work with the progress that we made to validate this Ralph Riggum loop process till the end."
+    }
+  ],
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Actually, I want you to run agent browser to figure out yourself and make an assessment of the ugly old project and fix them, run into them, make a screenshot and then pipe them in a folder. Then open this folder to show me the result of your work with the progress that we made to validate this Ralph Riggum loop process till the end.",
+  "languageModelKey" : "",
+  "separateSpeakersEnabled" : false,
+  "datetime" : "2026-04-24T05:22:36",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

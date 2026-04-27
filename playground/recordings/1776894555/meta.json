@@ -1,0 +1,55 @@
+{
+  "rawResult" : " For example, SSH-OF.",
+  "duration" : 2212,
+  "prompt" : "",
+  "processingTime" : 652,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "result" : "For example, SSH-OF.",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "segments" : [
+    {
+      "text" : "For example, SSH-OF.",
+      "end" : 1.72,
+      "start" : 0
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-22T21:49:15"
+}

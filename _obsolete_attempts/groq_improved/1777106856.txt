@@ -1,0 +1,1 @@
+Regardless, the inverter I check when I click on the top left circle on my screen that is rotated by 272°, it actually selects the top right circle.

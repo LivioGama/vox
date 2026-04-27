@@ -1,0 +1,70 @@
+{
+  "rawResult" : " I'm really lost because my project used to generate a website in less than 45 seconds. It was working when we still had KimiK2 model with Grok, the problem is that Grok has been discontinued so we replaced it with GPTOSS120B But then we started to do a few changes like moving to Next.js, but also introducing a RALF loop and also using OpenUI.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "duration" : 46405,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 2052,
+  "datetime" : "2026-04-27T04:29:23",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Warp"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "result" : "I'm really lost because my project used to generate a website in less than 45 seconds. It was working when we still had KimiK2 model with Grok, the problem is that Grok has been discontinued so we replaced it with GPTOSS120B But then we started to do a few changes like moving to Next.js, but also introducing a RALF loop and also using OpenUI.",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0.512,
+      "text" : "I'm really lost because my project used to generate a website in less than 45 seconds.",
+      "end" : 10.024
+    },
+    {
+      "start" : 10.324,
+      "text" : "It was working when we still had KimiK2 model with Grok, the problem is that Grok has been discontinued so we replaced it with GPTOSS120B",
+      "end" : 24
+    },
+    {
+      "start" : 24,
+      "text" : "But then we started to do a few changes like moving to Next.js, but also introducing a",
+      "end" : 45.856
+    },
+    {
+      "start" : 45.856,
+      "text" : "RALF loop and also using OpenUI.",
+      "end" : 45.856
+    }
+  ]
+}

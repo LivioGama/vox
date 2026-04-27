@@ -1,0 +1,60 @@
+{
+  "recordingDevice" : "",
+  "datetime" : "2026-04-27T02:22:24",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "result" : "What's the test I asked for? I want you to monitor until the generation is done. Right now, I see many mistakes. For example, I don't open anymore the page for generating. I actually have a bar and so on although it should be full screen and actually it never ends generating. Normally the generation should take less than 70 seconds.",
+  "realtimeEnabled" : false,
+  "processingTime" : 2888,
+  "systemAudioEnabled" : false,
+  "rawResult" : " What's the test I asked for? I want you to monitor until the generation is done. Right now, I see many mistakes. For example, I don't open anymore the page for generating. I actually have a bar and so on although it should be full screen and actually it never ends generating. Normally the generation should take less than 70 seconds.",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "What's the test I asked for? I want you to monitor until the generation is done. Right now, I see many mistakes. For example, I don't open anymore the page for generating.",
+      "start" : 0,
+      "end" : 14.692
+    },
+    {
+      "text" : "I actually have a bar and so on although it should be full screen and actually it never ends generating. Normally the generation should take less than 70 seconds.",
+      "start" : 14.972,
+      "end" : 24.896
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Cursor"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "prompt" : "",
+  "duration" : 25361,
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)"
+}

@@ -1,0 +1,90 @@
+{
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    }
+  },
+  "duration" : 77879,
+  "languageSelected" : "en",
+  "appVersion" : "2.11.0",
+  "rawResult" : " I saw you included in the gallery, like the before last picture, the flyer that I would like you to kindly remove. But also could you take the image that is part of this flyer and integrate it somewhere? maybe before the gallery to also have less text. The idea would be to have this image integrated but with black it's a black like transparent to black gradient at the bottom of this picture so it's actually blend inside the website there is still the problem of the hero video that is rotated by 90 degrees that i would like you to fix",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "I saw you included in the gallery, like the before last picture, the flyer that I would like you to kindly remove.",
+      "end" : 9.72,
+      "start" : 0
+    },
+    {
+      "text" : "But also could you take the image that is part of this flyer and integrate it somewhere?",
+      "end" : 26.92,
+      "start" : 10.2
+    },
+    {
+      "text" : "maybe before the gallery to also have less text. The idea would be to have this image integrated but with black",
+      "end" : 44.52,
+      "start" : 29.44
+    },
+    {
+      "start" : 48.54,
+      "text" : "it's a black like transparent to black gradient at the bottom of this picture so",
+      "end" : 57
+    },
+    {
+      "start" : 57,
+      "text" : "it's actually blend inside the website there is still the problem of",
+      "end" : 64.5
+    },
+    {
+      "start" : 66.64,
+      "text" : "the",
+      "end" : 67.4
+    },
+    {
+      "start" : 68.5,
+      "text" : "hero video that is",
+      "end" : 71.12
+    },
+    {
+      "start" : 72.24,
+      "text" : "rotated by 90 degrees that i would like you to fix",
+      "end" : 76.32
+    }
+  ],
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1998,
+  "result" : "I saw you included in the gallery, like the before last picture, the flyer that I would like you to kindly remove. But also could you take the image that is part of this flyer and integrate it somewhere? maybe before the gallery to also have less text. The idea would be to have this image integrated but with black it's a black like transparent to black gradient at the bottom of this picture so it's actually blend inside the website there is still the problem of the hero video that is rotated by 90 degrees that i would like you to fix",
+  "datetime" : "2026-04-11T05:57:05",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "speakers" : [
+
+  ]
+}

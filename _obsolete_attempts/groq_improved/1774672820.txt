@@ -1,0 +1,1 @@
+Pour éviter d'installer le Claude Code ACP et d'envoyer le pont ACP, pouvez-vous créer une image que vous utiliserez pour faire plus vite la machine de spin-up ?

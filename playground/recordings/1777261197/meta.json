@@ -1,0 +1,80 @@
+{
+  "rawResult" : " Okay, so the problem I think is that I worked on develop, alright? And I introduced Next.js and a few stuff after. And I want to find the commit where I last work after the Next.js update. and potentially the reference tier was worked by one of my colleagues in a separate branch and when I rebase develop, I integrated the reference here but it's okay because we can go to my latest commit after the next GS upgrade but before the open UI stuff and then we will drop aeb commit for reference tier or stuff like something like this",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "duration" : 62083,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1897,
+  "datetime" : "2026-04-27T03:39:57",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "result" : "Okay, so the problem I think is that I worked on develop, alright? And I introduced Next.js and a few stuff after. And I want to find the commit where I last work after the Next.js update. and potentially the reference tier was worked by one of my colleagues in a separate branch and when I rebase develop, I integrated the reference here but it's okay because we can go to my latest commit after the next GS upgrade but before the open UI stuff and then we will drop aeb commit for reference tier or stuff like something like this",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 10.428,
+      "text" : "Okay, so the problem I think is that I worked on develop, alright? And I introduced Next.js and a few stuff after.",
+      "start" : 0.448
+    },
+    {
+      "end" : 26.132,
+      "text" : "And I want to find the commit where I last work after the Next.js update.",
+      "start" : 10.708
+    },
+    {
+      "end" : 37.664,
+      "text" : "and potentially the reference tier was worked by one of my colleagues in a separate branch",
+      "start" : 26.132
+    },
+    {
+      "end" : 47.216,
+      "text" : "and when I rebase develop, I integrated the reference here but it's okay because we can",
+      "start" : 37.664
+    },
+    {
+      "end" : 62.083687,
+      "text" : "go to my latest commit after the next GS upgrade but before the open UI stuff and then we will",
+      "start" : 47.216
+    },
+    {
+      "end" : 62.083687,
+      "text" : "drop aeb commit for reference tier or stuff like something like this",
+      "start" : 62.083687
+    }
+  ]
+}

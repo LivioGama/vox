@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Still completely broken, come on.",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Still completely broken, come on.",
+      "end" : 2.96,
+      "start" : 0
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Still completely broken, come on.",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Warp"
+    },
+    "userContext" : {
+
+    }
+  },
+  "datetime" : "2026-04-01T09:45:52",
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "duration" : 3270,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 595,
+  "recordingDevice" : "",
+  "appVersion" : "2.11.0",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)"
+}

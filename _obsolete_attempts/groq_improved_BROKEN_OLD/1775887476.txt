@@ -1,0 +1,1 @@
+So, okay, so finally I got some changes on the video. The problem is that now it's completely upside down like it's rotated by... 180 degrees. So, you were on the right track, it's just that the angle is not correct. You either need 90 degrees more or 90 degrees less. I mean, 180.

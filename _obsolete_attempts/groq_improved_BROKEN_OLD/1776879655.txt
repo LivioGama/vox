@@ -1,0 +1,1 @@
+should be time default prompt pre-field if I do a Ctrl plus S Easter egg keyboard in development.

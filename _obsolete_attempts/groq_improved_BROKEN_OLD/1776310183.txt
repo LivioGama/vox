@@ -1,0 +1,1 @@
+I want this report to include what you had before, but at the beginning you need to add a "too long; didn't read" section with a table with only what can be improved with an emoji, red, yellow, green for the importance, and also a column for a time assessment to do with an LLM agent like Claude Code.

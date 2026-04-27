@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "prompt" : "",
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "processingTime" : 618,
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "modeName" : "Default",
+  "appVersion" : "2.12.0",
+  "duration" : 2768,
+  "result" : "Make OpenCode Display to TPS.",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-17T01:38:36",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "rawResult" : " Make OpenCode Display to TPS.",
+  "segments" : [
+    {
+      "end" : 2.38,
+      "text" : "Make OpenCode Display to TPS.",
+      "start" : 0
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : ""
+}

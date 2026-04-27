@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "processingTime" : 637,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "UTM"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 4.02,
+      "text" : "Also, the six agents should run on different rock trees.",
+      "start" : 0
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "datetime" : "2026-04-16T08:09:02",
+  "result" : "Also, the six agents should run on different rock trees.",
+  "languageModelKey" : "",
+  "duration" : 4392,
+  "appVersion" : "2.12.0",
+  "rawResult" : " Also, the six agents should run on different rock trees.",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

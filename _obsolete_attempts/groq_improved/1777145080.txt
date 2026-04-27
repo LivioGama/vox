@@ -1,0 +1,1 @@
+Allez, on va du rêve là ! Montrez-moi ce que vous avez envie d'utiliser le modèle SWE 1.6 FAST qui est normalement disponible uniquement dans Windsurf, mais dans le Claude Code en tweaking les différents paramètres et en utilisant ma proxy qui est déployée sur devlive.io et en utilisant un exemple.

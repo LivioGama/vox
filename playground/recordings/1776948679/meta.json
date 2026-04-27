@@ -1,0 +1,55 @@
+{
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "datetime" : "2026-04-23T12:51:19",
+  "appVersion" : "2.12.1",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 6476,
+  "rawResult" : " Can you install a GRI to this Ubuntu server so I can have a screen?",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "result" : "Can you install a GRI to this Ubuntu server so I can have a screen?",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "end" : 6.66,
+      "start" : 0,
+      "text" : "Can you install a GRI to this Ubuntu server so I can have a screen?"
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 7577,
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "speakers" : [
+
+  ]
+}

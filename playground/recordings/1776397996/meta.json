@@ -1,0 +1,55 @@
+{
+  "modeName" : "Default",
+  "datetime" : "2026-04-17T03:53:16",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 7120,
+  "result" : "Warped and gusty on the external cleanser, but your font is shitty on cmux.",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "processingTime" : 818,
+  "appVersion" : "2.12.1",
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Warped and gusty on the external cleanser, but your font is shitty on CMAX.",
+      "end" : 7.1
+    }
+  ],
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "rawResult" : " Warped and gusty on the external cleanser, but your font is shitty on CMAX.",
+  "systemAudioEnabled" : false
+}

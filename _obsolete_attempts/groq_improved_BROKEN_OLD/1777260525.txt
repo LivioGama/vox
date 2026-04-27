@@ -1,0 +1,1 @@
+Means that the commit I was looking for is not that one. The commit I'm looking for does not use reference tier, the wolf loop, and it's not same the after HTML and it's also GPT-OSS120B with no reasoning, I believe. I'm not sure about this point.

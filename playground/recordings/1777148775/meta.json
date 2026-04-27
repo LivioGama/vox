@@ -1,0 +1,55 @@
+{
+  "appVersion" : "2.13.0",
+  "datetime" : "2026-04-25T20:26:15",
+  "duration" : 16266,
+  "realtimeEnabled" : false,
+  "processingTime" : 1039,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux DEV latest-build",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "start" : 0.576,
+      "end" : 15.392,
+      "text" : "Can you duplicate the FastAgent folder without the Gitignore file, like the .git to FasterAgent?"
+    }
+  ],
+  "rawResult" : " Can you duplicate the FastAgent folder without the Gitignore file, like the .git to FasterAgent?",
+  "result" : "Can you duplicate the FastAgent folder without the Gitignore file, like the .git to FasterAgent?",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "translationEnabled" : false
+}

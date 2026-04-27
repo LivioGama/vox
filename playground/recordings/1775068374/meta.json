@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 3.26,
+      "text" : "I have a benchmark for base 10, for those model."
+    }
+  ],
+  "result" : "I have a benchmark for base 10, for those model.",
+  "prompt" : "",
+  "languageModelName" : "",
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-01T18:32:54",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 761,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "duration" : 4168,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " I have a benchmark for base 10, for those model.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Terminal",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

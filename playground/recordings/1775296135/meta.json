@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Comet",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1019,
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0.56,
+      "text" : "What is it exactly? Actually, somebody told me that this is the best but I don't understand what I can achieve that is different from just using Z with ACP that would connect to Cursor or to Claude Code for example.",
+      "end" : 16.5
+    }
+  ],
+  "languageModelName" : "",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-04T09:48:55",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " What is it exactly? Actually, somebody told me that this is the best but I don't understand what I can achieve that is different from just using Z with ACP that would connect to Cursor or to Claude Code for example.",
+  "duration" : 16843,
+  "result" : "What is it exactly? Actually, somebody told me that this is the best but I don't understand what I can achieve that is different from just using Z with ACP that would connect to Cursor or to Claude Code for example.",
+  "realtimeEnabled" : false,
+  "appVersion" : "2.11.0",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ]
+}

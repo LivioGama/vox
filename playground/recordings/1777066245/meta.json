@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T21:30:45",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "duration" : 3540,
+  "languageModelKey" : "",
+  "result" : "Should I choose RSCBoot or RSCBoot?",
+  "rawResult" : " Should I choose RSCBoot or RSCBoot?",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 3.1,
+      "start" : 0,
+      "text" : "Should I choose RSCBoot or RSCBoot?"
+    }
+  ],
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 552,
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false
+}

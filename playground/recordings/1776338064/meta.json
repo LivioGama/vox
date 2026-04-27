@@ -1,0 +1,60 @@
+{
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "appVersion" : "2.12.0",
+  "languageModelName" : "",
+  "duration" : 12621,
+  "processingTime" : 528,
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "result" : "A few weeks ago, on my SSH VPS I had a video service that I removed or maybe not. Can you retrieve it the name in the log for in EasyPanel?",
+  "datetime" : "2026-04-16T11:14:24",
+  "rawResult" : " A few weeks ago, on my SSH VPS I had a video service that I removed or maybe not. Can you retrieve it the name in the log for in EasyPanel?",
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "A few weeks ago, on my SSH VPS I had a video service that I removed or maybe not.",
+      "end" : 8.86
+    },
+    {
+      "start" : 8.98,
+      "text" : "Can you retrieve it the name in the log for in EasyPanel?",
+      "end" : 12.36
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "prompt" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default"
+}

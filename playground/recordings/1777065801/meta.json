@@ -1,0 +1,70 @@
+{
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.12.1",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "It seems that the computer is configured to boot via EFE, but maybe that configuration will not work for booting from hardware.",
+      "end" : 5.68
+    },
+    {
+      "start" : 6.14,
+      "text" : "Some EFE implementation does not meet the EFE implementation.",
+      "end" : 8.64
+    },
+    {
+      "start" : 10.2,
+      "text" : "Easy installation, fail to detect other operating systems on your computer, also dependent on the fallback, then ScropGrobs is a reminder.",
+      "end" : 16.74
+    },
+    {
+      "start" : 17.62,
+      "text" : "ForceGrobs installation to the EFE removable media path.",
+      "end" : 19.94
+    }
+  ],
+  "datetime" : "2026-04-24T21:23:21",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "duration" : 20180,
+  "modelName" : "Ultra (Cloud)",
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "processingTime" : 1107,
+  "result" : "It seems that the computer is configured to boot via EFE, but maybe that configuration will not work for booting from hardware. Some EFE implementation does not meet the EFE implementation. Easy installation, fail to detect other operating systems on your computer, also dependent on the fallback, then ScropGrobs is a reminder. ForceGrobs installation to the EFE removable media path.",
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " It seems that the computer is configured to boot via EFE, but maybe that configuration will not work for booting from hardware. Some EFE implementation does not meet the EFE implementation. Easy installation, fail to detect other operating systems on your computer, also dependent on the fallback, then ScropGrobs is a reminder. ForceGrobs installation to the EFE removable media path.",
+  "realtimeEnabled" : false
+}

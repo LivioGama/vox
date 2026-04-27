@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "duration" : 4894,
+  "separateSpeakersEnabled" : false,
+  "modeName" : "Default",
+  "rawResult" : " Use 10 subagents to go faster. I really want this to be done the fastest possible.",
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-16T13:53:36",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 4.46,
+      "text" : "Use 10 subagents to go faster. I really want this to be done the fastest possible."
+    }
+  ],
+  "languageSelected" : "en",
+  "result" : "Use 10 subagents to go faster. I really want this to be done the fastest possible.",
+  "processingTime" : 578,
+  "recordingDevice" : "",
+  "prompt" : "",
+  "languageModelName" : "",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.0"
+}

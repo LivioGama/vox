@@ -1,0 +1,1 @@
+Try a curl command, with time model SWE 1.6 fast.

@@ -1,0 +1,55 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Are you trying to say it's because plausible.liveyogava is down that actually the website was blocking?",
+      "end" : 6.44
+    }
+  ],
+  "recordingDevice" : "",
+  "duration" : 7021,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.0",
+  "processingTime" : 837,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-14T15:02:31",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    }
+  },
+  "rawResult" : " Are you trying to say it's because plausible.liveyogava is down that actually the website was blocking?",
+  "result" : "Are you trying to say it's because plausible.liveyogava is down that actually the website was blocking?",
+  "realtimeEnabled" : false,
+  "languageModelName" : ""
+}

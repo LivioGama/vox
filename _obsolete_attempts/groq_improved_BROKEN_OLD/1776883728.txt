@@ -1,0 +1,1 @@
+No, this is not a problem. Forget about anthropic and authentication. We are on IRIS, and we want to run a proper demonstration. That's it.

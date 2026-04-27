@@ -1,0 +1,55 @@
+{
+  "duration" : 5397,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Do you ensure it's 100% like master for the...",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "processingTime" : 1213,
+  "rawResult" : " Do you ensure it's 100% like master for the...",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-01T23:24:40",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Do you ensure it's 100% like master for the...",
+      "end" : 3.72
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

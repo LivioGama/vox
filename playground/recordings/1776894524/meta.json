@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 24410,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "processingTime" : 1584,
+  "recordingDevice" : "",
+  "rawResult" : " Can you add a global cloud.md rule stating that in the prompt when I mentioned SSH, the following word is often an SSH config host to check for.",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Can you add a global cloud.md rule stating that in the prompt when I mentioned SSH, the following word is often an SSH config host to check for.",
+      "end" : 23.6
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T21:48:44",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "Can you add a global cloud.md rule stating that in the prompt when I mentioned SSH, the following word is often an SSH config host to check for."
+}

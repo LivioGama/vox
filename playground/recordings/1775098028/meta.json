@@ -1,0 +1,100 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "text" : "So now you will get two very difficult and much harder goals. And do whatever you need for this. The first goal will be to detect when I focus a macOS program with that is a chat, like Slack and WhatsApp.",
+      "end" : 23.2,
+      "start" : 0
+    },
+    {
+      "text" : "you will have to be able to screenshot and read the content of this chat and understand the",
+      "end" : 32.3,
+      "start" : 23.2
+    },
+    {
+      "text" : "conversation I am looking at and then suggest an answer not by only phrasing it but by also",
+      "end" : 40.06,
+      "start" : 32.3
+    },
+    {
+      "text" : "finding a way to paste it inside the input area of the chat without sending without enter but",
+      "end" : 50.7,
+      "start" : 40.06
+    },
+    {
+      "text" : "at least paste it then the other goal will be to you will be able to retrieve",
+      "end" : 58.54,
+      "start" : 50.7
+    },
+    {
+      "text" : "any two FA code rather than sent on SMS or rather than it sent an email ideally",
+      "end" : 65.56,
+      "start" : 58.54
+    },
+    {
+      "text" : "you should do this in background and ideally also you should trigger this when",
+      "end" : 70.98,
+      "start" : 65.56
+    },
+    {
+      "text" : "I receive one in order to fill them for me seamlessly so basically what I am",
+      "end" : 76.2,
+      "start" : 70.98
+    },
+    {
+      "text" : "asked with the 2FA code, the time that I think about oh I have to get the code you",
+      "end" : 85.64,
+      "start" : 76.2
+    },
+    {
+      "text" : "should be able to retrieve it and fill it for me at the speed of light.",
+      "end" : 90.46,
+      "start" : 85.64
+    }
+  ],
+  "result" : "So now you will get two very difficult and much harder goals. And do whatever you need for this. The first goal will be to detect when I focus a macOS program with that is a chat, like Slack and WhatsApp. you will have to be able to screenshot and read the content of this chat and understand the conversation I am looking at and then suggest an answer not by only phrasing it but by also finding a way to paste it inside the input area of the chat without sending without enter but at least paste it then the other goal will be to you will be able to retrieve any two FA code rather than sent on SMS or rather than it sent an email ideally you should do this in background and ideally also you should trigger this when I receive one in order to fill them for me seamlessly so basically what I am asked with the 2FA code, the time that I think about oh I have to get the code you should be able to retrieve it and fill it for me at the speed of light.",
+  "prompt" : "",
+  "languageModelName" : "",
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-02T02:47:08",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 2236,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "duration" : 91356,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " So now you will get two very difficult and much harder goals. And do whatever you need for this. The first goal will be to detect when I focus a macOS program with that is a chat, like Slack and WhatsApp. you will have to be able to screenshot and read the content of this chat and understand the conversation I am looking at and then suggest an answer not by only phrasing it but by also finding a way to paste it inside the input area of the chat without sending without enter but at least paste it then the other goal will be to you will be able to retrieve any two FA code rather than sent on SMS or rather than it sent an email ideally you should do this in background and ideally also you should trigger this when I receive one in order to fill them for me seamlessly so basically what I am asked with the 2FA code, the time that I think about oh I have to get the code you should be able to retrieve it and fill it for me at the speed of light.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Warp"
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

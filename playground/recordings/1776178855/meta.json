@@ -1,0 +1,60 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "I don't want the GitHub action, there is already something in Docploy to have auto-deployed.",
+      "start" : 0,
+      "end" : 15.32
+    },
+    {
+      "text" : "So I want this to be used and also yes of course I want you to restore the real plausible.",
+      "start" : 15.9,
+      "end" : 25.48
+    }
+  ],
+  "recordingDevice" : "",
+  "duration" : 28161,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.0",
+  "processingTime" : 1488,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-14T15:00:55",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "rawResult" : " I don't want the GitHub action, there is already something in Docploy to have auto-deployed. So I want this to be used and also yes of course I want you to restore the real plausible.",
+  "result" : "I don't want the GitHub action, there is already something in Docploy to have auto-deployed. So I want this to be used and also yes of course I want you to restore the real plausible.",
+  "realtimeEnabled" : false,
+  "languageModelName" : ""
+}

@@ -1,0 +1,140 @@
+{
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 3243,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "result" : "do is that we have a high-risk program that is too complex in the root and we are trying to rebuild it from scratch scratch in the agent folder the white way in order that we have a self a self sustainable system that we will not need to implement every feature at some point it will be able to dynamically understand that it has to create a skill live, load it and use it. This is what we are trying to achieve and at the same time we absolutely want to have a system that is connected but not completely dependent which means that if one of the features is being worked, we should not kill the other when we reboot this one or if there is hot reload on this one. At the same time, if we kill the program everything should die together. So keep in mind that the agent folder is the work directory, we should not touch the rest because this is an old project which we are migrating. I will give you the link and you can read in the project what we are trying to do with Iris, but basically it will be, and you can check this on the internet, what OpenClaw or CloudBot should have been from the beginning, which is an agent that is interactive, self-improving and that facilitates interaction in a very futuristic way by allowing people to use their computer without touching it by first guessing the intention and also by complaining to others.",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.12.0",
+  "languageSelected" : "en",
+  "prompt" : "",
+  "datetime" : "2026-04-16T16:13:13",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "",
+  "duration" : 109525,
+  "languageModelName" : "",
+  "rawResult" : " do is that we have a high-risk program that is too complex in the root and we are trying to rebuild it from scratch scratch in the agent folder the white way in order that we have a self a self sustainable system that we will not need to implement every feature at some point it will be able to dynamically understand that it has to create a skill live, load it and use it. This is what we are trying to achieve and at the same time we absolutely want to have a system that is connected but not completely dependent which means that if one of the features is being worked, we should not kill the other when we reboot this one or if there is hot reload on this one. At the same time, if we kill the program everything should die together. So keep in mind that the agent folder is the work directory, we should not touch the rest because this is an old project which we are migrating. I will give you the link and you can read in the project what we are trying to do with Iris, but basically it will be, and you can check this on the internet, what OpenClaw or CloudBot should have been from the beginning, which is an agent that is interactive, self-improving and that facilitates interaction in a very futuristic way by allowing people to use their computer without touching it by first guessing the intention and also by complaining to others.",
+  "segments" : [
+    {
+      "end" : 6.66,
+      "text" : "do is that we have a high-risk program that is too complex in the root and we are trying to rebuild it",
+      "start" : 1
+    },
+    {
+      "end" : 12.98,
+      "text" : "from scratch scratch in the agent folder the white way in order that we have a self",
+      "start" : 6.66
+    },
+    {
+      "end" : 22.72,
+      "text" : "a self sustainable system that we will not need to implement every feature at some point it will",
+      "start" : 15.34
+    },
+    {
+      "end" : 34.18,
+      "text" : "be able to dynamically understand that it has to create a skill live, load it and use",
+      "start" : 22.72
+    },
+    {
+      "end" : 38.18,
+      "text" : "it. This is what we are trying to achieve and at the same time we absolutely want",
+      "start" : 34.18
+    },
+    {
+      "end" : 46.6,
+      "text" : "to have a system that is connected but not completely dependent which means",
+      "start" : 38.18
+    },
+    {
+      "end" : 53.94,
+      "text" : "that if one of the features is being worked, we should not kill the other when",
+      "start" : 46.6
+    },
+    {
+      "end" : 58.82,
+      "text" : "we reboot this one or if there is hot reload on this one. At the same time, if",
+      "start" : 53.94
+    },
+    {
+      "end" : 65.04,
+      "text" : "we kill the program everything should die together. So keep in mind that the",
+      "start" : 58.82
+    },
+    {
+      "end" : 70.26,
+      "text" : "agent folder is the work directory, we should not touch the rest",
+      "start" : 65.74
+    },
+    {
+      "end" : 76.18,
+      "text" : "because this is an old project which we are migrating. I will give you the link",
+      "start" : 70.26
+    },
+    {
+      "end" : 79.16,
+      "text" : "and you can read in the project what we are trying to do with Iris,",
+      "start" : 76.18
+    },
+    {
+      "end" : 82.58,
+      "text" : "but basically it will be, and you can check this on the internet,",
+      "start" : 79.3
+    },
+    {
+      "end" : 86.82,
+      "text" : "what OpenClaw or CloudBot should have been from the beginning,",
+      "start" : 83.86
+    },
+    {
+      "end" : 91.12,
+      "text" : "which is an agent that is interactive, self-improving",
+      "start" : 87.02
+    },
+    {
+      "end" : 97.26,
+      "text" : "and that facilitates interaction in a very futuristic way",
+      "start" : 91.12
+    },
+    {
+      "end" : 102.44,
+      "text" : "by allowing people to use their computer without touching it",
+      "start" : 97.26
+    },
+    {
+      "end" : 108.44,
+      "text" : "by first guessing the intention and also by complaining to others.",
+      "start" : 102.44
+    }
+  ],
+  "languageModelKey" : "",
+  "realtimeEnabled" : false
+}

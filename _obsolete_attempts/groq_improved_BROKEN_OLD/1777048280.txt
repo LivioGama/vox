@@ -1,0 +1,1 @@
+Can you gather this list of public domain on devlib.io I use across all my services? And then with one line, you will give me a one-liner script that allow me to open all those public URL on my Mac.

@@ -1,0 +1,1 @@
+When I select a receiver, then I change to another receiver, the payout method from the previous day selected instead of able to be read.

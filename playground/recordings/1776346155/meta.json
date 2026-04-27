@@ -1,0 +1,55 @@
+{
+  "rawResult" : " I have an Apple Script notification when Claude finishes something, can you actually remove it?",
+  "segments" : [
+    {
+      "text" : "I have an Apple Script notification when Claude finishes something, can you actually remove it?",
+      "start" : 0,
+      "end" : 7.1
+    }
+  ],
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "duration" : 7919,
+  "translationEnabled" : false,
+  "appVersion" : "2.12.0",
+  "separateSpeakersEnabled" : false,
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "languageModelKey" : "",
+  "result" : "I have an Apple Script notification when Claude finishes something, can you actually remove it?",
+  "processingTime" : 868,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Warp",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "datetime" : "2026-04-16T13:29:15",
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

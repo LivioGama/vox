@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Warp",
+      "includeInPrompt" : false
+    }
+  },
+  "languageModelName" : "",
+  "modeName" : "Default",
+  "processingTime" : 840,
+  "duration" : 8742,
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-01T06:14:44",
+  "result" : "It still crashes while actually I improved MK2 and now the implementation is so right. So please check it again and align.",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "rawResult" : " It still crashes while actually I improved MK2 and now the implementation is so right. So please check it again and align.",
+  "segments" : [
+    {
+      "end" : 8.56,
+      "text" : "It still crashes while actually I improved MK2 and now the implementation is so right. So please check it again and align.",
+      "start" : 0
+    }
+  ]
+}

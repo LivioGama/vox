@@ -1,0 +1,1 @@
+Using this files, add a new test for SWE 1.6 as and other model from WinSURF. No need to put time regular model like Sone, Oppus, and so on. Maybe just 2 Sone and something like this.

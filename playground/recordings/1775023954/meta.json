@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Terminal",
+      "includeInPrompt" : false
+    }
+  },
+  "languageModelName" : "",
+  "modeName" : "Default",
+  "processingTime" : 1154,
+  "translationEnabled" : false,
+  "duration" : 15368,
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-01T06:12:34",
+  "result" : "It's way better. So now can we have the same color for the connectors than the selection blocks and also align those colors with JetBrains 1?",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.11.0",
+  "applicationContextEnabled" : false,
+  "rawResult" : " It's way better. So now can we have the same color for the connectors than the selection blocks and also align those colors with JetBrains 1?",
+  "segments" : [
+    {
+      "end" : 14.96,
+      "text" : "It's way better. So now can we have the same color for the connectors than the selection blocks and also align those colors with JetBrains 1?",
+      "start" : 0
+    }
+  ]
+}

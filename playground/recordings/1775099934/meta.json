@@ -1,0 +1,70 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "end" : 4.24,
+      "text" : "You keep using the Cloud Code instance but actually you could use the same one.",
+      "start" : 0
+    },
+    {
+      "end" : 7.74,
+      "text" : "You don't need to launch on your own each time.",
+      "start" : 5.5
+    },
+    {
+      "end" : 19.08,
+      "text" : "So this is configured with Haiku, but for the other API like Gemini FreeFlash you can use the API code directly because the thing is,",
+      "start" : 8.84
+    },
+    {
+      "end" : 22.54,
+      "text" : "Anthropic API key is way too expensive to use directly.",
+      "start" : 19.16
+    }
+  ],
+  "result" : "You keep using the Cloud Code instance but actually you could use the same one. You don't need to launch on your own each time. So this is configured with Haiku, but for the other API like Gemini FreeFlash you can use the API code directly because the thing is, Anthropic API key is way too expensive to use directly.",
+  "prompt" : "",
+  "languageModelName" : "",
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-02T03:18:54",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1129,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "duration" : 22978,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " You keep using the Cloud Code instance but actually you could use the same one. You don't need to launch on your own each time. So this is configured with Haiku, but for the other API like Gemini FreeFlash you can use the API code directly because the thing is, Anthropic API key is way too expensive to use directly.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Warp"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

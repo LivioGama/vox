@@ -1,0 +1,60 @@
+{
+  "translationEnabled" : false,
+  "processingTime" : 1234,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "In-RAM management is a disaster. I get a lot of zombies from process that should be killed. How can I fix this?",
+      "start" : 0,
+      "end" : 13.2
+    },
+    {
+      "text" : "I want something that automatically manages and kills old node, nextgs, cursor, burn processes that should not be there.",
+      "start" : 13.46,
+      "end" : 22.98
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-16T00:59:02",
+  "languageModelName" : "",
+  "result" : "In-RAM management is a disaster. I get a lot of zombies from process that should be killed. How can I fix this? I want something that automatically manages and kills old node, nextgs, cursor, burn processes that should not be there.",
+  "languageModelKey" : "",
+  "duration" : 24324,
+  "appVersion" : "2.12.0",
+  "rawResult" : " In-RAM management is a disaster. I get a lot of zombies from process that should be killed. How can I fix this? I want something that automatically manages and kills old node, nextgs, cursor, burn processes that should not be there.",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

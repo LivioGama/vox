@@ -1,0 +1,60 @@
+{
+  "appVersion" : "2.12.1",
+  "result" : "Don't hesitate to take inspiration on the Gitistory version that we had on the free branch for example, because this version I could have asked to have an OS. It would pretty much work but I could also ask a game with FreeGS so basically you are supposed to be product agnostic and do everything like you used to do in the past.",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "processingTime" : 1160,
+  "prompt" : "",
+  "duration" : 25639,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "end" : 12.28,
+      "start" : 0,
+      "text" : "Don't hesitate to take inspiration on the Gitistory version that we had on the free branch for example, because this version I could have asked to have an OS."
+    },
+    {
+      "end" : 24.58,
+      "start" : 12.5,
+      "text" : "It would pretty much work but I could also ask a game with FreeGS so basically you are supposed to be product agnostic and do everything like you used to do in the past."
+    }
+  ],
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Don't hesitate to take inspiration on the Gitistory version that we had on the free branch for example, because this version I could have asked to have an OS. It would pretty much work but I could also ask a game with FreeGS so basically you are supposed to be product agnostic and do everything like you used to do in the past.",
+  "languageModelKey" : "",
+  "separateSpeakersEnabled" : false,
+  "datetime" : "2026-04-24T06:37:10",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

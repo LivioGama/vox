@@ -1,0 +1,60 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-03-31T02:20:10",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " I'm not talking only about the graph, I'm also talking about the changes. The GitDiviewer side-by-side changes. You didn't make any of those?",
+  "translationEnabled" : false,
+  "processingTime" : 863,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "result" : "I'm not talking only about the graph, I'm also talking about the changes. The GitDiviewer side-by-side changes. You didn't make any of those?",
+  "segments" : [
+    {
+      "text" : "I'm not talking only about the graph, I'm also talking about the changes.",
+      "end" : 4.14,
+      "start" : 0.48
+    },
+    {
+      "text" : "The GitDiviewer side-by-side changes. You didn't make any of those?",
+      "end" : 8.06,
+      "start" : 4.34
+    }
+  ],
+  "duration" : 8517,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Claude"
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

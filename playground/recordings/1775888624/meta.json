@@ -1,0 +1,60 @@
+{
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Alright, one last detail bro before you could commit and push this.",
+      "end" : 5.34
+    },
+    {
+      "start" : 6.18,
+      "text" : "Can you make sure that if we play any video from the gallery, the main music of course should stop and pause to not clash with two sources of sound?",
+      "end" : 20.76
+    }
+  ],
+  "processingTime" : 1087,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "rawResult" : " Alright, one last detail bro before you could commit and push this. Can you make sure that if we play any video from the gallery, the main music of course should stop and pause to not clash with two sources of sound?",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "languageModelName" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-11T06:23:44",
+  "speakers" : [
+
+  ],
+  "duration" : 20958,
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Alright, one last detail bro before you could commit and push this. Can you make sure that if we play any video from the gallery, the main music of course should stop and pause to not clash with two sources of sound?"
+}

@@ -1,0 +1,60 @@
+{
+  "duration" : 6262,
+  "processingTime" : 835,
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.13.0",
+  "rawResult" : " It says command, rock to rock, pinch, action, trigger terminal, not far. Okay, do you check them?",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "result" : "It says command, rock to rock, pinch, action, trigger terminal, not far. Okay, do you check them?",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "languageModelKey" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "datetime" : "2026-04-25T17:25:54",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Windsurf"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "segments" : [
+    {
+      "text" : "It says command, rock to rock, pinch, action, trigger terminal, not far.",
+      "end" : 5.612,
+      "start" : 0.096
+    },
+    {
+      "text" : "Okay, do you check them?",
+      "end" : 5.92,
+      "start" : 5.92
+    }
+  ]
+}

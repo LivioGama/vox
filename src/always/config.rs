@@ -105,7 +105,6 @@ impl AlwaysConfig {
         timeout_secs: u32,
         silence_secs: f64,
         auto_enter: bool,
-        no_filter: bool,
     ) -> Result<Self> {
         let groq_stt_api_key = get_groq_stt_api_key()?;
         let vad_mode = std::env::var("VOX_VAD_MODE")
@@ -146,10 +145,10 @@ impl AlwaysConfig {
             timeout_secs,
             silence_secs,
             auto_enter,
-            filter_enabled: !no_filter,
+            filter_enabled: true, // Always enabled - filter is always on
             energy_threshold: prefs.stt_energy_threshold.unwrap_or(0.05),
-            onset_ms: 200,
-            cooldown_ms: prefs.stt_cooldown_ms.unwrap_or(1500),
+            onset_ms: 100,
+            cooldown_ms: prefs.stt_cooldown_ms.unwrap_or(150),
             log_path: log_path_from_preferences(&prefs),
             vocab,
             context_vocab,

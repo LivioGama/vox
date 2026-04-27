@@ -1,0 +1,60 @@
+{
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "speakers" : [
+
+  ],
+  "duration" : 15528,
+  "languageModelName" : "",
+  "prompt" : "",
+  "processingTime" : 1118,
+  "segments" : [
+    {
+      "end" : 13.064,
+      "start" : 0.096,
+      "text" : "Also, when we cargo build, are we using correctly my machine because I am a M4 Max 64 GB of RAM."
+    },
+    {
+      "end" : 15.2,
+      "start" : 13.184,
+      "text" : "So I would like to take advantage of the parallelism to a maximum."
+    }
+  ],
+  "languageModelKey" : "",
+  "datetime" : "2026-04-27T06:28:56",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "realtimeEnabled" : false,
+  "result" : "Also, when we cargo build, are we using correctly my machine because I am a M4 Max 64 GB of RAM. So I would like to take advantage of the parallelism to a maximum.",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.13.0",
+  "rawResult" : " Also, when we cargo build, are we using correctly my machine because I am a M4 Max 64 GB of RAM. So I would like to take advantage of the parallelism to a maximum.",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false
+}

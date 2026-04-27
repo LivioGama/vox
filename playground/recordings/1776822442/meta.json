@@ -1,0 +1,55 @@
+{
+  "result" : "The name is C-P, the name is C-P, the name is C-P.",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "rawResult" : " The name is C-P, the name is C-P, the name is C-P.",
+  "segments" : [
+    {
+      "text" : "The name is C-P, the name is C-P, the name is C-P.",
+      "start" : 0.32,
+      "end" : 1.52
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "processingTime" : 2104,
+  "duration" : 1571,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T01:47:22",
+  "languageSelected" : "en"
+}

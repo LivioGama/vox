@@ -1,0 +1,55 @@
+{
+  "applicationContextEnabled" : false,
+  "processingTime" : 837,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T02:56:47",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " I don't want to have to remind you, put it in the Claude MD Global.",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 5.9,
+      "text" : "I don't want to have to remind you, put it in the Claude MD Global."
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.1",
+  "duration" : 6241,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "result" : "I don't want to have to remind you, put it in the Claude MD Global.",
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "prompt" : ""
+}

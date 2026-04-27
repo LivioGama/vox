@@ -1,0 +1,85 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "text" : "So basically, if you check everything I tried to build in Iris, what I'm trying to get is a minimal polyvalent agent able to do anything I ask without having the action program in advance.",
+      "start" : 0,
+      "end" : 14.18
+    },
+    {
+      "text" : "The goal is to create secondary project on the desktop that will allow me to do this.",
+      "start" : 15.72,
+      "end" : 21.22
+    },
+    {
+      "text" : "I just want as a minimal thing the agent to be able to understand anything I ask.",
+      "start" : 21.22,
+      "end" : 26.54
+    },
+    {
+      "text" : "And then actually this feature will allow me to ask the agent to improve itself until I get to the point.",
+      "start" : 27.24,
+      "end" : 33.28
+    },
+    {
+      "text" : "It's perfect, but for now, the agent I implemented is really fucked up.",
+      "start" : 33.46,
+      "end" : 37.82
+    },
+    {
+      "text" : "It does not understand anything and cannot do anything.",
+      "start" : 37.82,
+      "end" : 41.26
+    },
+    {
+      "text" : "I'm listening.",
+      "start" : 41.38,
+      "end" : 41.7
+    }
+  ],
+  "result" : "So basically, if you check everything I tried to build in Iris, what I'm trying to get is a minimal polyvalent agent able to do anything I ask without having the action program in advance. The goal is to create secondary project on the desktop that will allow me to do this. I just want as a minimal thing the agent to be able to understand anything I ask. And then actually this feature will allow me to ask the agent to improve itself until I get to the point. It's perfect, but for now, the agent I implemented is really fucked up. It does not understand anything and cannot do anything. I'm listening.",
+  "prompt" : "",
+  "languageModelName" : "",
+  "datetime" : "2026-04-02T01:51:24",
+  "appVersion" : "2.11.0",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1614,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "duration" : 42568,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " So basically, if you check everything I tried to build in Iris, what I'm trying to get is a minimal polyvalent agent able to do anything I ask without having the action program in advance. The goal is to create secondary project on the desktop that will allow me to do this. I just want as a minimal thing the agent to be able to understand anything I ask. And then actually this feature will allow me to ask the agent to improve itself until I get to the point. It's perfect, but for now, the agent I implemented is really fucked up. It does not understand anything and cannot do anything. I'm listening.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

@@ -1,0 +1,85 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 9.26,
+      "start" : 0,
+      "text" : "Would you actually also pull the code and then push my fixes, my stuff?"
+    },
+    {
+      "end" : 28.1,
+      "start" : 25.46,
+      "text" : "Can you go back in fixing my"
+    },
+    {
+      "end" : 36.04,
+      "start" : 29.54,
+      "text" : "my auto deploy I mean what I want you to do is that you push with the update that"
+    },
+    {
+      "end" : 41.84,
+      "start" : 36.04,
+      "text" : "you have on the current branch that you also retrieve from the other collaborators"
+    },
+    {
+      "end" : 48,
+      "start" : 41.84,
+      "text" : "that they did stuff but then actually I want you also to use doc ploy CLI in"
+    },
+    {
+      "end" : 53.32,
+      "start" : 48,
+      "text" : "order to check that the auto deploy is working. Don't let me do anything, do"
+    },
+    {
+      "end" : 54.18,
+      "start" : 53.32,
+      "text" : "everything by yourself."
+    }
+  ],
+  "recordingDevice" : "",
+  "duration" : 54655,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.0",
+  "processingTime" : 1800,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-14T15:03:43",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "rawResult" : " Would you actually also pull the code and then push my fixes, my stuff? Can you go back in fixing my my auto deploy I mean what I want you to do is that you push with the update that you have on the current branch that you also retrieve from the other collaborators that they did stuff but then actually I want you also to use doc ploy CLI in order to check that the auto deploy is working. Don't let me do anything, do everything by yourself.",
+  "result" : "Would you actually also pull the code and then push my fixes, my stuff? Can you go back in fixing my my auto deploy I mean what I want you to do is that you push with the update that you have on the current branch that you also retrieve from the other collaborators that they did stuff but then actually I want you also to use doc ploy CLI in order to check that the auto deploy is working. Don't let me do anything, do everything by yourself.",
+  "realtimeEnabled" : false,
+  "languageModelName" : ""
+}

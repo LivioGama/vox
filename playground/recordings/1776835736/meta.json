@@ -1,0 +1,55 @@
+{
+  "rawResult" : " If you have doubts, you can check Iris channel repository.",
+  "duration" : 5840,
+  "prompt" : "",
+  "processingTime" : 773,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "result" : "If you have doubts, you can check Iris channel repository.",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "segments" : [
+    {
+      "text" : "If you have doubts, you can check Iris channel repository.",
+      "end" : 3.86,
+      "start" : 0
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-22T05:28:56"
+}

@@ -1,0 +1,65 @@
+{
+  "duration" : 26472,
+  "processingTime" : 1233,
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.13.0",
+  "rawResult" : " How do I do my Debian machine which has just a T3 or i3 GUI? I don't even know how to code it but there is no ACP, it's not a GNOME. I don't even know how to open the terminal so how do I do to open it and to set up for example the fact that I want to be able to be discoverable through my own local network.",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "result" : "How do I do my Debian machine which has just a T3 or i3 GUI? I don't even know how to code it but there is no ACP, it's not a GNOME. I don't even know how to open the terminal so how do I do to open it and to set up for example the fact that I want to be able to be discoverable through my own local network.",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "languageModelKey" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "datetime" : "2026-04-25T17:13:51",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "segments" : [
+    {
+      "start" : 0.544,
+      "text" : "How do I do my Debian machine which has just a T3 or i3 GUI?",
+      "end" : 11.676
+    },
+    {
+      "start" : 11.936,
+      "text" : "I don't even know how to code it but there is no ACP, it's not a GNOME.",
+      "end" : 17.708
+    },
+    {
+      "start" : 18.048,
+      "text" : "I don't even know how to open the terminal so how do I do to open it and to set up for example the fact that I want to be able to be discoverable through my own local network.",
+      "end" : 26.472937
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "result" : "In the Metier Meetup, what is the difference between Host City and Host City Name?",
+  "translationEnabled" : false,
+  "appVersion" : "2.11.0",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Slack",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 6017,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "rawResult" : " In the Metier Meetup, what is the difference between Host City and Host City Name?",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 5.84,
+      "text" : "In the Metier Meetup, what is the difference between Host City and Host City Name?"
+    }
+  ],
+  "recordingDevice" : "",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-03-27T13:57:59",
+  "processingTime" : 2358
+}

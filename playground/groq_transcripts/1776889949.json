@@ -1,0 +1,7 @@
+{
+  "recording_id": "1776889949",
+  "text": " Using the Cloud Code Installation CLI in the SSH VPS, can you copy everything to the other VPS netcap? The idea is that we really want to have everything the same in order to benefit from the same authentication. So I think the best is that you simply zip all the relevant file and then SCP them to the netcap to the net cup and then unzip them.",
+  "segments": null,
+  "language": null,
+  "duration": null
+}

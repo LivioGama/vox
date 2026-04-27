@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "result" : "How did you rebate on develop? I didn't ask for this.",
+  "datetime" : "2026-04-24T10:22:49",
+  "appVersion" : "2.12.1",
+  "prompt" : "",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "rawResult" : " How did you rebate on develop? I didn't ask for this.",
+  "duration" : 2800,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "How did you rebate on develop? I didn't ask for this.",
+      "end" : 2.62
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "processingTime" : 526
+}

@@ -1,0 +1,1 @@
+I'm on Codify server, and I configured Shipfast.io to use wildcard, but now my main domain is not accessible. How I'm supposed to fix it's?

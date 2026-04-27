@@ -1,0 +1,1 @@
+Actually mark this in the cloud.md file for the project locally that we should never use Anthropic API key ever. It's like a strict rule. It will never happen in any world. Actually you could make a mark it in the global In any world we will never use Anthropic API key ever

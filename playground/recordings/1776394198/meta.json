@@ -1,0 +1,55 @@
+{
+  "appVersion" : "2.12.0",
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 11.48,
+      "text" : "Can Claude Code be used with Cursor ACP?",
+      "start" : 0
+    }
+  ],
+  "datetime" : "2026-04-17T02:49:58",
+  "languageModelKey" : "",
+  "duration" : 11760,
+  "rawResult" : " Can Claude Code be used with Cursor ACP?",
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "result" : "Can Claude Code be used with Cursor ACP?",
+  "processingTime" : 836
+}

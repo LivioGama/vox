@@ -1,0 +1,1 @@
+add an openAI compatible provider to Z with

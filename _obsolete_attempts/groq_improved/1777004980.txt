@@ -1,0 +1,1 @@
+Try a curl command with the model SWE 1.6 FAST

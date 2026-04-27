@@ -1,0 +1,55 @@
+{
+  "rawResult" : " I specifically told you to use AgentBrother, do not use Playwright.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "duration" : 5856,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 916,
+  "datetime" : "2026-04-27T04:41:07",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Warp",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "result" : "I specifically told you to use AgentBrother, do not use Playwright.",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "I specifically told you to use AgentBrother, do not use Playwright.",
+      "end" : 5.664,
+      "start" : 0
+    }
+  ]
+}

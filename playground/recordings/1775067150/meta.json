@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "end" : 6.42,
+      "text" : "Everything happens locally, but on the backend I see no changes. How can you be so stupid?",
+      "start" : 0
+    }
+  ],
+  "result" : "Everything happens locally, but on the backend I see no changes. How can you be so stupid?",
+  "prompt" : "",
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-01T18:12:30",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 910,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "duration" : 6861,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " Everything happens locally, but on the backend I see no changes. How can you be so stupid?",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

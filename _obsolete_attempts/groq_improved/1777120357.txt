@@ -1,0 +1,1 @@
+Alright, stash what you have locally and then find the last commit where there was a Grok with KimiK2.5 and where we removed it and actually go back to the commit where we still had it, the last one.

@@ -1,0 +1,1 @@
+Yeah, but that's not the same credential. And what you see in the telemetry, the LOIC account, is not supposed to be there. It's the one that is replaced.

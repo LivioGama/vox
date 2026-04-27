@@ -1,0 +1,55 @@
+{
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 2.62,
+      "text" : "Try it with a FICTIVE PEARL command."
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "duration" : 3313,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Try it with a FICTIVE PEARL command.",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "processingTime" : 632,
+  "speakers" : [
+
+  ],
+  "rawResult" : " Try it with a FICTIVE PEARL command.",
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    },
+    "userContext" : {
+
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-24T04:28:22",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

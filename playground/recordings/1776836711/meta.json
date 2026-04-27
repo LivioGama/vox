@@ -1,0 +1,65 @@
+{
+  "result" : "Once you're done with this feature, I want you to focus and implement or at least try to see if she can manage herself to implement this skill by herself in autonomous mode. And I would like her to be able to manage to understand what is ACP, Agent Client Protocol. And that she actually managed to implement the QN CLI ACP to run the model QN 3.6.",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "rawResult" : " Once you're done with this feature, I want you to focus and implement or at least try to see if she can manage herself to implement this skill by herself in autonomous mode. And I would like her to be able to manage to understand what is ACP, Agent Client Protocol. And that she actually managed to implement the QN CLI ACP to run the model QN 3.6.",
+  "segments" : [
+    {
+      "end" : 15.26,
+      "start" : 0,
+      "text" : "Once you're done with this feature, I want you to focus and implement or at least try to see if she can manage herself to implement this skill by herself in autonomous mode."
+    },
+    {
+      "end" : 22.12,
+      "start" : 15.26,
+      "text" : "And I would like her to be able to manage to understand what is ACP, Agent Client Protocol."
+    },
+    {
+      "end" : 30.68,
+      "start" : 22.52,
+      "text" : "And that she actually managed to implement the QN CLI ACP to run the model QN 3.6."
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Zed",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "duration" : 32020,
+  "processingTime" : 1325,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T05:45:11",
+  "languageSelected" : "en"
+}

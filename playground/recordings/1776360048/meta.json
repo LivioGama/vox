@@ -1,0 +1,130 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    },
+    "userContext" : {
+
+    }
+  },
+  "modeName" : "Default",
+  "datetime" : "2026-04-16T17:20:48",
+  "appVersion" : "2.12.0",
+  "duration" : 58161,
+  "languageModelKey" : "",
+  "separateSpeakersEnabled" : false,
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I don't understand what the relationship with Claude Code. The thing is, I need Iris to be an agent, an autonomous agent that I can run and then actually for example I can simply ask generate an image, then it will have to figure out that it needs a skill for this, it will have to search the web and then actually it will have to see for example that there is a Nano Banana Pro skill that can be downloaded, that it needs a Gemini API key, that it can be found actually in my... ...the Charcer RC file and used and then actually generate the image and open it for me. And then if I say to edit the image, it should find a way. So this is like a general way of using agent. It's not directly related to Cloud. Cloud is just one of the usage, so I don't understand what you are telling me.",
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 2.66,
+      "text" : "I don't understand what the relationship with Claude Code.",
+      "start" : 0
+    },
+    {
+      "end" : 10.66,
+      "text" : "The thing is, I need Iris to be an agent, an autonomous agent that I can run and then actually",
+      "start" : 3.5
+    },
+    {
+      "end" : 15.78,
+      "text" : "for example I can simply ask generate an image, then it will have to figure out that",
+      "start" : 10.66
+    },
+    {
+      "end" : 20.74,
+      "text" : "it needs a skill for this, it will have to search the web and then actually it will",
+      "start" : 16.68
+    },
+    {
+      "end" : 26.58,
+      "text" : "have to see for example that there is a Nano Banana Pro skill that can be downloaded,",
+      "start" : 20.74
+    },
+    {
+      "end" : 30.18,
+      "text" : "that it needs a Gemini API key,",
+      "start" : 26.58
+    },
+    {
+      "end" : 33.6,
+      "text" : "that it can be found actually in my...",
+      "start" : 30.34
+    },
+    {
+      "end" : 40.14,
+      "text" : "...the Charcer RC file and used",
+      "start" : 37.78
+    },
+    {
+      "end" : 42.14,
+      "text" : "and then actually generate the image",
+      "start" : 40.14
+    },
+    {
+      "end" : 43.02,
+      "text" : "and open it for me.",
+      "start" : 42.14
+    },
+    {
+      "end" : 44.84,
+      "text" : "And then if I say to edit the image,",
+      "start" : 43.32
+    },
+    {
+      "end" : 45.64,
+      "text" : "it should find a way.",
+      "start" : 44.94
+    },
+    {
+      "end" : 51.42,
+      "text" : "So this is like a general way of using agent.",
+      "start" : 46.1
+    },
+    {
+      "end" : 53.98,
+      "text" : "It's not directly related to Cloud.",
+      "start" : 51.9
+    },
+    {
+      "end" : 55.62,
+      "text" : "Cloud is just one of the usage,",
+      "start" : 54.14
+    },
+    {
+      "end" : 57.7,
+      "text" : "so I don't understand what you are telling me.",
+      "start" : 55.62
+    }
+  ],
+  "processingTime" : 1951,
+  "speakers" : [
+
+  ],
+  "rawResult" : " I don't understand what the relationship with Claude Code. The thing is, I need Iris to be an agent, an autonomous agent that I can run and then actually for example I can simply ask generate an image, then it will have to figure out that it needs a skill for this, it will have to search the web and then actually it will have to see for example that there is a Nano Banana Pro skill that can be downloaded, that it needs a Gemini API key, that it can be found actually in my... ...the Charcer RC file and used and then actually generate the image and open it for me. And then if I say to edit the image, it should find a way. So this is like a general way of using agent. It's not directly related to Cloud. Cloud is just one of the usage, so I don't understand what you are telling me.",
+  "languageModelName" : ""
+}

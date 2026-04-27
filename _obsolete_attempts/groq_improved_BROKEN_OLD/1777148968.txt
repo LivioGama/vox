@@ -1,0 +1,1 @@
+Here's a behavior of my model in this orchestrator. It's fails for a tool. So can you fix either time proxy or my open code slim? Maybe there are some tools missing or something, but open code cannot use time model. There's some incompatibility. Okay.

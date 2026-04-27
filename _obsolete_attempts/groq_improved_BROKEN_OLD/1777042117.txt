@@ -1,0 +1,1 @@
+Time chip still looks inside time card, although it's should able below. And I still don't have same zero version I asked for.

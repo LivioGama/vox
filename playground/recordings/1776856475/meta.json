@@ -1,0 +1,55 @@
+{
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T11:14:35",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "ChatGPT"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "duration" : 6583,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "I didn't send from Revolut, I sent back from my PostFinance account and it's been one month.",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "processingTime" : 614,
+  "appVersion" : "2.12.1",
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "text" : "I didn't send from Revolut, I sent back from my PostFinance account and it's been one month.",
+      "start" : 0,
+      "end" : 6.14
+    }
+  ],
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "rawResult" : " I didn't send from Revolut, I sent back from my PostFinance account and it's been one month.",
+  "systemAudioEnabled" : false
+}

@@ -1,0 +1,75 @@
+{
+  "duration" : 41007,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I almost generated the entire codebase in one shot. Not exactly, it's much more complicated than this and I think you still don't realize actually. Everything that you say takes time, takes more than 1 minute. I don't know, do some research on Google. Did anyone ever manage with an orchestrator to have a SaaS that builds under the minute? Ever! For not like a simple landing project that has front-end and back-end even a few pages on the website",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "processingTime" : 1557,
+  "rawResult" : " I almost generated the entire codebase in one shot. Not exactly, it's much more complicated than this and I think you still don't realize actually. Everything that you say takes time, takes more than 1 minute. I don't know, do some research on Google. Did anyone ever manage with an orchestrator to have a SaaS that builds under the minute? Ever! For not like a simple landing project that has front-end and back-end even a few pages on the website",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T00:46:14",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "I almost generated the entire codebase in one shot. Not exactly, it's much more complicated than this and I think you still don't realize actually. Everything that you say takes time, takes more than 1 minute.",
+      "start" : 0,
+      "end" : 18.32
+    },
+    {
+      "text" : "I don't know, do some research on Google. Did anyone ever manage with an",
+      "start" : 19.64,
+      "end" : 25.24
+    },
+    {
+      "text" : "orchestrator to have a SaaS that builds under the minute? Ever! For not like a",
+      "start" : 25.24,
+      "end" : 32.28
+    },
+    {
+      "text" : "simple landing project that has front-end and back-end even a few pages",
+      "start" : 32.28,
+      "end" : 38.44
+    },
+    {
+      "text" : "on the website",
+      "start" : 39.16,
+      "end" : 40.18
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "result" : "It's a real Rosetta, you cannot have iOS 26.",
+  "translationEnabled" : false,
+  "appVersion" : "2.11.0",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "duration" : 3868,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "rawResult" : " It's a real Rosetta, you cannot have iOS 26.",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "It's a real Rosetta, you cannot have iOS 26.",
+      "end" : 3.38,
+      "start" : 0
+    }
+  ],
+  "recordingDevice" : "",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-01T16:26:12",
+  "processingTime" : 960
+}

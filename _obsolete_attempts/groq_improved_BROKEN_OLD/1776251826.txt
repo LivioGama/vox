@@ -1,0 +1,1 @@
+And this way also we can avoid writing long prompts for the LLM since actually, time MCP for GitHub can take care of the task if it's described well enough.

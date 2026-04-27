@@ -1,0 +1,120 @@
+{
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "datetime" : "2026-04-11T05:40:42",
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " Note that as a personal touch, for me this video is the best of all because it represents the deceased father dancing which is kind of a moment of joy. We don't want it to look sad so maybe you could study and strip down a piece of this video after analyzing it and maybe make a gif that will represent actually the hero part rather than on the flyer. I mean, on the flyer is cool, but the image that is on the top of this flyer really inspires sadness when we actually want to make people feel better, not worse, you know? So help me out there with this image that actually this video is actually in the folder and come with something beautiful and that respect the memory of the deceased father. His name is by the way same as the folder project name Fai Tawon",
+  "duration" : 77324,
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 15.34,
+      "text" : "Note that as a personal touch, for me this video is the best of all because it represents the deceased father dancing which is kind of a moment of joy."
+    },
+    {
+      "start" : 15.68,
+      "end" : 24.38,
+      "text" : "We don't want it to look sad so maybe you could study and strip down a piece of this video after analyzing it"
+    },
+    {
+      "start" : 24.38,
+      "end" : 30.78,
+      "text" : "and maybe make a gif that will represent actually the hero part"
+    },
+    {
+      "start" : 31.38,
+      "end" : 33.02,
+      "text" : "rather than on the flyer."
+    },
+    {
+      "start" : 33.3,
+      "end" : 35.42,
+      "text" : "I mean, on the flyer is cool,"
+    },
+    {
+      "start" : 35.56,
+      "end" : 38.76,
+      "text" : "but the image that is on the top of this flyer"
+    },
+    {
+      "start" : 38.76,
+      "end" : 40.1,
+      "text" : "really inspires sadness"
+    },
+    {
+      "start" : 40.7,
+      "end" : 42.42,
+      "text" : "when we actually want to"
+    },
+    {
+      "start" : 44.2,
+      "end" : 48.58,
+      "text" : "make people feel better,"
+    },
+    {
+      "start" : 48.8,
+      "end" : 50.36,
+      "text" : "not worse, you know?"
+    },
+    {
+      "start" : 50.9,
+      "end" : 53.16,
+      "text" : "So help me out there with this image"
+    },
+    {
+      "start" : 53.16,
+      "end" : 60.78,
+      "text" : "that actually this video is actually in the folder and come with something beautiful"
+    },
+    {
+      "start" : 60.78,
+      "end" : 65.72,
+      "text" : "and that respect the memory of the deceased father."
+    },
+    {
+      "start" : 67.12,
+      "end" : 76.92,
+      "text" : "His name is by the way same as the folder project name Fai Tawon"
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "processingTime" : 2079,
+  "languageModelKey" : "",
+  "result" : "Note that as a personal touch, for me this video is the best of all because it represents the deceased father dancing which is kind of a moment of joy. We don't want it to look sad so maybe you could study and strip down a piece of this video after analyzing it and maybe make a gif that will represent actually the hero part rather than on the flyer. I mean, on the flyer is cool, but the image that is on the top of this flyer really inspires sadness when we actually want to make people feel better, not worse, you know? So help me out there with this image that actually this video is actually in the folder and come with something beautiful and that respect the memory of the deceased father. His name is by the way same as the folder project name Fai Tawon",
+  "modelName" : "Ultra (Cloud)"
+}

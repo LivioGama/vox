@@ -1,0 +1,65 @@
+{
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.12.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "datetime" : "2026-04-15T11:13:27",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Do it! And also, Shipfast is still showing the whole version. Can you make sure by yourself and without having to ask me anything and run a loop until it's done that if you open in the browser shipfast.io, the prod version, you will have a blog menu which will show that it's the correct version and loop until it's good.",
+      "end" : 21.68,
+      "start" : 0
+    },
+    {
+      "text" : "And for the MNC MCP registry, don't hesitate to use keys that are locally on my computer in order to auto deploy.",
+      "end" : 30.86,
+      "start" : 21.68
+    },
+    {
+      "text" : "On Dockploy you need to make sure that the link that I will provide gives the MCP Atlassian.",
+      "end" : 38.16,
+      "start" : 31.14
+    }
+  ],
+  "rawResult" : " Do it! And also, Shipfast is still showing the whole version. Can you make sure by yourself and without having to ask me anything and run a loop until it's done that if you open in the browser shipfast.io, the prod version, you will have a blog menu which will show that it's the correct version and loop until it's good. And for the MNC MCP registry, don't hesitate to use keys that are locally on my computer in order to auto deploy. On Dockploy you need to make sure that the link that I will provide gives the MCP Atlassian.",
+  "separateSpeakersEnabled" : false,
+  "duration" : 38389,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "recordingDevice" : "",
+  "result" : "Do it! And also, Shipfast is still showing the whole version. Can you make sure by yourself and without having to ask me anything and run a loop until it's done that if you open in the browser shipfast.io, the prod version, you will have a blog menu which will show that it's the correct version and loop until it's good. And for the MNC MCP registry, don't hesitate to use keys that are locally on my computer in order to auto deploy. On Dockploy you need to make sure that the link that I will provide gives the MCP Atlassian.",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "processingTime" : 1527
+}

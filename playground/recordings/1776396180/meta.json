@@ -1,0 +1,55 @@
+{
+  "processingTime" : 710,
+  "segments" : [
+    {
+      "end" : 3.96,
+      "text" : "It comes from someone in ANTHROPIC that shared it. Can you find it?",
+      "start" : 0
+    }
+  ],
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Comet",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "rawResult" : " It comes from someone in ANTHROPIC that shared it. Can you find it?",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "datetime" : "2026-04-17T03:23:00",
+  "appVersion" : "2.12.1",
+  "result" : "It comes from someone in ANTHROPIC that shared it. Can you find it?",
+  "systemAudioEnabled" : false,
+  "duration" : 4100,
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false
+}

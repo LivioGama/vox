@@ -1,0 +1,1 @@
+in RAM management is a disaster I get a lot of zombies from process that should be killed how can I fix this? I want something that automatically manage and kill all node like GS, Cursor, Bun, process that should not be there

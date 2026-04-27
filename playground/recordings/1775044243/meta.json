@@ -1,0 +1,55 @@
+{
+  "rawResult" : " I'm gonna meet someone in India that is a freelance developer for eight years. Considering I want to launch a product, ShipFast, that build product development, give me a list of five questions I should absolutely ask him considering I don't know anything about the Indian market.",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "I'm gonna meet someone in India that is a freelance developer for eight years. Considering I want to launch a product, ShipFast, that build product development, give me a list of five questions I should absolutely ask him considering I don't know anything about the Indian market.",
+      "end" : 17.62,
+      "start" : 0
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "I'm gonna meet someone in India that is a freelance developer for eight years. Considering I want to launch a product, ShipFast, that build product development, give me a list of five questions I should absolutely ask him considering I don't know anything about the Indian market.",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "datetime" : "2026-04-01T11:50:43",
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "duration" : 17816,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 840,
+  "recordingDevice" : "",
+  "appVersion" : "2.11.0",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)"
+}

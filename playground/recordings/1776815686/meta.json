@@ -1,0 +1,65 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "duration" : 24004,
+  "datetime" : "2026-04-21T23:54:46",
+  "result" : "I'm on redesign and it looks like, for example, I lost that when I click on the back button, it would slide down the preview and display the form directly. Also other stuff were broken from the 16th so please can you try to find a way to get to the same state than this date.",
+  "realtimeEnabled" : false,
+  "processingTime" : 1327,
+  "rawResult" : " I'm on redesign and it looks like, for example, I lost that when I click on the back button, it would slide down the preview and display the form directly. Also other stuff were broken from the 16th so please can you try to find a way to get to the same state than this date.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 6.92,
+      "text" : "I'm on redesign and it looks like, for example, I lost that when I click on the back button,"
+    },
+    {
+      "start" : 7.3,
+      "end" : 15.28,
+      "text" : "it would slide down the preview and display the form directly. Also other stuff were broken"
+    },
+    {
+      "start" : 15.28,
+      "end" : 23.38,
+      "text" : "from the 16th so please can you try to find a way to get to the same state than this date."
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

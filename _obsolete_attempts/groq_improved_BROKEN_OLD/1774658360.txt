@@ -1,0 +1,1 @@
+Je vais essayer de mesurer l'exceptionnalité de mon travail car je peux prendre n'importe quel prompt et ne pas utiliser n'importe quel template pré-fabriqué, seulement LLM et orchestration et générer un site web complet avec la front-end et la back-end. En 45 secondes max, terminé.

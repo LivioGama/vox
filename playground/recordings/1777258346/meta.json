@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Why do I need to run Rebuild and Restart since CargoWatch already does that?",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "duration" : 5504,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 804,
+  "datetime" : "2026-04-27T02:52:26",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "result" : "Why do I need to run Rebuild and Restart since CargoWatch already does that?",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0.16,
+      "text" : "Why do I need to run Rebuild and Restart since CargoWatch already does that?",
+      "end" : 5.26
+    }
+  ]
+}

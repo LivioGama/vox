@@ -1,0 +1,65 @@
+{
+  "duration" : 36658,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I disagree so much with your list. I always use Freebase, Batch, ShowRepositoryAltRevision, ResetBranchToCommit, EditCommitMessage, SquashDrop, CommitGrowth... How can you be so bad actually? I was expecting that you pull up the rock tree stuff.",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1148,
+  "languageModelName" : "",
+  "rawResult" : " I disagree so much with your list. I always use Freebase, Batch, ShowRepositoryAltRevision, ResetBranchToCommit, EditCommitMessage, SquashDrop, CommitGrowth... How can you be so bad actually? I was expecting that you pull up the rock tree stuff.",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T01:45:06",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 26.16,
+      "text" : "I disagree so much with your list. I always use Freebase, Batch, ShowRepositoryAltRevision, ResetBranchToCommit, EditCommitMessage, SquashDrop, CommitGrowth...",
+      "start" : 0
+    },
+    {
+      "end" : 29.06,
+      "text" : "How can you be so bad actually?",
+      "start" : 27.48
+    },
+    {
+      "end" : 34.5,
+      "text" : "I was expecting that you pull up the rock tree stuff.",
+      "start" : 30.76
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

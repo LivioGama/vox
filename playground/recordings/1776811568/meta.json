@@ -1,0 +1,78 @@
+{
+  "modeName" : "Default",
+  "prompt" : "\nINSTRUCTIONS:\nYour task is to reformat the user message according to the following guidelines:\n\n**PRIMARY RULE: PRESERVE THE ORIGINAL MESSAGE**\n- Only make changes when you are absolutely certain they improve accuracy\n- When in doubt, leave the original text unchanged\n- The names\/vocabulary list is for CONTEXT and SPELLING HELP only - do NOT randomly substitute words\n\n1. **Context Analysis**: Consider the application context, focused element, vocabulary, and names provided as background information to understand the user's environment.\n\n2. **Conservative Spelling Correction**: \n   - Only fix obvious spelling errors where the intended word is clear\n   - Use the vocabulary\/names list to help identify correct spellings of technical terms\n   - Example: \"Slak\" → \"Slack\" (if Slack is in the names list)\n   - DO NOT replace valid words with different words from the list\n\n3. **Self-Corrections**: Apply user corrections within the message.\n   Example: \"Let's meet at 8pm actually I mean 9pm\" → \"Let's meet at 9pm\"\n\n4. **Name Handling**: \n   - **CRITICAL**: Only change names if there's a clear misspelling with an obvious correction\n   - **Direct messaging contexts**: Prefer actual names over usernames to maintain natural flow, do not use @username for the person you are directly messaging\n   - **Group conversations**: Use @username when directly addressing someone and an exact username match exists in the names list\n   - **Only use @username**: When \"At [name]\" directly precedes a name AND an exact username match exists\n   - **Don't replace partial matches**: \"John\" should not become \"@JohnC12345\"\n   - **Keep nicknames unchanged**: Preserve short names\/nicknames as they appear - do NOT replace them with names from the list\n   - **Name replacement criteria**: Only replace a name if:\n     * Do not replace names that are very different from the one in the list e.g. \"John\" → \"Fred\"\n     * It's clearly a misspelling of a name in the list (e.g., \"Jhon\" → \"John\")\n     * There's an exact match in the names list\n     * The context clearly indicates it should be corrected\n   - **When in doubt, preserve the original**: If uncertain whether something is a nickname, misspelling, or intentional name, keep it unchanged\n\n5. **URL\/Email Formatting**: Convert spelled-out formats.\n   Examples: \"John at Example dot com\" → \"john@example.com\", \"Arcade dot net\" → \"arcade.net\"\n\n6. **Preserve Intent**: Maintain original meaning and tone without adding new content.\n\n**CRITICAL REQUIREMENTS**: \n- You MUST wrap your response in <sw_response_content> tags - this is not optional\n- Only make changes when confident about corrections\n- Don't include placeholders in output\n\nRespond with ONLY the reformatted message wrapped in the required tags.\n\n\nThe user is speaking English, reformatted message should also be in English.\n\nSYSTEM CONTEXT:\nCurrent time: 22 April 2026 at 00:46\nTime zone: Europe\/Zurich\nLocale: en_US@rg=chzzzz\nComputer name: livio\n\n\nUSER INFORMATION:\n    User's full name: Livio Gamassia\n    \n    \n\n\nAPPLICATION CONTEXT:\nUser is currently using Zed\nCategory: Text Editor (Code)\nDescription: Zed is a collaborative code editor designed for developers, offering real-time collaboration and a streamlined interface.\nText Input Format: code\nFocused element: , Title: ship-fast \n\n\n\nUSER MESSAGE:\nI don't understand, I lost a ton of features. For example, the cursor in the text area was aligned with the placeholder. So you need to find where this change was made absolutely because I'm afraid about everything else that I lost. You can check the other stash in .id folder and so on.\n\n",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "super",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "timezone" : "Europe\/Zurich",
+      "time" : "22 April 2026 at 00:46",
+      "computerName" : "livio",
+      "locale" : "en_US@rg=chzzzz",
+      "language" : "English"
+    },
+    "userContext" : {
+      "fullName" : "Livio Gamassia"
+    },
+    "applicationContext" : {
+      "appInfo" : {
+        "version" : 1,
+        "shortDescription" : "Zed is a collaborative code editor designed for developers, offering real-time collaboration and a streamlined interface.",
+        "name" : "Zed",
+        "textInputFormat" : "code",
+        "category" : "Text Editor (Code)"
+      },
+      "includeInPrompt" : true,
+      "name" : "Zed",
+      "nouns" : [
+
+      ],
+      "focusedElementDescription" : ", Title: ship-fast"
+    }
+  },
+  "processingTime" : 1153,
+  "llmResult" : "I don't understand, I lost a ton of features. For example, the cursor in the text area was aligned with the placeholder. So you need to find where this change was made absolutely because I'm afraid about everything else that I lost. You can check the other stash in .id folder and so on.",
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " I don't understand, I lost a ton of features. For example, the cursor in the text area was aligned with the placeholder. So you need to find where this change was made absolutely because I'm afraid about everything else that I lost. You can check the other stash in .id folder and so on.",
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-21T22:46:08",
+  "result" : "I don't understand, I lost a ton of features. For example, the cursor in the text area was aligned with the placeholder. So you need to find where this change was made absolutely because I'm afraid about everything else that I lost. You can check the other stash in .id folder and so on.",
+  "languageModelKey" : "claude-sonnet-4-6",
+  "duration" : 29572,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 14.78,
+      "text" : "I don't understand, I lost a ton of features. For example, the cursor in the text area was aligned with the placeholder."
+    },
+    {
+      "start" : 15.06,
+      "end" : 22.34,
+      "text" : "So you need to find where this change was made absolutely because I'm afraid about everything else that I lost."
+    },
+    {
+      "start" : 22.62,
+      "end" : 29.06,
+      "text" : "You can check the other stash in .id folder and so on."
+    }
+  ],
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelName" : "Sonnet 4.6",
+  "languageModelProcessingTime" : 2421,
+  "separateSpeakersEnabled" : false
+}

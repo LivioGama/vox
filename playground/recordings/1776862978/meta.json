@@ -1,0 +1,55 @@
+{
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T13:02:58",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "UTM",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "duration" : 1645,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "I'm talking about UTM.",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "processingTime" : 569,
+  "appVersion" : "2.12.1",
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "text" : "I'm talking about UTM.",
+      "start" : 0,
+      "end" : 1.5
+    }
+  ],
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "rawResult" : " I'm talking about UTM.",
+  "systemAudioEnabled" : false
+}

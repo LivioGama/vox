@@ -1,0 +1,1 @@
+It's still not working. I load the homepage, I can see the project. I click on one of the project, it opens. And then when I click on the back button on the top left, I go back to the homepage and I don't see any project. There are a lot of hot reload, I don't know why, but there is an issue there.

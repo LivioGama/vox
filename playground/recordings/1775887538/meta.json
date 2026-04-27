@@ -1,0 +1,70 @@
+{
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "duration" : 51300,
+  "languageSelected" : "en",
+  "appVersion" : "2.11.0",
+  "rawResult" : " Alright, way better. So now can you ensure that the video is a bit more than 100VH because on desktop it looks cut. I'm sure on mobile it will kill. because that's a portrait video but on desktop it's a bit a pity or maybe you can find a way on desktop to maybe add some black bands on the sides but say it needs to be proper if you do that find a way to make it really good",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Alright, way better. So now can you ensure that the video is a bit more than 100VH because on desktop it looks cut. I'm sure on mobile it will kill.",
+      "end" : 20.24
+    },
+    {
+      "start" : 22.44,
+      "text" : "because that's a portrait video but on desktop it's a bit a pity or maybe you can find a way",
+      "end" : 29.76
+    },
+    {
+      "start" : 29.76,
+      "text" : "on desktop to maybe add some black bands on the sides but say it needs to be proper if you do that",
+      "end" : 46.96
+    },
+    {
+      "start" : 47.4,
+      "text" : "find a way to make it really good",
+      "end" : 50.36
+    }
+  ],
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1669,
+  "result" : "Alright, way better. So now can you ensure that the video is a bit more than 100VH because on desktop it looks cut. I'm sure on mobile it will kill. because that's a portrait video but on desktop it's a bit a pity or maybe you can find a way on desktop to maybe add some black bands on the sides but say it needs to be proper if you do that find a way to make it really good",
+  "datetime" : "2026-04-11T06:05:38",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "speakers" : [
+
+  ]
+}

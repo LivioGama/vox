@@ -1,0 +1,60 @@
+{
+  "segments" : [
+    {
+      "end" : 11.18,
+      "text" : "The App Store notification, Docker stuff are up and up then if you're not.",
+      "start" : 0
+    },
+    {
+      "end" : 13.54,
+      "text" : "And then try to answer to this question.",
+      "start" : 11.46
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "duration" : 13760,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "The App Store notification, Docker stuff are up and up then if you're not. And then try to answer to this question.",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 949,
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "rawResult" : " The App Store notification, Docker stuff are up and up then if you're not. And then try to answer to this question.",
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-24T11:03:54",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

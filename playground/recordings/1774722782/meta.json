@@ -1,0 +1,55 @@
+{
+  "rawResult" : " The discussion I'm looking for is somewhere where I was asking if ACP would be good for Leiser and it said something like no and then I insisted and at the end he said yes.",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 10760,
+  "processingTime" : 969,
+  "datetime" : "2026-03-28T18:33:02",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Terminal",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "result" : "The discussion I'm looking for is somewhere where I was asking if ACP would be good for Leiser and it said something like no and then I insisted and at the end he said yes.",
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "The discussion I'm looking for is somewhere where I was asking if ACP would be good for Leiser and it said something like no and then I insisted and at the end he said yes.",
+      "end" : 10.64
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false
+}

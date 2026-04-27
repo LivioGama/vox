@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "languageModelName" : "",
+  "modeName" : "Default",
+  "processingTime" : 979,
+  "duration" : 11734,
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-01T05:19:11",
+  "result" : "I don't understand, you're supposed to mimic JetBrains 101. How can your result be so shitty and not at all have the same renderings that JetBrains?",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "rawResult" : " I don't understand, you're supposed to mimic JetBrains 101. How can your result be so shitty and not at all have the same renderings that JetBrains?",
+  "segments" : [
+    {
+      "end" : 11.5,
+      "start" : 0,
+      "text" : "I don't understand, you're supposed to mimic JetBrains 101. How can your result be so shitty and not at all have the same renderings that JetBrains?"
+    }
+  ]
+}

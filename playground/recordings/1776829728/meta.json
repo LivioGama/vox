@@ -1,0 +1,65 @@
+{
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "appVersion" : "2.12.1",
+  "result" : "But before doing that, actually keep a local copy of Redesign branch called Redesign Backup. And then when you finish to do the squash of redesign in five nice commits, you can merge it to Develop Branch. And then from Develop Branch, you can create a new branch called Multi-Tenant.",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "recordingDevice" : "",
+  "processingTime" : 1173,
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "But before doing that, actually keep a local copy of Redesign branch called Redesign Backup.",
+      "end" : 9.14,
+      "start" : 0
+    },
+    {
+      "text" : "And then when you finish to do the squash of redesign in five nice commits, you can merge it to Develop Branch.",
+      "end" : 17.68,
+      "start" : 10.16
+    },
+    {
+      "text" : "And then from Develop Branch, you can create a new branch called Multi-Tenant.",
+      "end" : 25.64,
+      "start" : 18.24
+    }
+  ],
+  "duration" : 28663,
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "rawResult" : " But before doing that, actually keep a local copy of Redesign branch called Redesign Backup. And then when you finish to do the squash of redesign in five nice commits, you can merge it to Develop Branch. And then from Develop Branch, you can create a new branch called Multi-Tenant.",
+  "datetime" : "2026-04-22T03:48:48",
+  "languageModelName" : ""
+}

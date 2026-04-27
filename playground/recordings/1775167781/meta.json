@@ -1,0 +1,55 @@
+{
+  "processingTime" : 751,
+  "modeName" : "Default",
+  "prompt" : "",
+  "result" : "Please, what did I use CureSaw as ACP?",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "datetime" : "2026-04-02T22:09:41",
+  "duration" : 3035,
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "rawResult" : " Please, what did I use CureSaw as ACP?",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 2.74,
+      "text" : "Please, what did I use CureSaw as ACP?"
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Claude"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "languageSelected" : "en"
+}

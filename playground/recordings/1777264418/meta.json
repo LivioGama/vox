@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Those are insane time and prices. Before, it was under 70 seconds and it was 4 cents.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "duration" : 12012,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 709,
+  "datetime" : "2026-04-27T04:33:38",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "result" : "Those are insane time and prices. Before, it was under 70 seconds and it was 4 cents.",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Those are insane time and prices. Before, it was under 70 seconds and it was 4 cents.",
+      "end" : 11.712,
+      "start" : 0.576
+    }
+  ]
+}

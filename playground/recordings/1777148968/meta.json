@@ -1,0 +1,70 @@
+{
+  "rawResult" : " Here is the behavior of my model in the orchestrator, it fails for a tool. So can you fix either the proxy or my OpenCode Slim? Maybe there are some tools missing or something but OpenCode cannot use the model. There's some incompatibility.",
+  "languageSelected" : "en",
+  "result" : "Here is the behavior of my model in the orchestrator, it fails for a tool. So can you fix either the proxy or my OpenCode Slim? Maybe there are some tools missing or something but OpenCode cannot use the model. There's some incompatibility.",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0.448,
+      "text" : "Here is the behavior of my model in the orchestrator, it fails for a tool.",
+      "end" : 8.3
+    },
+    {
+      "start" : 8.92,
+      "text" : "So can you fix either the proxy or my OpenCode Slim?",
+      "end" : 16.172
+    },
+    {
+      "start" : 16.512,
+      "text" : "Maybe there are some tools missing or something but OpenCode cannot use the model.",
+      "end" : 23.117062
+    },
+    {
+      "start" : 23.117062,
+      "text" : "There's some incompatibility.",
+      "end" : 23.117062
+    }
+  ],
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "duration" : 23117,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 1197,
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.13.0",
+  "datetime" : "2026-04-25T20:29:28",
+  "prompt" : ""
+}

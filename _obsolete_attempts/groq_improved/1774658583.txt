@@ -1,0 +1,1 @@
+Wait, hold on a second. You know the guess that you made about how I do it in parallelization? Do you know that if you do this, the best time you can do is 5 minutes? So please now respect me and try to understand what I did. You need to go deeper than this.

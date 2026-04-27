@@ -1,0 +1,1 @@
+Check that the subagent now uses copilot instead of cures or acp.

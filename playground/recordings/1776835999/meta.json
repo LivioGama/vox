@@ -1,0 +1,60 @@
+{
+  "result" : "Also avoid that Iris can be launched two times and kill the old instances. Also avoid that Iris can be launched two times and killed the old instances.",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "rawResult" : " Also avoid that Iris can be launched two times and kill the old instances. Also avoid that Iris can be launched two times and killed the old instances.",
+  "segments" : [
+    {
+      "text" : "Also avoid that Iris can be launched two times and kill the old instances.",
+      "start" : 0.94,
+      "end" : 7.74
+    },
+    {
+      "text" : "Also avoid that Iris can be launched two times and killed the old instances.",
+      "start" : 15.72,
+      "end" : 20.68
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Zed",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "duration" : 21332,
+  "processingTime" : 1053,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T05:33:19",
+  "languageSelected" : "en"
+}

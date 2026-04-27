@@ -1,0 +1,80 @@
+{
+  "rawResult" : " You do all the tests in the browser from hand to hand to verify it fully works. Also, since the CMSify and eCommerceify features can be quite long, I want you to create a very fancy animation. The Sanity CMSify animation should be about detecting the boxes that will be editable and do an animation like React Scan. and the CMS-E5 can be a simple full screen on top of the page preview with some cards that are rotated and repeating over 45 degrees and a skeleton below it. The card should be gray with a white skeleton light below it and the background behind the card should be black.",
+  "duration" : 62280,
+  "prompt" : "",
+  "processingTime" : 2024,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "result" : "You do all the tests in the browser from hand to hand to verify it fully works. Also, since the CMSify and eCommerceify features can be quite long, I want you to create a very fancy animation. The Sanity CMSify animation should be about detecting the boxes that will be editable and do an animation like React Scan. and the CMS-E5 can be a simple full screen on top of the page preview with some cards that are rotated and repeating over 45 degrees and a skeleton below it. The card should be gray with a white skeleton light below it and the background behind the card should be black.",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "segments" : [
+    {
+      "text" : "You do all the tests in the browser from hand to hand to verify it fully works.",
+      "start" : 0,
+      "end" : 7.1
+    },
+    {
+      "text" : "Also, since the CMSify and eCommerceify features can be quite long, I want you to create a very fancy animation.",
+      "start" : 8.78,
+      "end" : 17.14
+    },
+    {
+      "text" : "The Sanity CMSify animation should be about detecting the boxes that will be editable and do an animation like React Scan.",
+      "start" : 17.14,
+      "end" : 31.14
+    },
+    {
+      "text" : "and the CMS-E5 can be a simple full screen on top of the page preview with some cards that are",
+      "start" : 32.34,
+      "end" : 44.56
+    },
+    {
+      "text" : "rotated and repeating over 45 degrees and a skeleton below it. The card should be gray",
+      "start" : 44.56,
+      "end" : 55.36
+    },
+    {
+      "text" : "with a white skeleton light below it and the background behind the card should be black.",
+      "start" : 55.36,
+      "end" : 61.42
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-22T05:02:43"
+}

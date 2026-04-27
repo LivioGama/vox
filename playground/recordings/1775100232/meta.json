@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "end" : 7.88,
+      "text" : "No, no, no, don't use C-Max ever. Use C-Max or in whiskey scenario western.",
+      "start" : 0
+    }
+  ],
+  "result" : "No, no, no, don't use C-Max ever. Use C-Max or in whiskey scenario western.",
+  "prompt" : "",
+  "languageModelName" : "",
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-02T03:23:52",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1063,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "duration" : 8240,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " No, no, no, don't use C-Max ever. Use C-Max or in whiskey scenario western.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

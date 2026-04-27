@@ -1,0 +1,1 @@
+Alright, stash what you same locally and then find time last commit where there was a Grock with Kimmy 2.5 and where we removed it's and actually, go back to the commit where we still same it's, time last one.

@@ -1,0 +1,1 @@
+What about my preferences for desktop when I click? It should not be displayed. Desktop or for example Raycast also.

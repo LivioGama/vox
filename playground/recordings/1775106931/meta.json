@@ -1,0 +1,55 @@
+{
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "prompt" : "",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.11.0",
+  "processingTime" : 897,
+  "result" : "Did we lose the shortcut we had with command 1 and 2 in order to pre-fill in dev?",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Cursor"
+    }
+  },
+  "rawResult" : " Did we lose the shortcut we had with command 1 and 2 in order to pre-fill in dev?",
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 6872,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "end" : 6.58,
+      "start" : 0.76,
+      "text" : "Did we lose the shortcut we had with command 1 and 2 in order to pre-fill in dev?"
+    }
+  ],
+  "datetime" : "2026-04-02T05:15:31"
+}

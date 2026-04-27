@@ -1,0 +1,1 @@
+Instead of just changing the new find out what happened, was it because it was fixed in the vanilla version but not in this new Next.js version?

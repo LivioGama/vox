@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "duration" : 25115,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "result" : "I want to be able to launch Claude Code configured on the model CWUE 1.6 fast that comes from windsurf exposed world proxy deployed on my windsurf.dev.io so make it work.",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-26T00:22:16",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0.48,
+      "text" : "I want to be able to launch Claude Code configured on the model CWUE 1.6 fast that comes from windsurf exposed world proxy deployed on my windsurf.dev.io so make it work.",
+      "end" : 25.115625
+    }
+  ],
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "processingTime" : 1483,
+  "languageModelKey" : "",
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "rawResult" : " I want to be able to launch Claude Code configured on the model CWUE 1.6 fast that comes from windsurf exposed world proxy deployed on my windsurf.dev.io so make it work."
+}

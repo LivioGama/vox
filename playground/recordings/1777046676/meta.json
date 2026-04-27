@@ -1,0 +1,60 @@
+{
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-24T16:04:36",
+  "duration" : 10933,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "languageModelKey" : "",
+  "appVersion" : "2.12.1",
+  "result" : "Check my past conversation and gather all the ARNEST I tested. And that you mentioned, for example, on my OpenCode, on my OpenCode Slim... everything.",
+  "prompt" : "",
+  "processingTime" : 962,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "rawResult" : " Check my past conversation and gather all the ARNEST I tested. And that you mentioned, for example, on my OpenCode, on my OpenCode Slim... everything.",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 3.36,
+      "text" : "Check my past conversation and gather all the ARNEST I tested."
+    },
+    {
+      "start" : 4.44,
+      "end" : 10.26,
+      "text" : "And that you mentioned, for example, on my OpenCode, on my OpenCode Slim... everything."
+    }
+  ]
+}

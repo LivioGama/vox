@@ -1,0 +1,60 @@
+{
+  "prompt" : "",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "segments" : [
+    {
+      "text" : "You can already commit, but then we confirm that we have an always on mode that can actually use Deepgram, Voice activation detection, threshold to finish talking, filtering,",
+      "start" : 0.896,
+      "end" : 25.748
+    },
+    {
+      "text" : "voice energy detection and transform and vocabulary all of this in this branch",
+      "start" : 33.752,
+      "end" : 40.384
+    }
+  ],
+  "languageModelName" : "",
+  "rawResult" : " You can already commit, but then we confirm that we have an always on mode that can actually use Deepgram, Voice activation detection, threshold to finish talking, filtering, voice energy detection and transform and vocabulary all of this in this branch",
+  "datetime" : "2026-04-27T08:03:10",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "duration" : 40559,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageModelKey" : "",
+  "processingTime" : 2019,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "result" : "You can already commit, but then we confirm that we have an always on mode that can actually use Deepgram, Voice activation detection, threshold to finish talking, filtering, voice energy detection and transform and vocabulary all of this in this branch",
+  "separateSpeakersEnabled" : false
+}

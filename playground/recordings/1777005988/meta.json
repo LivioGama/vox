@@ -1,0 +1,65 @@
+{
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "result" : "No, no, don't be stupid. I want you to keep the tools but adapt the windsurf specific... Cascade tags to normal one. Then redeploy.",
+  "duration" : 30277,
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T04:46:28",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " No, no, don't be stupid. I want you to keep the tools but adapt the windsurf specific... Cascade tags to normal one. Then redeploy.",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 7.5,
+      "text" : "No, no, don't be stupid. I want you to keep the tools but adapt the windsurf specific...",
+      "start" : 0
+    },
+    {
+      "end" : 27.6,
+      "text" : "Cascade tags to normal one.",
+      "start" : 24.14
+    },
+    {
+      "end" : 29.94,
+      "text" : "Then redeploy.",
+      "start" : 28.68
+    }
+  ],
+  "languageModelKey" : "",
+  "processingTime" : 1284,
+  "languageSelected" : "en"
+}

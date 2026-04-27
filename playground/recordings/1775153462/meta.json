@@ -1,0 +1,55 @@
+{
+  "result" : "I'm actually being rate limited for my own products in prod which is not acceptable so can you add a whitelist IP and include mine in order to bypass the threshold of two generations.",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "datetime" : "2026-04-02T18:11:02",
+  "separateSpeakersEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "segments" : [
+    {
+      "end" : 16.76,
+      "text" : "I'm actually being rate limited for my own products in prod which is not acceptable so can you add a whitelist IP and include mine in order to bypass the threshold of two generations.",
+      "start" : 0
+    }
+  ],
+  "duration" : 17431,
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "processingTime" : 1115,
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " I'm actually being rate limited for my own products in prod which is not acceptable so can you add a whitelist IP and include mine in order to bypass the threshold of two generations.",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0"
+}

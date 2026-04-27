@@ -1,0 +1,70 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T20:32:29",
+  "appVersion" : "2.12.1",
+  "duration" : 31367,
+  "result" : "Using the Claude Code installation CLI in the VPS SSH-VPS, can you copy everything to the other VPS netcap? The idea is that we really want to have everything the same in order to benefit from the same authentication. So I think the best is that you simply zip all the relevant files and then SCP them to the netcap. and then unzip them.",
+  "realtimeEnabled" : false,
+  "processingTime" : 2014,
+  "rawResult" : " Using the Claude Code installation CLI in the VPS SSH-VPS, can you copy everything to the other VPS netcap? The idea is that we really want to have everything the same in order to benefit from the same authentication. So I think the best is that you simply zip all the relevant files and then SCP them to the netcap. and then unzip them.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Using the Claude Code installation CLI in the VPS SSH-VPS, can you copy everything to the other VPS netcap?",
+      "end" : 12.18
+    },
+    {
+      "start" : 12.44,
+      "text" : "The idea is that we really want to have everything the same in order to benefit from the same authentication.",
+      "end" : 19.02
+    },
+    {
+      "start" : 19.42,
+      "text" : "So I think the best is that you simply zip all the relevant files and then SCP them to the netcap.",
+      "end" : 29.12
+    },
+    {
+      "start" : 29.12,
+      "text" : "and then unzip them.",
+      "end" : 30.52
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

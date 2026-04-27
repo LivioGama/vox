@@ -1,0 +1,1 @@
+I have a few fixes to suggest on this page. First of all, the top bar containing the logo and the three buttons. The background should be full width. Right now it's a margin, left and right. Then for the number in the Euro 987, it's something like the average of everything time below. Then in the BFD at light speed, the number should be 45 seconds.

@@ -1,0 +1,1 @@
+Is there an MCP or a tool that will allow Claude Code to attach to the embedded terminal in cmux?

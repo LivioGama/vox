@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "processingTime" : 978,
+  "languageModelName" : "",
+  "datetime" : "2026-04-16T18:40:24",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "segments" : [
+    {
+      "end" : 11.88,
+      "text" : "Can you enforce my doccloy to always use HTTPS with a Let's Send script and assign a domain that will be in...",
+      "start" : 0
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "languageModelKey" : "",
+  "appVersion" : "2.12.0",
+  "realtimeEnabled" : false,
+  "duration" : 12515,
+  "prompt" : "",
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "result" : "Can you enforce my doccloy to always use HTTPS with a Let's Send script and assign a domain that will be in...",
+  "recordingDevice" : "",
+  "rawResult" : " Can you enforce my doccloy to always use HTTPS with a Let's Send script and assign a domain that will be in...",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

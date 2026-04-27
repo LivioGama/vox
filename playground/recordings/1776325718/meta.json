@@ -1,0 +1,60 @@
+{
+  "translationEnabled" : false,
+  "processingTime" : 1080,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "UTM",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "And then simply have one script that will open Western and be able to see the six agents in different bands.",
+      "start" : 0,
+      "end" : 16.48
+    },
+    {
+      "text" : "Not with a dummy but with a reel that you will time out 20 seconds, and clean a bit the repo.",
+      "start" : 19.72,
+      "end" : 28.46
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "datetime" : "2026-04-16T07:48:38",
+  "result" : "And then simply have one script that will open Western and be able to see the six agents in different bands. Not with a dummy but with a reel that you will time out 20 seconds, and clean a bit the repo.",
+  "appVersion" : "2.12.0",
+  "duration" : 28845,
+  "languageModelKey" : "",
+  "rawResult" : " And then simply have one script that will open Western and be able to see the six agents in different bands. Not with a dummy but with a reel that you will time out 20 seconds, and clean a bit the repo.",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "1776394539",
+    "groq": "Konjekomit-Buscher.",
+    "meta": "Cognier Commit Push.",
+    "gemini": "Konjekomit-Buscher.",
+    "changes": [
+      {
+        "from": "Konjekomit-Buscher.",
+        "to": "Konjekomit-Buscher.",
+        "reason": "The draft was already accurate."
+      }
+    ],
+    "confidence": "high",
+    "audio_kb": 90.66796875
+  },
+  {
+    "id": "1777146283",
+    "groq": "Thank you.",
+    "meta": "I'm going to show you how to use ACP, so I can use ACP.",
+    "gemini": "Thank you.",
+    "changes": [],
+    "confidence": "high",
+    "audio_kb": 53.814453125
+  },
+  {
+    "id": "1777065887",
+    "groq": "Yes or no?",
+    "meta": "Uh, OSPRO did not detect any operating system or computer this time but did not switch a domain right in the case of OSPRO. Yes or no?",
+    "gemini": "Uh, OS proper did not detect any other operating other operating system on computer this time, but it did not switch into the main operating system. Yes or no?",
+    "changes": [],
+    "confidence": "high",
+    "audio_kb": 297.54296875
+  },
+  {
+    "id": "1776822442",
+    "groq": "Thank you.",
+    "meta": "The name is C-P, the name is C-P, the name is C-P.",
+    "gemini": "Thank you.",
+    "changes": [],
+    "confidence": "high",
+    "audio_kb": 49.138671875
+  },
+  {
+    "id": "1777273847",
+    "groq": "What I call a zombie is a thing running but it's not attached to any program that I run. Like for example old open code, old cloud code, old rusts. I don't understand how to find them.",
+    "meta": "What I call a zombie is a thing running but it's not attached to any program that I run. Like for example, old OpenCode, old Claude Code, old Rust... I don't understand how to find them.",
+    "gemini": "What I call a zombie is a thing running but it's not attached to any program that I run. Like for example, uh old OpenCode, old Claude Code, old rusts. I don't understand how to find them.",
+    "changes": [
+      {
+        "from": "old open code",
+        "to": "old OpenCode",
+        "reason": "Corrected spelling based on glossary."
+      },
+      {
+        "from": "old cloud code",
+        "to": "old Claude Code",
+        "reason": "Corrected spelling based on glossary."
+      }
+    ],
+    "confidence": "high",
+    "audio_kb": 557.796875
+  },
+  {
+    "id": "1777273242",
+    "groq": "use agent browser but not in headless.",
+    "meta": "Use agent browser, but not in Adlas.",
+    "gemini": "use agent browser but not in headless.",
+    "changes": [],
+    "confidence": "high",
+    "audio_kb": 124.619140625
+  },
+  {
+    "id": "1777266874",
+    "groq": "Among the stuff to retrieve is the mechanic where we would load pexels API in parallel and display the images at the animating screen stage.",
+    "meta": "Amongst the stuff to retrieve is a mechanic where we would load Pexel API in parallel and display the images at the meeting screen stage.",
+    "gemini": "Among the stuff to retrieve is the mechanic where we would load Pexels API in parallel and display the images at the animating screen stage.",
+    "changes": [
+      {
+        "from": "pexels API",
+        "to": "Pexels API",
+        "reason": "Corrected capitalization of 'Pexels API' as it is a proper noun."
+      }
+    ],
+    "confidence": "high",
+    "audio_kb": 543.435546875
+  },
+  {
+    "id": "1777264418",
+    "groq": "Those are insane time and prices. Before it was under 70 seconds and it was 4 cents.",
+    "meta": "Those are insane time and prices. Before, it was under 70 seconds and it was 4 cents.",
+    "gemini": "Those are insane time and prices. Before it was under 70 seconds and it was 4 cents.",
+    "changes": [],
+    "confidence": "high",
+    "audio_kb": 375.44140625
+  },
+  {
+    "id": "1777258773",
+    "groq": "All the reasons you give me are really bad ones because I have a very powerful computer, an M4 Max with 64GB of RAM. About the LTO, I don't know but I want you to follow the best advice considering that the program should be at best performance.",
+    "meta": "Other reasons you give me are really bad ones because I have a very powerful computer, an M4 Max with 64GB of RAM. About the LTO, I don't know but I want you to follow the best advice considering that the program should be at best performance.",
+    "gemini": "All the reasons you give me are really bad ones because I have a very powerful computer, an M4 Max with 64 GB of RAM. About the LTO, I don't know, but I want you to follow the best advice considering that the program should be at best performance.",
+    "changes": [
+      {
+        "from": "About the LTO, I don't know but I want you to follow the best advice considering that the program should be at best performance.",
+        "to": "About the LTO, I don't know, but I want you to follow the best advice considering that the program should be at best performance.",
+        "reason": "Added a comma for better readability and flow."
+      }
+    ],
+    "confidence": "high",
+    "audio_kb": 733.806640625
+  },
+  {
+    "id": "1777254721",
+    "groq": "I really want it oriented to work with cloud code or cursor. I don't need to have this globally. I really want the AI to replace automatically and grab the RM command in order to do a soft delete.",
+    "meta": "I really want it oriented to work with Claude Code or Cursor. I don't need to have this globally, I really want the AI to replace automatically and grab the RM command in order to do soft delete.",
+    "gemini": "I really want it oriented to work with Claude Code or Cursor. I don't need to have this globally. I really want the AI to replace automatically and grab the RM command in order to do a soft delete.",
+    "changes": [
+      {
+        "from": "cloud code",
+        "to": "Claude Code",
+        "reason": "Corrected to the proper noun from the glossary."
+      }
+    ],
+    "confidence": "high",
+    "audio_kb": 561.470703125
+  }
+]

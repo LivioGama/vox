@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-22T14:00:00",
+  "duration" : 12675,
+  "result" : "I can create a GitRoc3 on branch 3 and actually apply the prompt engineering that we did in this branch to improve the design for the free branch 2.",
+  "realtimeEnabled" : false,
+  "processingTime" : 3197,
+  "rawResult" : " I can create a GitRoc3 on branch 3 and actually apply the prompt engineering that we did in this branch to improve the design for the free branch 2.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "I can create a GitRoc3 on branch 3 and actually apply the prompt engineering that we did in this branch to improve the design for the free branch 2.",
+      "end" : 12.16,
+      "start" : 0
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Zed"
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

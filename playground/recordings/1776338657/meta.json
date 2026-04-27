@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "processingTime" : 875,
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "duration" : 8272,
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "rawResult" : " Make sure the password for dev user is disabled on the VPS Dockploy.",
+  "datetime" : "2026-04-16T11:24:17",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 8.02,
+      "start" : 0,
+      "text" : "Make sure the password for dev user is disabled on the VPS Dockploy."
+    }
+  ],
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "appVersion" : "2.12.0",
+  "result" : "Make sure the password for dev user is disabled on the VPS Dockploy.",
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false
+}

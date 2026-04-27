@@ -1,0 +1,1 @@
+Dans l'objet métier Meetup, c'est quoi la différence entre la propriété HostCity et HostCityName ?

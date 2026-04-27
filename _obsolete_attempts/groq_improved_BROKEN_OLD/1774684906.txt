@@ -1,0 +1,1 @@
+Est-ce que vous pensez qu'il serait intéressant de mettre des bases de poches pour gâcher les hautes, we on mettrait les extensions pg pgvector ?

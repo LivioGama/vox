@@ -1,0 +1,65 @@
+{
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "result" : "Thank you. Oh, my God. Alright, let's go.",
+  "duration" : 100140,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "datetime" : "2026-04-24T13:02:31",
+  "translationEnabled" : false,
+  "rawResult" : " Thank you. Oh, my God. Alright, let's go.",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Slack",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Thank you.",
+      "start" : 16.86,
+      "end" : 17.58
+    },
+    {
+      "text" : "Oh, my God.",
+      "start" : 54.18,
+      "end" : 56.24
+    },
+    {
+      "text" : "Alright, let's go.",
+      "start" : 72.04,
+      "end" : 98.76
+    }
+  ],
+  "appVersion" : "2.12.1",
+  "processingTime" : 6223,
+  "languageSelected" : "en"
+}

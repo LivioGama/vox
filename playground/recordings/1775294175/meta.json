@@ -1,0 +1,60 @@
+{
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "processingTime" : 1218,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Normally the way it works is should be a repo where actually I have to do command plus T to pull from GitHub.",
+      "start" : 0,
+      "end" : 9.3
+    },
+    {
+      "text" : "And when this pull occurs, this is actually when the conflict is detected and the free chunk logical window should appear.",
+      "start" : 9.8,
+      "end" : 19.4
+    }
+  ],
+  "languageModelName" : "",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-04T09:16:15",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Normally the way it works is should be a repo where actually I have to do command plus T to pull from GitHub. And when this pull occurs, this is actually when the conflict is detected and the free chunk logical window should appear.",
+  "duration" : 20391,
+  "result" : "Normally the way it works is should be a repo where actually I have to do command plus T to pull from GitHub. And when this pull occurs, this is actually when the conflict is detected and the free chunk logical window should appear.",
+  "realtimeEnabled" : false,
+  "appVersion" : "2.11.0",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ]
+}

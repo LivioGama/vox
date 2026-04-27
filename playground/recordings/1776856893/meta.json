@@ -1,0 +1,60 @@
+{
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T11:21:33",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Comet",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "duration" : 11050,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "20th March, I sent 200 francs to Lithuanian IBAN but the person never receives the money. I would like to open an inquiry.",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "processingTime" : 1327,
+  "appVersion" : "2.12.1",
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "text" : "20th March, I sent 200 francs to Lithuanian IBAN but the person never receives the money.",
+      "start" : 0,
+      "end" : 8.34
+    },
+    {
+      "text" : "I would like to open an inquiry.",
+      "start" : 8.84,
+      "end" : 10.58
+    }
+  ],
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "rawResult" : " 20th March, I sent 200 francs to Lithuanian IBAN but the person never receives the money. I would like to open an inquiry.",
+  "systemAudioEnabled" : false
+}

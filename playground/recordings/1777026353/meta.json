@@ -1,0 +1,65 @@
+{
+  "segments" : [
+    {
+      "end" : 5.06,
+      "text" : "It's fine, I've got to touch 3 or some other branch but it's fine for develop.",
+      "start" : 0
+    },
+    {
+      "end" : 15.24,
+      "text" : "Now can you see if on the develop branch we have some trace of work where we would, with Ralph Riggum or in some other branch,",
+      "start" : 5.38
+    },
+    {
+      "end" : 22.04,
+      "text" : "in force to go towards better quality of generated UI with OpenUI.",
+      "start" : 16.02
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "duration" : 22260,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "It's fine, I've got to touch 3 or some other branch but it's fine for develop. Now can you see if on the develop branch we have some trace of work where we would, with Ralph Riggum or in some other branch, in force to go towards better quality of generated UI with OpenUI.",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 1069,
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "rawResult" : " It's fine, I've got to touch 3 or some other branch but it's fine for develop. Now can you see if on the develop branch we have some trace of work where we would, with Ralph Riggum or in some other branch, in force to go towards better quality of generated UI with OpenUI.",
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-24T10:25:53",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

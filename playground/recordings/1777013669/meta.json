@@ -1,0 +1,95 @@
+{
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "I'm not really sure what to choose, but for sure the goal was to change some stuff in the free directory that is about fixing the prompt and design improvements.",
+      "end" : 18.36
+    },
+    {
+      "start" : 18.36,
+      "text" : "for generating free nothing more and then also the branch we are not supposed",
+      "end" : 26.62
+    },
+    {
+      "start" : 26.62,
+      "text" : "to touch stuff related to that because the system is completely different",
+      "end" : 32.06
+    },
+    {
+      "start" : 32.92,
+      "text" : "considering that we will use open UI to build and stream the design so",
+      "end" : 46.52
+    },
+    {
+      "start" : 48.82,
+      "text" : "Considering that, what I really want you to do and is the most logical thing about the merge",
+      "end" : 55.92
+    },
+    {
+      "start" : 55.92,
+      "text" : "at the end I really want to come back to the original Ship 5 folder in the develop",
+      "end" : 62.3
+    },
+    {
+      "start" : 62.3,
+      "text" : "and that you delete every work tree and branch",
+      "end" : 68.16
+    },
+    {
+      "start" : 68.16,
+      "text" : "that are not three main or develop",
+      "end" : 72.62
+    },
+    {
+      "start" : 75.68,
+      "text" : "that we recently worked on both local and remote",
+      "end" : 79.48
+    }
+  ],
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " I'm not really sure what to choose, but for sure the goal was to change some stuff in the free directory that is about fixing the prompt and design improvements. for generating free nothing more and then also the branch we are not supposed to touch stuff related to that because the system is completely different considering that we will use open UI to build and stream the design so Considering that, what I really want you to do and is the most logical thing about the merge at the end I really want to come back to the original Ship 5 folder in the develop and that you delete every work tree and branch that are not three main or develop that we recently worked on both local and remote",
+  "duration" : 81043,
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "result" : "I'm not really sure what to choose, but for sure the goal was to change some stuff in the free directory that is about fixing the prompt and design improvements. for generating free nothing more and then also the branch we are not supposed to touch stuff related to that because the system is completely different considering that we will use open UI to build and stream the design so Considering that, what I really want you to do and is the most logical thing about the merge at the end I really want to come back to the original Ship 5 folder in the develop and that you delete every work tree and branch that are not three main or develop that we recently worked on both local and remote",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "processingTime" : 2089,
+  "datetime" : "2026-04-24T06:54:29",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : ""
+}

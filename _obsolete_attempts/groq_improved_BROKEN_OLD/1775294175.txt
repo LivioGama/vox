@@ -1,0 +1,1 @@
+Normally, time way it's works, this it's should able a repo where actually I same to do command plus T to pull from GitHub and when this pull occurs, this this actually when time conflict this detected and time free chunk logical window should appear.

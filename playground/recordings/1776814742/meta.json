@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 2586,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "processingTime" : 757,
+  "recordingDevice" : "",
+  "rawResult" : " I think stuff like GitRuck3, I don't know.",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "I think stuff like GitRuck3, I don't know.",
+      "start" : 0,
+      "end" : 2.12
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-21T23:39:02",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "I think stuff like GitRuck3, I don't know."
+}

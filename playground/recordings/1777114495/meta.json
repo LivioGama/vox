@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "result" : "Do you see a commit in the IGT story where I integrated CURSOR-ACP with Codex Spark 5.3?",
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "datetime" : "2026-04-25T10:54:55",
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Do you see a commit in the IGT story where I integrated CURSOR-ACP with Codex Spark 5.3?",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "text" : "Do you see a commit in the IGT story where I integrated CURSOR-ACP with Codex Spark 5.3?",
+      "start" : 0.768,
+      "end" : 8
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 11115,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 1562,
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "appVersion" : "2.13.0",
+  "languageModelKey" : ""
+}

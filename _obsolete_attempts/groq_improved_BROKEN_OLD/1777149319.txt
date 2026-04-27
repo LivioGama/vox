@@ -1,0 +1,1 @@
+You know, each time that you finish to do some change, you should recompile the Vox and reinstall it's so I can test it's directly in OpenCode. And you tell me if we do that, if I need to restart OpenCode or not.

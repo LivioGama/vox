@@ -1,0 +1,55 @@
+{
+  "duration" : 23117,
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " I have a feature for Shiftfast where I could deploy any subdomain dynamically from a website generated and now when I go to that subdomain, I have a lot found URL. Can you help me fix it?",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "result" : "I have a feature for Shiftfast where I could deploy any subdomain dynamically from a website generated and now when I go to that subdomain, I have a lot found URL. Can you help me fix it?",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "text" : "I have a feature for Shiftfast where I could deploy any subdomain dynamically from a website generated and now when I go to that subdomain, I have a lot found URL. Can you help me fix it?",
+      "start" : 0,
+      "end" : 22.84
+    }
+  ],
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "processingTime" : 1242,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    },
+    "userContext" : {
+
+    }
+  },
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-02T17:23:43"
+}

@@ -1,0 +1,95 @@
+{
+  "prompt" : "",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "segments" : [
+    {
+      "text" : "Alright bro, I want to go in a completely different direction but in a new RUGTREE we are working.",
+      "end" : 13.196,
+      "start" : 0.48
+    },
+    {
+      "text" : "So consider it would be like it's a new product, I only want to focus on the VOX always.",
+      "end" : 21.972,
+      "start" : 13.876
+    },
+    {
+      "text" : "So most of the stuff I did recently on that branch, but I actually realized I don't need most of the stuff that were done before",
+      "end" : 32.64,
+      "start" : 22.732
+    },
+    {
+      "text" : "because they were based on Vox, the original thing.",
+      "end" : 38.228,
+      "start" : 32.64
+    },
+    {
+      "text" : "But actually I don't want any local model, any heavy stuff.",
+      "end" : 43.12,
+      "start" : 38.76
+    },
+    {
+      "text" : "I want to use an API with DeepGram and also have the streaming feature.",
+      "end" : 49.856,
+      "start" : 43.44
+    },
+    {
+      "text" : "So the build should be super lightweight and super fast",
+      "end" : 54.644,
+      "start" : 50.476
+    },
+    {
+      "text" : "because there is no local model, no Whisper, no QAN.",
+      "end" : 55.232,
+      "start" : 54.644
+    },
+    {
+      "text" : "So make that happen.",
+      "end" : 55.232,
+      "start" : 55.232
+    }
+  ],
+  "languageModelName" : "",
+  "rawResult" : " Alright bro, I want to go in a completely different direction but in a new RUGTREE we are working. So consider it would be like it's a new product, I only want to focus on the VOX always. So most of the stuff I did recently on that branch, but I actually realized I don't need most of the stuff that were done before because they were based on Vox, the original thing. But actually I don't want any local model, any heavy stuff. I want to use an API with DeepGram and also have the streaming feature. So the build should be super lightweight and super fast because there is no local model, no Whisper, no QAN. So make that happen.",
+  "datetime" : "2026-04-27T07:25:32",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "duration" : 55521,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageModelKey" : "",
+  "processingTime" : 1928,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "result" : "Alright bro, I want to go in a completely different direction but in a new RUGTREE we are working. So consider it would be like it's a new product, I only want to focus on the VOX always. So most of the stuff I did recently on that branch, but I actually realized I don't need most of the stuff that were done before because they were based on Vox, the original thing. But actually I don't want any local model, any heavy stuff. I want to use an API with DeepGram and also have the streaming feature. So the build should be super lightweight and super fast because there is no local model, no Whisper, no QAN. So make that happen.",
+  "separateSpeakersEnabled" : false
+}

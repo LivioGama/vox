@@ -1,0 +1,1 @@
+Alright your goal is to use browser agents. Don't use time headless mode and you have to test in front of me the feature to e-commerce files end to end.

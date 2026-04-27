@@ -1,0 +1,1 @@
+Don't hesitate to take inspiration on the GIT history version that we had on the Free branch for example because this version I could have asked to have an OS, it would pretty much work but I could ask also a game with FreeJS so basically you are supposed to be product agnostic and do everything like you used to do in the past.

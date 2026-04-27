@@ -1,0 +1,55 @@
+{
+  "result" : "Instead of just changing... Can you find out what happened? Was it because it was fixed in the vanilla version but not in this new Next.js version?",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "rawResult" : " Instead of just changing... Can you find out what happened? Was it because it was fixed in the vanilla version but not in this new Next.js version?",
+  "segments" : [
+    {
+      "start" : 1.18,
+      "end" : 13.56,
+      "text" : "Instead of just changing... Can you find out what happened? Was it because it was fixed in the vanilla version but not in this new Next.js version?"
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "processingTime" : 1142,
+  "duration" : 14246,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "datetime" : "2026-04-21T23:38:01",
+  "languageSelected" : "en"
+}

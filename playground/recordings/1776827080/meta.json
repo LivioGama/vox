@@ -1,0 +1,60 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-22T03:04:40",
+  "duration" : 14246,
+  "result" : "Can you open it on Storyrun repo and show me the list of files and their getD if I click on them? If you didn't implement it, use 10 subagents in parallel to do it faster.",
+  "realtimeEnabled" : false,
+  "processingTime" : 1071,
+  "rawResult" : " Can you open it on Storyrun repo and show me the list of files and their getD if I click on them? If you didn't implement it, use 10 subagents in parallel to do it faster.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 7.82,
+      "text" : "Can you open it on Storyrun repo and show me the list of files and their getD if I click on them?"
+    },
+    {
+      "start" : 9.5,
+      "end" : 13.88,
+      "text" : "If you didn't implement it, use 10 subagents in parallel to do it faster."
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

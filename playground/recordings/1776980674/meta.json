@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 9.76,
+      "text" : "Are you sure you are using Codex 5.3 Spark? The design of the website is very ugly, find the reason and correct it by any means."
+    }
+  ],
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Cursor"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "processingTime" : 977,
+  "datetime" : "2026-04-23T21:44:34",
+  "rawResult" : " Are you sure you are using Codex 5.3 Spark? The design of the website is very ugly, find the reason and correct it by any means.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 10110,
+  "result" : "Are you sure you are using Codex 5.3 Spark? The design of the website is very ugly, find the reason and correct it by any means.",
+  "applicationContextEnabled" : false
+}

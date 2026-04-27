@@ -1,0 +1,55 @@
+{
+  "recordingDevice" : "",
+  "datetime" : "2026-04-27T02:20:02",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "result" : "You still didn't do an example where you generate a new project in ChipFast from the homepage with the browser incursor and check that it works.",
+  "realtimeEnabled" : false,
+  "processingTime" : 1334,
+  "systemAudioEnabled" : false,
+  "rawResult" : " You still didn't do an example where you generate a new project in ChipFast from the homepage with the browser incursor and check that it works.",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "You still didn't do an example where you generate a new project in ChipFast from the homepage with the browser incursor and check that it works.",
+      "end" : 11.0295,
+      "start" : 0
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "prompt" : "",
+  "duration" : 11029,
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)"
+}

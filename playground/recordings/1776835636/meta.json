@@ -1,0 +1,55 @@
+{
+  "result" : "And when I say Iris voice, I meant the original feminine one. Not the one that is currently there. You have to check the gitty story.",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "rawResult" : " And when I say Iris voice, I meant the original feminine one. Not the one that is currently there. You have to check the gitty story.",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "And when I say Iris voice, I meant the original feminine one. Not the one that is currently there. You have to check the gitty story.",
+      "end" : 10.98
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "duration" : 11160,
+  "processingTime" : 957,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T05:27:16",
+  "languageSelected" : "en"
+}

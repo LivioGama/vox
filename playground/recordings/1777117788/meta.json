@@ -1,0 +1,60 @@
+{
+  "languageModelName" : "",
+  "datetime" : "2026-04-25T11:49:48",
+  "result" : "I specifically told you that I want the home page with OpenRouter and KeyMe or ColamaCloud and KeyMe. So why do I have this? You didn't take the right commit or what?",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " I specifically told you that I want the home page with OpenRouter and KeyMe or ColamaCloud and KeyMe. So why do I have this? You didn't take the right commit or what?",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "segments" : [
+    {
+      "text" : "I specifically told you that I want the home page with OpenRouter and KeyMe or ColamaCloud and KeyMe.",
+      "end" : 13.736,
+      "start" : 0
+    },
+    {
+      "text" : "So why do I have this? You didn't take the right commit or what?",
+      "end" : 15.36,
+      "start" : 13.936
+    }
+  ],
+  "processingTime" : 2612,
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "prompt" : "",
+  "duration" : 15561,
+  "languageSelected" : "en"
+}

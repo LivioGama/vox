@@ -1,0 +1,1 @@
+and run the task till the end in order to make sure you can use the agent browser, CLI and the skill related to Electron.

@@ -1,0 +1,65 @@
+{
+  "rawResult" : " I don't understand because before this project could generate everything in less than 45 seconds and now it takes 7 minutes. And the logs show only project context, it doesn't move up. So I think the homepage is a bottleneck. Can you check what changes not from me but from Habi in the git history could have introduced that?",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "duration" : 33441,
+  "processingTime" : 1960,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-27T04:23:54",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "result" : "I don't understand because before this project could generate everything in less than 45 seconds and now it takes 7 minutes. And the logs show only project context, it doesn't move up. So I think the homepage is a bottleneck. Can you check what changes not from me but from Habi in the git history could have introduced that?",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "I don't understand because before this project could generate everything in less than 45 seconds and now it takes 7 minutes.",
+      "start" : 0.352,
+      "end" : 14.82
+    },
+    {
+      "text" : "And the logs show only project context, it doesn't move up. So I think the homepage is a bottleneck.",
+      "start" : 17.52,
+      "end" : 25.652
+    },
+    {
+      "text" : "Can you check what changes not from me but from Habi in the git history could have introduced that?",
+      "start" : 25.832,
+      "end" : 33.152
+    }
+  ]
+}

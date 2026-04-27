@@ -1,0 +1,1 @@
+Can we add a sound play when Cargo Watch finish building?

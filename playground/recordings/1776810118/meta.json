@@ -1,0 +1,60 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 10580,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Zed",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 908,
+  "rawResult" : " Command, I made it switch with the dev command script. Why did I do this? In which commit, which branch or which dash?",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Command, I made it switch with the dev command script.",
+      "end" : 5.74,
+      "start" : 0
+    },
+    {
+      "text" : "Why did I do this? In which commit, which branch or which dash?",
+      "end" : 10.24,
+      "start" : 6.5
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-21T22:21:58",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "Command, I made it switch with the dev command script. Why did I do this? In which commit, which branch or which dash?"
+}

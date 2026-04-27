@@ -1,0 +1,1 @@
+On continue d'utiliser l'instance de code de cloud, mais en fait, on pourrait utiliser la même. On n'a pas besoin de lancer une à chaque fois. Donc, cette configuration est avec Haiku. Mais pour les autres API comme Gemini Free Flash, on peut utiliser l'API Code directement. Parce que l'idée est que l'API Key anthropique est trop cher à utiliser directement.

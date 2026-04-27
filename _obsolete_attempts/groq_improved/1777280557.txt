@@ -1,0 +1,1 @@
+While cargo is building release, the process does not transcript. Is it because we write the binary?

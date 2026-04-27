@@ -1,0 +1,80 @@
+{
+  "processingTime" : 2106,
+  "modeName" : "Default",
+  "prompt" : "",
+  "result" : "So basically, I want you to be able to detect if a user would paste a prompt that is over 65 characters and the behavior for this, if you remember well, is that we detect the language for this prompt in order to adapt the drop-down that now displays. Additionally, what I want you to do in this specific scenario, only when people paste a prompt that match those criteria, not when actually people type. I want you to incredibly change the generate call to action button language to the language of the detected prompt and I want you to shake that button with some animation CSS using a screw of 45 degrees on both sides like a Elex maybe but not like completely rotating just shaking it from both sides",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "duration" : 78510,
+  "datetime" : "2026-04-02T19:55:49",
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "rawResult" : " So basically, I want you to be able to detect if a user would paste a prompt that is over 65 characters and the behavior for this, if you remember well, is that we detect the language for this prompt in order to adapt the drop-down that now displays. Additionally, what I want you to do in this specific scenario, only when people paste a prompt that match those criteria, not when actually people type. I want you to incredibly change the generate call to action button language to the language of the detected prompt and I want you to shake that button with some animation CSS using a screw of 45 degrees on both sides like a Elex maybe but not like completely rotating just shaking it from both sides",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "text" : "So basically, I want you to be able to detect if a user would paste a prompt that is over 65 characters and the behavior for this, if you remember well, is that we detect the language for this prompt in order to adapt the drop-down that now displays.",
+      "start" : 0,
+      "end" : 24.82
+    },
+    {
+      "text" : "Additionally, what I want you to do in this specific scenario, only when people paste a prompt that match those criteria, not when actually people type.",
+      "start" : 25.84,
+      "end" : 36.26
+    },
+    {
+      "text" : "I want you to incredibly change the generate call to action button language",
+      "start" : 36.26,
+      "end" : 44.58
+    },
+    {
+      "text" : "to the language of the detected prompt",
+      "start" : 45.26,
+      "end" : 49.92
+    },
+    {
+      "text" : "and I want you to shake that button with some animation CSS",
+      "start" : 49.92,
+      "end" : 57.2
+    },
+    {
+      "text" : "using a screw of 45 degrees on both sides like a Elex maybe but not like completely rotating just shaking it from both sides",
+      "start" : 60.14,
+      "end" : 77.74
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageSelected" : "en"
+}

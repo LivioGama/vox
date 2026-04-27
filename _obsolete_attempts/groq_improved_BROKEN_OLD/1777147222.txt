@@ -1,0 +1,1 @@
+Were you able to configure time hooks just like we can find them on some of my dps that will auto start the copilot API?

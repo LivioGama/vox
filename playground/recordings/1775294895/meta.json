@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Cursor"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1039,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 9.34,
+      "text" : "My conflict is not opening the specific window with the free track logical resolve."
+    }
+  ],
+  "languageModelName" : "",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-04T09:28:15",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " My conflict is not opening the specific window with the free track logical resolve.",
+  "duration" : 11489,
+  "result" : "My conflict is not opening the specific window with the free track logical resolve.",
+  "realtimeEnabled" : false,
+  "appVersion" : "2.11.0",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 2287,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "processingTime" : 1283,
+  "recordingDevice" : "",
+  "rawResult" : " Fix Eleger, Switzerland.",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Fix Eleger, Switzerland.",
+      "start" : 0,
+      "end" : 1.9
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T21:56:22",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "Fix Eleger, Switzerland."
+}

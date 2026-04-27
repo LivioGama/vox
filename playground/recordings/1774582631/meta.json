@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "result" : "Could you restore my OBS and the settings?",
+  "translationEnabled" : false,
+  "appVersion" : "2.11.0",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Warp",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 3783,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "rawResult" : " Could you restore my OBS and the settings?",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 3.32,
+      "text" : "Could you restore my OBS and the settings?"
+    }
+  ],
+  "recordingDevice" : "BuiltInMicrophoneDevice",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-03-27T03:37:11",
+  "processingTime" : 661
+}

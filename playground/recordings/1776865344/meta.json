@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Do it and use 20 sub-agents to go faster.",
+  "duration" : 3794,
+  "prompt" : "",
+  "processingTime" : 1050,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.12.1",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "result" : "Do it and use 20 sub-agents to go faster.",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Zed",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "segments" : [
+    {
+      "end" : 3.52,
+      "text" : "Do it and use 20 sub-agents to go faster.",
+      "start" : 0
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-22T13:42:24"
+}

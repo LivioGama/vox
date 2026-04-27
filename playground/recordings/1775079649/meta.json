@@ -1,0 +1,55 @@
+{
+  "duration" : 4478,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Fix the port, it's 7420.",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "processingTime" : 685,
+  "rawResult" : " Fix the port, it's 7420.",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-01T21:40:49",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Fix the port, it's 7420.",
+      "end" : 4.06,
+      "start" : 0
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

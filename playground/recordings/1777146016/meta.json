@@ -1,0 +1,60 @@
+{
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "languageSelected" : "en",
+  "prompt" : "",
+  "translationEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "result" : "I really don't like the way warp terminal handles the history of command line. How can I disable this feature because even control R is intercepted?",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "segments" : [
+    {
+      "text" : "I really don't like the way warp terminal handles the history of command line.",
+      "start" : 0.32,
+      "end" : 13.452
+    },
+    {
+      "text" : "How can I disable this feature because even control R is intercepted?",
+      "start" : 17.052,
+      "end" : 19.328
+    }
+  ],
+  "languageModelName" : "",
+  "duration" : 19515,
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " I really don't like the way warp terminal handles the history of command line. How can I disable this feature because even control R is intercepted?",
+  "processingTime" : 1036,
+  "datetime" : "2026-04-25T19:40:16",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0"
+}

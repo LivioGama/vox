@@ -1,0 +1,85 @@
+{
+  "separateSpeakersEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "processingTime" : 1815,
+  "duration" : 66529,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-03T02:59:39",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "rawResult" : " Here is a very short SlackWeb post for me, saying something like, you are now in the era of ADE, Identic Development, where everyone starts to develop their own RLs. The only problem is that everyone wants, of course, to take advantage of their load subscription max. using the cloud code CLI, not validating the term but they are all doing it wrong so I agree with the skill that allowed to do this I'm just saying emoji warning and saying that you're aware that I usually don't recommend to copy other people's skills but this is an exception because this is an Italian skill where there is no personalization, it's just to do one job. So it's different.",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Here is a very short SlackWeb post for me, saying something like, you are now in the era of ADE,",
+      "end" : 10.34
+    },
+    {
+      "start" : 10.92,
+      "text" : "Identic Development, where everyone starts to develop their own RLs.",
+      "end" : 17.12
+    },
+    {
+      "start" : 18.34,
+      "text" : "The only problem is that everyone wants, of course, to take advantage of their load subscription max.",
+      "end" : 29.06
+    },
+    {
+      "start" : 32.56,
+      "text" : "using the cloud code CLI, not validating the term but they are all doing it wrong so I agree with the skill that allowed to do this",
+      "end" : 43.32
+    },
+    {
+      "start" : 44.44,
+      "text" : "I'm just saying emoji warning and saying that you're aware that I usually don't recommend to copy other people's skills",
+      "end" : 55.58
+    },
+    {
+      "start" : 55.58,
+      "text" : "but this is an exception because this is an Italian skill where there is no personalization, it's just to do one job.",
+      "end" : 63.68
+    },
+    {
+      "start" : 64.78,
+      "text" : "So it's different.",
+      "end" : 66.24
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Here is a very short SlackWeb post for me, saying something like, you are now in the era of ADE, Identic Development, where everyone starts to develop their own RLs. The only problem is that everyone wants, of course, to take advantage of their load subscription max. using the cloud code CLI, not validating the term but they are all doing it wrong so I agree with the skill that allowed to do this I'm just saying emoji warning and saying that you're aware that I usually don't recommend to copy other people's skills but this is an exception because this is an Italian skill where there is no personalization, it's just to do one job. So it's different."
+}

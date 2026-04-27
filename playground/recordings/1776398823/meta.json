@@ -1,0 +1,55 @@
+{
+  "processingTime" : 760,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Let's do a quick test, to be ready to roll back by swapping CMUX gradient effect from the fader.",
+      "end" : 8.46
+    }
+  ],
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Let's do a quick test, to be ready to roll back by swapping CMUX gradient effect from the fader.",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-17T04:07:03",
+  "result" : "Let's do a quick test, to be ready to roll back by swapping CMUX gradient effect from the fader.",
+  "systemAudioEnabled" : false,
+  "duration" : 8820,
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false
+}

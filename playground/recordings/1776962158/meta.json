@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Copy your Claude Code CLI credential into...",
+      "end" : 5.88,
+      "start" : 0
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "result" : "Copy your Claude Code CLI credential into...",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 966,
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "datetime" : "2026-04-23T16:35:58",
+  "duration" : 6420,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Copy your Claude Code CLI credential into..."
+}

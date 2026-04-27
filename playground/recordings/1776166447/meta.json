@@ -1,0 +1,60 @@
+{
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "I don't understand, I still see this IP in the log that seems to be able to pursue whatever it wants since actually 30 minutes and you still didn't block it so what's a thing? It's supposed to be automatic.",
+      "end" : 13.68
+    },
+    {
+      "start" : 15.36,
+      "text" : "Do something that I can really see quickly that this IP is blocked automatically in my Slack events and that no more events goes up.",
+      "end" : 23.54
+    }
+  ],
+  "recordingDevice" : "",
+  "duration" : 23565,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.0",
+  "processingTime" : 1285,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-14T11:34:07",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "rawResult" : " I don't understand, I still see this IP in the log that seems to be able to pursue whatever it wants since actually 30 minutes and you still didn't block it so what's a thing? It's supposed to be automatic. Do something that I can really see quickly that this IP is blocked automatically in my Slack events and that no more events goes up.",
+  "result" : "I don't understand, I still see this IP in the log that seems to be able to pursue whatever it wants since actually 30 minutes and you still didn't block it so what's a thing? It's supposed to be automatic. Do something that I can really see quickly that this IP is blocked automatically in my Slack events and that no more events goes up.",
+  "realtimeEnabled" : false,
+  "languageModelName" : ""
+}

@@ -1,0 +1,55 @@
+{
+  "processingTime" : 950,
+  "result" : "And the most flexible one that I can think of is actually OpenCode, that I invite you to configure for this model and to use in our use case.",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "realtimeEnabled" : false,
+  "appVersion" : "2.13.0",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " And the most flexible one that I can think of is actually OpenCode, that I invite you to configure for this model and to use in our use case.",
+  "prompt" : "",
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false,
+  "duration" : 13199,
+  "translationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "And the most flexible one that I can think of is actually OpenCode, that I invite you to configure for this model and to use in our use case.",
+      "start" : 0.288,
+      "end" : 13.199062
+    }
+  ],
+  "languageSelected" : "en",
+  "datetime" : "2026-04-25T18:09:01",
+  "languageModelKey" : "",
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  }
+}

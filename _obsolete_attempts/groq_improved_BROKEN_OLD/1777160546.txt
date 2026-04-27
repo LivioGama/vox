@@ -1,0 +1,1 @@
+I don't know, I same time feeling that time context is saturated, that's why it's cannot follow up. Maybe you should review the OpenCode Slim config. Especially about the tools.

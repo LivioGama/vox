@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "modeName" : "Default",
+  "processingTime" : 768,
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Use built-in feature in West Term. It's actually done for this and this is why we use West Term. Don't do anything fancy.",
+  "separateSpeakersEnabled" : false,
+  "result" : "Use built-in feature in West Term. It's actually done for this and this is why we use West Term. Don't do anything fancy.",
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "appVersion" : "2.13.0",
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Use built-in feature in West Term. It's actually done for this and this is why we use West Term. Don't do anything fancy.",
+      "end" : 8.304188,
+      "start" : 0.256
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-25T18:02:50",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "languageModelKey" : "",
+  "prompt" : "",
+  "duration" : 8304,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "realtimeEnabled" : false
+}

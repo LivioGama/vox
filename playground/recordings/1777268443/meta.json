@@ -1,0 +1,55 @@
+{
+  "prompt" : "",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "segments" : [
+    {
+      "text" : "Can you git pull because I changed a few stuff and you should accept theirs.",
+      "start" : 0.256,
+      "end" : 8.774438
+    }
+  ],
+  "languageModelName" : "",
+  "rawResult" : " Can you git pull because I changed a few stuff and you should accept theirs.",
+  "datetime" : "2026-04-27T05:40:43",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "duration" : 8774,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Cursor"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageModelKey" : "",
+  "processingTime" : 1047,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "result" : "Can you git pull because I changed a few stuff and you should accept theirs.",
+  "separateSpeakersEnabled" : false
+}

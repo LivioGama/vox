@@ -1,0 +1,1 @@
+Can you add a global-cloud.md rule stating that in the prompt when I mention SSH, the following word is often an SSH config host to check for?

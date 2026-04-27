@@ -1,0 +1,1 @@
+Je ne comprends pas, je vois toujours cette IP dans le log qui semble être capable de chercher ce qu'elle veut depuis 30 minutes et tu ne l'as pas bloqué, donc c'est une chose, c'est supposé être automatique Fais quelque chose que je puisse vraiment voir rapidement que cette IP est bloquée automatiquement dans mes événements de Slack et que plus de événements ne vont pas

@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "speakers" : [
+
+  ],
+  "duration" : 10409,
+  "languageModelName" : "",
+  "prompt" : "",
+  "processingTime" : 918,
+  "segments" : [
+    {
+      "text" : "Can we add a sound play when Cargo Watch finish building?",
+      "start" : 0.576,
+      "end" : 9.856
+    }
+  ],
+  "languageModelKey" : "",
+  "datetime" : "2026-04-27T06:35:02",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "realtimeEnabled" : false,
+  "result" : "Can we add a sound play when Cargo Watch finish building?",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.13.0",
+  "rawResult" : " Can we add a sound play when Cargo Watch finish building?",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false
+}

@@ -1,0 +1,60 @@
+{
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "speakers" : [
+
+  ],
+  "duration" : 12899,
+  "languageModelName" : "",
+  "prompt" : "",
+  "processingTime" : 663,
+  "segments" : [
+    {
+      "text" : "When I say to check, it's probably on parallel branch because I know that we use stuff like",
+      "start" : 0.288,
+      "end" : 7.088
+    },
+    {
+      "text" : "Ralph loop and so on. There is probably something in dotload folder directory for it.",
+      "start" : 7.088,
+      "end" : 12.899813
+    }
+  ],
+  "languageModelKey" : "",
+  "datetime" : "2026-04-27T06:37:06",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "realtimeEnabled" : false,
+  "result" : "When I say to check, it's probably on parallel branch because I know that we use stuff like Ralph loop and so on. There is probably something in dotload folder directory for it.",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.13.0",
+  "rawResult" : " When I say to check, it's probably on parallel branch because I know that we use stuff like Ralph loop and so on. There is probably something in dotload folder directory for it.",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false
+}

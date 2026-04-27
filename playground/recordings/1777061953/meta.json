@@ -1,0 +1,55 @@
+{
+  "prompt" : "",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " What's the best optimization for RAM footprints? For example, when it's idle I want it to be under 40 megabytes of RAM.",
+  "processingTime" : 895,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "What's the best optimization for RAM footprints? For example, when it's idle I want it to be under 40 megabytes of RAM.",
+      "end" : 14.1
+    }
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "datetime" : "2026-04-24T20:19:13",
+  "realtimeEnabled" : false,
+  "result" : "What's the best optimization for RAM footprints? For example, when it's idle I want it to be under 40 megabytes of RAM.",
+  "separateSpeakersEnabled" : false,
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "languageModelName" : "",
+  "duration" : 14360,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : ""
+}

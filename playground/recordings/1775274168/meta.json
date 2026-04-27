@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "duration" : 11510,
+  "result" : "Can you try to see what are the missing features I need for my GitDivViewer that should do the same features than the JetBrains one?",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Zed"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0.64,
+      "end" : 11.2,
+      "text" : "Can you try to see what are the missing features I need for my GitDivViewer that should do the same features than the JetBrains one?"
+    }
+  ],
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-04T03:42:48",
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "rawResult" : " Can you try to see what are the missing features I need for my GitDivViewer that should do the same features than the JetBrains one?",
+  "appVersion" : "2.11.0",
+  "speakers" : [
+
+  ],
+  "processingTime" : 968
+}

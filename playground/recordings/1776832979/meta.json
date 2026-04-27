@@ -1,0 +1,55 @@
+{
+  "result" : "Is it clear that I don't want one sanity for all, but that I want a different sanity per generation? Same for Medusa.",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "rawResult" : " Is it clear that I don't want one sanity for all, but that I want a different sanity per generation? Same for Medusa.",
+  "segments" : [
+    {
+      "end" : 18.12,
+      "start" : 0,
+      "text" : "Is it clear that I don't want one sanity for all, but that I want a different sanity per generation? Same for Medusa."
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "processingTime" : 1117,
+  "duration" : 18468,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T04:42:59",
+  "languageSelected" : "en"
+}

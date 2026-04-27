@@ -1,0 +1,55 @@
+{
+  "prompt" : "",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "segments" : [
+    {
+      "text" : "Can you update the README to explain what we are trying to do in this current branch ROG3?",
+      "start" : 0.512,
+      "end" : 8.096
+    }
+  ],
+  "languageModelName" : "",
+  "rawResult" : " Can you update the README to explain what we are trying to do in this current branch ROG3?",
+  "datetime" : "2026-04-27T07:44:44",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "duration" : 8688,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "languageModelKey" : "",
+  "processingTime" : 1107,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "result" : "Can you update the README to explain what we are trying to do in this current branch ROG3?",
+  "separateSpeakersEnabled" : false
+}

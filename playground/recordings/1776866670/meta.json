@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "duration" : 11318,
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-22T14:04:30",
+  "result" : "No, I actually want you to be aggressive. It's Abby who did the fix when Kimi was deprecated to improve the design with prompt engineering. So take that and apply it to free.",
+  "realtimeEnabled" : false,
+  "processingTime" : 1045,
+  "rawResult" : " No, I actually want you to be aggressive. It's Abby who did the fix when Kimi was deprecated to improve the design with prompt engineering. So take that and apply it to free.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 10.88,
+      "text" : "No, I actually want you to be aggressive. It's Abby who did the fix when Kimi was deprecated to improve the design with prompt engineering. So take that and apply it to free.",
+      "start" : 0
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Zed"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

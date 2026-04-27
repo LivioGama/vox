@@ -1,0 +1,1 @@
+Votre but est d'extracter toutes ces fonctions et la façon dont elles sont implémentées de manière méticuleuse, avec beaucoup de précision, et d'implémenter le MergeKit app 1.1 avec le code Java de JetBrains que vous trouverez dans le fardeau.

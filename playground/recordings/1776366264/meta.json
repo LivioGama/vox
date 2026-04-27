@@ -1,0 +1,95 @@
+{
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 17.98,
+      "text" : "Can you actually improve the animation we have when actually we generate a website because there is a text writing byte by byte, but once it's over, it's actually going small and not with a nice animation."
+    },
+    {
+      "start" : 18.38,
+      "end" : 20.5,
+      "text" : "So I would like you to improve this."
+    },
+    {
+      "start" : 20.72,
+      "end" : 28.08,
+      "text" : "And then I also want you to work on some interesting features because you know we are using Pexel API to generate image."
+    },
+    {
+      "start" : 28.08,
+      "end" : 34.22,
+      "text" : "So what about generating the image also in parallel while we are creating the"
+    },
+    {
+      "start" : 34.22,
+      "end" : 40.1,
+      "text" : "spec and the home page? And once we start with the image, maybe show them little by"
+    },
+    {
+      "start" : 40.1,
+      "end" : 55.08,
+      "text" : "little by introducing them with a scale effect with opacity going on. And then at"
+    },
+    {
+      "start" : 55.08,
+      "end" : 60.6,
+      "text" : "the end when the home page will appear we would like to transition those image"
+    },
+    {
+      "start" : 60.6,
+      "end" : 66.68,
+      "text" : "automatically to the place where they are actually on the homepage. So work"
+    },
+    {
+      "start" : 66.68,
+      "end" : 68.78,
+      "text" : "on that seriously and it will be stunning!"
+    }
+  ],
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "rawResult" : " Can you actually improve the animation we have when actually we generate a website because there is a text writing byte by byte, but once it's over, it's actually going small and not with a nice animation. So I would like you to improve this. And then I also want you to work on some interesting features because you know we are using Pexel API to generate image. So what about generating the image also in parallel while we are creating the spec and the home page? And once we start with the image, maybe show them little by little by introducing them with a scale effect with opacity going on. And then at the end when the home page will appear we would like to transition those image automatically to the place where they are actually on the homepage. So work on that seriously and it will be stunning!",
+  "languageSelected" : "en",
+  "processingTime" : 1923,
+  "datetime" : "2026-04-16T19:04:24",
+  "result" : "Can you actually improve the animation we have when actually we generate a website because there is a text writing byte by byte, but once it's over, it's actually going small and not with a nice animation. So I would like you to improve this. And then I also want you to work on some interesting features because you know we are using Pexel API to generate image. So what about generating the image also in parallel while we are creating the spec and the home page? And once we start with the image, maybe show them little by little by introducing them with a scale effect with opacity going on. And then at the end when the home page will appear we would like to transition those image automatically to the place where they are actually on the homepage. So work on that seriously and it will be stunning!",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.0",
+  "duration" : 69351,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  }
+}

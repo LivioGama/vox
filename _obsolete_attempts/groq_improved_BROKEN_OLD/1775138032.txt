@@ -1,0 +1,1 @@
+This skill is actually oriented in order to migrate from agents SDK to ACP. Could you actually also adapt it's in the way to handle people in Go using Cloud CLI to go to ACP equivalent in Go and also adapt it's for Python?

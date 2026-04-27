@@ -1,0 +1,1 @@
+Using the Cloud Code Installation CLI in this SSH VPS, can you copy everything to the other VPS netcup? The idea is that we really want to have everything the same in order to benefit from the same authentication. So I think the best is that you simply zip all the relevant files and then SCP them to the netcup, to the netcup, and then unzip them.

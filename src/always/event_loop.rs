@@ -3,16 +3,34 @@ use std::time::{Duration, Instant};
 use anyhow::{Context, Result};
 
 use crate::always::log::{Event, Logger};
-use crate::always::{AlwaysConfig, daemon, filter, paste, vad};
+use crate::always::{AlwaysConfig, daemon, filter, keyboard, notification, paste, pause, vad};
 
 pub fn run(cfg: &AlwaysConfig) -> Result<()> {
     let _pid = daemon::PidGuard::install()?;
     let mut log = Logger::open(&cfg.log_path)?;
     log.write(Event::Start { cfg });
     print_banner(&cfg);
+
+    // Initialize the auto-enter state from config
+    pause::init_auto_enter(cfg.auto_enter);
+
+    // Start keyboard listener for shortcuts
+    keyboard::start_keyboard_listener()?;
+
+    // Show startup notification
+    if let Err(e) = notification::notify("VOX", "🎤 Voice activation started", false) {
+        eprintln!("Failed to show startup notification: {}", e);
+    }
+
     let mut last_process = Instant::now() - Duration::from_secs(10);
 
     loop {
+        if pause::is_paused() {
+            // When paused, sleep for a short time to avoid busy waiting
+            std::thread::sleep(Duration::from_millis(100));
+            continue;
+        }
+
         process_one(&cfg, &mut log, &mut last_process)?;
     }
 }
@@ -22,7 +40,9 @@ fn process_one(cfg: &AlwaysConfig, log: &mut Logger, last_process: &mut Instant)
         vad::RecordResult::Speech { text, energy } => {
             handle_speech(cfg, log, &text, energy, last_process)?;
         }
-        vad::RecordResult::Silence => log.write(Event::Silence),
+        vad::RecordResult::Silence => {
+            // Don't log silence events - they're too frequent and not useful
+        }
         vad::RecordResult::Timeout => log.write(Event::Timeout),
         vad::RecordResult::DroppedLowEnergy { energy } => {
             log.write(Event::DroppedLowEnergy { energy });
@@ -61,7 +81,10 @@ fn handle_speech(
         processed: &transformed,
         energy,
     });
-    paste::paste(&transformed, cfg.auto_enter)?;
+
+    // Use the global auto-enter state instead of config
+    let auto_enter = pause::is_auto_enter_enabled();
+    paste::paste(&format!("{} ", transformed), auto_enter)?;
     Ok(())
 }
 
@@ -87,7 +110,7 @@ fn apply_vocabulary(text: &str, cfg: &AlwaysConfig) -> String {
 }
 
 fn print_banner(cfg: &AlwaysConfig) {
-    eprintln!("Always-on mode enabled. Press Ctrl+C to stop.");
+    eprintln!("Always-on mode enabled. Shortcuts: Ctrl+C=stop, Ctrl+Shift+P=pause, Ctrl+Shift+A=auto-enter");
     eprintln!("Log: {}", cfg.log_path.display());
     eprintln!(
         "Settings -> energy_threshold: {} silence: {}s auto_enter: {} filter: {}",

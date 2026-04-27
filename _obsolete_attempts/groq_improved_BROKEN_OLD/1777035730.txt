@@ -1,0 +1,1 @@
+I don't expect Codex Spark to produce time Open UI output. I want to test HomePage inside the product. We can implement this quickly, dirty, and run it's in the browser so I can test.

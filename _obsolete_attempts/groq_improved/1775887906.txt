@@ -1,0 +1,1 @@
+Vous devez aussi initier le skill SEO qui est configuré et aussi déployé sur Vercel. Nous n'avons pas besoin d'un nom de domaine fancique. Vous pouvez simplement l'utiliser.

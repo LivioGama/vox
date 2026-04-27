@@ -1,0 +1,80 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 12.06,
+      "text" : "Look bro, the thing now that I'm really obsessed with is high TPS. How to have a harness and a team of agents to parallelize the work."
+    },
+    {
+      "start" : 12.62,
+      "end" : 29.98,
+      "text" : "I built incredible products for this that are not really quality but I even made a whole architecture where I would launch 43 agents on Daytona with Cloud Code in order to parallelize the work and get even 2000 TPS."
+    },
+    {
+      "start" : 30,
+      "end" : 36.8,
+      "text" : "on cloud sony 4.6 so now i'm thinking that i might not be the only one obsessed by this"
+    },
+    {
+      "start" : 36.8,
+      "end" : 44.38,
+      "text" : "and they might be github or other solution so can you help me through this because basically all the"
+    },
+    {
+      "start" : 45.44,
+      "end" : 53.24,
+      "text" : "great solutions like rope or cerebras are actually have really high rate limits that are"
+    },
+    {
+      "start" : 53.24,
+      "end" : 63.52,
+      "text" : "that makes it unusable. So what can you find for me that's really completely target and match this?"
+    }
+  ],
+  "result" : "Look bro, the thing now that I'm really obsessed with is high TPS. How to have a harness and a team of agents to parallelize the work. I built incredible products for this that are not really quality but I even made a whole architecture where I would launch 43 agents on Daytona with Cloud Code in order to parallelize the work and get even 2000 TPS. on cloud sony 4.6 so now i'm thinking that i might not be the only one obsessed by this and they might be github or other solution so can you help me through this because basically all the great solutions like rope or cerebras are actually have really high rate limits that are that makes it unusable. So what can you find for me that's really completely target and match this?",
+  "prompt" : "",
+  "appVersion" : "2.11.0",
+  "languageModelName" : "",
+  "datetime" : "2026-04-02T02:45:06",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1801,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "duration" : 63932,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " Look bro, the thing now that I'm really obsessed with is high TPS. How to have a harness and a team of agents to parallelize the work. I built incredible products for this that are not really quality but I even made a whole architecture where I would launch 43 agents on Daytona with Cloud Code in order to parallelize the work and get even 2000 TPS. on cloud sony 4.6 so now i'm thinking that i might not be the only one obsessed by this and they might be github or other solution so can you help me through this because basically all the great solutions like rope or cerebras are actually have really high rate limits that are that makes it unusable. So what can you find for me that's really completely target and match this?",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Google Gemini"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

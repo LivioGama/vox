@@ -1,0 +1,1 @@
+So it's good for a first version, but now there are a lot of problems and we cannot manage to have the feedback loop that works and fixes it. There is still no more touch monitor detected, so can you actually fix it until the end?

@@ -1,0 +1,55 @@
+{
+  "duration" : 3537,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Can you retrieve my old RTK state from?",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "processingTime" : 647,
+  "rawResult" : " Can you retrieve my old RTK state from?",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T01:42:50",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Can you retrieve my old RTK state from?",
+      "start" : 0,
+      "end" : 3.28
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

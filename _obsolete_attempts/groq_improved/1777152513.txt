@@ -1,0 +1,1 @@
+SSH into the Debian 12 Claude and make a rough check to see if it's fully equipped the same way I equip the rest for example SSH NetCup

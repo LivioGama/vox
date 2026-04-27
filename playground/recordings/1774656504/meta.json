@@ -1,0 +1,55 @@
+{
+  "duration" : 4788,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "It still shows Z in onboarding instead of MergeKit.",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Codex",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "processingTime" : 807,
+  "rawResult" : " It still shows Z in onboarding instead of MergeKit.",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T00:08:24",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "It still shows Z in onboarding instead of MergeKit.",
+      "start" : 0,
+      "end" : 4.56
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

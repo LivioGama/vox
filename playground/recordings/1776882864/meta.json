@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 4937,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 892,
+  "rawResult" : " It's not Cloudflare, it's Vercel and the token is...",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "It's not Cloudflare, it's Vercel and the token is...",
+      "end" : 4.66,
+      "start" : 0
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T18:34:24",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "It's not Cloudflare, it's Vercel and the token is..."
+}

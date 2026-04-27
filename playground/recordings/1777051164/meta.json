@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "result" : "Not the one, maybe it was another conversation but there were a vibe combo in it.",
+  "datetime" : "2026-04-24T17:19:24",
+  "appVersion" : "2.12.1",
+  "prompt" : "",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "rawResult" : " Not the one, maybe it was another conversation but there were a vibe combo in it.",
+  "duration" : 4146,
+  "segments" : [
+    {
+      "text" : "Not the one, maybe it was another conversation but there were a vibe combo in it.",
+      "start" : 0,
+      "end" : 4.02
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "processingTime" : 679
+}

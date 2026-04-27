@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-02T14:04:09",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " Now I want to do something. Instead of having the step 3 where we spawn workers by pasting the generated commands in separate terminals, could you actually replace that specific step by spawning the terminal automatically using Westerm or Cmax?",
+  "translationEnabled" : false,
+  "processingTime" : 885,
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Now I want to do something. Instead of having the step 3 where we spawn workers by pasting the generated commands in separate terminals, could you actually replace that specific step by spawning the terminal automatically using Westerm or Cmax?",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Now I want to do something. Instead of having the step 3 where we spawn workers by pasting the generated commands in separate terminals, could you actually replace that specific step by spawning the terminal automatically using Westerm or Cmax?",
+      "end" : 23.62
+    }
+  ],
+  "duration" : 23843,
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Terminal"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

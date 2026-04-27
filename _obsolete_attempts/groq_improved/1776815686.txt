@@ -1,0 +1,1 @@
+I'm on redesign and it looks like for example I lost that when I click on the back button it would slide down the preview and display the form directly. Also other stuff were broken from the 16th so please can you try to find a way to get to the same state than this date.

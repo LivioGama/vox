@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "end" : 5.2,
+      "start" : 0,
+      "text" : "It didn't work, it didn't generate the homepage. It's actually falling back on the SheetSheet template."
+    }
+  ],
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " It didn't work, it didn't generate the homepage. It's actually falling back on the SheetSheet template.",
+  "duration" : 5340,
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "result" : "It didn't work, it didn't generate the homepage. It's actually falling back on the SheetSheet template.",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "processingTime" : 845,
+  "datetime" : "2026-04-23T18:47:13",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : ""
+}

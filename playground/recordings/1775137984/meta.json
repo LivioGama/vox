@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-02T13:53:04",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " Okay now, so can you use the MCB to create a project and guide me through?",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 773,
+  "recordingDevice" : "",
+  "result" : "Okay now, so can you use the MCB to create a project and guide me through?",
+  "segments" : [
+    {
+      "text" : "Okay now, so can you use the MCB to create a project and guide me through?",
+      "end" : 5.2,
+      "start" : 0
+    }
+  ],
+  "duration" : 5792,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Terminal"
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 7801,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Zed",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 922,
+  "rawResult" : " So what was the problem and can you restore the config to use the $30 reset?",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "end" : 7.42,
+      "start" : 0,
+      "text" : "So what was the problem and can you restore the config to use the $30 reset?"
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T02:43:34",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "So what was the problem and can you restore the config to use the $30 reset?"
+}

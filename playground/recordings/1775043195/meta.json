@@ -1,0 +1,105 @@
+{
+  "rawResult" : " I think this fix was already existing but this is not the actual fix. I think. The fix would be more something like getting the token from iOS and if exists updating it on the backend so use case is actually let's say that I install on iOS I receive my push token then actually I go to Android that will erase and override my push token. If I go back to my iOS app, how do I update the push token again without reinstalling or anything?",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "I think this fix was already existing but this is not the actual fix.",
+      "end" : 6.06
+    },
+    {
+      "start" : 6.82,
+      "text" : "I think. The fix would be more something like getting the token from iOS",
+      "end" : 14.88
+    },
+    {
+      "start" : 23.88,
+      "text" : "and if exists",
+      "end" : 25.48
+    },
+    {
+      "start" : 28.38,
+      "text" : "updating it on the backend",
+      "end" : 30.22
+    },
+    {
+      "start" : 31.12,
+      "text" : "so use case is actually",
+      "end" : 32.92
+    },
+    {
+      "start" : 32.92,
+      "text" : "let's say that I install on iOS",
+      "end" : 35
+    },
+    {
+      "start" : 36.56,
+      "text" : "I receive my push token",
+      "end" : 38.9
+    },
+    {
+      "start" : 38.9,
+      "text" : "then actually",
+      "end" : 39.46
+    },
+    {
+      "start" : 40.56,
+      "text" : "I go",
+      "end" : 41.64
+    },
+    {
+      "start" : 46.04,
+      "text" : "to Android that will erase and override my push token. If I go back to my iOS app, how do I",
+      "end" : 55.84
+    },
+    {
+      "start" : 58.6,
+      "text" : "update the push token again without reinstalling or anything?",
+      "end" : 63.34
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "I think this fix was already existing but this is not the actual fix. I think. The fix would be more something like getting the token from iOS and if exists updating it on the backend so use case is actually let's say that I install on iOS I receive my push token then actually I go to Android that will erase and override my push token. If I go back to my iOS app, how do I update the push token again without reinstalling or anything?",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    }
+  },
+  "datetime" : "2026-04-01T11:33:15",
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "duration" : 63761,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 2212,
+  "recordingDevice" : "",
+  "appVersion" : "2.11.0",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)"
+}

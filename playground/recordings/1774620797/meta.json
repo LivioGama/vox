@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "result" : "Can you review the task list Kanban? I don't like it anymore. Instead of the task list Kanban, can I see actually the ACPCLI logs?",
+  "translationEnabled" : false,
+  "appVersion" : "2.11.0",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 15582,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "rawResult" : " Can you review the task list Kanban? I don't like it anymore. Instead of the task list Kanban, can I see actually the ACPCLI logs?",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 14.94,
+      "start" : 0,
+      "text" : "Can you review the task list Kanban? I don't like it anymore. Instead of the task list Kanban, can I see actually the ACPCLI logs?"
+    }
+  ],
+  "recordingDevice" : "",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-03-27T14:13:17",
+  "processingTime" : 995
+}

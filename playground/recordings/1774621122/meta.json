@@ -1,0 +1,70 @@
+{
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "result" : "The HideDiff button disappeared. Additionally, the value of this should be persisted. Also what I expect when adding a new task is that inside the top panel my task should open a new tab where I will see all the ACP logs and the next task should also do this another tab etc etc",
+  "translationEnabled" : false,
+  "appVersion" : "2.11.0",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 39244,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "rawResult" : " The HideDiff button disappeared. Additionally, the value of this should be persisted. Also what I expect when adding a new task is that inside the top panel my task should open a new tab where I will see all the ACP logs and the next task should also do this another tab etc etc",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 11.52,
+      "start" : 0,
+      "text" : "The HideDiff button disappeared. Additionally, the value of this should be persisted."
+    },
+    {
+      "end" : 26.46,
+      "start" : 12.02,
+      "text" : "Also what I expect when adding a new task is that inside the top panel my task should open a new tab"
+    },
+    {
+      "end" : 34.72,
+      "start" : 26.46,
+      "text" : "where I will see all the ACP logs and the next task should also do this"
+    },
+    {
+      "end" : 37.24,
+      "start" : 34.72,
+      "text" : "another tab etc etc"
+    }
+  ],
+  "recordingDevice" : "",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-03-27T14:18:42",
+  "processingTime" : 1362
+}

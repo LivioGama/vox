@@ -1,0 +1,1 @@
+When I say to check, it's probably on parallel branch because I know that we use stuff like Ralph Loop and so on. There is probably something in .Claude folder directory for it.

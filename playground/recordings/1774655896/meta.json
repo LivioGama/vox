@@ -1,0 +1,55 @@
+{
+  "duration" : 24891,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "This guy is brilliant and always talk about the future and about society and about high demanded profile in AI that are apparently really hard to get, which is exactly what I am. So could you give me my qualification? What's the title job title? I should be looking so everyone wants me and he's ready to pay me 400 000 K per year.",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Comet"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "processingTime" : 811,
+  "rawResult" : " This guy is brilliant and always talk about the future and about society and about high demanded profile in AI that are apparently really hard to get, which is exactly what I am. So could you give me my qualification? What's the title job title? I should be looking so everyone wants me and he's ready to pay me 400 000 K per year.",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-27T23:58:16",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "This guy is brilliant and always talk about the future and about society and about high demanded profile in AI that are apparently really hard to get, which is exactly what I am. So could you give me my qualification? What's the title job title? I should be looking so everyone wants me and he's ready to pay me 400 000 K per year.",
+      "end" : 24.52,
+      "start" : 0
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

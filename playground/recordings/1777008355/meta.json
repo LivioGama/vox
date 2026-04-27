@@ -1,0 +1,60 @@
+{
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "text" : "Look at this, I still have an issue on the true code parsing and these stops and open code in this way.",
+      "start" : 0,
+      "end" : 9.2
+    },
+    {
+      "text" : "So can you fix it and verify it till the end and then deploy it on DocProit?",
+      "start" : 9.38,
+      "end" : 16.02
+    }
+  ],
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "processingTime" : 921,
+  "datetime" : "2026-04-24T05:25:55",
+  "rawResult" : " Look at this, I still have an issue on the true code parsing and these stops and open code in this way. So can you fix it and verify it till the end and then deploy it on DocProit?",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 16341,
+  "result" : "Look at this, I still have an issue on the true code parsing and these stops and open code in this way. So can you fix it and verify it till the end and then deploy it on DocProit?",
+  "applicationContextEnabled" : false
+}

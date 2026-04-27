@@ -1,0 +1,60 @@
+{
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "end" : 9.2,
+      "start" : 0,
+      "text" : "You should also initiate the SEO skill that is configured and also deployed on Verso."
+    },
+    {
+      "end" : 20.8,
+      "start" : 10,
+      "text" : "We don't need a fancy domain name, you can simply use."
+    }
+  ],
+  "processingTime" : 1012,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "rawResult" : " You should also initiate the SEO skill that is configured and also deployed on Verso. We don't need a fancy domain name, you can simply use.",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "languageModelName" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    }
+  },
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-11T06:11:46",
+  "speakers" : [
+
+  ],
+  "duration" : 21417,
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "You should also initiate the SEO skill that is configured and also deployed on Verso. We don't need a fancy domain name, you can simply use."
+}

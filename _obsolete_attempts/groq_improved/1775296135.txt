@@ -1,0 +1,1 @@
+What is it exactly? Actually, somebody told me that this is the best, but I don't understand what I can achieve that is different from just using Z with ACP that would connect to Cursor or to Claude Code, for example.

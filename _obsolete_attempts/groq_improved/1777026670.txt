@@ -1,0 +1,1 @@
+If I remember well, what we tried to do on this branch, or at least we should try to do, maybe from a lower commit in a separate branch before we start to change to OpenUI, is replace KimiK2 with a Cursor ACP using Codex Spark 5.3. such a modification exists somewhere in the Git tree. So don't reinvent it. Take inspiration out of it.

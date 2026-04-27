@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "result" : "The orchestrator should be SWE and the planner should be Claude Sonnet.",
+  "datetime" : "2026-04-24T05:20:53",
+  "appVersion" : "2.12.1",
+  "prompt" : "",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "rawResult" : " The orchestrator should be SWE and the planner should be Claude Sonnet.",
+  "duration" : 8699,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "The orchestrator should be SWE and the planner should be Claude Sonnet.",
+      "end" : 8.5
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "processingTime" : 841
+}

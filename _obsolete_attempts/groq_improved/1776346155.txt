@@ -1,0 +1,1 @@
+I have an AppleScript notification when Claude finish something, can you actually remove it?

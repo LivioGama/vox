@@ -1,0 +1,130 @@
+{
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "All right, what you are doing is completely messy and shitty.",
+      "end" : 5.8
+    },
+    {
+      "start" : 6.2,
+      "text" : "So can you get back to when we had the two MD files for this branch, removing the different shell scripts that you created?",
+      "end" : 16.56
+    },
+    {
+      "start" : 16.56,
+      "text" : "And what we're going to do instead of using",
+      "end" : 18.9
+    },
+    {
+      "start" : 18.9,
+      "text" : "West Term or anything",
+      "end" : 20.86
+    },
+    {
+      "start" : 20.86,
+      "text" : "is that we will just spawn",
+      "end" : 22.38
+    },
+    {
+      "start" : 22.38,
+      "text" : "one terminal",
+      "end" : 24.32
+    },
+    {
+      "start" : 24.32,
+      "text" : "with GitHub",
+      "end" : 26.34
+    },
+    {
+      "start" : 26.34,
+      "text" : "Compile.cli where we",
+      "end" : 28.56
+    },
+    {
+      "start" : 28.56,
+      "text" : "will ask to address",
+      "end" : 30.54
+    },
+    {
+      "start" : 30.54,
+      "text" : "the",
+      "end" : 32.02
+    },
+    {
+      "start" : 34.06,
+      "text" : "six different issues",
+      "end" : 35.9
+    },
+    {
+      "start" : 35.9,
+      "text" : "with six subagents",
+      "end" : 38.18
+    },
+    {
+      "start" : 38.18,
+      "text" : "but with",
+      "end" : 39.58
+    },
+    {
+      "start" : 39.58,
+      "text" : "the",
+      "end" : 40.34
+    },
+    {
+      "start" : 42.4,
+      "text" : "whole",
+      "end" : 43.34
+    },
+    {
+      "start" : 51.54,
+      "text" : "panel of verification at the end for each of the sub-agents and so on.",
+      "end" : 55.52
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "processingTime" : 1839,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "rawResult" : " All right, what you are doing is completely messy and shitty. So can you get back to when we had the two MD files for this branch, removing the different shell scripts that you created? And what we're going to do instead of using West Term or anything is that we will just spawn one terminal with GitHub Compile.cli where we will ask to address the six different issues with six subagents but with the whole panel of verification at the end for each of the sub-agents and so on.",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "duration" : 55703,
+  "result" : "All right, what you are doing is completely messy and shitty. So can you get back to when we had the two MD files for this branch, removing the different shell scripts that you created? And what we're going to do instead of using West Term or anything is that we will just spawn one terminal with GitHub Compile.cli where we will ask to address the six different issues with six subagents but with the whole panel of verification at the end for each of the sub-agents and so on.",
+  "prompt" : "",
+  "translationEnabled" : false,
+  "appVersion" : "2.12.0",
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "UTM"
+    }
+  },
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "datetime" : "2026-04-16T07:57:20"
+}

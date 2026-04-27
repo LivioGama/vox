@@ -1,0 +1,55 @@
+{
+  "rawResult" : " I still don't have my scroll like MK2 that was working.",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 6.32,
+      "start" : 0,
+      "text" : "I still don't have my scroll like MK2 that was working."
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "I still don't have my scroll like MK2 that was working.",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "datetime" : "2026-04-01T11:41:38",
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "duration" : 6615,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 969,
+  "recordingDevice" : "",
+  "appVersion" : "2.11.0",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)"
+}

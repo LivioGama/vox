@@ -1,0 +1,1 @@
+remove the apple script that throw a notification for Claude Code or when something is done

@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "UTM"
+    }
+  },
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "You should have kept the 2MD file.",
+      "end" : 2.46
+    }
+  ],
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "rawResult" : " You should have kept the 2MD file.",
+  "translationEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false,
+  "speakers" : [
+
+  ],
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "appVersion" : "2.12.0",
+  "processingTime" : 642,
+  "datetime" : "2026-04-16T07:58:42",
+  "duration" : 2714,
+  "recordingDevice" : "",
+  "result" : "You should have kept the 2MD file."
+}

@@ -1,0 +1,75 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 10.68,
+      "text" : "So basically I have a problem because I just deployed a ship fast in production on the deploy that you have the CLI you can use actually to investigate.",
+      "start" : 0
+    },
+    {
+      "end" : 21.94,
+      "text" : "The problem is that it does not generate any website, you can try actually on the prod website in the browser to see what is the issue and also to debug.",
+      "start" : 11.66
+    },
+    {
+      "end" : 26.62,
+      "text" : "and also I would like to know why it doesn't auto deploy so basically can you fix",
+      "start" : 21.94
+    },
+    {
+      "end" : 30.32,
+      "text" : "dock ploy so it's auto deployed this time that there is a push on the develop",
+      "start" : 26.62
+    },
+    {
+      "end" : 35.4,
+      "text" : "branch both things start with actually fixing the generation",
+      "start" : 30.32
+    }
+  ],
+  "recordingDevice" : "",
+  "duration" : 37149,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.0",
+  "processingTime" : 2075,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-14T14:57:20",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "rawResult" : " So basically I have a problem because I just deployed a ship fast in production on the deploy that you have the CLI you can use actually to investigate. The problem is that it does not generate any website, you can try actually on the prod website in the browser to see what is the issue and also to debug. and also I would like to know why it doesn't auto deploy so basically can you fix dock ploy so it's auto deployed this time that there is a push on the develop branch both things start with actually fixing the generation",
+  "result" : "So basically I have a problem because I just deployed a ship fast in production on the deploy that you have the CLI you can use actually to investigate. The problem is that it does not generate any website, you can try actually on the prod website in the browser to see what is the issue and also to debug. and also I would like to know why it doesn't auto deploy so basically can you fix dock ploy so it's auto deployed this time that there is a push on the develop branch both things start with actually fixing the generation",
+  "realtimeEnabled" : false,
+  "languageModelName" : ""
+}

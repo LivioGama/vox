@@ -1,0 +1,55 @@
+{
+  "duration" : 21225,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "No, no, no. It's so fucking bad. The only thing I want is the exact 100% thing than the master branch with actually just that you keep the pop-up and the jokes below and actually that you do the same effect reverse when they close the window. That's all. Don't invent stuff.",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1204,
+  "languageModelName" : "",
+  "rawResult" : " No, no, no. It's so fucking bad. The only thing I want is the exact 100% thing than the master branch with actually just that you keep the pop-up and the jokes below and actually that you do the same effect reverse when they close the window. That's all. Don't invent stuff.",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-01T23:22:03",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "No, no, no. It's so fucking bad. The only thing I want is the exact 100% thing than the master branch with actually just that you keep the pop-up and the jokes below and actually that you do the same effect reverse when they close the window. That's all. Don't invent stuff.",
+      "end" : 20.72,
+      "start" : 0
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

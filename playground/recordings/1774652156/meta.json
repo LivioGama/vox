@@ -1,0 +1,70 @@
+{
+  "rawResult" : " On the open project on the top left in the title bar, you were supposed to take the exactly same design and components, everything from the other project. Why did you reinvent? And then actually the button to toggle the workspace doesn't do anything. Why it's not working? Also the project window bar from macOS is detached from the title bar unless unlike Z. Why is it different? I want to say kind of UI.",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 37577,
+  "processingTime" : 1376,
+  "datetime" : "2026-03-27T22:55:56",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Codex"
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "result" : "On the open project on the top left in the title bar, you were supposed to take the exactly same design and components, everything from the other project. Why did you reinvent? And then actually the button to toggle the workspace doesn't do anything. Why it's not working? Also the project window bar from macOS is detached from the title bar unless unlike Z. Why is it different? I want to say kind of UI.",
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "On the open project on the top left in the title bar, you were supposed to take the exactly same design and components, everything from the other project.",
+      "end" : 11.48,
+      "start" : 0
+    },
+    {
+      "text" : "Why did you reinvent? And then actually the button to toggle the workspace doesn't do anything.",
+      "end" : 17.64,
+      "start" : 11.82
+    },
+    {
+      "text" : "Why it's not working? Also the project window bar from macOS is detached",
+      "end" : 28.8,
+      "start" : 17.98
+    },
+    {
+      "text" : "from the title bar unless unlike Z. Why is it different? I want to say kind of UI.",
+      "end" : 36.88,
+      "start" : 28.8
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false
+}

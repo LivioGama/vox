@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "datetime" : "2026-04-25T11:16:05",
+  "result" : "Make a Gitwork 3 that will go on branch main.",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " Make a Gitwork 3 that will go on branch main.",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "segments" : [
+    {
+      "start" : 1.024,
+      "end" : 5.424,
+      "text" : "Make a Gitwork 3 that will go on branch main."
+    }
+  ],
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "processingTime" : 946,
+  "modeName" : "Default",
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "prompt" : "",
+  "duration" : 6006,
+  "languageSelected" : "en"
+}

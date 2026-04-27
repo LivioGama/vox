@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "result" : "Can you confirm that you can run Claude Code on the Debian machine with Sony 4.5 model?",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "datetime" : "2026-04-25T21:02:46",
+  "appVersion" : "2.13.0",
+  "separateSpeakersEnabled" : false,
+  "duration" : 9661,
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "processingTime" : 859,
+  "rawResult" : " Can you confirm that you can run Claude Code on the Debian machine with Sony 4.5 model?",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 9.6615,
+      "start" : 0.352,
+      "text" : "Can you confirm that you can run Claude Code on the Debian machine with Sony 4.5 model?"
+    }
+  ],
+  "realtimeEnabled" : false,
+  "modeName" : "Default"
+}

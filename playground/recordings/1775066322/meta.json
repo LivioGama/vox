@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "rawResult" : " Still not working, come on.",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-04-01T17:58:42",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Warp",
+      "includeInPrompt" : false
+    }
+  },
+  "processingTime" : 371,
+  "duration" : 2105,
+  "segments" : [
+    {
+      "end" : 1.88,
+      "start" : 0,
+      "text" : "Still not working, come on."
+    }
+  ],
+  "result" : "Still not working, come on.",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "appVersion" : "2.11.0",
+  "modelName" : "Ultra (Cloud)"
+}

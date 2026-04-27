@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 12.66,
+      "text" : "So basically, if for the brain you are using Cloud Sony through API, replace it with Cloud ACP. There is a skill for it that will use Cloud Code."
+    }
+  ],
+  "result" : "So basically, if for the brain you are using Cloud Sony through API, replace it with Cloud ACP. There is a skill for it that will use Cloud Code.",
+  "prompt" : "",
+  "languageModelName" : "",
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-02T02:28:35",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 978,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "duration" : 12931,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " So basically, if for the brain you are using Cloud Sony through API, replace it with Cloud ACP. There is a skill for it that will use Cloud Code.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

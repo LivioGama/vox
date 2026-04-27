@@ -1,0 +1,60 @@
+{
+  "processingTime" : 962,
+  "segments" : [
+    {
+      "text" : "Still pixelated, come on. I want you to reset every settings about font in CMAX and Western.",
+      "end" : 8.38,
+      "start" : 0
+    },
+    {
+      "text" : "I think with the default it shall work.",
+      "end" : 11.7,
+      "start" : 9.72
+    }
+  ],
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Still pixelated, come on. I want you to reset every settings about font in CMAX and Western. I think with the default it shall work.",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "datetime" : "2026-04-17T03:37:52",
+  "appVersion" : "2.12.1",
+  "result" : "Still pixelated, come on. I want you to reset every settings about font in CMAX and Western. I think with the default it shall work.",
+  "systemAudioEnabled" : false,
+  "duration" : 11880,
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false
+}

@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "result" : "Close all the Claude Code, CNI Local and copy again. And then try again.",
+  "languageSelected" : "en",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    },
+    "userContext" : {
+
+    }
+  },
+  "rawResult" : " Close all the Claude Code, CNI Local and copy again. And then try again.",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "processingTime" : 827,
+  "duration" : 7908,
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "end" : 7.66,
+      "text" : "Close all the Claude Code, CNI Local and copy again. And then try again.",
+      "start" : 0
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "prompt" : "",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.12.1",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "datetime" : "2026-04-23T11:17:34",
+  "modeName" : "Default"
+}

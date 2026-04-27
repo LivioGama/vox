@@ -1,0 +1,1 @@
+Le contrôle du segment est plus grand mais il devrait aussi améliorer le plus grand parce que maintenant il est coupé.

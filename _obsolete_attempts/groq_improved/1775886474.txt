@@ -1,0 +1,1 @@
+Pouvez-vous aligner les chiffres de réponse de la manière de la même forme ? Je n'aime pas le fait qu'il y en ait un avec 0,0 et l'autre avec plus 35. Je ne suis pas sûr que le format des chiffres soit correct. Et j'aimerais vraiment que cette barre soit visible, peu importe où je crée.

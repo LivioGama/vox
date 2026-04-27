@@ -1,0 +1,75 @@
+{
+  "duration" : 27969,
+  "datetime" : "2026-03-29T03:02:23",
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " So, quite a few more details. Actually I got contact with an Indian that presented me, an entrepreneur that actually presented me the head of project at Kerala. Basically that's all I got but I want to eat hard and I want to do stuff from now. I want to do everything I can to make maximum impact. I want to break the world. I want to fucking launch the thing so hard that people are going to ask who I am.",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "result" : "So, quite a few more details. Actually I got contact with an Indian that presented me, an entrepreneur that actually presented me the head of project at Kerala. Basically that's all I got but I want to eat hard and I want to do stuff from now. I want to do everything I can to make maximum impact. I want to break the world. I want to fucking launch the thing so hard that people are going to ask who I am.",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "text" : "So, quite a few more details. Actually I got contact with an Indian that presented me,",
+      "end" : 4.58,
+      "start" : 0
+    },
+    {
+      "text" : "an entrepreneur that actually presented me the head of project at Kerala.",
+      "end" : 11.38,
+      "start" : 4.82
+    },
+    {
+      "text" : "Basically that's all I got but I want to eat hard and I want to do stuff from now.",
+      "end" : 16.46,
+      "start" : 11.6
+    },
+    {
+      "text" : "I want to do everything I can to make maximum impact.",
+      "end" : 21.66,
+      "start" : 17
+    },
+    {
+      "text" : "I want to break the world. I want to fucking launch the thing so hard that people are going to ask who I am.",
+      "end" : 27.62,
+      "start" : 21.84
+    }
+  ],
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "processingTime" : 1177,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Comet"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.11.0",
+  "languageSelected" : "en"
+}

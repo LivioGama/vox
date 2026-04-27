@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "duration" : 17740,
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "result" : "We have the cursor ACP with model Codex 5.3 SPARK, which is 1000 TPS to replace the home page generation model that is currently too slow.",
+  "processingTime" : 1405,
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-23T18:38:57",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " We have the cursor ACP with model Codex 5.3 SPARK, which is 1000 TPS to replace the home page generation model that is currently too slow.",
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "We have the cursor ACP with model Codex 5.3 SPARK, which is 1000 TPS to replace the home page generation model that is currently too slow.",
+      "end" : 16.04,
+      "start" : 0
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

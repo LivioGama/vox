@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Here are some of the names that we have to use ACP.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "modelName" : "Ultra (Cloud)",
+  "duration" : 277,
+  "processingTime" : 1628,
+  "datetime" : "2026-04-27T02:36:49",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "result" : "Here are some of the names that we have to use ACP.",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Here are some of the names that we have to use ACP.",
+      "start" : 0,
+      "end" : 0.14
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+You actually clone there the GitHub repo, Unix config from mine, and git-crypt with the keys that I have.

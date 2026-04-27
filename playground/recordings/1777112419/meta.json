@@ -1,0 +1,220 @@
+{
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "end" : 10.532,
+      "start" : 0.864,
+      "text" : "We have multiple big issues that we want to address. First of all, we need to make sure that generating a website works."
+    },
+    {
+      "end" : 22.54,
+      "start" : 11.384,
+      "text" : "For this you have to open the browser and don't do it in headless if you choose agent browser."
+    },
+    {
+      "end" : 33.772,
+      "start" : 23.712,
+      "text" : "And generate a prompt, insert it and then check if the generated website is okay."
+    },
+    {
+      "end" : 41.16,
+      "start" : 33.772,
+      "text" : "then actually to check that closing the preview allow you to come back on the"
+    },
+    {
+      "end" : 45.848,
+      "start" : 41.16,
+      "text" : "on the homepage. Right now I think it's a real page navigation, I would like"
+    },
+    {
+      "end" : 54.172,
+      "start" : 45.848,
+      "text" : "something more smooth that the homepage is already below it and that you can"
+    },
+    {
+      "end" : 61.336,
+      "start" : 54.172,
+      "text" : "simply close and there is no loading or anything just URL you're reacting."
+    },
+    {
+      "end" : 70.512,
+      "start" : 61.896,
+      "text" : "Then actually can you also include in the next step the test of the feature"
+    },
+    {
+      "end" : 73.792,
+      "start" : 71.872,
+      "text" : "CMS eFy with Sanity."
+    },
+    {
+      "end" : 76.012,
+      "start" : 74.092,
+      "text" : "That should create a"
+    },
+    {
+      "end" : 80.904,
+      "start" : 76.012,
+      "text" : "multi-tenant Sanity instance"
+    },
+    {
+      "end" : 83.084,
+      "start" : 81.544,
+      "text" : "with the animation that I plan"
+    },
+    {
+      "end" : 85.068,
+      "start" : 83.084,
+      "text" : "that look like React Scanner."
+    },
+    {
+      "end" : 87.74,
+      "start" : 86.288,
+      "text" : "When you click on Sanity"
+    },
+    {
+      "end" : 91.088,
+      "start" : 87.74,
+      "text" : "and that you are not logged in,"
+    },
+    {
+      "end" : 95.212,
+      "start" : 91.768,
+      "text" : "you should be invited"
+    },
+    {
+      "end" : 97.852,
+      "start" : 95.212,
+      "text" : "to log in with the same model"
+    },
+    {
+      "end" : 99.052,
+      "start" : 97.852,
+      "text" : "in the login page."
+    },
+    {
+      "end" : 102.256,
+      "start" : 99.768,
+      "text" : "Not any model intermediate"
+    },
+    {
+      "end" : 104.204,
+      "start" : 102.256,
+      "text" : "like it is the case currently."
+    },
+    {
+      "end" : 107.744,
+      "start" : 106.284,
+      "text" : "When you actually are logged in,"
+    },
+    {
+      "end" : 109.92,
+      "start" : 108.6,
+      "text" : "you should be invited to"
+    },
+    {
+      "end" : 117.832,
+      "start" : 109.92,
+      "text" : "pay with the model too. When you actually are not logged in, you are limited to two"
+    },
+    {
+      "end" : 128.62,
+      "start" : 117.832,
+      "text" : "generations, you have a possibility to sign up to increase but once when you do"
+    },
+    {
+      "end" : 136.588,
+      "start" : 128.62,
+      "text" : "one generation there is a button generate another and the second button"
+    },
+    {
+      "end" : 144.7,
+      "start" : 136.588,
+      "text" : "is edit in the studio. When you actually are logged in or you paid"
+    },
+    {
+      "end" : 157.684,
+      "start" : 152.004,
+      "text" : "there is not generating another, there is just editing a studio. No, there is not"
+    },
+    {
+      "end" : 175.672,
+      "start" : 157.684,
+      "text" : "edit in the studio, there is just a chat that is currently there that we need to make a"
+    },
+    {
+      "end" : 181.536,
+      "start" : 175.672,
+      "text" : "bit bigger and stuck to the bottom. Then the premium feature on the sidebar"
+    },
+    {
+      "end" : 182.144,
+      "start" : 181.536,
+      "text" : "that is already open when you are premium or authenticated are in the correct state."
+    },
+    {
+      "end" : 182.144,
+      "start" : 182.144,
+      "text" : "Verify also that we can log in because somebody told you there is a problem."
+    },
+    {
+      "end" : 182.144,
+      "start" : 182.144,
+      "text" : "Can you try to take screenshots all along the steps that you verify? Use 20"
+    },
+    {
+      "end" : 182.144,
+      "start" : 182.144,
+      "text" : "This is an agent to go faster, to do all of this."
+    },
+    {
+      "end" : 182.144,
+      "start" : 182.144,
+      "text" : "For both the planning and implementation."
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-25T10:20:19",
+  "prompt" : "",
+  "separateSpeakersEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.13.0",
+  "translationEnabled" : false,
+  "result" : "We have multiple big issues that we want to address. First of all, we need to make sure that generating a website works. For this you have to open the browser and don't do it in headless if you choose agent browser. And generate a prompt, insert it and then check if the generated website is okay. then actually to check that closing the preview allow you to come back on the on the homepage. Right now I think it's a real page navigation, I would like something more smooth that the homepage is already below it and that you can simply close and there is no loading or anything just URL you're reacting. Then actually can you also include in the next step the test of the feature CMS eFy with Sanity. That should create a multi-tenant Sanity instance with the animation that I plan that look like React Scanner. When you click on Sanity and that you are not logged in, you should be invited to log in with the same model in the login page. Not any model intermediate like it is the case currently. When you actually are logged in, you should be invited to pay with the model too. When you actually are not logged in, you are limited to two generations, you have a possibility to sign up to increase but once when you do one generation there is a button generate another and the second button is edit in the studio. When you actually are logged in or you paid there is not generating another, there is just editing a studio. No, there is not edit in the studio, there is just a chat that is currently there that we need to make a bit bigger and stuck to the bottom. Then the premium feature on the sidebar that is already open when you are premium or authenticated are in the correct state. Verify also that we can log in because somebody told you there is a problem. Can you try to take screenshots all along the steps that you verify? Use 20 This is an agent to go faster, to do all of this. For both the planning and implementation.",
+  "rawResult" : " We have multiple big issues that we want to address. First of all, we need to make sure that generating a website works. For this you have to open the browser and don't do it in headless if you choose agent browser. And generate a prompt, insert it and then check if the generated website is okay. then actually to check that closing the preview allow you to come back on the on the homepage. Right now I think it's a real page navigation, I would like something more smooth that the homepage is already below it and that you can simply close and there is no loading or anything just URL you're reacting. Then actually can you also include in the next step the test of the feature CMS eFy with Sanity. That should create a multi-tenant Sanity instance with the animation that I plan that look like React Scanner. When you click on Sanity and that you are not logged in, you should be invited to log in with the same model in the login page. Not any model intermediate like it is the case currently. When you actually are logged in, you should be invited to pay with the model too. When you actually are not logged in, you are limited to two generations, you have a possibility to sign up to increase but once when you do one generation there is a button generate another and the second button is edit in the studio. When you actually are logged in or you paid there is not generating another, there is just editing a studio. No, there is not edit in the studio, there is just a chat that is currently there that we need to make a bit bigger and stuck to the bottom. Then the premium feature on the sidebar that is already open when you are premium or authenticated are in the correct state. Verify also that we can log in because somebody told you there is a problem. Can you try to take screenshots all along the steps that you verify? Use 20 This is an agent to go faster, to do all of this. For both the planning and implementation.",
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "languageModelKey" : "",
+  "processingTime" : 3883,
+  "duration" : 182510
+}

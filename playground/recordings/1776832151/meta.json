@@ -1,0 +1,55 @@
+{
+  "result" : "Look, I have a Claude Code session logged in on my VPS.",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "rawResult" : " Look, I have a Claude Code session logged in on my VPS.",
+  "segments" : [
+    {
+      "text" : "Look, I have a Claude Code session logged in on my VPS.",
+      "start" : 0,
+      "end" : 5.54
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "duration" : 6669,
+  "processingTime" : 869,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T04:29:11",
+  "languageSelected" : "en"
+}

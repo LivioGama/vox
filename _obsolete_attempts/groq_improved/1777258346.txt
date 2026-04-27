@@ -1,0 +1,1 @@
+Why do I need to run rebuild and restart since Cargo Watch already does that?

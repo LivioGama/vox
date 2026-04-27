@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T21:49:40",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "duration" : 9580,
+  "languageModelKey" : "",
+  "result" : "I did this with the init bin bash. It actually asked me for a hidden password.",
+  "rawResult" : " I did this with the init bin bash. It actually asked me for a hidden password.",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 9.14,
+      "text" : "I did this with the init bin bash. It actually asked me for a hidden password."
+    }
+  ],
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "processingTime" : 758,
+  "languageModelName" : "",
+  "appVersion" : "2.12.1",
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false
+}

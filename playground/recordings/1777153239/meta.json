@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "realtimeEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0.48,
+      "text" : "There is a project GitHub associated to Iris, Chan or Iris Summer and you actually add a task for...",
+      "end" : 12.256
+    }
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-25T21:40:39",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "rawResult" : " There is a project GitHub associated to Iris, Chan or Iris Summer and you actually add a task for...",
+  "separateSpeakersEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "processingTime" : 992,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "speakers" : [
+
+  ],
+  "duration" : 12696,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.13.0",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "prompt" : "",
+  "modeName" : "Default",
+  "result" : "There is a project GitHub associated to Iris, Chan or Iris Summer and you actually add a task for...",
+  "languageModelKey" : ""
+}

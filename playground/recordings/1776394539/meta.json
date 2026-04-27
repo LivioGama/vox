@@ -1,0 +1,55 @@
+{
+  "processingTime" : 612,
+  "segments" : [
+    {
+      "text" : "Cognier Commit Push.",
+      "start" : 1.26,
+      "end" : 2.34
+    }
+  ],
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Cognier Commit Push.",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "datetime" : "2026-04-17T02:55:39",
+  "appVersion" : "2.12.1",
+  "result" : "Cognier Commit Push.",
+  "systemAudioEnabled" : false,
+  "duration" : 2900,
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false
+}

@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "duration" : 1742,
+  "datetime" : "2026-04-22T02:04:42",
+  "result" : "In OpenCode, I meant.",
+  "realtimeEnabled" : false,
+  "processingTime" : 538,
+  "rawResult" : " In OpenCode, I meant.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "In OpenCode, I meant.",
+      "start" : 0,
+      "end" : 1.48
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

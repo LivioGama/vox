@@ -1,0 +1,55 @@
+{
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "result" : "Measure attentivement le degré d'effet Barnum dans ce texte.",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Measure attentivement le degré d'effet Barnum dans ce texte.",
+      "end" : 5.52
+    }
+  ],
+  "languageModelName" : "",
+  "rawResult" : " Measure attentivement le degré d'effet Barnum dans ce texte.",
+  "literalPunctuationEnabled" : false,
+  "duration" : 5696,
+  "appVersion" : "2.12.0",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-04-16T14:00:25",
+  "translationEnabled" : false,
+  "processingTime" : 869,
+  "speakers" : [
+
+  ]
+}

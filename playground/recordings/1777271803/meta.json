@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "speakers" : [
+
+  ],
+  "duration" : 12953,
+  "languageModelName" : "",
+  "prompt" : "",
+  "processingTime" : 1129,
+  "segments" : [
+    {
+      "start" : 0.128,
+      "text" : "Now can you check what measure we took to improve homepage generation without using GPT-OSS120B?",
+      "end" : 12.95325
+    }
+  ],
+  "languageModelKey" : "",
+  "datetime" : "2026-04-27T06:36:43",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "realtimeEnabled" : false,
+  "result" : "Now can you check what measure we took to improve homepage generation without using GPT-OSS120B?",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.13.0",
+  "rawResult" : " Now can you check what measure we took to improve homepage generation without using GPT-OSS120B?",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false
+}

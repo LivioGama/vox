@@ -1,0 +1,1 @@
+Does Infomaniac has a CLI?

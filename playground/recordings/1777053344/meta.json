@@ -1,0 +1,55 @@
+{
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    }
+  },
+  "processingTime" : 878,
+  "result" : "Which one actually is doing some experiment to run like some kind of loop to get to the best design, maybe with a RALF.",
+  "appVersion" : "2.12.1",
+  "realtimeEnabled" : false,
+  "duration" : 12290,
+  "datetime" : "2026-04-24T17:55:44",
+  "separateSpeakersEnabled" : false,
+  "languageSelected" : "en",
+  "prompt" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "rawResult" : " Which one actually is doing some experiment to run like some kind of loop to get to the best design, maybe with a RALF.",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Which one actually is doing some experiment to run like some kind of loop to get to the best design, maybe with a RALF.",
+      "end" : 12.02
+    }
+  ],
+  "modeName" : "Default",
+  "speakers" : [
+
+  ]
+}

@@ -1,0 +1,1 @@
+can you migrate time notification settings from qualify to docloy via telegram and slack?

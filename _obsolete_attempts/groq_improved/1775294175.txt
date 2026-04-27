@@ -1,0 +1,1 @@
+Normally the way it works is, it should be a repo where actually I have to do command plus T to pull from GitHub and when this pull occurs, this is actually when the conflict is detected and the free chunk logical window should appear.

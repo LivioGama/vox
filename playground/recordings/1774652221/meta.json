@@ -1,0 +1,85 @@
+{
+  "rawResult" : " Also my segmented control seems to not look like it was before. It was really beautiful before, but it's very ugly. It looks like just two buttons sitting next to each other. Can you restore the beautiful design we had before? Also when I open a project, it doesn't really open. I see nothing in the changes tab. and I don't need the two buttons that you offer in the bottom bar. There are legacy that probably you copied from the other project that you should not have for once.",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 41178,
+  "processingTime" : 1544,
+  "datetime" : "2026-03-27T22:57:01",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Codex",
+      "includeInPrompt" : false
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "result" : "Also my segmented control seems to not look like it was before. It was really beautiful before, but it's very ugly. It looks like just two buttons sitting next to each other. Can you restore the beautiful design we had before? Also when I open a project, it doesn't really open. I see nothing in the changes tab. and I don't need the two buttons that you offer in the bottom bar. There are legacy that probably you copied from the other project that you should not have for once.",
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Also my segmented control seems to not look like it was before. It was really beautiful before, but it's very ugly.",
+      "start" : 0,
+      "end" : 9.42
+    },
+    {
+      "text" : "It looks like just two buttons sitting next to each other.",
+      "start" : 9.6,
+      "end" : 15.86
+    },
+    {
+      "text" : "Can you restore the beautiful design we had before?",
+      "start" : 16.74,
+      "end" : 19.22
+    },
+    {
+      "text" : "Also when I open a project, it doesn't really open. I see nothing in the changes tab.",
+      "start" : 19.54,
+      "end" : 24.42
+    },
+    {
+      "text" : "and I don't need the two buttons that you offer in the bottom bar.",
+      "start" : 25.7,
+      "end" : 33.22
+    },
+    {
+      "text" : "There are legacy that probably you copied from the other project",
+      "start" : 34.36,
+      "end" : 37.54
+    },
+    {
+      "text" : "that you should not have for once.",
+      "start" : 37.54,
+      "end" : 39.86
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false
+}

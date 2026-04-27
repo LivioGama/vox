@@ -1,0 +1,95 @@
+{
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "duration" : 93537,
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "rawResult" : " Can you work in improving the loading for the generated past website on the homepage? The idea is that you should make it the fastest possible and also it should be cached when we come back on the page. there is absolutely no delay. For example, when I open generated website and come back, I don't think we should actually switch page for real, we should do it virtually in the way that the elements are already loading and we just do URL rewriting. And this way when we exit animation for the generated page, we are still on the home page. I actually noticed that the code that you did was really crappy, like a lot of code and not optimized. So rethink the whole thing and rebuild it from scratch to get the same results optimized and the same UI",
+  "result" : "Can you work in improving the loading for the generated past website on the homepage? The idea is that you should make it the fastest possible and also it should be cached when we come back on the page. there is absolutely no delay. For example, when I open generated website and come back, I don't think we should actually switch page for real, we should do it virtually in the way that the elements are already loading and we just do URL rewriting. And this way when we exit animation for the generated page, we are still on the home page. I actually noticed that the code that you did was really crappy, like a lot of code and not optimized. So rethink the whole thing and rebuild it from scratch to get the same results optimized and the same UI",
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Can you work in improving the loading for the generated past website on the homepage?",
+      "start" : 1.54,
+      "end" : 12.64
+    },
+    {
+      "text" : "The idea is that you should make it the fastest possible and also it should be cached when we come back on the page.",
+      "start" : 13.2,
+      "end" : 29.08
+    },
+    {
+      "text" : "there is absolutely no delay. For example, when I open generated website",
+      "start" : 30,
+      "end" : 38
+    },
+    {
+      "text" : "and come back, I don't think we should actually switch page for real, we should do it virtually",
+      "start" : 43.28,
+      "end" : 50.2
+    },
+    {
+      "text" : "in the way that the elements are already loading and we just do URL rewriting. And this way",
+      "start" : 50.84,
+      "end" : 59.12
+    },
+    {
+      "text" : "when we exit animation for the generated page, we are still on the home page.",
+      "start" : 59.12,
+      "end" : 67.92
+    },
+    {
+      "text" : "I actually noticed that the code that you did was really crappy, like a lot of code and not optimized.",
+      "start" : 70.8,
+      "end" : 79.02
+    },
+    {
+      "text" : "So rethink the whole thing and rebuild it from scratch to get the same results optimized",
+      "start" : 79.98,
+      "end" : 86.64
+    },
+    {
+      "text" : "and the same UI",
+      "start" : 86.64,
+      "end" : 93.1
+    }
+  ],
+  "languageModelName" : "",
+  "appVersion" : "2.12.0",
+  "processingTime" : 2312,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-17T01:07:13",
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  }
+}

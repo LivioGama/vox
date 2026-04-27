@@ -1,0 +1,55 @@
+{
+  "datetime" : "2026-03-27T03:15:18",
+  "duration" : 18371,
+  "rawResult" : " What about my preferences for desktop when I click, it should un-display the desktop or raycast also.",
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "What about my preferences for desktop when I click, it should un-display the desktop or raycast also.",
+      "end" : 17.9
+    }
+  ],
+  "languageModelName" : "",
+  "translationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "recordingDevice" : "BuiltInMicrophoneDevice",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Warp",
+      "includeInPrompt" : false
+    }
+  },
+  "languageSelected" : "en",
+  "result" : "What about my preferences for desktop when I click, it should un-display the desktop or raycast also.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "processingTime" : 1016,
+  "literalPunctuationEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.11.0",
+  "speakers" : [
+
+  ]
+}

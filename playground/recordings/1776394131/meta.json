@@ -1,0 +1,55 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "datetime" : "2026-04-17T02:48:51",
+  "literalPunctuationEnabled" : false,
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Alright, can you see a file stating about the Ralph-Riggum loop that we launch until we reach self-sustainability? If yes, can you tell me more?",
+      "end" : 20.48
+    }
+  ],
+  "rawResult" : " Alright, can you see a file stating about the Ralph-Riggum loop that we launch until we reach self-sustainability? If yes, can you tell me more?",
+  "duration" : 20840,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "result" : "Alright, can you see a file stating about the Ralph-Riggum loop that we launch until we reach self-sustainability? If yes, can you tell me more?",
+  "applicationContextEnabled" : false,
+  "processingTime" : 1104,
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "appVersion" : "2.12.0",
+  "separateSpeakersEnabled" : false
+}

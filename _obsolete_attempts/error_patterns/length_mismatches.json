@@ -1,0 +1,164 @@
+[
+  {
+    "recording_id": "1776830590",
+    "meta": "I didn't want a merge commit, I want a rebase suffixit for redesign merge.",
+    "groq": "Je ne voulais pas un commis de merge, je voulais un rebase pour fixer le merge de redesign.",
+    "duration": 8.368,
+    "meta_words": 14,
+    "groq_words": 18,
+    "type": "hallucination"
+  },
+  {
+    "recording_id": "1774667788",
+    "meta": "Finewary is installed in Poolify and save the session generated in another folder outside.",
+    "groq": "Finalement, il est install\u00e9 dans Shipfast, dans Pullify, et sauve la session g\u00e9n\u00e9r\u00e9e dans un autre ficheur \u00e0 l'ext\u00e9rieur.",
+    "duration": 14.118,
+    "meta_words": 14,
+    "groq_words": 19,
+    "type": "hallucination"
+  },
+  {
+    "recording_id": "1777148775",
+    "meta": "Can you duplicate the FastAgent folder without the Gitignore file, like the .git to FasterAgent?",
+    "groq": "Can you duplicate the fastagent folder without the gitignore file?",
+    "duration": 16.266,
+    "meta_words": 15,
+    "groq_words": 10,
+    "type": "missing_content"
+  },
+  {
+    "recording_id": "1777114495",
+    "meta": "Do you see a commit in the IGT story where I integrated CURSOR-ACP with Codex Spark 5.3?",
+    "groq": "Vous voyez un comit\u00e9 dans la histoire de la github o\u00f9 j'ai int\u00e9gr\u00e9 le curseur scp avec le codec 5.3 ?",
+    "duration": 11.115,
+    "meta_words": 17,
+    "groq_words": 21,
+    "type": "hallucination"
+  },
+  {
+    "recording_id": "1776835999",
+    "meta": "Also avoid that Iris can be launched two times and kill the old instances. Also avoid that Iris can be launched two times and killed the old instances.",
+    "groq": "Also avoid that Iris can be launched two times and kill the old instances.",
+    "duration": 21.332,
+    "meta_words": 28,
+    "groq_words": 14,
+    "type": "missing_content"
+  },
+  {
+    "recording_id": "1775075631",
+    "meta": "The top TPS model I can get in the world.",
+    "groq": "Le mod\u00e8le de TPS le plus haut que je puisse trouver dans le monde.",
+    "duration": 2.971,
+    "meta_words": 10,
+    "groq_words": 14,
+    "type": "hallucination"
+  },
+  {
+    "recording_id": "1776394131",
+    "meta": "Alright, can you see a file stating about the Ralph-Riggum loop that we launch until we reach self-sustainability? If yes, can you tell me more?",
+    "groq": "All right, can you see a repo stating about, not a repo, but a file stating about the RALF RIGAM loops that we launch until we reach self-sustainability? If yes, can you tell me more?",
+    "duration": 20.84,
+    "meta_words": 25,
+    "groq_words": 35,
+    "type": "hallucination"
+  },
+  {
+    "recording_id": "1777042117",
+    "meta": "The chip still looks inside the card, where there is a form, although it should be below. And I still don't have the... ...the zero version I asked for.",
+    "groq": "The chip still looks inside the card, although it should be below. And I still don't have the zero version I asked for.",
+    "duration": 20.616,
+    "meta_words": 29,
+    "groq_words": 23,
+    "type": "missing_content"
+  },
+  {
+    "recording_id": "1775184135",
+    "meta": "I think you should rename the repo, uh, migrate Claude SDK to ACP.",
+    "groq": "I think you should rename the repo migrate-cloud-sdk-to-acp",
+    "duration": 6.84,
+    "meta_words": 13,
+    "groq_words": 8,
+    "type": "missing_content"
+  },
+  {
+    "recording_id": "1776822442",
+    "meta": "The name is C-P, the name is C-P, the name is C-P.",
+    "groq": "Thank you.",
+    "duration": 1.571,
+    "meta_words": 12,
+    "groq_words": 2,
+    "type": "missing_content"
+  },
+  {
+    "recording_id": "1777257409",
+    "meta": "Here are some of the names that we have to use ACP.",
+    "groq": "MBC \ub274\uc2a4 \uae40\uc131\ud604\uc785\ub2c8\ub2e4.",
+    "duration": 0.277,
+    "meta_words": 12,
+    "groq_words": 3,
+    "type": "missing_content"
+  },
+  {
+    "recording_id": "1774662306",
+    "meta": "I disagree so much with your list. I always use Freebase, Batch, ShowRepositoryAltRevision, ResetBranchToCommit, EditCommitMessage, SquashDrop, CommitGrowth... How can you be so bad actually? I was expecting that you pull up the rock tree stuff.",
+    "groq": "I disagree so much with your list, I always use Freebase, Patch, Show Repository Attributions, Reset Branch to Commit, Edit Commit Message, Squash, Drop, Commit Graph. How can you be so bad actually? I was expecting that you pull up the rock tree stuff, the...",
+    "duration": 36.658,
+    "meta_words": 35,
+    "groq_words": 45,
+    "type": "hallucination"
+  },
+  {
+    "recording_id": "1777146283",
+    "meta": "I'm going to show you how to use ACP, so I can use ACP.",
+    "groq": "Thank you.",
+    "duration": 1.72,
+    "meta_words": 14,
+    "groq_words": 2,
+    "type": "missing_content"
+  },
+  {
+    "recording_id": "1777137636",
+    "meta": "There is an outil harness of development, which is really oriented voice. I want to talk with my LM and hear it speak, so that I don't have to be able to tap or read.",
+    "groq": "existe-t-il en fait un outil arn\u00e8s en fait de d\u00e9veloppement qui est vraiment compl\u00e8tement orient\u00e9 voix c'est \u00e0 dire qu'en gros je vais pouvoir discuter avec mon \u00e9l\u00e8ve et je veux que j'entende parler pour ne pas que j'ai int\u00e9r\u00eat \u00e0 agir avec super whisper et que j'ai pas besoin de de taper ou de lire",
+    "duration": 27.039,
+    "meta_words": 35,
+    "groq_words": 56,
+    "type": "hallucination"
+  },
+  {
+    "recording_id": "1777065887",
+    "meta": "Uh, OSPRO did not detect any operating system or computer this time but did not switch a domain right in the case of OSPRO. Yes or no?",
+    "groq": "Yes or no?",
+    "duration": 9.52,
+    "meta_words": 27,
+    "groq_words": 3,
+    "type": "missing_content"
+  },
+  {
+    "recording_id": "1774654655",
+    "meta": "The segmented control is bigger but it should also enlarge the bar size because now it's cutted.",
+    "groq": "Le contr\u00f4le du segment est plus grand mais il devrait aussi am\u00e9liorer le plus grand parce que maintenant il est coup\u00e9.",
+    "duration": 22.112,
+    "meta_words": 17,
+    "groq_words": 21,
+    "type": "hallucination"
+  },
+  {
+    "recording_id": "1776348189",
+    "meta": "Now, explain how the human design works because there are things that are true for me and my wife and very proper. So how does it make up to a pseudo-march\u00e9?",
+    "groq": "Du coup, maintenant, explique-moi comment le human design fonctionne, parce qu'il y a quand m\u00eame des trucs qui sont vrais pour moi et pour ma copine, et qui sont quand m\u00eame tr\u00e8s propres. Comment \u00e7a fait pour \u00e0 peu pr\u00e8s pseudo-march\u00e9 ?",
+    "duration": 13.081,
+    "meta_words": 31,
+    "groq_words": 42,
+    "type": "hallucination"
+  },
+  {
+    "recording_id": "1777137954",
+    "meta": "It says command, rock to rock, pinch, action, trigger terminal, not far. Okay, do you check them?",
+    "groq": "It's a command workbench action trigger terminal not found. Can you check them?",
+    "duration": 6.262,
+    "meta_words": 17,
+    "groq_words": 13,
+    "type": "missing_content"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "processingTime" : 858,
+  "result" : "Find all the info you can on the model SWE 1.6 fast.",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "realtimeEnabled" : false,
+  "appVersion" : "2.13.0",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Find all the info you can on the model SWE 1.6 fast.",
+  "prompt" : "",
+  "modeName" : "Default",
+  "duration" : 7972,
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "segments" : [
+    {
+      "end" : 7.04,
+      "text" : "Find all the info you can on the model SWE 1.6 fast.",
+      "start" : 2.24
+    }
+  ],
+  "datetime" : "2026-04-25T17:36:29",
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  }
+}

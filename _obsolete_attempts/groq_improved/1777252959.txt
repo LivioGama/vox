@@ -1,0 +1,1 @@
+So why does it build after each action it finishes in every chat? If you don't know why, you can also add a rule saying to never run cargo, build or cargo

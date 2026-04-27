@@ -1,0 +1,55 @@
+{
+  "prompt" : "",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "segments" : [
+    {
+      "text" : "Put this keyerant rock tree in a new branch develop and then move to that branch and delete that rock tree.",
+      "start" : 0.544,
+      "end" : 7.545375
+    }
+  ],
+  "languageModelName" : "",
+  "rawResult" : " Put this keyerant rock tree in a new branch develop and then move to that branch and delete that rock tree.",
+  "datetime" : "2026-04-27T08:37:04",
+  "applicationContextEnabled" : false,
+  "duration" : 7545,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "languageModelKey" : "",
+  "processingTime" : 842,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "result" : "Put this keyerant rock tree in a new branch develop and then move to that branch and delete that rock tree.",
+  "separateSpeakersEnabled" : false
+}

@@ -1,0 +1,305 @@
+{
+  "it": {
+    "correct": "it's",
+    "frequency": 2,
+    "alternatives": {
+      "its": 1,
+      "it": 2
+    }
+  },
+  "example,": {
+    "correct": "example",
+    "frequency": 3,
+    "alternatives": {
+      "example,": 3
+    }
+  },
+  "the": {
+    "correct": "time",
+    "frequency": 2,
+    "alternatives": {
+      "the": 2
+    }
+  },
+  "prompt,": {
+    "correct": "prompt",
+    "frequency": 3,
+    "alternatives": {
+      "prompt,": 3
+    }
+  },
+  "make": {
+    "correct": "makes",
+    "frequency": 2,
+    "alternatives": {
+      "make": 2
+    }
+  },
+  "coolify.": {
+    "correct": "coolify,",
+    "frequency": 2,
+    "alternatives": {
+      "coolify.": 2
+    }
+  },
+  "cloud": {
+    "correct": "cloud.",
+    "frequency": 2,
+    "alternatives": {
+      "cloud": 2,
+      "cloud?": 1
+    }
+  },
+  "file": {
+    "correct": "files",
+    "frequency": 2,
+    "alternatives": {
+      "file": 2,
+      "files,": 1
+    }
+  },
+  "c-max": {
+    "correct": "cmux",
+    "frequency": 3,
+    "alternatives": {
+      "cmax": 1,
+      "c-max": 3
+    }
+  },
+  "example": {
+    "correct": "example,",
+    "frequency": 2,
+    "alternatives": {
+      "example": 2,
+      "exemple": 1
+    }
+  },
+  "takk": {
+    "correct": "thank",
+    "frequency": 3,
+    "alternatives": {
+      "takk": 3
+    }
+  },
+  "is": {
+    "correct": "this",
+    "frequency": 5,
+    "alternatives": {
+      "is": 5,
+      "the": 2,
+      "this.": 1,
+      "that": 1,
+      "mais": 1
+    }
+  },
+  "actually,": {
+    "correct": "actually",
+    "frequency": 6,
+    "alternatives": {
+      "actually,": 6
+    }
+  },
+  "vid\u00e9o": {
+    "correct": "video",
+    "frequency": 2,
+    "alternatives": {
+      "vid\u00e9o": 2
+    }
+  },
+  "agent": {
+    "correct": "agents",
+    "frequency": 2,
+    "alternatives": {
+      "agent": 2
+    }
+  },
+  "before.": {
+    "correct": "before",
+    "frequency": 2,
+    "alternatives": {
+      "before.": 2
+    }
+  },
+  "be": {
+    "correct": "able",
+    "frequency": 7,
+    "alternatives": {
+      "be": 7
+    }
+  },
+  "have": {
+    "correct": "same",
+    "frequency": 2,
+    "alternatives": {
+      "have": 2,
+      "m\u00eame": 1,
+      "some": 1
+    }
+  },
+  "actually": {
+    "correct": "actually,",
+    "frequency": 2,
+    "alternatives": {
+      "actually": 2
+    }
+  },
+  "as": {
+    "correct": "fast",
+    "frequency": 2,
+    "alternatives": {
+      "as": 2
+    }
+  },
+  "normally,": {
+    "correct": "normally",
+    "frequency": 2,
+    "alternatives": {
+      "normally,": 2
+    }
+  },
+  "iris": {
+    "correct": "iris,",
+    "frequency": 2,
+    "alternatives": {
+      "iris": 2
+    }
+  },
+  "credential": {
+    "correct": "credentials",
+    "frequency": 2,
+    "alternatives": {
+      "credential": 2
+    }
+  },
+  "works,": {
+    "correct": "works",
+    "frequency": 2,
+    "alternatives": {
+      "works?": 1,
+      "works,": 2
+    }
+  },
+  "request.": {
+    "correct": "requests.",
+    "frequency": 2,
+    "alternatives": {
+      "request.": 2
+    }
+  },
+  "entropic": {
+    "correct": "anthropic",
+    "frequency": 2,
+    "alternatives": {
+      "entropic": 2
+    }
+  },
+  "fast": {
+    "correct": "fast.",
+    "frequency": 2,
+    "alternatives": {
+      "fast": 2,
+      "fast?": 1
+    }
+  },
+  "codec": {
+    "correct": "codex",
+    "frequency": 2,
+    "alternatives": {
+      "codec": 2
+    }
+  },
+  "projet": {
+    "correct": "project",
+    "frequency": 2,
+    "alternatives": {
+      "projet": 2,
+      "project,": 1
+    }
+  },
+  "branch,": {
+    "correct": "branch",
+    "frequency": 2,
+    "alternatives": {
+      "branches": 1,
+      "branch,": 2
+    }
+  },
+  "command": {
+    "correct": "command,",
+    "frequency": 2,
+    "alternatives": {
+      "command": 2
+    }
+  },
+  "machine,": {
+    "correct": "machine",
+    "frequency": 2,
+    "alternatives": {
+      "machine,": 2,
+      "machine?": 1
+    }
+  },
+  "gbt-oss": {
+    "correct": "gpt-oss",
+    "frequency": 2,
+    "alternatives": {
+      "gbt-oss": 2
+    }
+  },
+  "120cb": {
+    "correct": "120b",
+    "frequency": 2,
+    "alternatives": {
+      "120cb": 2
+    }
+  },
+  "basically": {
+    "correct": "basically,",
+    "frequency": 4,
+    "alternatives": {
+      "basically": 4
+    }
+  },
+  "now": {
+    "correct": "now,",
+    "frequency": 3,
+    "alternatives": {
+      "now": 3
+    }
+  },
+  "mesure": {
+    "correct": "measure",
+    "frequency": 2,
+    "alternatives": {
+      "mesure": 2
+    }
+  },
+  "acp": {
+    "correct": "acp.",
+    "frequency": 2,
+    "alternatives": {
+      "acp": 2
+    }
+  },
+  "version": {
+    "correct": "version,",
+    "frequency": 2,
+    "alternatives": {
+      "version": 2
+    }
+  },
+  "end": {
+    "correct": "hand",
+    "frequency": 2,
+    "alternatives": {
+      "end": 2
+    }
+  },
+  "again": {
+    "correct": "again.",
+    "frequency": 2,
+    "alternatives": {
+      "again": 2
+    }
+  }
+}

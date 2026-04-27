@@ -1,0 +1,65 @@
+{
+  "languageModelName" : "",
+  "datetime" : "2026-04-25T09:50:28",
+  "result" : "We are integrating the, for example, to insert prompts that also optostume is a form. We already did this somewhere in the Git repo. This branch is another one. I'm 100% sure. I want you to take the exact same implementation, not do your own stuff.",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " We are integrating the, for example, to insert prompts that also optostume is a form. We already did this somewhere in the Git repo. This branch is another one. I'm 100% sure. I want you to take the exact same implementation, not do your own stuff.",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    }
+  },
+  "segments" : [
+    {
+      "text" : "We are integrating the, for example, to insert prompts that also optostume is a form.",
+      "start" : 0.288,
+      "end" : 7.908
+    },
+    {
+      "text" : "We already did this somewhere in the Git repo.",
+      "start" : 8.548,
+      "end" : 11.32
+    },
+    {
+      "text" : "This branch is another one. I'm 100% sure. I want you to take the exact same implementation, not do your own stuff.",
+      "start" : 11.62,
+      "end" : 17.024
+    }
+  ],
+  "processingTime" : 1502,
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "",
+  "prompt" : "",
+  "duration" : 17185,
+  "languageSelected" : "en"
+}

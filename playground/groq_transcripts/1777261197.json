@@ -1,0 +1,7 @@
+{
+  "recording_id": "1777261197",
+  "text": " Okay, so the problem I think is that I worked on develop, all right, and I introduced Next.js and a few stuff after. And I want to find the commit where I last work after the Next.js update. and potentially the reference tier was worked by one of my colleagues in a separate branch and when I rebased develop I integrated the reference tier but it's okay because we can go to my latest commit after the next JS upgrade but before the Open UI stuff, and then we will drop a B commit for reference to our stuff like something like this.",
+  "segments": null,
+  "language": null,
+  "duration": null
+}

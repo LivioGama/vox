@@ -1,0 +1,1 @@
+the shortcut like control 1, control 2 and control 3 are not working because of the nature of the browser use so could you actually put only in development mode so when I run locally you

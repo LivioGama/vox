@@ -1,0 +1,1 @@
+Once you're done with this feature, I want you to focus and to implement, or at least try to see if she can manage herself to implement this skill by herself in autonomous mode. I would like her to be able to manage to understand what is ACP, agent client protocol, and that she actually managed to implement the Qdrant CLI ACP to run the model Qdrant 3.6.

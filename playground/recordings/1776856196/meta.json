@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 12141,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 1029,
+  "rawResult" : " These are shown in my payment confirmation to someone I sent money to on Revolut that did not receive the money but is Iban says.",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "These are shown in my payment confirmation to someone I sent money to on Revolut that did not receive the money but is Iban says.",
+      "start" : 0,
+      "end" : 11.76
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T11:09:56",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "These are shown in my payment confirmation to someone I sent money to on Revolut that did not receive the money but is Iban says."
+}

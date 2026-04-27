@@ -1,0 +1,55 @@
+{
+  "duration" : 22069,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "They usually generate a SaaS. The problem is that actually with the AI era, AI era actually makes people dumb. So instead of really trying something cool, some people would just write SaaS like four letters seriously. What do they expect from this?",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1116,
+  "languageModelName" : "",
+  "rawResult" : " They usually generate a SaaS. The problem is that actually with the AI era, AI era actually makes people dumb. So instead of really trying something cool, some people would just write SaaS like four letters seriously. What do they expect from this?",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T01:12:25",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "They usually generate a SaaS. The problem is that actually with the AI era, AI era actually makes people dumb. So instead of really trying something cool, some people would just write SaaS like four letters seriously. What do they expect from this?",
+      "end" : 21.88,
+      "start" : 0
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

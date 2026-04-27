@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "I am satisfied now, but can you put the same font than War?",
+      "end" : 6.52,
+      "start" : 0
+    }
+  ],
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "rawResult" : " I am satisfied now, but can you put the same font than War?",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "datetime" : "2026-04-17T04:00:10",
+  "appVersion" : "2.12.1",
+  "result" : "I am satisfied now, but can you put the same font than War?",
+  "systemAudioEnabled" : false,
+  "duration" : 6680,
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "processingTime" : 893
+}

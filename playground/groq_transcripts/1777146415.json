@@ -1,0 +1,7 @@
+{
+  "recording_id": "1777146415",
+  "text": " Alright, I think that now we are ready to generate the next.js frontend that will allow to insert a prompt. It should have the same autocomplete that we did in ShipFast. And actually when we generate it should trigger the image generation with a nice animation and display it in the frontend so we can visualize it. there should be a button to be able to regenerate but still saving the old image that we did so it will be like one more variant that will display side by side and so on. Then I can pick the image among the list by selecting it on the XJS frontend. and I can generate the website based on this image and see it in a high frame preview like Shipfast. Don't try to do too much from scratch, really take inspiration from what is already existing in terms of habitability and design and so on in SIPFAST.",
+  "segments": null,
+  "language": null,
+  "duration": null
+}

@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 693,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux DEV latest-build",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Still the same issue, we are looping over and over and over and over.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Still the same issue, we are looping over and over and over and over.",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 4.028,
+      "text" : "Still the same issue, we are looping over and over and over and over.",
+      "start" : 0.288
+    }
+  ],
+  "appVersion" : "2.13.0",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-25T21:17:31",
+  "duration" : 4221,
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false
+}

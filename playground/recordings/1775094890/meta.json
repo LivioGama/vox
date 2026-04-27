@@ -1,0 +1,65 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "end" : 4.22,
+      "text" : "How can I achieve something like the product I was trying to build that is called StoryRun?",
+      "start" : 0
+    },
+    {
+      "end" : 16.72,
+      "text" : "The goal is just to be able to talk at any point of time and just feed a list of tasks that will be generated and orchestrated by some agents.",
+      "start" : 4.46
+    },
+    {
+      "end" : 21.78,
+      "text" : "I want a product for this, either already made, a SaaS or something on GitHub, I don't care.",
+      "start" : 16.9
+    }
+  ],
+  "result" : "How can I achieve something like the product I was trying to build that is called StoryRun? The goal is just to be able to talk at any point of time and just feed a list of tasks that will be generated and orchestrated by some agents. I want a product for this, either already made, a SaaS or something on GitHub, I don't care.",
+  "prompt" : "",
+  "languageModelName" : "",
+  "datetime" : "2026-04-02T01:54:50",
+  "appVersion" : "2.11.0",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1137,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "duration" : 22165,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " How can I achieve something like the product I was trying to build that is called StoryRun? The goal is just to be able to talk at any point of time and just feed a list of tasks that will be generated and orchestrated by some agents. I want a product for this, either already made, a SaaS or something on GitHub, I don't care.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

@@ -1,0 +1,402 @@
+{"recording_id": "1777120357", "correct": "Grok", "wrong": "Grock", "category": "product", "confidence": "high"}
+{"recording_id": "1777120357", "correct": "Kimi", "wrong": "Kimmy", "category": "product", "confidence": "high"}
+{"recording_id": "1776892141", "correct": "Bunex Copilot", "wrong": "boonex-copilot", "category": "product", "confidence": "high"}
+{"recording_id": "1776892141", "correct": "Dokploy", "wrong": "dockploy", "category": "tool", "confidence": "high"}
+{"recording_id": "1774744392", "correct": "GitD", "wrong": "GipD", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777266874", "correct": "Pexel API", "wrong": "pexels API", "category": "other", "confidence": "medium"}
+{"recording_id": "1777264867", "correct": "AgentBrother", "wrong": "agent browser", "category": "other", "confidence": "high"}
+{"recording_id": "1774749789", "correct": "Comet Browser", "wrong": "Comet browser", "category": "product", "confidence": "medium"}
+{"recording_id": "1775167781", "correct": "CureSaw", "wrong": "use here", "category": "other", "confidence": "low"}
+{"recording_id": "1777026353", "correct": "OpenUI", "wrong": "UI", "category": "product", "confidence": "medium"}
+{"recording_id": "1776894524", "correct": "global-cloud.md", "wrong": "global cloud.md", "category": "other", "confidence": "high"}
+{"recording_id": "1777026466", "correct": "port", "wrong": "pull part", "category": "other", "confidence": "medium"}
+{"recording_id": "1774751523", "correct": "GitHub CLI", "wrong": "github.cli", "category": "tool", "confidence": "high"}
+{"recording_id": "1776894555", "correct": "SSH-OF", "wrong": "SSHOF", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776397996", "correct": "cmux", "wrong": "C-Max", "category": "other", "confidence": "high"}
+{"recording_id": "1777269323", "correct": "ClaudeCode", "wrong": "cloudcode", "category": "name", "confidence": "high"}
+{"recording_id": "1777269323", "correct": "pkill", "wrong": "pickheel", "category": "other", "confidence": "high"}
+{"recording_id": "1777027128", "correct": "Codex Spark", "wrong": "codec Spark", "category": "product", "confidence": "high"}
+{"recording_id": "1776310183", "correct": "too-long didn't read", "wrong": "too long written read", "category": "other", "confidence": "high"}
+{"recording_id": "1776310183", "correct": "CloudCode", "wrong": "Cloud Code", "category": "product", "confidence": "high"}
+{"recording_id": "1777120557", "correct": "GroK", "wrong": "Grok", "category": "product", "confidence": "medium"}
+{"recording_id": "1777120557", "correct": "GPT-OSS", "wrong": "GBT-OSS", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777120557", "correct": "120B", "wrong": "120CB", "category": "other", "confidence": "high"}
+{"recording_id": "1777120557", "correct": "OpenUI", "wrong": "Open UI", "category": "library", "confidence": "high"}
+{"recording_id": "1776398241", "correct": "cmux", "wrong": "C-Max", "category": "other", "confidence": "high"}
+{"recording_id": "1774753708", "correct": "GITD", "wrong": "GipD", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777122115", "correct": "Grok Kimi K2", "wrong": "Grok's Kimi K2", "category": "product", "confidence": "medium"}
+{"recording_id": "1777122115", "correct": "DPS", "wrong": "TPS", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1777122115", "correct": "OpenUI", "wrong": "Open UI", "category": "library", "confidence": "medium"}
+{"recording_id": "1777026670", "correct": "KimiK2", "wrong": "Chimik2", "category": "other", "confidence": "medium"}
+{"recording_id": "1777026670", "correct": "OpenUI", "wrong": "Open UI", "category": "other", "confidence": "medium"}
+{"recording_id": "1777130186", "correct": "AgentBrowser", "wrong": "agent browser", "category": "tool", "confidence": "high"}
+{"recording_id": "1777130186", "correct": "endless", "wrong": "headless", "category": "other", "confidence": "medium"}
+{"recording_id": "1776314441", "correct": "Cursor", "wrong": "cursor", "category": "product", "confidence": "high"}
+{"recording_id": "1776398410", "correct": "Warp", "wrong": "War", "category": "product", "confidence": "high"}
+{"recording_id": "1777028575", "correct": "git decrypt", "wrong": "get decrypted", "category": "other", "confidence": "high"}
+{"recording_id": "1776894982", "correct": "Eleger", "wrong": "L.A. Girl", "category": "name", "confidence": "high"}
+{"recording_id": "1776398474", "correct": "C-Max", "wrong": "much", "category": "other", "confidence": "high"}
+{"recording_id": "1776314782", "correct": "Claude Code", "wrong": "cloud code", "category": "product", "confidence": "high"}
+{"recording_id": "1774905351", "correct": "OpenAI", "wrong": "OpenAI model", "category": "product", "confidence": "low"}
+{"recording_id": "1777123255", "correct": "JLM 4.7", "wrong": "JLM 4.7", "category": "product", "confidence": "low"}
+{"recording_id": "1777123255", "correct": "Cerebras", "wrong": "Cerebras", "category": "product", "confidence": "low"}
+{"recording_id": "1777123255", "correct": "GPT-OSS 120B", "wrong": "GPT-OSS 120CB", "category": "product", "confidence": "medium"}
+{"recording_id": "1777123255", "correct": "Cerebras", "wrong": "Cerebras", "category": "product", "confidence": "low"}
+{"recording_id": "1777123255", "correct": "GROQ", "wrong": "Grok", "category": "product", "confidence": "high"}
+{"recording_id": "1777271803", "correct": "homepage", "wrong": "AMP", "category": "other", "confidence": "low"}
+{"recording_id": "1777035730", "correct": "Codex PARC", "wrong": "Codex Spark", "category": "product", "confidence": "high"}
+{"recording_id": "1777035730", "correct": "OpenUI", "wrong": "Open UI", "category": "product", "confidence": "high"}
+{"recording_id": "1776398823", "correct": "CMUX", "wrong": "C-max", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776319457", "correct": "Ollama Cloud", "wrong": "Olama Cloud", "category": "product", "confidence": "high"}
+{"recording_id": "1776321484", "correct": "Johnny", "wrong": "Jodi", "category": "name", "confidence": "high"}
+{"recording_id": "1776398650", "correct": "CMUX", "wrong": "C-Max", "category": "other", "confidence": "high"}
+{"recording_id": "1774919734", "correct": "mergekit", "wrong": "MerchKit", "category": "library", "confidence": "high"}
+{"recording_id": "1774919734", "correct": "GitT Viewer", "wrong": "git tfue", "category": "tool", "confidence": "high"}
+{"recording_id": "1777271826", "correct": "dotload", "wrong": ".cloud", "category": "other", "confidence": "high"}
+{"recording_id": "1777134783", "correct": "Codex CLI", "wrong": "Codec CLI", "category": "tool", "confidence": "high"}
+{"recording_id": "1777134783", "correct": "Stashat", "wrong": "social", "category": "other", "confidence": "low"}
+{"recording_id": "1777137231", "correct": "ACP", "wrong": "a way", "category": "acronym", "confidence": "high"}
+{"recording_id": "1775184135", "correct": "Claude SDK to ACP", "wrong": "cloud-sdk-to-acp", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777042195", "correct": "Cloud Code", "wrong": "Claude Code", "category": "tool", "confidence": "high"}
+{"recording_id": "1775184755", "correct": "commits", "wrong": "comments", "category": "other", "confidence": "high"}
+{"recording_id": "1776322282", "correct": "ReizeTime", "wrong": "readme-style", "category": "name", "confidence": "medium"}
+{"recording_id": "1777042482", "correct": "CMAX", "wrong": "C-MAX", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776322532", "correct": "Next.js", "wrong": "Neck.js", "category": "framework", "confidence": "high"}
+{"recording_id": "1776409650", "correct": "GPT-OSS120B", "wrong": "GPT-OSS-120B", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1776409650", "correct": "GROP", "wrong": "GROK", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1776409650", "correct": "Kimi", "wrong": "Kimi", "category": "name", "confidence": "low"}
+{"recording_id": "1777273242", "correct": "Adlas", "wrong": "headless", "category": "other", "confidence": "medium"}
+{"recording_id": "1777043353", "correct": "TransCmox", "wrong": "current Cmox", "category": "other", "confidence": "low"}
+{"recording_id": "1775187558", "correct": "ShiftFast", "wrong": "shift-right", "category": "product", "confidence": "high"}
+{"recording_id": "1777137795", "correct": "GPT-4", "wrong": "LGBT5.5", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777137795", "correct": "GPT-4", "wrong": "GBT 5.5", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776915609", "correct": "Copilot Claude", "wrong": "copilot cloud", "category": "product", "confidence": "high"}
+{"recording_id": "1776323832", "correct": "HolaMacCloud", "wrong": "Ola Mac Cloud", "category": "product", "confidence": "high"}
+{"recording_id": "1776323832", "correct": "Quash Gemi2", "wrong": "squash-gemi2", "category": "other", "confidence": "medium"}
+{"recording_id": "1777044415", "correct": "CMUX", "wrong": "Cmax", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776809524", "correct": "TPS", "wrong": "token per second", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776915698", "correct": "OTH model", "wrong": "hotmodel", "category": "acronym", "confidence": "high"}
+{"recording_id": "1775185179", "correct": "Identity Development Environment", "wrong": "Identic Development", "category": "acronym", "confidence": "high"}
+{"recording_id": "1775185179", "correct": "RLS", "wrong": "RLs", "category": "acronym", "confidence": "high"}
+{"recording_id": "1775185179", "correct": "Cloud Subscription Max", "wrong": "load subscription max", "category": "product", "confidence": "high"}
+{"recording_id": "1775185179", "correct": "Cloud Code CLI", "wrong": "cloud code CLI", "category": "tool", "confidence": "high"}
+{"recording_id": "1775185179", "correct": "utilitarian", "wrong": "Italian", "category": "other", "confidence": "high"}
+{"recording_id": "1776326240", "correct": "GitHub Copilot CLI", "wrong": "GitHub Compile.cli", "category": "tool", "confidence": "high"}
+{"recording_id": "1775188424", "correct": "CMD", "wrong": "command", "category": "acronym", "confidence": "high"}
+{"recording_id": "1775189970", "correct": "Curso", "wrong": "cursor", "category": "product", "confidence": "high"}
+{"recording_id": "1777274732", "correct": "DeepGram", "wrong": "DeepGram", "category": "product", "confidence": "high"}
+{"recording_id": "1775026675", "correct": "MK2", "wrong": "MKII", "category": "other", "confidence": "medium"}
+{"recording_id": "1775026675", "correct": "UnchainedBlocks", "wrong": "un-chance block", "category": "other", "confidence": "high"}
+{"recording_id": "1777275884", "correct": "ROG3", "wrong": "rock tree", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776915821", "correct": "gitcrypt", "wrong": "gitcrypt", "category": "tool", "confidence": "medium"}
+{"recording_id": "1776915821", "correct": "NetCup", "wrong": "netcap", "category": "product", "confidence": "high"}
+{"recording_id": "1776915821", "correct": "OFSSH", "wrong": "of ssh", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776809933", "correct": "OSS100", "wrong": "OSS 100", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1776809933", "correct": "MCB", "wrong": "MCB", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1775190126", "correct": "Colyfy", "wrong": "codify", "category": "tool", "confidence": "high"}
+{"recording_id": "1777047560", "correct": "Coolify", "wrong": "coolify", "category": "tool", "confidence": "high"}
+{"recording_id": "1777047538", "correct": "Coolify", "wrong": "coolify", "category": "tool", "confidence": "high"}
+{"recording_id": "1775042105", "correct": "Olamacloud", "wrong": "Ola McLeod", "category": "product", "confidence": "high"}
+{"recording_id": "1775190382", "correct": "Surya", "wrong": "Syria", "category": "name", "confidence": "high"}
+{"recording_id": "1776941533", "correct": "OpenUI", "wrong": "open UI", "category": "library", "confidence": "high"}
+{"recording_id": "1777048280", "correct": "devlive.io", "wrong": "devlib.io", "category": "other", "confidence": "high"}
+{"recording_id": "1777046676", "correct": "ARNEST", "wrong": "artists", "category": "other", "confidence": "medium"}
+{"recording_id": "1777046676", "correct": "OpenCode", "wrong": "Open Code", "category": "product", "confidence": "high"}
+{"recording_id": "1777046676", "correct": "OpenCode Slim", "wrong": "Open Code Slim", "category": "product", "confidence": "high"}
+{"recording_id": "1777139921", "correct": "Docploy", "wrong": "DocPlay", "category": "tool", "confidence": "high"}
+{"recording_id": "1777139453", "correct": "WESTERM", "wrong": "Westerm", "category": "other", "confidence": "medium"}
+{"recording_id": "1777139453", "correct": "CMAX", "wrong": "C-Max", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1777139453", "correct": "Winesurf", "wrong": "Winesurf", "category": "other", "confidence": "low"}
+{"recording_id": "1776941643", "correct": "GPT-OSS", "wrong": "GBT OSS", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776941643", "correct": "20B", "wrong": "120", "category": "other", "confidence": "high"}
+{"recording_id": "1775190472", "correct": "lovable.lab", "wrong": "Lovable", "category": "other", "confidence": "medium"}
+{"recording_id": "1777049636", "correct": "NetCup", "wrong": "netcap", "category": "product", "confidence": "high"}
+{"recording_id": "1777138609", "correct": "GEN3.6", "wrong": "QWEND 3.6", "category": "product", "confidence": "high"}
+{"recording_id": "1777138609", "correct": "GMAT4", "wrong": "2GIMA 4", "category": "product", "confidence": "high"}
+{"recording_id": "1777138609", "correct": "Claude Sonnet", "wrong": "CloudSony", "category": "product", "confidence": "high"}
+{"recording_id": "1777138609", "correct": "GPT 4.5", "wrong": "QGP 4.5", "category": "product", "confidence": "high"}
+{"recording_id": "1777138609", "correct": "4.3", "wrong": "Adfler 4.3", "category": "product", "confidence": "medium"}
+{"recording_id": "1776943054", "correct": "CNI", "wrong": "cli", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777140170", "correct": "West Term", "wrong": "Westerm", "category": "other", "confidence": "high"}
+{"recording_id": "1775190777", "correct": "mailed.ship", "wrong": "mail.shipple", "category": "product", "confidence": "high"}
+{"recording_id": "1776330312", "correct": "Ollama", "wrong": "Olama", "category": "tool", "confidence": "high"}
+{"recording_id": "1776814742", "correct": "GitRuck3", "wrong": "git rock tree", "category": "other", "confidence": "high"}
+{"recording_id": "1775190542", "correct": "cheapfast.io", "wrong": "shitfast.io", "category": "other", "confidence": "high"}
+{"recording_id": "1775044243", "correct": "ShipFast", "wrong": "Shipfast", "category": "product", "confidence": "high"}
+{"recording_id": "1776943317", "correct": "Claude", "wrong": "cloud", "category": "product", "confidence": "high"}
+{"recording_id": "1777053344", "correct": "RALF", "wrong": "Ralph", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "MacBook Clodia", "wrong": "macbook Claudia", "category": "product", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "FreeSSH", "wrong": "free SSH", "category": "tool", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "OVPN", "wrong": "ovpn", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "OpenVPN", "wrong": "open VPN", "category": "tool", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "UnixConfig", "wrong": "Unix config", "category": "other", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "GitHub", "wrong": "Github", "category": "product", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "SSH Conf", "wrong": "SSH-conf", "category": "other", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "macOS", "wrong": "MacOS", "category": "product", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "Mac Mini", "wrong": "Mac Mini", "category": "product", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "ZSH RC", "wrong": "ZSH-RC", "category": "other", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "ZSH history", "wrong": "ZSH history", "category": "other", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "ZSH", "wrong": "ZSH", "category": "tool", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "Node", "wrong": "node", "category": "tool", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "BAN", "wrong": "you", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1777136943", "correct": "Copilot API", "wrong": "copilot API", "category": "product", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "YouTube Copilot models", "wrong": "YouTube copilot models", "category": "product", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "Cloud CLI", "wrong": "cloud CLI", "category": "tool", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "Cloud setting global", "wrong": "cloud setting global", "category": "other", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "Copilot API", "wrong": "copilot API", "category": "product", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "Unix config", "wrong": "Uniteconfig", "category": "other", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "Server Apps", "wrong": "server apps", "category": "other", "confidence": "high"}
+{"recording_id": "1777136943", "correct": "FNC62VPS", "wrong": "FNC62 VPS", "category": "other", "confidence": "high"}
+{"recording_id": "1777140509", "correct": "R-NES", "wrong": "harness", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777140509", "correct": "MP2", "wrong": "in between", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1777143584", "correct": "WazeTerm", "wrong": "our term", "category": "product", "confidence": "high"}
+{"recording_id": "1776338657", "correct": "Dockploy", "wrong": "dockploy", "category": "product", "confidence": "high"}
+{"recording_id": "1776943597", "correct": "FreeVPS", "wrong": "free VPS", "category": "product", "confidence": "high"}
+{"recording_id": "1776943597", "correct": "MAC", "wrong": "Mac", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1775060601", "correct": "blockchain", "wrong": "block change", "category": "other", "confidence": "high"}
+{"recording_id": "1775274168", "correct": "GitDivViewer", "wrong": "git dev viewer", "category": "product", "confidence": "high"}
+{"recording_id": "1774581318", "correct": "Raycast", "wrong": "for example Raycast", "category": "product", "confidence": "high"}
+{"recording_id": "1777145080", "correct": "SWE 1.6 FAST", "wrong": "SWE 1.6 fast", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777145080", "correct": "Winsurf", "wrong": "Windsurf", "category": "product", "confidence": "high"}
+{"recording_id": "1777145080", "correct": "Claude Code CLI", "wrong": "code-clos CLI", "category": "tool", "confidence": "high"}
+{"recording_id": "1777145080", "correct": "dev.livio", "wrong": "dev.livio", "category": "other", "confidence": "high"}
+{"recording_id": "1776943925", "correct": "Netcap", "wrong": "netcap", "category": "other", "confidence": "low"}
+{"recording_id": "1776943925", "correct": "OFF", "wrong": "auth", "category": "acronym", "confidence": "low"}
+{"recording_id": "1775285852", "correct": "ClaudeP", "wrong": "Cloud P", "category": "product", "confidence": "high"}
+{"recording_id": "1775285852", "correct": "ClaudeACP", "wrong": "Cloud ACP", "category": "product", "confidence": "high"}
+{"recording_id": "1776943815", "correct": "Claude", "wrong": "cloud", "category": "name", "confidence": "high"}
+{"recording_id": "1776943815", "correct": "Conf", "wrong": "conf", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1776943815", "correct": "OATS", "wrong": "oats", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777146415", "correct": "Shipfast", "wrong": "SIPFAST", "category": "product", "confidence": "high"}
+{"recording_id": "1776944461", "correct": "NetCup", "wrong": "netcap", "category": "product", "confidence": "high"}
+{"recording_id": "1776944461", "correct": "Claude B", "wrong": "cloudp", "category": "name", "confidence": "high"}
+{"recording_id": "1775286699", "correct": "Golyfy", "wrong": "qualify", "category": "product", "confidence": "high"}
+{"recording_id": "1775286699", "correct": "Docloy", "wrong": "deploy", "category": "product", "confidence": "high"}
+{"recording_id": "1776346155", "correct": "Apple Script", "wrong": "AppleScript", "category": "other", "confidence": "medium"}
+{"recording_id": "1776346155", "correct": "Claude", "wrong": "cloud", "category": "name", "confidence": "high"}
+{"recording_id": "1776945023", "correct": "CMUX", "wrong": "CMAX", "category": "tool", "confidence": "high"}
+{"recording_id": "1776823365", "correct": "ACP", "wrong": "ascp", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776823365", "correct": "GitHub Copilot", "wrong": "hitup-copilot", "category": "product", "confidence": "high"}
+{"recording_id": "1776823365", "correct": "SONY 4.6", "wrong": "SONNET 4.6", "category": "product", "confidence": "high"}
+{"recording_id": "1776342209", "correct": "GitD", "wrong": "Github", "category": "acronym", "confidence": "high"}
+{"recording_id": "1775066519", "correct": "GIFPanel", "wrong": "GIF panel", "category": "other", "confidence": "high"}
+{"recording_id": "1775066519", "correct": "GitGraph", "wrong": "GIF graph", "category": "other", "confidence": "high"}
+{"recording_id": "1776823450", "correct": "Fures", "wrong": "cures", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776347589", "correct": "Next.js", "wrong": "an FBS", "category": "framework", "confidence": "high"}
+{"recording_id": "1777146864", "correct": "WazeTerm", "wrong": "Westterm", "category": "other", "confidence": "high"}
+{"recording_id": "1777146864", "correct": "CMAX", "wrong": "with", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777065801", "correct": "EFE", "wrong": "OFV", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777065801", "correct": "ScropGrobs", "wrong": "scrub-grab", "category": "tool", "confidence": "high"}
+{"recording_id": "1777065801", "correct": "ForceGrobs", "wrong": "Forced-grab", "category": "tool", "confidence": "high"}
+{"recording_id": "1776945136", "correct": "DPS", "wrong": "VPS", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1775286975", "correct": "Qualify", "wrong": "Qlify", "category": "other", "confidence": "high"}
+{"recording_id": "1775286975", "correct": "Docploy", "wrong": "Docploy", "category": "tool", "confidence": "low"}
+{"recording_id": "1776947650", "correct": "MACP", "wrong": "k\u00e6ft", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777147440", "correct": "Claude Code Agent", "wrong": "cloud agent", "category": "product", "confidence": "high"}
+{"recording_id": "1777065919", "correct": "Rav", "wrong": "drive", "category": "name", "confidence": "medium"}
+{"recording_id": "1777147507", "correct": "VPS", "wrong": "CPS", "category": "acronym", "confidence": "high"}
+{"recording_id": "1775068352", "correct": "b-stem", "wrong": "Base 10", "category": "other", "confidence": "medium"}
+{"recording_id": "1776827080", "correct": "git diff", "wrong": "getD", "category": "other", "confidence": "high"}
+{"recording_id": "1775296360", "correct": "Cursor Composer", "wrong": "cursor, composer", "category": "product", "confidence": "high"}
+{"recording_id": "1776827177", "correct": "idtf", "wrong": "kidtiff", "category": "acronym", "confidence": "high"}
+{"recording_id": "1775296135", "correct": "Cursor", "wrong": "cursor", "category": "product", "confidence": "medium"}
+{"recording_id": "1775296135", "correct": "Claude Code", "wrong": "cloud code", "category": "product", "confidence": "medium"}
+{"recording_id": "1777148775", "correct": "FastAgent", "wrong": "fastagent", "category": "product", "confidence": "medium"}
+{"recording_id": "1776948679", "correct": "GRI", "wrong": "GUI", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776950972", "correct": "SEM3-1", "wrong": "sendfree one", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777148968", "correct": "OpenCode Slim", "wrong": "open code slim", "category": "product", "confidence": "high"}
+{"recording_id": "1777148968", "correct": "OpenCode", "wrong": "open code", "category": "product", "confidence": "high"}
+{"recording_id": "1776349177", "correct": "ShipFast", "wrong": "ShipFast product", "category": "product", "confidence": "high"}
+{"recording_id": "1776349177", "correct": "XJS", "wrong": "XGS", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776349177", "correct": "GlassNext", "wrong": "Glass Next", "category": "product", "confidence": "high"}
+{"recording_id": "1776962158", "correct": "Claude Code CLI", "wrong": "cloud code CLI", "category": "tool", "confidence": "high"}
+{"recording_id": "1774637719", "correct": "Superwhisper", "wrong": "Super Whisper", "category": "tool", "confidence": "high"}
+{"recording_id": "1777149048", "correct": "CloudIQ", "wrong": "Claudeiku", "category": "product", "confidence": "high"}
+{"recording_id": "1776962634", "correct": "GPUI Rust", "wrong": "GPUI REST", "category": "other", "confidence": "high"}
+{"recording_id": "1777067004", "correct": "ACP", "wrong": "It", "category": "acronym", "confidence": "low"}
+{"recording_id": "1776353309", "correct": "EtherEd", "wrong": "etherhead", "category": "other", "confidence": "high"}
+{"recording_id": "1776353893", "correct": "D letter", "wrong": "deleter", "category": "other", "confidence": "medium"}
+{"recording_id": "1775886042", "correct": "Fai Tawon", "wrong": "Fai Tawang", "category": "name", "confidence": "high"}
+{"recording_id": "1776355064", "correct": "Claude Code", "wrong": "cloud code", "category": "product", "confidence": "high"}
+{"recording_id": "1775885840", "correct": "Next.js", "wrong": "XGS", "category": "framework", "confidence": "high"}
+{"recording_id": "1775885840", "correct": "Tailwind", "wrong": "Tailwind", "category": "framework", "confidence": "high"}
+{"recording_id": "1776970033", "correct": "SheetSheet", "wrong": "GT", "category": "other", "confidence": "high"}
+{"recording_id": "1776828666", "correct": "Dokploy", "wrong": "DOCPLOY", "category": "tool", "confidence": "high"}
+{"recording_id": "1776828666", "correct": "Coolify", "wrong": "Qulify", "category": "tool", "confidence": "high"}
+{"recording_id": "1777149319", "correct": "Vox", "wrong": "vox", "category": "other", "confidence": "low"}
+{"recording_id": "1777149319", "correct": "OpenCode", "wrong": "OpenCode", "category": "other", "confidence": "low"}
+{"recording_id": "1776969537", "correct": "Codex", "wrong": "codec", "category": "product", "confidence": "high"}
+{"recording_id": "1775886329", "correct": "BUNERONDAV", "wrong": "bone run dev", "category": "other", "confidence": "high"}
+{"recording_id": "1777150966", "correct": "Claude Code", "wrong": "a plot code", "category": "product", "confidence": "high"}
+{"recording_id": "1777150966", "correct": "Sony 4.5", "wrong": "only 4.5", "category": "product", "confidence": "high"}
+{"recording_id": "1775090215", "correct": "Shipfast Forum", "wrong": "shipfast form", "category": "product", "confidence": "high"}
+{"recording_id": "1776356156", "correct": "Notion MCP", "wrong": "Notion NCP", "category": "product", "confidence": "high"}
+{"recording_id": "1776832151", "correct": "Claude Code", "wrong": "cloud code", "category": "product", "confidence": "high"}
+{"recording_id": "1776980769", "correct": "AMP", "wrong": "hand", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777152781", "correct": "Dokploy", "wrong": "dock ploy", "category": "tool", "confidence": "high"}
+{"recording_id": "1777152781", "correct": "AutoSSR", "wrong": "Auto SSL", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1775094684", "correct": "Iris", "wrong": "IRIS", "category": "product", "confidence": "high"}
+{"recording_id": "1776355993", "correct": "Iris", "wrong": "iris", "category": "product", "confidence": "high"}
+{"recording_id": "1776355993", "correct": "OpenClaw", "wrong": "openclaw", "category": "product", "confidence": "high"}
+{"recording_id": "1776355993", "correct": "CloudBot", "wrong": "cloudbot", "category": "product", "confidence": "high"}
+{"recording_id": "1776981884", "correct": "home page", "wrong": "on-page", "category": "other", "confidence": "low"}
+{"recording_id": "1777067380", "correct": "init bin bash", "wrong": "init binbash", "category": "other", "confidence": "medium"}
+{"recording_id": "1777067380", "correct": "hidden password", "wrong": "Ginn and Pass moon", "category": "other", "confidence": "high"}
+{"recording_id": "1776356692", "correct": "Ralph Wigum", "wrong": "Ralph Regum", "category": "name", "confidence": "high"}
+{"recording_id": "1775094890", "correct": "StoryRun", "wrong": "Story Run", "category": "product", "confidence": "high"}
+{"recording_id": "1776834163", "correct": "end to end", "wrong": "hand to hand", "category": "other", "confidence": "high"}
+{"recording_id": "1776834163", "correct": "CMS-E5", "wrong": "CMS EFI", "category": "acronym", "confidence": "high"}
+{"recording_id": "1775097906", "correct": "Rope", "wrong": "Rook", "category": "product", "confidence": "high"}
+{"recording_id": "1776834598", "correct": "Iris", "wrong": "Iris", "category": "name", "confidence": "low"}
+{"recording_id": "1777153239", "correct": "Iris Summer", "wrong": "Iris Sama", "category": "name", "confidence": "medium"}
+{"recording_id": "1776356943", "correct": "StarVault", "wrong": "StarWalt", "category": "product", "confidence": "high"}
+{"recording_id": "1774656504", "correct": "MergeKit", "wrong": "mergekit", "category": "library", "confidence": "high"}
+{"recording_id": "1777068958", "correct": "RIP", "wrong": "", "category": "acronym", "confidence": "low"}
+{"recording_id": "1775096915", "correct": "Cloud Sony", "wrong": "CloudSony", "category": "product", "confidence": "high"}
+{"recording_id": "1775096915", "correct": "Cloud ACP", "wrong": "CloudACP", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777001443", "correct": "Claude Code", "wrong": "the cloud code", "category": "product", "confidence": "high"}
+{"recording_id": "1776999407", "correct": "Claude MD Global", "wrong": "Cloud MD Global", "category": "product", "confidence": "high"}
+{"recording_id": "1776834855", "correct": "AirBud Max", "wrong": "AirBot Max", "category": "product", "confidence": "high"}
+{"recording_id": "1777160546", "correct": "OpenCode Steam", "wrong": "OpenCode Slim", "category": "product", "confidence": "high"}
+{"recording_id": "1777070128", "correct": "Clozda", "wrong": "Claudia", "category": "name", "confidence": "high"}
+{"recording_id": "1777070128", "correct": "omaiz.sh", "wrong": "OMAZEDSH", "category": "other", "confidence": "high"}
+{"recording_id": "1777070128", "correct": "IDR-SAK", "wrong": "IDRSK", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776835736", "correct": "Iris channel", "wrong": "Iris Chan", "category": "other", "confidence": "high"}
+{"recording_id": "1777070500", "correct": "Superwhisper", "wrong": "Super Whisperer", "category": "product", "confidence": "high"}
+{"recording_id": "1775099999", "correct": "Entropy KPI key", "wrong": "Entropic API key", "category": "acronym", "confidence": "high"}
+{"recording_id": "1774658774", "correct": "SaaS", "wrong": "sass", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777162794", "correct": "Claude", "wrong": "clod", "category": "name", "confidence": "high"}
+{"recording_id": "1777160073", "correct": "GPT OSS 120B", "wrong": "GPT-OSS120B", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1777160073", "correct": "ROC", "wrong": "Rock", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1777160073", "correct": "SWE 1.6 FAST", "wrong": "SWE 1.6 fast", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1777160073", "correct": "windsurf proxy", "wrong": "windsurf proxy", "category": "tool", "confidence": "low"}
+{"recording_id": "1776836401", "correct": "IRIS", "wrong": "Iris", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1777004443", "correct": "Docploy", "wrong": "Docploy", "category": "tool", "confidence": "low"}
+{"recording_id": "1777162936", "correct": "Claude Code", "wrong": "cloud code", "category": "product", "confidence": "high"}
+{"recording_id": "1777162936", "correct": "windsurf.dev.io", "wrong": "windsurf.devlog.io", "category": "other", "confidence": "medium"}
+{"recording_id": "1777070708", "correct": "Superwhisper", "wrong": "Super Whisper", "category": "product", "confidence": "high"}
+{"recording_id": "1776359909", "correct": "Iris", "wrong": "IRIS", "category": "other", "confidence": "medium"}
+{"recording_id": "1777252959", "correct": "cargo. Build", "wrong": "cargo, build", "category": "other", "confidence": "high"}
+{"recording_id": "1776836554", "correct": "Iris", "wrong": "Iris", "category": "name", "confidence": "low"}
+{"recording_id": "1776836554", "correct": "Composio", "wrong": "Composio", "category": "product", "confidence": "low"}
+{"recording_id": "1776836554", "correct": "ZSH", "wrong": "ZSH", "category": "acronym", "confidence": "low"}
+{"recording_id": "1775888758", "correct": "Vercel", "wrong": "Versa", "category": "product", "confidence": "high"}
+{"recording_id": "1777004902", "correct": "fictive", "wrong": "fictive", "category": "other", "confidence": "low"}
+{"recording_id": "1776155986", "correct": ".r", "wrong": ".ons", "category": "other", "confidence": "high"}
+{"recording_id": "1777071036", "correct": "AZERTY", "wrong": "ASRT", "category": "other", "confidence": "high"}
+{"recording_id": "1775130399", "correct": "Ollama", "wrong": "OlaMap", "category": "tool", "confidence": "high"}
+{"recording_id": "1775130399", "correct": "CloudSonic", "wrong": "CloudSony", "category": "product", "confidence": "high"}
+{"recording_id": "1776360392", "correct": "Versal", "wrong": "Verso", "category": "product", "confidence": "high"}
+{"recording_id": "1776360443", "correct": "Claude Code ACP", "wrong": "Cloud Code ACP", "category": "product", "confidence": "high"}
+{"recording_id": "1776360048", "correct": "Claude Code", "wrong": "Cloud Code", "category": "product", "confidence": "high"}
+{"recording_id": "1776360048", "correct": "Nano Banana Pro", "wrong": "nano banana pro", "category": "product", "confidence": "high"}
+{"recording_id": "1776360048", "correct": "Charcer RC", "wrong": "shard.crc", "category": "other", "confidence": "medium"}
+{"recording_id": "1777254721", "correct": "Claude Code", "wrong": "cloud code", "category": "product", "confidence": "high"}
+{"recording_id": "1776836711", "correct": "Qdrant", "wrong": "QN", "category": "product", "confidence": "high"}
+{"recording_id": "1776836711", "correct": "Qdrant", "wrong": "QEN", "category": "product", "confidence": "high"}
+{"recording_id": "1777254990", "correct": "OMARI", "wrong": "Omari", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1777007509", "correct": "OpenCode Slim", "wrong": "OpenCode sleeve", "category": "product", "confidence": "high"}
+{"recording_id": "1777007509", "correct": "Winsurf SWE 1.6", "wrong": "a windsurf SWE 1.6", "category": "product", "confidence": "high"}
+{"recording_id": "1777256402", "correct": "ChipFast", "wrong": "ChibFast", "category": "product", "confidence": "high"}
+{"recording_id": "1777007571", "correct": "Dokploy", "wrong": "DuckPloy", "category": "tool", "confidence": "high"}
+{"recording_id": "1777007571", "correct": "Dokploy", "wrong": "dockploy", "category": "tool", "confidence": "high"}
+{"recording_id": "1775136688", "correct": "npx", "wrong": "bx", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777007961", "correct": "Claude Sonnet", "wrong": "CloudSony", "category": "product", "confidence": "high"}
+{"recording_id": "1776852753", "correct": "countable VPS", "wrong": "Comtab OVPS", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776852753", "correct": "net cap", "wrong": "Netcap", "category": "other", "confidence": "medium"}
+{"recording_id": "1776364824", "correct": "Dokploy", "wrong": "doccloy", "category": "tool", "confidence": "high"}
+{"recording_id": "1776364824", "correct": "Dokploy", "wrong": "doc.loy", "category": "tool", "confidence": "high"}
+{"recording_id": "1776364824", "correct": "Let's Encrypt", "wrong": "Let's Send script", "category": "other", "confidence": "high"}
+{"recording_id": "1776364824", "correct": "Let's Encrypt", "wrong": "Let's End Script", "category": "other", "confidence": "high"}
+{"recording_id": "1776858900", "correct": "Claude Code", "wrong": "Cloud Code", "category": "product", "confidence": "high"}
+{"recording_id": "1776361779", "correct": "SnapEmail", "wrong": "snap email", "category": "product", "confidence": "high"}
+{"recording_id": "1776863365", "correct": "XGS", "wrong": "XJS", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776165750", "correct": "Reflektar", "wrong": "Reflecta", "category": "other", "confidence": "high"}
+{"recording_id": "1775137662", "correct": "Grok GPT OSS 120B", "wrong": "the GROK GPT OSS 120B", "category": "product", "confidence": "high"}
+{"recording_id": "1775137662", "correct": "AT80", "wrong": "AT80", "category": "acronym", "confidence": "low"}
+{"recording_id": "1777097577", "correct": "Medusa", "wrong": "medusa", "category": "other", "confidence": "low"}
+{"recording_id": "1777008106", "correct": "Claude Sonnet", "wrong": "Klotsone", "category": "product", "confidence": "high"}
+{"recording_id": "1777008156", "correct": "Ralph Riggum", "wrong": "ralph reagan", "category": "name", "confidence": "high"}
+{"recording_id": "1777096889", "correct": "e-commerceify", "wrong": "e-commerce file", "category": "other", "confidence": "high"}
+{"recording_id": "1775138649", "correct": "Westerm", "wrong": "Westterm", "category": "tool", "confidence": "high"}
+{"recording_id": "1776866400", "correct": "Git worktree", "wrong": "GitRoc3", "category": "other", "confidence": "high"}
+{"recording_id": "1777008355", "correct": "DocProit", "wrong": "dockpro", "category": "product", "confidence": "high"}
+{"recording_id": "1775138961", "correct": "SSE", "wrong": "SAC", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777008872", "correct": "opencode", "wrong": "open code", "category": "other", "confidence": "high"}
+{"recording_id": "1774662306", "correct": "Freebase", "wrong": "Freebase", "category": "other", "confidence": "low"}
+{"recording_id": "1774662306", "correct": "Patch", "wrong": "Batch", "category": "other", "confidence": "medium"}
+{"recording_id": "1774662306", "correct": "Show Repository Attributions", "wrong": "ShowRepositoryAltRevision", "category": "other", "confidence": "high"}
+{"recording_id": "1774662306", "correct": "Reset Branch to Commit", "wrong": "ResetBranchToCommit", "category": "other", "confidence": "high"}
+{"recording_id": "1774662306", "correct": "Edit Commit Message", "wrong": "EditCommitMessage", "category": "other", "confidence": "high"}
+{"recording_id": "1774662306", "correct": "Squash", "wrong": "SquashDrop", "category": "other", "confidence": "medium"}
+{"recording_id": "1774662306", "correct": "Commit Graph", "wrong": "CommitGrowth", "category": "other", "confidence": "high"}
+{"recording_id": "1775139285", "correct": "Entropic", "wrong": "entropy", "category": "other", "confidence": "high"}
+{"recording_id": "1777107440", "correct": "GitPulling", "wrong": "git pulling", "category": "other", "confidence": "medium"}
+{"recording_id": "1776877270", "correct": "Qdrant", "wrong": "Skudrant", "category": "product", "confidence": "high"}
+{"recording_id": "1777009389", "correct": "GPT-5.5", "wrong": "GPT 5.5", "category": "acronym", "confidence": "medium"}
+{"recording_id": "1776178640", "correct": "Dokploy", "wrong": "dock ploy", "category": "tool", "confidence": "high"}
+{"recording_id": "1776178640", "correct": "Dokploy", "wrong": "dog ploy", "category": "tool", "confidence": "high"}
+{"recording_id": "1776389737", "correct": "Perplexity Agent", "wrong": "perplexity agent", "category": "product", "confidence": "high"}
+{"recording_id": "1776389737", "correct": "OpenRouter", "wrong": "open router", "category": "product", "confidence": "high"}
+{"recording_id": "1776178855", "correct": "Docploy", "wrong": "docplot", "category": "product", "confidence": "high"}
+{"recording_id": "1777012715", "correct": "WinFurf", "wrong": "windsurf", "category": "other", "confidence": "high"}
+{"recording_id": "1776877607", "correct": "RTKey", "wrong": "RTKEY", "category": "other", "confidence": "medium"}
+{"recording_id": "1777012793", "correct": "devlib.io", "wrong": "devlist.io", "category": "other", "confidence": "high"}
+{"recording_id": "1777260467", "correct": "Elgato", "wrong": "El Gato", "category": "product", "confidence": "high"}
+{"recording_id": "1776390168", "correct": "Sonate", "wrong": "Sonnet", "category": "product", "confidence": "high"}
+{"recording_id": "1774683218", "correct": "FASCII", "wrong": "asking", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777013187", "correct": "Dokploy", "wrong": "deploy", "category": "tool", "confidence": "high"}
+{"recording_id": "1775139453", "correct": "Superwhisper", "wrong": "Super Whisper", "category": "product", "confidence": "high"}
+{"recording_id": "1776178984", "correct": "Plausible", "wrong": "plausible", "category": "product", "confidence": "high"}
+{"recording_id": "1776179023", "correct": "DocPloy", "wrong": "doc ploy", "category": "tool", "confidence": "high"}
+{"recording_id": "1777260525", "correct": "GPT-OSS120B", "wrong": "GPT OSS120B", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777112419", "correct": "CMS eFy", "wrong": "CMSify", "category": "other", "confidence": "medium"}
+{"recording_id": "1777112419", "correct": "React Scanner", "wrong": "React Scanner", "category": "library", "confidence": "high"}
+{"recording_id": "1777013242", "correct": "3Rub3", "wrong": "free Rocktree", "category": "other", "confidence": "high"}
+{"recording_id": "1776391050", "correct": "CMAX", "wrong": "Cmax", "category": "other", "confidence": "medium"}
+{"recording_id": "1777115765", "correct": "Gitwork", "wrong": "Gitwork tree", "category": "other", "confidence": "medium"}
+{"recording_id": "1776882864", "correct": "Vercel", "wrong": "Versal", "category": "product", "confidence": "high"}
+{"recording_id": "1775150022", "correct": "Codify", "wrong": "codify", "category": "product", "confidence": "medium"}
+{"recording_id": "1775150022", "correct": "shipfast.io", "wrong": "shipfast.io", "category": "product", "confidence": "medium"}
+{"recording_id": "1775150623", "correct": "Shiftfast", "wrong": "shift class", "category": "product", "confidence": "high"}
+{"recording_id": "1777261197", "correct": "Next.js", "wrong": "next JS", "category": "library", "confidence": "high"}
+{"recording_id": "1777261197", "correct": "Open UI", "wrong": "open UI", "category": "other", "confidence": "medium"}
+{"recording_id": "1776883728", "correct": "Anthropic", "wrong": "entropic", "category": "name", "confidence": "high"}
+{"recording_id": "1776883728", "correct": "Iris", "wrong": "IRIS", "category": "product", "confidence": "medium"}
+{"recording_id": "1776888348", "correct": "firebase", "wrong": "firebase,", "category": "product", "confidence": "high"}
+{"recording_id": "1776393913", "correct": "CMAX", "wrong": "C-Max", "category": "other", "confidence": "medium"}
+{"recording_id": "1777013669", "correct": "Ship 5", "wrong": "ship five", "category": "other", "confidence": "medium"}
+{"recording_id": "1776394131", "correct": "RALF RIGAM", "wrong": "Ralph-Riggum", "category": "other", "confidence": "high"}
+{"recording_id": "1776251607", "correct": "MNC MCP", "wrong": "mncp", "category": "acronym", "confidence": "high"}
+{"recording_id": "1776251607", "correct": "Dockploy", "wrong": "Dockploy", "category": "tool", "confidence": "high"}
+{"recording_id": "1776251607", "correct": "MCP Atlassian", "wrong": "mcp atlasian", "category": "product", "confidence": "high"}
+{"recording_id": "1776283506", "correct": "BitPacket Prorequest", "wrong": "big packet pull request", "category": "other", "confidence": "high"}
+{"recording_id": "1777014070", "correct": "lightning-line", "wrong": "99th", "category": "other", "confidence": "medium"}
+{"recording_id": "1777014070", "correct": ".idr", "wrong": ".id", "category": "other", "confidence": "medium"}
+{"recording_id": "1776889949", "correct": "Cloud Code", "wrong": "Claude Code", "category": "tool", "confidence": "high"}
+{"recording_id": "1776394539", "correct": "Cognier Commit Push", "wrong": "Konjekomit-Buscher", "category": "other", "confidence": "high"}
+{"recording_id": "1776394198", "correct": "Claude Code", "wrong": "Cloud Code", "category": "product", "confidence": "high"}
+{"recording_id": "1777117221", "correct": "Kimi", "wrong": "Kimmy", "category": "name", "confidence": "high"}
+{"recording_id": "1777117119", "correct": "Kimike 2.5", "wrong": "KimiK2.5", "category": "product", "confidence": "high"}
+{"recording_id": "1777117119", "correct": "OSS 120b", "wrong": "OSS 120CB", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777117119", "correct": "Olamacloud", "wrong": "Olamacloud", "category": "product", "confidence": "high"}
+{"recording_id": "1776396180", "correct": "ANTHROPIC", "wrong": "Entropic", "category": "name", "confidence": "high"}
+{"recording_id": "1776891460", "correct": "Claude", "wrong": "cloud", "category": "name", "confidence": "high"}
+{"recording_id": "1776301142", "correct": "Next.js", "wrong": "nextgs", "category": "framework", "confidence": "high"}
+{"recording_id": "1776301142", "correct": "Bun", "wrong": "burn", "category": "tool", "confidence": "high"}
+{"recording_id": "1777118628", "correct": "OpenRodder", "wrong": "Open Router", "category": "other", "confidence": "high"}
+{"recording_id": "1777021152", "correct": "BFD", "wrong": "build for speed", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777264163", "correct": "KimiK2", "wrong": "Chimik 2", "category": "model", "confidence": "high"}
+{"recording_id": "1777264163", "correct": "GPTOSS120B", "wrong": "GPT-OSS-120B", "category": "model", "confidence": "medium"}
+{"recording_id": "1777264163", "correct": "RALF", "wrong": "Ralph", "category": "acronym", "confidence": "high"}
+{"recording_id": "1777264163", "correct": "OpenUI", "wrong": "Open UI", "category": "library", "confidence": "high"}
+{"recording_id": "1777117788", "correct": "OpenRouter", "wrong": "Open Router", "category": "product", "confidence": "high"}
+{"recording_id": "1777117788", "correct": "KeyMe", "wrong": "Kimi", "category": "product", "confidence": "high"}
+{"recording_id": "1777117788", "correct": "ColamaCloud", "wrong": "Colama Cloud", "category": "product", "confidence": "high"}
+{"recording_id": "1777264458", "correct": "ABBY", "wrong": "ABI", "category": "name", "confidence": "medium"}
+{"recording_id": "1777021316", "correct": "OpenCode Slim", "wrong": "OpenCode Slim", "category": "other", "confidence": "low"}
+{"recording_id": "1777021316", "correct": "Sony", "wrong": "SONNET", "category": "product", "confidence": "high"}
+{"recording_id": "1776305357", "correct": "Claude", "wrong": "cloud", "category": "name", "confidence": "high"}
+{"recording_id": "1776305357", "correct": "MD Global", "wrong": "md global", "category": "other", "confidence": "medium"}
+{"recording_id": "1776397072", "correct": "C-Max", "wrong": "CMAX", "category": "other", "confidence": "medium"}
+{"recording_id": "1774722782", "correct": "Leiser", "wrong": "Liza", "category": "name", "confidence": "medium"}

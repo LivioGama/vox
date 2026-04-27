@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "appVersion" : "2.13.0",
+  "prompt" : "",
+  "datetime" : "2026-04-25T21:39:44",
+  "duration" : 3099,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Comet",
+      "includeInPrompt" : false
+    }
+  },
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "processingTime" : 663,
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Good YouTube tutorial to start using OpenFinger.",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Good YouTube tutorial to start using OpenFinger.",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Good YouTube tutorial to start using OpenFinger.",
+      "start" : 0.32,
+      "end" : 3.099375
+    }
+  ]
+}

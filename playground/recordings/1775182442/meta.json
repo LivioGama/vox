@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "processingTime" : 2341,
+  "duration" : 1303,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-03T02:14:02",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Claude",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " .",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "end" : 0.3,
+      "start" : 0,
+      "text" : "."
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "result" : "."
+}

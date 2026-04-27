@@ -1,0 +1,55 @@
+{
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "languageSelected" : "en",
+  "prompt" : "",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "translationEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "result" : "M2 Pro should be accessible now.",
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux DEV latest-build"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "segments" : [
+    {
+      "text" : "M2 Pro should be accessible now.",
+      "start" : 0.064,
+      "end" : 1.884
+    }
+  ],
+  "languageModelName" : "",
+  "languageModelKey" : "",
+  "duration" : 2575,
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " M2 Pro should be accessible now.",
+  "processingTime" : 727,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "datetime" : "2026-04-25T20:02:22",
+  "appVersion" : "2.13.0"
+}

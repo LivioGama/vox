@@ -1,0 +1,55 @@
+{
+  "modeName" : "Default",
+  "datetime" : "2026-04-17T03:49:51",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 8720,
+  "result" : "But I don't fucking care about the text size. I just want it to work, remove every setting so you can use a default if you have to. Fucking dipshit.",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "processingTime" : 783,
+  "appVersion" : "2.12.1",
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "text" : "But I don't fucking care about the text size. I just want it to work, remove every setting so you can use a default if you have to. Fucking dipshit.",
+      "end" : 8.56,
+      "start" : 0
+    }
+  ],
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "rawResult" : " But I don't fucking care about the text size. I just want it to work, remove every setting so you can use a default if you have to. Fucking dipshit.",
+  "systemAudioEnabled" : false
+}

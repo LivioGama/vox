@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 8368,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 803,
+  "rawResult" : " I didn't want a merge commit, I want a rebase suffixit for redesign merge.",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "I didn't want a merge commit, I want a rebase suffixit for redesign merge.",
+      "start" : 0,
+      "end" : 8
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T04:03:10",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "I didn't want a merge commit, I want a rebase suffixit for redesign merge."
+}

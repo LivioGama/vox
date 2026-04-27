@@ -1,0 +1,80 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build"
+    }
+  },
+  "appVersion" : "2.13.0",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "literalPunctuationEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0.608,
+      "text" : "So you know in this folder we actually are going to make some clean up.",
+      "end" : 7.592
+    },
+    {
+      "start" : 7.872,
+      "text" : "The idea is that we are going to build a faster agent based on the fast agent that is currently implemented,",
+      "end" : 17.144
+    },
+    {
+      "start" : 18.188,
+      "text" : "but right now we have GPT OSS 120B on ROC which shocks.",
+      "end" : 26.508
+    },
+    {
+      "start" : 26.808,
+      "text" : "But I just discovered this new model which is SWE 1.6 FAST that I absolutely love and that I want to replace everywhere.",
+      "end" : 37.088
+    },
+    {
+      "start" : 37.088,
+      "text" : "So the idea is to replace it using the windsurf proxy that I am running on a VPS",
+      "end" : 48.222
+    },
+    {
+      "start" : 48.222,
+      "text" : "and then we generate an app to see if it's faster with this.",
+      "end" : 48.222
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "result" : "So you know in this folder we actually are going to make some clean up. The idea is that we are going to build a faster agent based on the fast agent that is currently implemented, but right now we have GPT OSS 120B on ROC which shocks. But I just discovered this new model which is SWE 1.6 FAST that I absolutely love and that I want to replace everywhere. So the idea is to replace it using the windsurf proxy that I am running on a VPS and then we generate an app to see if it's faster with this.",
+  "systemAudioEnabled" : false,
+  "rawResult" : " So you know in this folder we actually are going to make some clean up. The idea is that we are going to build a faster agent based on the fast agent that is currently implemented, but right now we have GPT OSS 120B on ROC which shocks. But I just discovered this new model which is SWE 1.6 FAST that I absolutely love and that I want to replace everywhere. So the idea is to replace it using the windsurf proxy that I am running on a VPS and then we generate an app to see if it's faster with this.",
+  "applicationContextEnabled" : false,
+  "duration" : 48222,
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-25T23:34:33",
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "languageModelKey" : "",
+  "processingTime" : 1814,
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

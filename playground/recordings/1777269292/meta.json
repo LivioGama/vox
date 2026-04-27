@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "speakers" : [
+
+  ],
+  "duration" : 7759,
+  "languageModelName" : "",
+  "prompt" : "",
+  "processingTime" : 896,
+  "segments" : [
+    {
+      "end" : 7.759125,
+      "start" : 0.384,
+      "text" : "It still does not work and it's worse because now there is a silence log every few milliseconds."
+    }
+  ],
+  "languageModelKey" : "",
+  "datetime" : "2026-04-27T05:54:52",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "realtimeEnabled" : false,
+  "result" : "It still does not work and it's worse because now there is a silence log every few milliseconds.",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.13.0",
+  "rawResult" : " It still does not work and it's worse because now there is a silence log every few milliseconds.",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false
+}

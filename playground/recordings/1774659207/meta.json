@@ -1,0 +1,80 @@
+{
+  "duration" : 35140,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Listen, you still don't understand. Companies like Raycast who rose 50 millions is about to release a product that's still built over the minutes. So how can you tell me that there is someone potentially on earth who did the same thing as me before without revealing it? think be logical why would a company who owes money just do it slower than they could if they could do better",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "ChatGPT"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "processingTime" : 1341,
+  "rawResult" : " Listen, you still don't understand. Companies like Raycast who rose 50 millions is about to release a product that's still built over the minutes. So how can you tell me that there is someone potentially on earth who did the same thing as me before without revealing it? think be logical why would a company who owes money just do it slower than they could if they could do better",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T00:53:27",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 24.44,
+      "text" : "Listen, you still don't understand. Companies like Raycast who rose 50 millions is about to release a product that's still built over the minutes. So how can you tell me that there is someone potentially on earth who did the same thing as me before without revealing it?",
+      "start" : 0
+    },
+    {
+      "end" : 25.24,
+      "text" : "think",
+      "start" : 24.44
+    },
+    {
+      "end" : 27.24,
+      "text" : "be logical",
+      "start" : 26.14
+    },
+    {
+      "end" : 29.96,
+      "text" : "why would a company who owes money",
+      "start" : 27.24
+    },
+    {
+      "end" : 32.62,
+      "text" : "just do it slower than they could",
+      "start" : 29.96
+    },
+    {
+      "end" : 33.58,
+      "text" : "if they could do better",
+      "start" : 32.62
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

@@ -1,0 +1,60 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "duration" : 22219,
+  "datetime" : "2026-04-22T03:06:17",
+  "appVersion" : "2.12.1",
+  "result" : "Didn't you forget to clean? Also I see a lot of idtf edit files checked they are all legit. I don't understand why there is a payments.js on server if we actually moved it to root.",
+  "realtimeEnabled" : false,
+  "processingTime" : 1083,
+  "rawResult" : " Didn't you forget to clean? Also I see a lot of idtf edit files checked they are all legit. I don't understand why there is a payments.js on server if we actually moved it to root.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Didn't you forget to clean? Also I see a lot of idtf edit files checked they are all legit.",
+      "end" : 12.48
+    },
+    {
+      "start" : 13.08,
+      "text" : "I don't understand why there is a payments.js on server if we actually moved it to root.",
+      "end" : 20.48
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

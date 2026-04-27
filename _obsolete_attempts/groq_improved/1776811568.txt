@@ -1,0 +1,1 @@
+I don't understand, I lost a tons of features. For example, the cursor in the textarea was aligned with the placeholder. So you need to find where this change was made absolutely because I'm afraid about everything else that I lost. You can check the other stash in .id folder and so on.

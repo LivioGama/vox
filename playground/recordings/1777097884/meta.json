@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "datetime" : "2026-04-25T06:18:04",
+  "result" : "What would be the best way to generate a list of components for the library OpenUI.",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " What would be the best way to generate a list of components for the library OpenUI.",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "segments" : [
+    {
+      "text" : "What would be the best way to generate a list of components for the library OpenUI.",
+      "start" : 1.98,
+      "end" : 16.04
+    }
+  ],
+  "processingTime" : 1089,
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "",
+  "prompt" : "",
+  "duration" : 16490,
+  "languageSelected" : "en"
+}

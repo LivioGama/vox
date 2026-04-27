@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Do you see any remaining cargo script trying to build? Because for now it says waiting for file lock.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "duration" : 8122,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1023,
+  "datetime" : "2026-04-27T02:53:54",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "result" : "Do you see any remaining cargo script trying to build? Because for now it says waiting for file lock.",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Do you see any remaining cargo script trying to build? Because for now it says waiting for file lock.",
+      "start" : 0.352,
+      "end" : 7.712
+    }
+  ]
+}

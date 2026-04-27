@@ -1,0 +1,65 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Wait, because I'm going to fix my URL but for sure the website should not fail or block or anything because Plausible is down.",
+      "start" : 0,
+      "end" : 10.86
+    },
+    {
+      "text" : "It should work even if Plausible is down so make sure it works now before I fix a Plausible because it should work even if my Plausible does not work.",
+      "start" : 11.06,
+      "end" : 18.5
+    },
+    {
+      "text" : "Plausible is an add-on, it's not a core feature. The website should not break if the analytic is not working.",
+      "start" : 18.6,
+      "end" : 26.8
+    }
+  ],
+  "recordingDevice" : "",
+  "duration" : 27317,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.0",
+  "processingTime" : 1689,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-14T15:03:04",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "rawResult" : " Wait, because I'm going to fix my URL but for sure the website should not fail or block or anything because Plausible is down. It should work even if Plausible is down so make sure it works now before I fix a Plausible because it should work even if my Plausible does not work. Plausible is an add-on, it's not a core feature. The website should not break if the analytic is not working.",
+  "result" : "Wait, because I'm going to fix my URL but for sure the website should not fail or block or anything because Plausible is down. It should work even if Plausible is down so make sure it works now before I fix a Plausible because it should work even if my Plausible does not work. Plausible is an add-on, it's not a core feature. The website should not break if the analytic is not working.",
+  "realtimeEnabled" : false,
+  "languageModelName" : ""
+}

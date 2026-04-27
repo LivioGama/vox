@@ -1,0 +1,60 @@
+{
+  "rawResult" : " You have to restore my shortcuts and my keyboard shortcuts for F10, F11, F12. You should probably find them in...",
+  "literalPunctuationEnabled" : false,
+  "prompt" : "",
+  "result" : "You have to restore my shortcuts and my keyboard shortcuts for F10, F11, F12. You should probably find them in...",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "duration" : 12525,
+  "recordingDevice" : "BuiltInMicrophoneDevice",
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "datetime" : "2026-03-27T03:29:13",
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "appVersion" : "2.11.0",
+  "processingTime" : 935,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "segments" : [
+    {
+      "end" : 9.1,
+      "text" : "You have to restore my shortcuts and my keyboard shortcuts for F10, F11, F12.",
+      "start" : 0
+    },
+    {
+      "end" : 12.26,
+      "text" : "You should probably find them in...",
+      "start" : 9.88
+    }
+  ]
+}

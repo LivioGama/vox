@@ -1,0 +1,70 @@
+{
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "processingTime" : 1303,
+  "duration" : 30908,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-03T04:27:52",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "rawResult" : " I kind of want the privacy to be in the footer and also introduce pagination for the homepage of the creation. So actually we don't end up with too big requests. If you want to know which number of websites you should display, don't hesitate to check what is doing lovable.lab for example.",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "text" : "I kind of want the privacy to be in the footer and also introduce pagination for the homepage of the creation.",
+      "end" : 14.6,
+      "start" : 0
+    },
+    {
+      "text" : "So actually we don't end up with too big requests.",
+      "end" : 21.02,
+      "start" : 15.32
+    },
+    {
+      "start" : 21.02,
+      "text" : "If you want to know which number of websites you should display, don't hesitate to check",
+      "end" : 28.48
+    },
+    {
+      "start" : 28.48,
+      "text" : "what is doing lovable.lab for example.",
+      "end" : 30.68
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I kind of want the privacy to be in the footer and also introduce pagination for the homepage of the creation. So actually we don't end up with too big requests. If you want to know which number of websites you should display, don't hesitate to check what is doing lovable.lab for example."
+}

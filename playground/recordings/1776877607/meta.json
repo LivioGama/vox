@@ -1,0 +1,70 @@
+{
+  "rawResult" : " Alright, so considering everything we discussed in this conversation, can you do the perfect prompt in order to create a plugin on top of ICM? And also what is cool is that actually the main repository popular on this author is RTKEY which is already something to optimize the token KILL. So actually it will also be in the same spirit of everything RTKEY is trying to do. so it's worth mentioning in the readme.mt",
+  "duration" : 32297,
+  "prompt" : "",
+  "processingTime" : 1607,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.12.1",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "result" : "Alright, so considering everything we discussed in this conversation, can you do the perfect prompt in order to create a plugin on top of ICM? And also what is cool is that actually the main repository popular on this author is RTKEY which is already something to optimize the token KILL. So actually it will also be in the same spirit of everything RTKEY is trying to do. so it's worth mentioning in the readme.mt",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Alright, so considering everything we discussed in this conversation, can you do the perfect prompt in order to create a plugin on top of ICM?",
+      "end" : 9.54
+    },
+    {
+      "start" : 10.2,
+      "text" : "And also what is cool is that actually the main repository popular on this author is RTKEY which is already something to optimize the token KILL.",
+      "end" : 22.78
+    },
+    {
+      "start" : 23.04,
+      "text" : "So actually it will also be in the same spirit of everything RTKEY is trying to do.",
+      "end" : 28.54
+    },
+    {
+      "start" : 28.54,
+      "text" : "so it's worth mentioning in the readme.mt",
+      "end" : 31.74
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-22T17:06:47"
+}

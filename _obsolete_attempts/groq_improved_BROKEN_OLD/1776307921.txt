@@ -1,0 +1,1 @@
+Does JetBrains Kiteb Copilot CLI handle skills?

@@ -1,0 +1,65 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "text" : "Actually mark this in the cloud.md file for the project locally that we should never use",
+      "end" : 6.2,
+      "start" : 0
+    },
+    {
+      "text" : "Entropy KPI key ever, it's like a strict rule it will never happen in any world actually you could make market in the global",
+      "end" : 16.22,
+      "start" : 8.78
+    },
+    {
+      "text" : "in any world we will never use Entropy KPI key ever",
+      "end" : 20.82,
+      "start" : 16.92
+    }
+  ],
+  "result" : "Actually mark this in the cloud.md file for the project locally that we should never use Entropy KPI key ever, it's like a strict rule it will never happen in any world actually you could make market in the global in any world we will never use Entropy KPI key ever",
+  "prompt" : "",
+  "languageModelName" : "",
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-02T03:19:59",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1089,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "duration" : 21407,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " Actually mark this in the cloud.md file for the project locally that we should never use Entropy KPI key ever, it's like a strict rule it will never happen in any world actually you could make market in the global in any world we will never use Entropy KPI key ever",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

@@ -1,0 +1,1 @@
+Does JetBrains Kitab Copilot CLI handle skills?

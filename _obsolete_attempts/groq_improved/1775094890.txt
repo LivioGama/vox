@@ -1,0 +1,1 @@
+How can I achieve something like the product I was trying to build that is called Story Run? The goal is just to be able to talk at any point of time and just feed a list of tasks that will be generated and orchestrated by some agent. I want a product for this either already made, a SaaS or something on GitHub, I don't care.

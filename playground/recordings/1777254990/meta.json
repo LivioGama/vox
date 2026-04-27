@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "result" : "Can we assume that if the LLM use OMARI which move to the trash, it will actually think about going to check the trash?",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "rawResult" : " Can we assume that if the LLM use OMARI which move to the trash, it will actually think about going to check the trash?",
+  "duration" : 11232,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Comet",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "datetime" : "2026-04-27T01:56:30",
+  "realtimeEnabled" : false,
+  "processingTime" : 965,
+  "appVersion" : "2.13.0",
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "text" : "Can we assume that if the LLM use OMARI which move to the trash, it will actually think about going to check the trash?",
+      "start" : 0.32,
+      "end" : 11.232562
+    }
+  ]
+}

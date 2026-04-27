@@ -1,0 +1,125 @@
+{
+  "rawResult" : " Now consider in the agent folder I have the rebirth of Iris which is built the way I want it. And in the root folder I have the old project that was built a bit more deterministically. The thing is, the root project contains the avatar and the voice system and so on, which is the perfect UI, the way I want to interact with Iris. I also want the fact that it can capture my screen and so on. And the agent has a perfect core, so it's time that you actually merge the two to get the best of both worlds considering that the core is way more important for the actual project and that what I really want to retrieve from the root is all the input-output system, not the core. Of course if there are some core stuff that are good you can consider writing them in the documentation but for now we really want to do the UI on top of the core and do it without interruption. Do it on the long run because I will leave this turn so don't ask any questions just go and do it one shot.",
+  "duration" : 84940,
+  "prompt" : "",
+  "processingTime" : 2276,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "result" : "Now consider in the agent folder I have the rebirth of Iris which is built the way I want it. And in the root folder I have the old project that was built a bit more deterministically. The thing is, the root project contains the avatar and the voice system and so on, which is the perfect UI, the way I want to interact with Iris. I also want the fact that it can capture my screen and so on. And the agent has a perfect core, so it's time that you actually merge the two to get the best of both worlds considering that the core is way more important for the actual project and that what I really want to retrieve from the root is all the input-output system, not the core. Of course if there are some core stuff that are good you can consider writing them in the documentation but for now we really want to do the UI on top of the core and do it without interruption. Do it on the long run because I will leave this turn so don't ask any questions just go and do it one shot.",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Zed",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "segments" : [
+    {
+      "text" : "Now consider in the agent folder I have the rebirth of Iris which is built the way I want it.",
+      "end" : 8.02,
+      "start" : 0
+    },
+    {
+      "text" : "And in the root folder I have the old project that was built a bit more deterministically.",
+      "end" : 16.14,
+      "start" : 8.96
+    },
+    {
+      "text" : "The thing is, the root project contains the avatar and the voice system and so on,",
+      "end" : 25.06,
+      "start" : 17.16
+    },
+    {
+      "text" : "which is the perfect UI, the way I want to interact with Iris.",
+      "end" : 29.36,
+      "start" : 25.06
+    },
+    {
+      "text" : "I also want the fact that it can capture my screen and so on.",
+      "end" : 33.26,
+      "start" : 30.12
+    },
+    {
+      "text" : "And the agent has a perfect core,",
+      "end" : 36.26,
+      "start" : 34.48
+    },
+    {
+      "text" : "so it's time that you actually merge the two",
+      "end" : 39.78,
+      "start" : 36.44
+    },
+    {
+      "text" : "to get the best of both worlds",
+      "end" : 41.46,
+      "start" : 39.78
+    },
+    {
+      "text" : "considering that the core is way more important for the actual project",
+      "end" : 48.56,
+      "start" : 42.06
+    },
+    {
+      "text" : "and that what I really want to retrieve from the root is all the input-output system, not the core.",
+      "end" : 56.96,
+      "start" : 48.56
+    },
+    {
+      "text" : "Of course if there are some core stuff that are good you can consider writing them in the documentation",
+      "end" : 66.32,
+      "start" : 57.9
+    },
+    {
+      "text" : "but for now we really want to do the UI on top of the core",
+      "end" : 74.08,
+      "start" : 67.46
+    },
+    {
+      "text" : "and do it without interruption.",
+      "end" : 76.28,
+      "start" : 74.08
+    },
+    {
+      "text" : "Do it on the long run because I will leave this turn",
+      "end" : 81,
+      "start" : 76.94
+    },
+    {
+      "text" : "so don't ask any questions just go and do it one shot.",
+      "end" : 84.8,
+      "start" : 81
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-22T05:09:58"
+}

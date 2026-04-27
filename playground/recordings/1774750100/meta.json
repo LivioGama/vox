@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "processingTime" : 416,
+  "realtimeEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "result" : "",
+  "segments" : [
+    {
+      "text" : "Thank you.",
+      "end" : 0.34,
+      "start" : 0.28
+    }
+  ],
+  "duration" : 502,
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "translationEnabled" : false,
+  "recordingDevice" : "",
+  "datetime" : "2026-03-29T02:08:20",
+  "rawResult" : " Thank you.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "UTM",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "modeName" : "Default",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "systemAudioEnabled" : false
+}

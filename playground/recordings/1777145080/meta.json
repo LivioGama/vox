@@ -1,0 +1,60 @@
+{
+  "systemAudioEnabled" : false,
+  "duration" : 39287,
+  "rawResult" : " Allee, on va du rêve là. Show me how it's like to use a SWE 1.6 fast model that is normally available only in Winsurf but in the Claude Code CLI by tweaking the different settings and using my proxy that is deployed on dev.livio and running an example.",
+  "realtimeEnabled" : false,
+  "result" : "Allee, on va du rêve là. Show me how it's like to use a SWE 1.6 fast model that is normally available only in Winsurf but in the Claude Code CLI by tweaking the different settings and using my proxy that is deployed on dev.livio and running an example.",
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Allee, on va du rêve là.",
+      "end" : 16.304,
+      "start" : 12.772
+    },
+    {
+      "text" : "Show me how it's like to use a SWE 1.6 fast model that is normally available only in Winsurf but in the Claude Code CLI by tweaking the different settings and using my proxy that is deployed on dev.livio and running an example.",
+      "end" : 39.04,
+      "start" : 16.644
+    }
+  ],
+  "prompt" : "",
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1260,
+  "modeName" : "Default",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf"
+    }
+  },
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "languageModelName" : "",
+  "translationEnabled" : false,
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-25T19:24:40",
+  "languageSelected" : "en"
+}

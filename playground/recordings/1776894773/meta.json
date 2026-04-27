@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T21:52:53",
+  "appVersion" : "2.12.1",
+  "duration" : 10003,
+  "result" : "I don't understand why the new VPS cannot SSH into the machine, SSH, netcap.",
+  "realtimeEnabled" : false,
+  "processingTime" : 1328,
+  "rawResult" : " I don't understand why the new VPS cannot SSH into the machine, SSH, netcap.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 9.42,
+      "text" : "I don't understand why the new VPS cannot SSH into the machine, SSH, netcap."
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

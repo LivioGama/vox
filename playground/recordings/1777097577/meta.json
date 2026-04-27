@@ -1,0 +1,60 @@
+{
+  "languageModelName" : "",
+  "datetime" : "2026-04-25T06:12:57",
+  "result" : "But actually you don't need a... You don't need to be these up because we generate them only dynamically in multiterranean.",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " But actually you don't need a... You don't need to be these up because we generate them only dynamically in multiterranean.",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "segments" : [
+    {
+      "end" : 2,
+      "start" : 0,
+      "text" : "But actually you don't need a..."
+    },
+    {
+      "end" : 16.6,
+      "start" : 10.76,
+      "text" : "You don't need to be these up because we generate them only dynamically in multiterranean."
+    }
+  ],
+  "processingTime" : 1002,
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "",
+  "prompt" : "",
+  "duration" : 17570,
+  "languageSelected" : "en"
+}

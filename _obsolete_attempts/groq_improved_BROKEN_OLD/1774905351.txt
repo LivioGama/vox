@@ -1,0 +1,1 @@
+Why does it write SUNE 4.6 instead of OpenAI?

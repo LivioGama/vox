@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 9.18,
+      "text" : "I wanted to comment it more with the message you just sent me right away about the 6th of April, the profile type etc."
+    }
+  ],
+  "rawResult" : " I wanted to comment it more with the message you just sent me right away about the 6th of April, the profile type etc.",
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "languageModelKey" : "",
+  "datetime" : "2026-04-23T00:06:44",
+  "processingTime" : 1738,
+  "result" : "I wanted to comment it more with the message you just sent me right away about the 6th of April, the profile type etc.",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "duration" : 9789,
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    },
+    "userContext" : {
+
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " So it's good for a first version, but now there are a lot of problems and we cannot manage to have the feedback loop that works and fix it. There is still no more touch monitor detected so can you actually fix it until the end?",
+  "applicationContextEnabled" : false,
+  "processingTime" : 681,
+  "languageModelName" : "",
+  "datetime" : "2026-04-24T22:52:12",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "modeName" : "Default",
+  "duration" : 18083,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "end" : 8.44,
+      "text" : "So it's good for a first version, but now there are a lot of problems and we cannot manage to have the feedback loop that works and fix it.",
+      "start" : 0
+    },
+    {
+      "end" : 17.94,
+      "text" : "There is still no more touch monitor detected so can you actually fix it until the end?",
+      "start" : 8.92
+    }
+  ],
+  "result" : "So it's good for a first version, but now there are a lot of problems and we cannot manage to have the feedback loop that works and fix it. There is still no more touch monitor detected so can you actually fix it until the end?",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "appVersion" : "2.13.0",
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "prompt" : ""
+}

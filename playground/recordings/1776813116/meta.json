@@ -1,0 +1,60 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "duration" : 31271,
+  "datetime" : "2026-04-21T23:11:56",
+  "appVersion" : "2.12.1",
+  "result" : "No, I need a real assessment of what was really touched, not a drama report. Note that my VPS was already hacked at the beginning of March, so maybe there are traces of this. and then check what was done after the 22 of March",
+  "realtimeEnabled" : false,
+  "processingTime" : 1392,
+  "rawResult" : " No, I need a real assessment of what was really touched, not a drama report. Note that my VPS was already hacked at the beginning of March, so maybe there are traces of this. and then check what was done after the 22 of March",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "No, I need a real assessment of what was really touched, not a drama report. Note that my VPS was already hacked at the beginning of March, so maybe there are traces of this.",
+      "start" : 0.78,
+      "end" : 19.96
+    },
+    {
+      "text" : "and then check what was done after the 22 of March",
+      "start" : 19.96,
+      "end" : 30.6
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

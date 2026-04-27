@@ -1,0 +1,55 @@
+{
+  "appVersion" : "2.12.1",
+  "result" : "I don't understand why, but all the generations have the same face. So can you make something and fix it and prove me that it can be very different with a very visual website like we used to have when we integrated the Pexels with video and so on in the Git history.",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "processingTime" : 1178,
+  "prompt" : "",
+  "duration" : 18489,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 17.78,
+      "text" : "I don't understand why, but all the generations have the same face. So can you make something and fix it and prove me that it can be very different with a very visual website like we used to have when we integrated the Pexels with video and so on in the Git history."
+    }
+  ],
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " I don't understand why, but all the generations have the same face. So can you make something and fix it and prove me that it can be very different with a very visual website like we used to have when we integrated the Pexels with video and so on in the Git history.",
+  "languageModelKey" : "",
+  "separateSpeakersEnabled" : false,
+  "datetime" : "2026-04-24T02:22:35",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

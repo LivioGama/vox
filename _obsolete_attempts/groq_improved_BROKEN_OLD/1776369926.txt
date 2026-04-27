@@ -1,0 +1,1 @@
+When I change time language in time drop-down on time home page, for example, to French, time generate button should translate and time ShipFast logo too, but not in place. Time translation should appear below.

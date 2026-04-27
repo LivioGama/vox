@@ -1,0 +1,60 @@
+{
+  "appVersion" : "2.13.0",
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "text" : "What I call a zombie is a thing running but it's not attached to any program that I run.",
+      "start" : 0.32,
+      "end" : 10.696
+    },
+    {
+      "text" : "Like for example, old OpenCode, old Claude Code, old Rust... I don't understand how to find them.",
+      "start" : 11.924,
+      "end" : 17.848125
+    }
+  ],
+  "recordingDevice" : "",
+  "datetime" : "2026-04-27T07:10:47",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Warp"
+    }
+  },
+  "duration" : 17848,
+  "rawResult" : " What I call a zombie is a thing running but it's not attached to any program that I run. Like for example, old OpenCode, old Claude Code, old Rust... I don't understand how to find them.",
+  "literalPunctuationEnabled" : false,
+  "result" : "What I call a zombie is a thing running but it's not attached to any program that I run. Like for example, old OpenCode, old Claude Code, old Rust... I don't understand how to find them.",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 1305,
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false
+}

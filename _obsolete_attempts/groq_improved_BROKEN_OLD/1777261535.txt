@@ -1,0 +1,1 @@
+Can you assess everything that was done in this branch and actually, propose a rewrite plan? Because I think it's really really messy, it's does not respect the standard, it's really fuzzy, spaghetti, and time code is shit. I still want the exact same feature, but I want it's to be written clean, like it's was done by an expert.

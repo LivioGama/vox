@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.12.1",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "So, I have a problem with my Superwhisper. When I press my toggle key it modifies the quality of the music until I release.",
+      "end" : 12.58
+    }
+  ],
+  "datetime" : "2026-04-24T22:41:40",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "duration" : 13360,
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "processingTime" : 900,
+  "result" : "So, I have a problem with my Superwhisper. When I press my toggle key it modifies the quality of the music until I release.",
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " So, I have a problem with my Superwhisper. When I press my toggle key it modifies the quality of the music until I release.",
+  "realtimeEnabled" : false
+}

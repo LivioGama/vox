@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Anywhere something where I talk about IRIS and ACP.",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 5260,
+  "processingTime" : 820,
+  "datetime" : "2026-03-28T18:28:39",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Terminal",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "result" : "Anywhere something where I talk about IRIS and ACP.",
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Anywhere something where I talk about IRIS and ACP.",
+      "end" : 5.18
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false
+}

@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "I fucking told you that now it works so analyze what was the problem. The current code is fucking working, don't do anything else stupid.",
+      "end" : 8.22
+    }
+  ],
+  "result" : "I fucking told you that now it works so analyze what was the problem. The current code is fucking working, don't do anything else stupid.",
+  "prompt" : "",
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-01T18:14:10",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 832,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "duration" : 8517,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " I fucking told you that now it works so analyze what was the problem. The current code is fucking working, don't do anything else stupid.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

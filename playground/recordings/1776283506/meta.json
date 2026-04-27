@@ -1,0 +1,55 @@
+{
+  "modeName" : "Default",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "UTM",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "segments" : [
+    {
+      "end" : 5.76,
+      "text" : "Now install the MCP Atlassian in order to create a BitPacket Prorequest.",
+      "start" : 0
+    }
+  ],
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 773,
+  "datetime" : "2026-04-15T20:05:06",
+  "rawResult" : " Now install the MCP Atlassian in order to create a BitPacket Prorequest.",
+  "result" : "Now install the MCP Atlassian in order to create a BitPacket Prorequest.",
+  "appVersion" : "2.12.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "duration" : 6145,
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false
+}

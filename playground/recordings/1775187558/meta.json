@@ -1,0 +1,70 @@
+{
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "processingTime" : 1472,
+  "duration" : 31891,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-03T03:39:18",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "rawResult" : " Now, what I want you to do is when we launch a prompt and there is a screen with the animation of the text writing and so on, I wanted to integrate in the background by any method that would be nice even if you have to use Absolute. the kind of animation that we can find is a ripple but adapted with the right colors for shift fast",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "text" : "Now, what I want you to do is when we launch a prompt and there is a screen with the animation of the text writing and so on,",
+      "start" : 0,
+      "end" : 12.1
+    },
+    {
+      "text" : "I wanted to integrate in the background by any method that would be nice even if you have to use Absolute.",
+      "start" : 12.66,
+      "end" : 20.62
+    },
+    {
+      "text" : "the kind of animation that we can find is a",
+      "start" : 20.62,
+      "end" : 23.94
+    },
+    {
+      "text" : "ripple but adapted with the right colors for shift fast",
+      "start" : 26.68,
+      "end" : 30.32
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Now, what I want you to do is when we launch a prompt and there is a screen with the animation of the text writing and so on, I wanted to integrate in the background by any method that would be nice even if you have to use Absolute. the kind of animation that we can find is a ripple but adapted with the right colors for shift fast"
+}

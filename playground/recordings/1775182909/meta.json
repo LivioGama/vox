@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "processingTime" : 878,
+  "duration" : 9223,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-03T02:21:49",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Claude",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " We add more delay between both parts of the animation. Like a tiny bit, maybe 700 milliseconds.",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 8.48,
+      "text" : "We add more delay between both parts of the animation. Like a tiny bit, maybe 700 milliseconds."
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "result" : "We add more delay between both parts of the animation. Like a tiny bit, maybe 700 milliseconds."
+}

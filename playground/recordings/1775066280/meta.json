@@ -1,0 +1,60 @@
+{
+  "systemAudioEnabled" : false,
+  "rawResult" : " I can simply tell you that at almost the beginning of this session it was working. We could add people. It started to fuck up when you played with the active a bit before.",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-04-01T17:58:00",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "processingTime" : 924,
+  "duration" : 13209,
+  "segments" : [
+    {
+      "text" : "I can simply tell you that at almost the beginning of this session it was working.",
+      "end" : 4.18,
+      "start" : 0
+    },
+    {
+      "text" : "We could add people. It started to fuck up when you played with the active a bit before.",
+      "end" : 12.94,
+      "start" : 4.4
+    }
+  ],
+  "result" : "I can simply tell you that at almost the beginning of this session it was working. We could add people. It started to fuck up when you played with the active a bit before.",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.11.0"
+}

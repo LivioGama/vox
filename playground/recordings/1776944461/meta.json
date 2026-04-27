@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-23T11:41:01",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 808,
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "separateSpeakersEnabled" : false,
+  "result" : "Copy the config again from NetCup to the MAC and then run Claude B.",
+  "rawResult" : " Copy the config again from NetCup to the MAC and then run Claude B.",
+  "duration" : 6743,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 6.34,
+      "text" : "Copy the config again from NetCup to the MAC and then run Claude B.",
+      "start" : 0
+    }
+  ]
+}

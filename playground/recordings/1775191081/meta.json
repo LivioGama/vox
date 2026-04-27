@@ -1,0 +1,120 @@
+{
+  "separateSpeakersEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "processingTime" : 3343,
+  "duration" : 144024,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-03T04:38:01",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "rawResult" : " So now actually we don't offer a deploy button when we finish generating the website, we actually auto-deploy. And then actually also tackle the task that we should never be able to auto-deploy or export the code for people who generated stuff that are not ours. So basically there is already some kind of tracking system when you are not off. So actually you can reassign the creation to the people that will authenticate or if it's not, make sure to fix that. and actually for the stuff that I generated, either offline or online, the deploy always happen. The deploy should not depend on the fax item on the page. The link for the deployment should be proposed as a banner right below the browser decoration with navigation bar and so on. And we have to implement different social media button share targets, the ones that are the most popular in India, like the 4 or 5 more popular that people would be willing to click in order to share their link. If it's possible to preview a message while sharing the link you of course do a viral message that will promote the brand and help other people join the platform. So, the language of this message you should use the preferred language, the first one that is actually not English.",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "end" : 8,
+      "start" : 0,
+      "text" : "So now actually we don't offer a deploy button when we finish generating the website, we actually auto-deploy."
+    },
+    {
+      "start" : 8.58,
+      "text" : "And then actually also tackle the task that we should never be able to auto-deploy or export the code for people who generated stuff that are not ours.",
+      "end" : 20.82
+    },
+    {
+      "start" : 21.78,
+      "text" : "So basically there is already some kind of tracking system when you are not off.",
+      "end" : 29.8
+    },
+    {
+      "start" : 30.14,
+      "text" : "So actually you can reassign the creation to the people that will authenticate",
+      "end" : 39.04
+    },
+    {
+      "start" : 39.04,
+      "text" : "or if it's not, make sure to fix that.",
+      "end" : 42.7
+    },
+    {
+      "start" : 42.7,
+      "text" : "and actually for the stuff that I generated, either offline or online, the deploy always",
+      "end" : 52.44
+    },
+    {
+      "start" : 52.44,
+      "text" : "happen. The deploy should not depend on the fax item on the page. The link for the deployment",
+      "end" : 66.74
+    },
+    {
+      "text" : "should be proposed as a banner right below the browser decoration with navigation bar and so on.",
+      "end" : 81.32,
+      "start" : 66.74
+    },
+    {
+      "text" : "And we have to implement different social media button share targets,",
+      "end" : 90.12,
+      "start" : 82.44
+    },
+    {
+      "text" : "the ones that are the most popular in India, like the 4 or 5 more popular",
+      "end" : 97.12,
+      "start" : 90.12
+    },
+    {
+      "text" : "that people would be willing to click in order to share their link.",
+      "end" : 102.1,
+      "start" : 97.88
+    },
+    {
+      "text" : "If it's possible to preview a message while sharing the link you of course do",
+      "end" : 109.38,
+      "start" : 102.88
+    },
+    {
+      "text" : "a viral message that will promote the brand and help other people join the platform.",
+      "end" : 131.02,
+      "start" : 111.14
+    },
+    {
+      "text" : "So, the language of this message you should use the preferred language, the first one that is actually not English.",
+      "end" : 141.38,
+      "start" : 131.58
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "result" : "So now actually we don't offer a deploy button when we finish generating the website, we actually auto-deploy. And then actually also tackle the task that we should never be able to auto-deploy or export the code for people who generated stuff that are not ours. So basically there is already some kind of tracking system when you are not off. So actually you can reassign the creation to the people that will authenticate or if it's not, make sure to fix that. and actually for the stuff that I generated, either offline or online, the deploy always happen. The deploy should not depend on the fax item on the page. The link for the deployment should be proposed as a banner right below the browser decoration with navigation bar and so on. And we have to implement different social media button share targets, the ones that are the most popular in India, like the 4 or 5 more popular that people would be willing to click in order to share their link. If it's possible to preview a message while sharing the link you of course do a viral message that will promote the brand and help other people join the platform. So, the language of this message you should use the preferred language, the first one that is actually not English."
+}

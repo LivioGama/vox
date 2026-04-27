@@ -1,0 +1,60 @@
+{
+  "duration" : 13551,
+  "datetime" : "2026-03-29T03:08:28",
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " So wait a minute, I think we are making a confusion. There are actually two projects I want to launch. The first one is Shipfast and the second one is the GITD viewer so make two sections about them.",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "result" : "So wait a minute, I think we are making a confusion. There are actually two projects I want to launch. The first one is Shipfast and the second one is the GITD viewer so make two sections about them.",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 4.92,
+      "text" : "So wait a minute, I think we are making a confusion. There are actually two projects I want to launch."
+    },
+    {
+      "start" : 5.26,
+      "end" : 13.02,
+      "text" : "The first one is Shipfast and the second one is the GITD viewer so make two sections about them."
+    }
+  ],
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "processingTime" : 958,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Notion",
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.11.0",
+  "languageSelected" : "en"
+}

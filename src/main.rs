@@ -65,14 +65,11 @@ enum AlwaysAction {
         #[arg(short = 't', long, default_value = "30")]
         timeout: u32,
         /// Seconds of silence before considering phrase complete
-        #[arg(short = 's', long, default_value = "2.0")]
+        #[arg(short = 's', long, default_value = "0.4")]
         silence: f64,
         /// Press Enter automatically after pasting transcript
         #[arg(long, default_value_t = false)]
         auto_enter: bool,
-        /// Disable Claude intent filter (pass all transcripts through)
-        #[arg(long, default_value_t = false)]
-        no_filter: bool,
     },
     /// Stop always-on daemon
     Stop,
@@ -88,14 +85,11 @@ enum AlwaysAction {
         #[arg(short = 't', long, default_value = "30")]
         timeout: u32,
         /// Seconds of silence before considering phrase complete
-        #[arg(short = 's', long, default_value = "2.0")]
+        #[arg(short = 's', long, default_value = "0.4")]
         silence: f64,
         /// Press Enter automatically after pasting transcript
         #[arg(long, default_value_t = false)]
         auto_enter: bool,
-        /// Disable Claude intent filter (pass all transcripts through)
-        #[arg(long, default_value_t = false)]
-        no_filter: bool,
     },
 }
 
@@ -212,9 +206,8 @@ fn handle_always_action(action: AlwaysAction) -> Result<()> {
             timeout,
             silence,
             auto_enter,
-            no_filter,
         } => vox::always::daemon::start(&always_config(
-            lang, timeout, silence, auto_enter, no_filter,
+            lang, timeout, silence, auto_enter,
         )?),
         AlwaysAction::Stop => vox::always::daemon::stop(),
         AlwaysAction::Status => vox::always::daemon::status(),
@@ -223,9 +216,8 @@ fn handle_always_action(action: AlwaysAction) -> Result<()> {
             timeout,
             silence,
             auto_enter,
-            no_filter,
         } => vox::always::run(&always_config(
-            lang, timeout, silence, auto_enter, no_filter,
+            lang, timeout, silence, auto_enter,
         )?),
     }
 }
@@ -235,7 +227,6 @@ fn always_config(
     timeout: u32,
     silence: f64,
     auto_enter: bool,
-    no_filter: bool,
 ) -> Result<vox::always::AlwaysConfig> {
-    vox::always::AlwaysConfig::from_cli(lang, timeout, silence, auto_enter, no_filter)
+    vox::always::AlwaysConfig::from_cli(lang, timeout, silence, auto_enter)
 }

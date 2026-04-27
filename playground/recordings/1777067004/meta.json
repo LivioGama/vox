@@ -1,0 +1,55 @@
+{
+  "result" : "ACP exists, but it looks like it's maybe the devsda that is not there.",
+  "duration" : 3720,
+  "datetime" : "2026-04-24T21:43:24",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "end" : 3.42,
+      "text" : "ACP exists, but it looks like it's maybe the devsda that is not there.",
+      "start" : 0.5
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "prompt" : "",
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux DEV latest-build"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "appVersion" : "2.12.1",
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " ACP exists, but it looks like it's maybe the devsda that is not there.",
+  "processingTime" : 641
+}

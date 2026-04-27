@@ -1,0 +1,70 @@
+{
+  "recordingDevice" : "",
+  "datetime" : "2026-04-27T03:27:47",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "result" : "This is already a good thing, but I don't think it's of my problem because the low energy that I see 0.02 was corresponding to when I was not talking before. Right now actually I'm talking and before when I was talking I was getting 0.05 stuff like this. So maybe it's not the right microphone, I don't know check what's going on. The microphone that I want to use is El Gato.",
+  "realtimeEnabled" : false,
+  "processingTime" : 2197,
+  "systemAudioEnabled" : false,
+  "rawResult" : " This is already a good thing, but I don't think it's of my problem because the low energy that I see 0.02 was corresponding to when I was not talking before. Right now actually I'm talking and before when I was talking I was getting 0.05 stuff like this. So maybe it's not the right microphone, I don't know check what's going on. The microphone that I want to use is El Gato.",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 9.456,
+      "text" : "This is already a good thing, but I don't think it's of my problem because the low energy that I see 0.02 was corresponding to when I was not talking before.",
+      "start" : 0.416
+    },
+    {
+      "end" : 18.404,
+      "text" : "Right now actually I'm talking and before when I was talking I was getting 0.05 stuff like this.",
+      "start" : 10.384
+    },
+    {
+      "end" : 24.092,
+      "text" : "So maybe it's not the right microphone, I don't know check what's going on.",
+      "start" : 18.884
+    },
+    {
+      "end" : 25.024,
+      "text" : "The microphone that I want to use is El Gato.",
+      "start" : 24.432
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "prompt" : "",
+  "duration" : 25254,
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)"
+}

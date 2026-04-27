@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "result" : "Make sure to adjust the prompt engineering to take advantage of Codex Spark 5.3 and generate the most beautiful hand page possible.",
+  "datetime" : "2026-04-23T21:46:09",
+  "appVersion" : "2.12.1",
+  "prompt" : "",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "rawResult" : " Make sure to adjust the prompt engineering to take advantage of Codex Spark 5.3 and generate the most beautiful hand page possible.",
+  "duration" : 9650,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 9.14,
+      "text" : "Make sure to adjust the prompt engineering to take advantage of Codex Spark 5.3 and generate the most beautiful hand page possible."
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "processingTime" : 778
+}

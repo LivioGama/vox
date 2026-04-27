@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "When I select a receiver, then I change to another receiver as the payout method from the previous day selected instead of being read.",
+      "end" : 12.04
+    }
+  ],
+  "result" : "When I select a receiver, then I change to another receiver as the payout method from the previous day selected instead of being read.",
+  "prompt" : "",
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-01T18:27:02",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1022,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "duration" : 12536,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " When I select a receiver, then I change to another receiver as the payout method from the previous day selected instead of being read.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

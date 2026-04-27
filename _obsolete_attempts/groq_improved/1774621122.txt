@@ -1,0 +1,1 @@
+Le bouton HIDE DIFF est disparu. En plus, le valeur de ceci doit être persister. Ce que j'espère aussi quand j'ajoute une nouvelle tâche, c'est que, à l'intérieur du panneau de la table, ma tâche devrait ouvrir une nouvelle tab où je vais voir tous les logs de l'ACP, et la prochaine tâche devrait aussi faire ça, ouvrir une autre tab, etc.

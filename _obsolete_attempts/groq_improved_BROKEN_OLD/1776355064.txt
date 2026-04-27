@@ -1,0 +1,1 @@
+remove time apple script that throw a notification for cloud code or when something this done

@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "result" : "Can you copy the gitcrypt key for Unix config in both NetCup and OFSSH?",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "recordingDevice" : "",
+  "datetime" : "2026-04-23T03:43:41",
+  "duration" : 8507,
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1016,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " Can you copy the gitcrypt key for Unix config in both NetCup and OFSSH?",
+  "systemAudioEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Can you copy the gitcrypt key for Unix config in both NetCup and OFSSH?",
+      "end" : 8.38
+    }
+  ],
+  "languageModelKey" : ""
+}

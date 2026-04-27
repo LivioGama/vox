@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Windsurf"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "speakers" : [
+
+  ],
+  "duration" : 17858,
+  "languageModelName" : "",
+  "prompt" : "",
+  "processingTime" : 2261,
+  "segments" : [
+    {
+      "text" : "If not mentioned in the agent.md and ClaudeCode.md, you should know that you should never run cargo build nor pkill because actually I already have a watch command doing this.",
+      "start" : 1.44,
+      "end" : 16.704
+    }
+  ],
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "datetime" : "2026-04-27T05:55:23",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "realtimeEnabled" : false,
+  "result" : "If not mentioned in the agent.md and ClaudeCode.md, you should know that you should never run cargo build nor pkill because actually I already have a watch command doing this.",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.13.0",
+  "rawResult" : " If not mentioned in the agent.md and ClaudeCode.md, you should know that you should never run cargo build nor pkill because actually I already have a watch command doing this.",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false
+}

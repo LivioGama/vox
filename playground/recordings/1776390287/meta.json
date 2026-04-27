@@ -1,0 +1,90 @@
+{
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "prompt" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Warp",
+      "includeInPrompt" : false
+    }
+  },
+  "processingTime" : 1506,
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "modeName" : "Default",
+  "appVersion" : "2.12.0",
+  "duration" : 36198,
+  "result" : "Listen very carefully to what I'm going to say. I want to replace my terminal because I currently have warp, but I am very picky about the features. First of all, I want to be able to configure a shortcut for split pane for vertical and horizontal. Not all of them allow this. Then I also want to have the feature that when I select something it automatically copies. and then I also want... yes that's pretty much it what would you advise me? I'm on Mac OS",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-17T01:44:47",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "rawResult" : " Listen very carefully to what I'm going to say. I want to replace my terminal because I currently have warp, but I am very picky about the features. First of all, I want to be able to configure a shortcut for split pane for vertical and horizontal. Not all of them allow this. Then I also want to have the feature that when I select something it automatically copies. and then I also want... yes that's pretty much it what would you advise me? I'm on Mac OS",
+  "segments" : [
+    {
+      "text" : "Listen very carefully to what I'm going to say.",
+      "start" : 0,
+      "end" : 2.62
+    },
+    {
+      "text" : "I want to replace my terminal because I currently have warp, but I am very picky about the features.",
+      "start" : 2.9,
+      "end" : 9.1
+    },
+    {
+      "text" : "First of all, I want to be able to configure a shortcut for split pane for vertical and horizontal.",
+      "start" : 9.54,
+      "end" : 17.9
+    },
+    {
+      "text" : "Not all of them allow this. Then I also want to have the feature that when I select something it automatically copies.",
+      "start" : 18.16,
+      "end" : 24.52
+    },
+    {
+      "text" : "and then I also want...",
+      "start" : 24.52,
+      "end" : 27.38
+    },
+    {
+      "text" : "yes that's pretty much it",
+      "start" : 30.5,
+      "end" : 32.22
+    },
+    {
+      "text" : "what would you advise me?",
+      "start" : 33.22,
+      "end" : 34.72
+    },
+    {
+      "text" : "I'm on Mac OS",
+      "start" : 34.84,
+      "end" : 35.66
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : ""
+}

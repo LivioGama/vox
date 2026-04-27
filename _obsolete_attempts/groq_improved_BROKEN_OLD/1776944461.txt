@@ -1,0 +1,1 @@
+Copy time config again. From netcap to the Mac and then run cloudp.

@@ -1,0 +1,55 @@
+{
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-24T15:27:48",
+  "duration" : 4061,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "languageModelKey" : "",
+  "appVersion" : "2.12.1",
+  "result" : "You don't need to update the cursor ACP, I already took care of it.",
+  "prompt" : "",
+  "processingTime" : 736,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "rawResult" : " You don't need to update the cursor ACP, I already took care of it.",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "You don't need to update the cursor ACP, I already took care of it.",
+      "end" : 3.62
+    }
+  ]
+}

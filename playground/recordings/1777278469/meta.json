@@ -1,0 +1,55 @@
+{
+  "prompt" : "",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "segments" : [
+    {
+      "text" : "Let's stop and commit all of that in a new branch called NOTWORKING SOMETHING.",
+      "start" : 0.608,
+      "end" : 12.504375
+    }
+  ],
+  "languageModelName" : "",
+  "rawResult" : " Let's stop and commit all of that in a new branch called NOTWORKING SOMETHING.",
+  "datetime" : "2026-04-27T08:27:49",
+  "applicationContextEnabled" : false,
+  "duration" : 12504,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "languageModelKey" : "",
+  "processingTime" : 1056,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "result" : "Let's stop and commit all of that in a new branch called NOTWORKING SOMETHING.",
+  "separateSpeakersEnabled" : false
+}

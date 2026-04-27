@@ -1,0 +1,55 @@
+{
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "languageSelected" : "en",
+  "prompt" : "",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "translationEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "result" : "I'm sorry, I'm stupid. I actually asked you to use SWE 1.6 fast in the Western plane but this is a model not an R-NES. We need an R-NES MP2.",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "segments" : [
+    {
+      "text" : "I'm sorry, I'm stupid. I actually asked you to use SWE 1.6 fast in the Western plane but this is a model not an R-NES. We need an R-NES MP2.",
+      "end" : 15.144188,
+      "start" : 0.192
+    }
+  ],
+  "languageModelName" : "",
+  "duration" : 15144,
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " I'm sorry, I'm stupid. I actually asked you to use SWE 1.6 fast in the Western plane but this is a model not an R-NES. We need an R-NES MP2.",
+  "processingTime" : 1005,
+  "datetime" : "2026-04-25T18:08:29",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0"
+}

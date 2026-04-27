@@ -1,0 +1,1 @@
+The segmented control is bigger but it should also enlarge the bar size because now it's cutted.

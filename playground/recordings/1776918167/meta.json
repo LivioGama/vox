@@ -1,0 +1,60 @@
+{
+  "translationEnabled" : false,
+  "result" : "It's not working. I always want the iframe to occupy the whole weed. What don't you understand? Fuck you, make a change right now and in one shot. Why do we have to explain so many times?",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "recordingDevice" : "",
+  "duration" : 12087,
+  "datetime" : "2026-04-23T04:22:47",
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 1005,
+  "rawResult" : " It's not working. I always want the iframe to occupy the whole weed. What don't you understand? Fuck you, make a change right now and in one shot. Why do we have to explain so many times?",
+  "systemAudioEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 6.48,
+      "text" : "It's not working. I always want the iframe to occupy the whole weed. What don't you understand?"
+    },
+    {
+      "start" : 7.3,
+      "end" : 11.88,
+      "text" : "Fuck you, make a change right now and in one shot. Why do we have to explain so many times?"
+    }
+  ],
+  "languageModelKey" : ""
+}

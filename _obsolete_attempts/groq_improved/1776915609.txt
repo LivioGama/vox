@@ -1,0 +1,1 @@
+Change the old model to use copilot Claude Sonnet 4.6

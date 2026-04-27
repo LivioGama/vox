@@ -1,0 +1,60 @@
+{
+  "languageModelKey" : "",
+  "result" : "Can you try to run it on local, to build it, to see if everything is okay? And if everything is okay, open it and show me and try using MCP or tool to control the browser to see if it's working and you can do a generation with the homepage for Kimi.",
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-25T11:40:21",
+  "rawResult" : " Can you try to run it on local, to build it, to see if everything is okay? And if everything is okay, open it and show me and try using MCP or tool to control the browser to see if it's working and you can do a generation with the homepage for Kimi.",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "text" : "Can you try to run it on local, to build it, to see if everything is okay?",
+      "end" : 3.756,
+      "start" : 0.096
+    },
+    {
+      "text" : "And if everything is okay, open it and show me and try using MCP or tool to control the browser to see if it's working and you can do a generation with the homepage for Kimi.",
+      "end" : 17.188,
+      "start" : 4.396
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 18254,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 998,
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Windsurf"
+    },
+    "userContext" : {
+
+    }
+  },
+  "appVersion" : "2.13.0",
+  "languageModelName" : ""
+}

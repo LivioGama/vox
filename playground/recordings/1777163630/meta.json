@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "modeName" : "Default",
+  "result" : "Add an open AI compatible provider 2Z with...",
+  "speakers" : [
+
+  ],
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "processingTime" : 506,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "duration" : 6679,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "datetime" : "2026-04-26T00:33:50",
+  "segments" : [
+    {
+      "text" : "Add an open AI compatible provider 2Z with...",
+      "end" : 4.96,
+      "start" : 0.48
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "rawResult" : " Add an open AI compatible provider 2Z with..."
+}

@@ -1,0 +1,1 @@
+make 100 sure that the tool call does not use those tag anymore by any means if you have to use the OpenCode CLI with a flag parameter do

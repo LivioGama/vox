@@ -1,0 +1,55 @@
+{
+  "modeName" : "Default",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Comet",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "segments" : [
+    {
+      "text" : "This is too basic, what I want is a way to automatically have cursor launching sub-agent 5 or 10 to split the task and go faster.",
+      "start" : 0,
+      "end" : 10.82
+    }
+  ],
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 952,
+  "datetime" : "2026-04-16T04:40:41",
+  "rawResult" : " This is too basic, what I want is a way to automatically have cursor launching sub-agent 5 or 10 to split the task and go faster.",
+  "result" : "This is too basic, what I want is a way to automatically have cursor launching sub-agent 5 or 10 to split the task and go faster.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.0",
+  "languageModelKey" : "",
+  "duration" : 11724,
+  "languageModelName" : "",
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false
+}

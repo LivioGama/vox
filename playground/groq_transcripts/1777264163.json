@@ -1,0 +1,7 @@
+{
+  "recording_id": "1777264163",
+  "text": " I'm really lost because my project used to generate a website in less than 45 seconds. It was working when we still had a Chimik 2 model with Grok. The problem is that Grok has been discontinued, so we replaced it with GPT-OSS-120B. But then we started to do a few changes like moving to Next.js, but also introducing a Ralph loop and also using Open UI.",
+  "segments": null,
+  "language": null,
+  "duration": null
+}

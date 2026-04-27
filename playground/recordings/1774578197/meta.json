@@ -1,0 +1,55 @@
+{
+  "processingTime" : 1491,
+  "datetime" : "2026-03-27T02:23:17",
+  "languageModelName" : "",
+  "duration" : 1015,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "separateSpeakersEnabled" : false,
+  "modeName" : "Default",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "rawResult" : " Thank you.",
+  "prompt" : "",
+  "appVersion" : "2.11.0",
+  "systemAudioEnabled" : false,
+  "result" : "",
+  "recordingDevice" : "BuiltInMicrophoneDevice",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Safari",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Thank you.",
+      "end" : 0.22
+    }
+  ]
+}

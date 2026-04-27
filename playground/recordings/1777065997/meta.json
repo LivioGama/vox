@@ -1,0 +1,55 @@
+{
+  "result" : "System clocks are generally set to coordinate your RTC. The clarity need use your system time to convey our system a1, yes or no?",
+  "duration" : 8020,
+  "datetime" : "2026-04-24T21:26:37",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "System clocks are generally set to coordinate your RTC. The clarity need use your system time to convey our system a1, yes or no?",
+      "end" : 7.86
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "prompt" : "",
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "separateSpeakersEnabled" : false,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux DEV latest-build"
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.12.1",
+  "rawResult" : " System clocks are generally set to coordinate your RTC. The clarity need use your system time to convey our system a1, yes or no?",
+  "processingTime" : 829
+}

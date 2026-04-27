@@ -1,0 +1,1 @@
+I don't understand because before this project could generate everything in less than 45 seconds and now it takes 7 minutes and the logs show only project context, it doesn't move up so I think the homepage is the bottleneck Can you check what changes, not from me, but from Javi in the Git history, could have introduced that?

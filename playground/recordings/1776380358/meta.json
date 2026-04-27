@@ -1,0 +1,60 @@
+{
+  "languageModelName" : "",
+  "processingTime" : 1124,
+  "rawResult" : " I still have the exact same website regardless what I generate. Please fix it! Don't stop until you fix it, generate website by yourself, check and don't stop until you fix it. I don't want to be part of it, you have to fix it and not bother me until it's done.",
+  "datetime" : "2026-04-16T22:59:18",
+  "result" : "I still have the exact same website regardless what I generate. Please fix it! Don't stop until you fix it, generate website by yourself, check and don't stop until you fix it. I don't want to be part of it, you have to fix it and not bother me until it's done.",
+  "duration" : 19707,
+  "recordingDevice" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "I still have the exact same website regardless what I generate. Please fix it! Don't stop until you fix it, generate website by yourself, check and don't stop until you fix it.",
+      "start" : 0,
+      "end" : 13.84
+    },
+    {
+      "text" : "I don't want to be part of it, you have to fix it and not bother me until it's done.",
+      "start" : 14.08,
+      "end" : 19.12
+    }
+  ],
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "systemAudioEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "appVersion" : "2.12.0",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false
+}

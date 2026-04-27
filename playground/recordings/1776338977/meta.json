@@ -1,0 +1,55 @@
+{
+  "result" : "Donne-moi le lien avec ENTJ et Technical Operator Founder niveau Architect.",
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " Donne-moi le lien avec ENTJ et Technical Operator Founder niveau Architect.",
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-16T11:29:37",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.0",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "ChatGPT"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Donne-moi le lien avec ENTJ et Technical Operator Founder niveau Architect.",
+      "start" : 0,
+      "end" : 7.34
+    }
+  ],
+  "duration" : 7716,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "processingTime" : 899
+}

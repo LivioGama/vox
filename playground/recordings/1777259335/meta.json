@@ -1,0 +1,55 @@
+{
+  "rawResult" : " .",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "duration" : 384,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 2401,
+  "datetime" : "2026-04-27T03:08:55",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "result" : ".",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 0.18,
+      "text" : ".",
+      "start" : 0
+    }
+  ]
+}

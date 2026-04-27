@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 14780,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "processingTime" : 926,
+  "recordingDevice" : "",
+  "rawResult" : " No, this is not a problem. Forget about Anthropic and Authentication. We are on Iris and we want to run a proper demonstration. That's it.",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "No, this is not a problem. Forget about Anthropic and Authentication. We are on Iris and we want to run a proper demonstration. That's it.",
+      "end" : 14.68,
+      "start" : 1.12
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T18:48:48",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "No, this is not a problem. Forget about Anthropic and Authentication. We are on Iris and we want to run a proper demonstration. That's it."
+}

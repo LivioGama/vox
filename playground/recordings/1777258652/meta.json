@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Without doing any action, can you tell me why the Vox Bin is so long to build?",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "duration" : 6636,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 894,
+  "datetime" : "2026-04-27T02:57:32",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf",
+      "includeInPrompt" : false
+    }
+  },
+  "result" : "Without doing any action, can you tell me why the Vox Bin is so long to build?",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 5.856,
+      "start" : 0.256,
+      "text" : "Without doing any action, can you tell me why the Vox Bin is so long to build?"
+    }
+  ]
+}

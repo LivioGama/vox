@@ -1,0 +1,1 @@
+I still don't get why it's so long since the acp. has SSE streaming. Can you actually, take advantage of that to see if it's working?

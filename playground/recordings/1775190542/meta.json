@@ -1,0 +1,55 @@
+{
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Cursor"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "recordingDevice" : "",
+  "processingTime" : 661,
+  "rawResult" : " I don't want the mail to be on devlib.io but on cheapfast.io",
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "I don't want the mail to be on devlib.io but on cheapfast.io",
+  "realtimeEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "I don't want the mail to be on devlib.io but on cheapfast.io",
+      "end" : 3.74
+    }
+  ],
+  "translationEnabled" : false,
+  "datetime" : "2026-04-03T04:29:02",
+  "appVersion" : "2.11.0",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "duration" : 3943,
+  "languageModelKey" : ""
+}

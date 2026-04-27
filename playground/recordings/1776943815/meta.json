@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "result" : "Alright, listen to me carefully. The only one that is working is SSH Netcap. So can you copy the Claude, Conf and OATS from SSH Netcap to SSH...",
+  "languageSelected" : "en",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    }
+  },
+  "rawResult" : " Alright, listen to me carefully. The only one that is working is SSH Netcap. So can you copy the Claude, Conf and OATS from SSH Netcap to SSH...",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "processingTime" : 964,
+  "duration" : 14406,
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "text" : "Alright, listen to me carefully. The only one that is working is SSH Netcap. So can you copy the Claude, Conf and OATS from SSH Netcap to SSH...",
+      "end" : 13.3,
+      "start" : 0
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "prompt" : "",
+  "separateSpeakersEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-23T11:30:15",
+  "modeName" : "Default"
+}

@@ -1,0 +1,60 @@
+{
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "result" : "If I remember well, what we tried to do on this branch, or at least we should try to do, maybe from lower commits in a separate branch before we start to change to OpenUI, is replace KimiK2 with cursor ACP using Codec Spark 5.3. such a modification exists somewhere in the Git tree, so don't reinvent it. Take inspiration out of it.",
+  "duration" : 32580,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "datetime" : "2026-04-24T10:31:10",
+  "translationEnabled" : false,
+  "rawResult" : " If I remember well, what we tried to do on this branch, or at least we should try to do, maybe from lower commits in a separate branch before we start to change to OpenUI, is replace KimiK2 with cursor ACP using Codec Spark 5.3. such a modification exists somewhere in the Git tree, so don't reinvent it. Take inspiration out of it.",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "If I remember well, what we tried to do on this branch, or at least we should try to do, maybe from lower commits in a separate branch before we start to change to OpenUI, is replace KimiK2 with cursor ACP using Codec Spark 5.3.",
+      "end" : 24.98
+    },
+    {
+      "start" : 26.96,
+      "text" : "such a modification exists somewhere in the Git tree, so don't reinvent it. Take inspiration out of it.",
+      "end" : 32.4
+    }
+  ],
+  "appVersion" : "2.12.1",
+  "processingTime" : 1562,
+  "languageSelected" : "en"
+}

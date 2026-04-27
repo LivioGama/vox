@@ -1,0 +1,55 @@
+{
+  "result" : "Remove the Apple script that go notification for Claude Code of Computer Store when something is done.",
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " Remove the Apple script that go notification for Claude Code of Computer Store when something is done.",
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-16T15:57:44",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.0",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Remove the Apple script that go notification for Claude Code of Computer Store when something is done.",
+      "end" : 8.66
+    }
+  ],
+  "duration" : 8859,
+  "processingTime" : 880,
+  "languageModelKey" : "",
+  "languageSelected" : "en"
+}

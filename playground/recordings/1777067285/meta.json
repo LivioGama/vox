@@ -1,0 +1,55 @@
+{
+  "result" : "There doesn't exist, Jesus! How can you be so bad? Give me better instruction, you asshole!",
+  "duration" : 5300,
+  "datetime" : "2026-04-24T21:48:05",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 5,
+      "text" : "There doesn't exist, Jesus! How can you be so bad? Give me better instruction, you asshole!"
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "prompt" : "",
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "appVersion" : "2.12.1",
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " There doesn't exist, Jesus! How can you be so bad? Give me better instruction, you asshole!",
+  "processingTime" : 870
+}

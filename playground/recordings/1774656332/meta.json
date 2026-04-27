@@ -1,0 +1,55 @@
+{
+  "duration" : 8389,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "The fetch button is broken and now the onboarding shows that instead of Merckit.",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Codex",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "processingTime" : 853,
+  "rawResult" : " The fetch button is broken and now the onboarding shows that instead of Merckit.",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T00:05:32",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 7.8,
+      "text" : "The fetch button is broken and now the onboarding shows that instead of Merckit."
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

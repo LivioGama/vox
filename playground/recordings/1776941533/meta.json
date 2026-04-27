@@ -1,0 +1,75 @@
+{
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "result" : "Let me generate a prompt in order to run a well-freakened loop. The idea is that I just replace the model to generate the homepage with the OpenUI library that now streams the UI. The problem is, I really have trouble generating nice and easy UI and diverse different websites. Let me give you an example. If I take the free branch that was on the old chord with Vanilla and some other prompt, if I would ask...",
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " Let me generate a prompt in order to run a well-freakened loop. The idea is that I just replace the model to generate the homepage with the OpenUI library that now streams the UI. The problem is, I really have trouble generating nice and easy UI and diverse different websites. Let me give you an example. If I take the free branch that was on the old chord with Vanilla and some other prompt, if I would ask...",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "recordingDevice" : "",
+  "datetime" : "2026-04-23T10:52:13",
+  "duration" : 38464,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Let me generate a prompt in order to run a well-freakened loop.",
+      "end" : 5.7
+    },
+    {
+      "start" : 6.3,
+      "text" : "The idea is that I just replace the model to generate the homepage with the OpenUI library that now streams the UI.",
+      "end" : 17.72
+    },
+    {
+      "start" : 18.08,
+      "text" : "The problem is, I really have trouble generating nice and easy UI and diverse different websites.",
+      "end" : 27.42
+    },
+    {
+      "start" : 28.04,
+      "text" : "Let me give you an example. If I take the free branch that was on the old chord with Vanilla",
+      "end" : 33.94
+    },
+    {
+      "start" : 33.94,
+      "text" : "and some other prompt, if I would ask...",
+      "end" : 37.66
+    }
+  ],
+  "processingTime" : 1542,
+  "modeName" : "Default"
+}

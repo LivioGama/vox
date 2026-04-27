@@ -1,0 +1,55 @@
+{
+  "processingTime" : 905,
+  "modeName" : "Default",
+  "prompt" : "",
+  "result" : "I still don't see them in the interface when you use the firebase CLI and the get method, can you confirm that you see them?",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "datetime" : "2026-04-02T19:44:16",
+  "duration" : 9191,
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "rawResult" : " I still don't see them in the interface when you use the firebase CLI and the get method, can you confirm that you see them?",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "text" : "I still don't see them in the interface when you use the firebase CLI and the get method, can you confirm that you see them?",
+      "end" : 8.52,
+      "start" : 0
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "languageSelected" : "en"
+}

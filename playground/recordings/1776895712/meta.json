@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 5012,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 879,
+  "rawResult" : " The authentication is with WorkOS, don't forget.",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "The authentication is with WorkOS, don't forget.",
+      "start" : 0,
+      "end" : 3.62
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T22:08:32",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "The authentication is with WorkOS, don't forget."
+}

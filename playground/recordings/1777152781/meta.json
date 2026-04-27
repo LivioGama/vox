@@ -1,0 +1,60 @@
+{
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 973,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux DEV latest-build"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Alright, but then if there is a dashboard, you should probably convert what you just did as a Dockploy service. This way we can have AutoSSR and so on.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Alright, but then if there is a dashboard, you should probably convert what you just did as a Dockploy service. This way we can have AutoSSR and so on.",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0.288,
+      "text" : "Alright, but then if there is a dashboard, you should probably convert what you just did as a Dockploy service.",
+      "end" : 9.44
+    },
+    {
+      "start" : 13.496,
+      "text" : "This way we can have AutoSSR and so on.",
+      "end" : 15.229688
+    }
+  ],
+  "appVersion" : "2.13.0",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-25T21:33:01",
+  "duration" : 15229,
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false
+}

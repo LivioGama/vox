@@ -1,0 +1,65 @@
+{
+  "languageModelKey" : "",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Claude"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "recordingDevice" : "",
+  "processingTime" : 1221,
+  "rawResult" : " Rename the repo Star Trek. Slash Discovery slash Trail",
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Rename the repo Star Trek. Slash Discovery slash Trail",
+  "realtimeEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Rename the repo Star Trek.",
+      "start" : 0,
+      "end" : 2.1
+    },
+    {
+      "text" : "Slash Discovery slash",
+      "end" : 5.22,
+      "start" : 4
+    },
+    {
+      "text" : "Trail",
+      "end" : 25.14,
+      "start" : 24.06
+    }
+  ],
+  "translationEnabled" : false,
+  "datetime" : "2026-04-03T02:45:39",
+  "appVersion" : "2.11.0",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "duration" : 26537,
+  "modelName" : "Ultra (Cloud)"
+}

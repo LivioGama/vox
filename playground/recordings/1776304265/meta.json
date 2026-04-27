@@ -1,0 +1,60 @@
+{
+  "segments" : [
+    {
+      "end" : 17.4,
+      "text" : "Are there any recent branch apart from master, main and free that started from develop that I can merge because I'm going to do a massive redesign.",
+      "start" : 0
+    },
+    {
+      "end" : 24.46,
+      "text" : "So if you find one rebase and merge it even if it's a work in progress.",
+      "start" : 17.66
+    }
+  ],
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "prompt" : "",
+  "modeName" : "Default",
+  "processingTime" : 1139,
+  "literalPunctuationEnabled" : false,
+  "result" : "Are there any recent branch apart from master, main and free that started from develop that I can merge because I'm going to do a massive redesign. So if you find one rebase and merge it even if it's a work in progress.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.0",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "duration" : 25607,
+  "recordingDevice" : "",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "rawResult" : " Are there any recent branch apart from master, main and free that started from develop that I can merge because I'm going to do a massive redesign. So if you find one rebase and merge it even if it's a work in progress.",
+  "datetime" : "2026-04-16T01:51:05",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false
+}

@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "processingTime" : 717,
+  "modelName" : "Ultra (Cloud)",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " I can install Warp on SSH Claudia.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "I can install Warp on SSH Claudia.",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0.096,
+      "text" : "I can install Warp on SSH Claudia.",
+      "end" : 4.104
+    }
+  ],
+  "appVersion" : "2.13.0",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "duration" : 4104,
+  "datetime" : "2026-04-25T23:30:43",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false
+}

@@ -1,0 +1,1 @@
+makes the skill enforce to never use anthropic API key even to unset it's and to enforce using cloud or token

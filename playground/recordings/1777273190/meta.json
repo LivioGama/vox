@@ -1,0 +1,55 @@
+{
+  "duration" : 1004,
+  "result" : "Playwright.",
+  "datetime" : "2026-04-27T06:59:50",
+  "translationEnabled" : false,
+  "processingTime" : 616,
+  "applicationContextEnabled" : false,
+  "rawResult" : " Playwright.",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Playwright.",
+      "start" : 0,
+      "end" : 0.5
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "realtimeEnabled" : false,
+  "appVersion" : "2.13.0",
+  "languageModelName" : ""
+}

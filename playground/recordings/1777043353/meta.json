@@ -1,0 +1,60 @@
+{
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "prompt" : "",
+  "appVersion" : "2.12.1",
+  "segments" : [
+    {
+      "end" : 7.54,
+      "text" : "I actually need some of the latest features that are not yet published.",
+      "start" : 0
+    },
+    {
+      "end" : 13.98,
+      "text" : "So can you actually check out this and build it to replace my TransCmox?",
+      "start" : 7.84
+    }
+  ],
+  "rawResult" : " I actually need some of the latest features that are not yet published. So can you actually check out this and build it to replace my TransCmox?",
+  "languageModelKey" : "",
+  "duration" : 15197,
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "result" : "I actually need some of the latest features that are not yet published. So can you actually check out this and build it to replace my TransCmox?",
+  "datetime" : "2026-04-24T15:09:13",
+  "languageModelName" : "",
+  "processingTime" : 957
+}

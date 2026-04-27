@@ -1,0 +1,65 @@
+{
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "result" : "The version we currently have still requires a lot of fixes, for example the collapse unchanged lines should start from line 0 instead of line 3. and you should remove the vertical bars in the margin for the blockchain",
+  "translationEnabled" : false,
+  "appVersion" : "2.11.0",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Warp",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 34338,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "rawResult" : " The version we currently have still requires a lot of fixes, for example the collapse unchanged lines should start from line 0 instead of line 3. and you should remove the vertical bars in the margin for the blockchain",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "The version we currently have still requires a lot of fixes, for example the collapse unchanged lines should start from line 0 instead of line 3.",
+      "end" : 13.58,
+      "start" : 0
+    },
+    {
+      "text" : "and",
+      "end" : 14.88,
+      "start" : 13.58
+    },
+    {
+      "text" : "you should remove the vertical bars in the margin for the blockchain",
+      "end" : 33.32,
+      "start" : 27.58
+    }
+  ],
+  "recordingDevice" : "",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-01T16:23:21",
+  "processingTime" : 1379
+}

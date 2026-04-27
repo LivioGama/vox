@@ -1,0 +1,55 @@
+{
+  "duration" : 7791,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "modeName" : "Default",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "I have a lot like Perplexity Agent, OpenRouter, Google and I did not set them up.",
+      "start" : 0,
+      "end" : 7.76
+    }
+  ],
+  "result" : "I have a lot like Perplexity Agent, OpenRouter, Google and I did not set them up.",
+  "datetime" : "2026-04-17T01:35:37",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "rawResult" : " I have a lot like Perplexity Agent, OpenRouter, Google and I did not set them up.",
+  "applicationContextEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "translationEnabled" : false,
+  "processingTime" : 927,
+  "languageModelName" : "",
+  "appVersion" : "2.12.0",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : ""
+}

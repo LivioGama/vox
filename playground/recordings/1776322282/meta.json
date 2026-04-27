@@ -1,0 +1,60 @@
+{
+  "speakers" : [
+
+  ],
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "duration" : 21930,
+  "rawResult" : " Seeing the readme documentation, the fact that we have this class button, that is a feature we will use everywhere. And then at least time to commit a push-up, I want you to do that in a new crash, that would be called ReizeTime.",
+  "prompt" : "",
+  "modeName" : "Default",
+  "processingTime" : 1130,
+  "languageSelected" : "en",
+  "datetime" : "2026-04-16T06:51:22",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "appVersion" : "2.12.0",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Seeing the readme documentation, the fact that we have this class button, that is a feature we will use everywhere. And then at least time to commit a push-up, I want you to do that in a new crash, that would be called ReizeTime.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Seeing the readme documentation, the fact that we have this class button, that is a feature we will use everywhere.",
+      "end" : 10.2,
+      "start" : 0
+    },
+    {
+      "text" : "And then at least time to commit a push-up, I want you to do that in a new crash, that would be called ReizeTime.",
+      "end" : 20.26,
+      "start" : 11.3
+    }
+  ],
+  "languageModelName" : ""
+}

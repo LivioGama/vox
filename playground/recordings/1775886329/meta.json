@@ -1,0 +1,60 @@
+{
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "duration" : 26366,
+  "languageSelected" : "en",
+  "appVersion" : "2.11.0",
+  "rawResult" : " I see a web folder with the website and the media in the root. I was expecting the website to be in the root directly, so could you arrange everything and also launch the BUNERONDAV target? So I can actually review the website inside the cursor embedded browser to see what it looks like.",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 16.46,
+      "text" : "I see a web folder with the website and the media in the root. I was expecting the website to be in the root directly, so could you arrange everything and also launch the BUNERONDAV target?",
+      "start" : 0
+    },
+    {
+      "end" : 25.94,
+      "text" : "So I can actually review the website inside the cursor embedded browser to see what it looks like.",
+      "start" : 17.28
+    }
+  ],
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "processingTime" : 1205,
+  "result" : "I see a web folder with the website and the media in the root. I was expecting the website to be in the root directly, so could you arrange everything and also launch the BUNERONDAV target? So I can actually review the website inside the cursor embedded browser to see what it looks like.",
+  "datetime" : "2026-04-11T05:45:29",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "speakers" : [
+
+  ]
+}

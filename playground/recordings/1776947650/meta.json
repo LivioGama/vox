@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-23T12:34:10",
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 638,
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "separateSpeakersEnabled" : false,
+  "result" : "Really, can I change my MACP?",
+  "rawResult" : " Really, can I change my MACP?",
+  "duration" : 2084,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 1.7,
+      "start" : 0,
+      "text" : "Really, can I change my MACP?"
+    }
+  ]
+}

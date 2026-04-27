@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "datetime" : "2026-04-24T22:58:50",
+  "result" : "When you work on the app, find a way to never, even if you recompile, to never have to re-trigger the permission for accessibility and so on.",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " When you work on the app, find a way to never, even if you recompile, to never have to re-trigger the permission for accessibility and so on.",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "segments" : [
+    {
+      "text" : "When you work on the app, find a way to never, even if you recompile, to never have to re-trigger the permission for accessibility and so on.",
+      "start" : 0,
+      "end" : 8.18
+    }
+  ],
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "processingTime" : 822,
+  "modeName" : "Default",
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "",
+  "prompt" : "",
+  "duration" : 8742,
+  "languageSelected" : "en"
+}

@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Do you think they would be an interest into putting pocket base to handle the OAT where we would actually put the PG vector extension?",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 13092,
+  "processingTime" : 903,
+  "datetime" : "2026-03-28T08:01:46",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Comet",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "result" : "Do you think they would be an interest into putting pocket base to handle the OAT where we would actually put the PG vector extension?",
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 12.44,
+      "start" : 0,
+      "text" : "Do you think they would be an interest into putting pocket base to handle the OAT where we would actually put the PG vector extension?"
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false
+}

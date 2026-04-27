@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " So such file or directory MNT.",
+  "duration" : 2440,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 2.28,
+      "text" : "So such file or directory MNT.",
+      "start" : 0
+    }
+  ],
+  "result" : "So such file or directory MNT.",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "languageSelected" : "en",
+  "datetime" : "2026-04-24T21:46:24",
+  "recordingDevice" : "",
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "processingTime" : 341,
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false
+}

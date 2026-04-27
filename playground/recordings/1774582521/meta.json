@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "rawResult" : " Thank you.",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-03-27T03:35:21",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "superwhisper",
+      "includeInPrompt" : false
+    }
+  },
+  "processingTime" : 649,
+  "duration" : 919,
+  "segments" : [
+    {
+      "text" : "Thank you.",
+      "start" : 0,
+      "end" : 0.18
+    }
+  ],
+  "result" : "",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "recordingDevice" : "BuiltInMicrophoneDevice",
+  "appVersion" : "2.11.0",
+  "modelName" : "Ultra (Cloud)"
+}

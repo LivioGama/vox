@@ -1,0 +1,55 @@
+{
+  "processingTime" : 1033,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "appVersion" : "2.13.0",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Alright, stash what you have locally and then find the last commit where there was a Grok with Kimi 2.5 and where we removed it and actually go back to the commit where we still had it, the last one.",
+  "separateSpeakersEnabled" : false,
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-25T12:32:37",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf"
+    },
+    "userContext" : {
+
+    }
+  },
+  "duration" : 17602,
+  "result" : "Alright, stash what you have locally and then find the last commit where there was a Grok with Kimi 2.5 and where we removed it and actually go back to the commit where we still had it, the last one.",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Alright, stash what you have locally and then find the last commit where there was a Grok with Kimi 2.5 and where we removed it and actually go back to the commit where we still had it, the last one.",
+      "end" : 17.184,
+      "start" : 0.16
+    }
+  ]
+}

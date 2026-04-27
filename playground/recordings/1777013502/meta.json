@@ -1,0 +1,55 @@
+{
+  "applicationContextEnabled" : false,
+  "processingTime" : 859,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T06:51:42",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " Wait, you are conscious that all the changes that we are doing is supposed to be in the free root tree that is on the desktop, right?",
+  "segments" : [
+    {
+      "text" : "Wait, you are conscious that all the changes that we are doing is supposed to be in the free root tree that is on the desktop, right?",
+      "end" : 7.9,
+      "start" : 0
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.1",
+  "duration" : 8988,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "result" : "Wait, you are conscious that all the changes that we are doing is supposed to be in the free root tree that is on the desktop, right?",
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "prompt" : ""
+}

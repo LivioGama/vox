@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 2.94,
+      "text" : "You shouldn't have done that in the free rap trick."
+    }
+  ],
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " You shouldn't have done that in the free rap trick.",
+  "duration" : 3270,
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "result" : "You shouldn't have done that in the free rap trick.",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "processingTime" : 733,
+  "datetime" : "2026-04-23T20:44:00",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : ""
+}

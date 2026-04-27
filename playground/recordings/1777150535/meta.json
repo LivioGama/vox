@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "appVersion" : "2.13.0",
+  "prompt" : "",
+  "datetime" : "2026-04-25T20:55:35",
+  "duration" : 15368,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "processingTime" : 738,
+  "languageModelName" : "",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Yes, but I don't think you should set it up locally on my computer. It should run on a VPS. So can you put it on SSH off?",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Yes, but I don't think you should set it up locally on my computer. It should run on a VPS. So can you put it on SSH off?",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0.192,
+      "end" : 15.368625,
+      "text" : "Yes, but I don't think you should set it up locally on my computer. It should run on a VPS. So can you put it on SSH off?"
+    }
+  ]
+}

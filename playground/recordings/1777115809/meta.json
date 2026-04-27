@@ -1,0 +1,60 @@
+{
+  "languageModelKey" : "",
+  "result" : "Can you check the quickest way possible if in the repo, just after the commit potentially somewhere on develop where KimiK2 was deprecated on Grok. We might have tried to use KimiK2 on OpenRouter or Odama Cloud.",
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-25T11:16:49",
+  "rawResult" : " Can you check the quickest way possible if in the repo, just after the commit potentially somewhere on develop where KimiK2 was deprecated on Grok. We might have tried to use KimiK2 on OpenRouter or Odama Cloud.",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "text" : "Can you check the quickest way possible if in the repo, just after the commit potentially somewhere on develop where KimiK2 was deprecated on Grok.",
+      "start" : 0.32,
+      "end" : 15.5
+    },
+    {
+      "text" : "We might have tried to use KimiK2 on OpenRouter or Odama Cloud.",
+      "start" : 15.92,
+      "end" : 24.41025
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 24410,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 1367,
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux DEV latest-build"
+    }
+  },
+  "appVersion" : "2.13.0",
+  "languageModelName" : ""
+}

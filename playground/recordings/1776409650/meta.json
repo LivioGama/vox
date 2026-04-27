@@ -1,0 +1,65 @@
+{
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "So for now, can you replace it with GPT-OSS120B on GROP?",
+      "end" : 11.78,
+      "start" : 2
+    },
+    {
+      "text" : "And then commit push that please.",
+      "end" : 14.46,
+      "start" : 12.62
+    },
+    {
+      "text" : "And then we will switch to the free branch and we will do the same change because now it's broken since Kimi is disabled.",
+      "end" : 22.76,
+      "start" : 14.92
+    }
+  ],
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " So for now, can you replace it with GPT-OSS120B on GROP? And then commit push that please. And then we will switch to the free branch and we will do the same change because now it's broken since Kimi is disabled.",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-17T07:07:30",
+  "result" : "So for now, can you replace it with GPT-OSS120B on GROP? And then commit push that please. And then we will switch to the free branch and we will do the same change because now it's broken since Kimi is disabled.",
+  "systemAudioEnabled" : false,
+  "duration" : 23220,
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "processingTime" : 1107
+}

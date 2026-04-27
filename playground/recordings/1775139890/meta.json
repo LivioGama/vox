@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-02T14:24:50",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " Wait, you know I never asked you to push the 1-bit work on develop. It was a temporary work that I wanted to do test and revert.",
+  "translationEnabled" : false,
+  "processingTime" : 1080,
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Wait, you know I never asked you to push the 1-bit work on develop. It was a temporary work that I wanted to do test and revert.",
+  "segments" : [
+    {
+      "end" : 13.78,
+      "start" : 0,
+      "text" : "Wait, you know I never asked you to push the 1-bit work on develop. It was a temporary work that I wanted to do test and revert."
+    }
+  ],
+  "duration" : 15764,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

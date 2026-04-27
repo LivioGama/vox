@@ -1,0 +1,55 @@
+{
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "datetime" : "2026-04-23T12:50:12",
+  "appVersion" : "2.12.1",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 3437,
+  "rawResult" : " You have to remove telemetry and signs of LOIC stuff to replace with the one that is on the VPS, of course.",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "result" : "You have to remove telemetry and signs of LOIC stuff to replace with the one that is on the VPS, of course.",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "end" : 6.28,
+      "start" : 0,
+      "text" : "You have to remove telemetry and signs of LOIC stuff to replace with the one that is on the VPS, of course."
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 6604,
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ]
+}

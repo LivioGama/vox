@@ -1,0 +1,55 @@
+{
+  "rawResult" : " So which commit that comes after that is Next.js and without the RALF loop?",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "duration" : 15422,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 962,
+  "datetime" : "2026-04-27T03:39:07",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "result" : "So which commit that comes after that is Next.js and without the RALF loop?",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "So which commit that comes after that is Next.js and without the RALF loop?",
+      "start" : 0.288,
+      "end" : 15.04
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-02T14:17:33",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " Alright, your next goal will be to be able to add a term because you know I use Superwhisper and there is a transcript happening and pasting the code that I dictate. What I want you to do is to observe the word that I fixed in order to generate a custom vocabulary dictionary. And then I want you to be able to go in Super Whisper settings and to add those words. So, to make it easier don't forget to persist this list of words inside the file and also try to verify its uniqueness to avoid always adding the same stuff.",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1775,
+  "recordingDevice" : "",
+  "result" : "Alright, your next goal will be to be able to add a term because you know I use Superwhisper and there is a transcript happening and pasting the code that I dictate. What I want you to do is to observe the word that I fixed in order to generate a custom vocabulary dictionary. And then I want you to be able to go in Superwhisper settings and to add those words. So, to make it easier don't forget to persist this list of words inside the file and also try to verify its uniqueness to avoid always adding the same stuff.",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 20.52,
+      "text" : "Alright, your next goal will be to be able to add a term because you know I use Superwhisper and there is a transcript happening and pasting the code that I dictate."
+    },
+    {
+      "start" : 20.52,
+      "end" : 43.52,
+      "text" : "What I want you to do is to observe the word that I fixed in order to generate a custom vocabulary dictionary."
+    },
+    {
+      "start" : 44.24,
+      "end" : 53.86,
+      "text" : "And then I want you to be able to go in Super Whisper settings and to add those words."
+    },
+    {
+      "start" : 54.68,
+      "end" : 61.4,
+      "text" : "So, to make it easier don't forget to persist this list of words inside the file"
+    },
+    {
+      "start" : 61.4,
+      "end" : 68.78,
+      "text" : "and also try to verify its uniqueness to avoid always adding the same stuff."
+    }
+  ],
+  "duration" : 69222,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Terminal"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

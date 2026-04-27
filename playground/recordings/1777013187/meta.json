@@ -1,0 +1,55 @@
+{
+  "applicationContextEnabled" : false,
+  "processingTime" : 488,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T06:46:27",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " Don't forget to deploy on Dockploy.",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Don't forget to deploy on Dockploy.",
+      "end" : 1.86
+    }
+  ],
+  "appVersion" : "2.12.1",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 2532,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "result" : "Don't forget to deploy on Dockploy.",
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "prompt" : ""
+}

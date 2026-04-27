@@ -1,0 +1,55 @@
+{
+  "rawResult" : " So I'm referring to a discussion I had about Liza, sorry not Iris.",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 9140,
+  "processingTime" : 862,
+  "datetime" : "2026-03-28T18:29:15",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Terminal",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "result" : "So I'm referring to a discussion I had about Liza, sorry not Iris.",
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 9,
+      "start" : 0,
+      "text" : "So I'm referring to a discussion I had about Liza, sorry not Iris."
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false
+}

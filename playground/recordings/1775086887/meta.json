@@ -1,0 +1,60 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "text" : "When I close the preview, I don't want the jump for the top bar pricing signing to appear.",
+      "end" : 11.08,
+      "start" : 0
+    },
+    {
+      "text" : "It was so scary that...",
+      "end" : 12.9,
+      "start" : 11.68
+    }
+  ],
+  "result" : "When I close the preview, I don't want the jump for the top bar pricing signing to appear. It was so scary that...",
+  "prompt" : "",
+  "languageModelName" : "",
+  "datetime" : "2026-04-01T23:41:27",
+  "appVersion" : "2.11.0",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1023,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "duration" : 12931,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " When I close the preview, I don't want the jump for the top bar pricing signing to appear. It was so scary that...",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

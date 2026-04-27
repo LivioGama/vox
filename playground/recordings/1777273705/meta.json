@@ -1,0 +1,55 @@
+{
+  "appVersion" : "2.13.0",
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "text" : "I cannot use a watch with no LTO for now.",
+      "start" : 0.096,
+      "end" : 5.184
+    }
+  ],
+  "recordingDevice" : "",
+  "datetime" : "2026-04-27T07:08:25",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "duration" : 6294,
+  "rawResult" : " I cannot use a watch with no LTO for now.",
+  "literalPunctuationEnabled" : false,
+  "result" : "I cannot use a watch with no LTO for now.",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 868,
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false
+}

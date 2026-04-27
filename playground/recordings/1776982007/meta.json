@@ -1,0 +1,55 @@
+{
+  "appVersion" : "2.12.1",
+  "result" : "Open the .f file, you fucking asshole, I'm not your slave. Why are you doing so badly? Are you stupid or what?",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "processingTime" : 1082,
+  "prompt" : "",
+  "duration" : 8314,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 8.02,
+      "text" : "Open the .f file, you fucking asshole, I'm not your slave. Why are you doing so badly? Are you stupid or what?"
+    }
+  ],
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Open the .f file, you fucking asshole, I'm not your slave. Why are you doing so badly? Are you stupid or what?",
+  "languageModelKey" : "",
+  "separateSpeakersEnabled" : false,
+  "datetime" : "2026-04-23T22:06:47",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

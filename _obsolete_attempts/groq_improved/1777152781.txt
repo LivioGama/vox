@@ -1,0 +1,1 @@
+Alright, then if there is a dashboard, you should probably convert what you just did as a Dokploy service. This way we can have Auto SSL zone

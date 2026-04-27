@@ -1,0 +1,1 @@
+We tried to implement the same git viewer from the JetBrains folder you can find in the root. But this implementation is a disaster. It doesn't look at all, there is no curved connector, everything is shitty. Can you fix it's?

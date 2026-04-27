@@ -1,0 +1,1 @@
+I heard that only Linux, Docker, Rust, Gradle, and a ton of other stuff works better. Is this the case if the Linux distribution is an ARM version?

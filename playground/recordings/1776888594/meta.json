@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Does it mean that now I can run Iris and then I can ask anything and it will manage to execute it?",
+  "duration" : 8443,
+  "prompt" : "",
+  "processingTime" : 967,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "result" : "Does it mean that now I can run Iris and then I can ask anything and it will manage to execute it?",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    }
+  },
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 8.08,
+      "text" : "Does it mean that now I can run Iris and then I can ask anything and it will manage to execute it?"
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-22T20:09:54"
+}

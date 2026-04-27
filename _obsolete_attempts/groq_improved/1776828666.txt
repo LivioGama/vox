@@ -1,0 +1,1 @@
+All right, so now can you prepare a very detailed script in order to migrate this VPS with EasyPanel to Dokploy? Just in case for inspiration, you can check what has been done on the VPS NetCup by SSH into it and finding trace of migration from Coolify to Dokploy. you have a lot of things to do like saving databases etc etc

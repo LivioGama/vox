@@ -1,0 +1,55 @@
+{
+  "duration" : 3986,
+  "result" : "Use agent browser, but not in Adlas.",
+  "datetime" : "2026-04-27T07:00:42",
+  "translationEnabled" : false,
+  "processingTime" : 720,
+  "applicationContextEnabled" : false,
+  "rawResult" : " Use agent browser, but not in Adlas.",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Use agent browser, but not in Adlas.",
+      "end" : 3,
+      "start" : 0
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Windsurf"
+    },
+    "userContext" : {
+
+    }
+  },
+  "realtimeEnabled" : false,
+  "appVersion" : "2.13.0",
+  "languageModelName" : ""
+}

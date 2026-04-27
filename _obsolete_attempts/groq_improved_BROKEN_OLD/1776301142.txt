@@ -1,0 +1,1 @@
+In RAM management is a disaster. I get a lot of zombies from processes that should be killed. How can I fix this? I want something that automatically manages and kills all Node like JS, Cursors, Bun, processes that should not be there.

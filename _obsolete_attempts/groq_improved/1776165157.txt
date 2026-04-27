@@ -1,0 +1,1 @@
+Je suis actuellement sur une app NBT. Donc, pouvez-vous introduire une façon dans laquelle, d'abord, dans la notification, vous incluez l'IP des personnes qui font la requête, et puis en fait bloquez l'IP qui a fait plus que... 15 requêtes avec OpenAI dans 24 heures.

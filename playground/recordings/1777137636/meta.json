@@ -1,0 +1,60 @@
+{
+  "systemAudioEnabled" : false,
+  "duration" : 27039,
+  "rawResult" : " There is an outil harness of development, which is really oriented voice. I want to talk with my LM and hear it speak, so that I don't have to be able to tap or read.",
+  "realtimeEnabled" : false,
+  "result" : "There is an outil harness of development, which is really oriented voice. I want to talk with my LM and hear it speak, so that I don't have to be able to tap or read.",
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0.8,
+      "end" : 10.74,
+      "text" : "There is an outil harness of development, which is really oriented voice."
+    },
+    {
+      "start" : 10.92,
+      "end" : 25.376,
+      "text" : "I want to talk with my LM and hear it speak, so that I don't have to be able to tap or read."
+    }
+  ],
+  "prompt" : "",
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1033,
+  "modeName" : "Default",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "ChatGPT",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "languageModelName" : "",
+  "translationEnabled" : false,
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "datetime" : "2026-04-25T17:20:36"
+}

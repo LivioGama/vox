@@ -1,0 +1,1 @@
+Yes, but I don't think you should set it up locally on my computer. It should run on a VPS. So can you put it on SSH off?

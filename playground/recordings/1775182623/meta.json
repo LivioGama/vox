@@ -1,0 +1,65 @@
+{
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "processingTime" : 1060,
+  "duration" : 21802,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-03T02:17:03",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Claude",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Could you actually add... Easy, ease out animation. Style or both?",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "end" : 1.68,
+      "text" : "Could you actually add...",
+      "start" : 0
+    },
+    {
+      "end" : 17.04,
+      "text" : "Easy, ease out animation.",
+      "start" : 15.34
+    },
+    {
+      "end" : 21.44,
+      "text" : "Style or both?",
+      "start" : 19.96
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Could you actually add... Easy, ease out animation. Style or both?"
+}

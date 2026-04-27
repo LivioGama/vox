@@ -1,0 +1,55 @@
+{
+  "prompt" : "",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "segments" : [
+    {
+      "text" : "Alright, can you git pull because I rewrote this old branch?",
+      "end" : 4.44,
+      "start" : 1.28
+    }
+  ],
+  "languageModelName" : "",
+  "rawResult" : " Alright, can you git pull because I rewrote this old branch?",
+  "datetime" : "2026-04-27T05:38:08",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "duration" : 4520,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageModelKey" : "",
+  "processingTime" : 718,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "result" : "Alright, can you git pull because I rewrote this old branch?",
+  "separateSpeakersEnabled" : false
+}

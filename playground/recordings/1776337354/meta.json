@@ -1,0 +1,55 @@
+{
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "processingTime" : 949,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Configure to have your logo, I don't want any permission, ask neither on cursor ACP, neither in Z.",
+      "start" : 0,
+      "end" : 5.92
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "result" : "Configure to have your logo, I don't want any permission, ask neither on cursor ACP, neither in Z.",
+  "separateSpeakersEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.0",
+  "rawResult" : " Configure to have your logo, I don't want any permission, ask neither on cursor ACP, neither in Z.",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "systemAudioEnabled" : false,
+  "duration" : 6391,
+  "datetime" : "2026-04-16T11:02:34",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  }
+}

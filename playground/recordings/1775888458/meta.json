@@ -1,0 +1,90 @@
+{
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "appVersion" : "2.11.0",
+  "languageSelected" : "en",
+  "duration" : 68122,
+  "rawResult" : " Alright, so for the music could you extract the original sound from the video and autoplay it at the website load. and maybe makes a button play pause a bit less big because now it kind of breaks the bottom banner when it poses because it's not the same width on the play button so make it really like You can play post button very tiny, but by default I would like it to autoplay to actually fit with the hero. It doesn't have to play in loop, I just want a single play from the original one and it doesn't matter if it's not aligned with the hero video. I just want to have the audio, original audio playing automatically.",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Alright, so for the music could you extract the original sound from the video and autoplay it at the website load.",
+      "start" : 0,
+      "end" : 15.8
+    },
+    {
+      "text" : "and maybe makes a button play pause a bit less big because now it kind of breaks the bottom",
+      "start" : 20.08,
+      "end" : 30.28
+    },
+    {
+      "end" : 37.38,
+      "start" : 30.28,
+      "text" : "banner when it poses because it's not the same width on the play button so make it really like"
+    },
+    {
+      "end" : 44.44,
+      "start" : 37.38,
+      "text" : "You can play post button very tiny, but by default I would like it to autoplay"
+    },
+    {
+      "start" : 44.44,
+      "text" : "to actually fit with the hero.",
+      "end" : 48.24
+    },
+    {
+      "start" : 49.56,
+      "text" : "It doesn't have to play in loop, I just want a single play from the original one",
+      "end" : 53.92
+    },
+    {
+      "start" : 53.92,
+      "text" : "and it doesn't matter if it's not aligned with the hero video.",
+      "end" : 59.8
+    },
+    {
+      "start" : 59.8,
+      "text" : "I just want to have the audio, original audio playing automatically.",
+      "end" : 66.68
+    }
+  ],
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1995,
+  "result" : "Alright, so for the music could you extract the original sound from the video and autoplay it at the website load. and maybe makes a button play pause a bit less big because now it kind of breaks the bottom banner when it poses because it's not the same width on the play button so make it really like You can play post button very tiny, but by default I would like it to autoplay to actually fit with the hero. It doesn't have to play in loop, I just want a single play from the original one and it doesn't matter if it's not aligned with the hero video. I just want to have the audio, original audio playing automatically.",
+  "datetime" : "2026-04-11T06:20:58",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "speakers" : [
+
+  ]
+}

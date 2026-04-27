@@ -1,0 +1,65 @@
+{
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "result" : "No, absolutely not. Do not re-identicate by any means because the Claude account is working on everything including this machine apart in local on my Mac. I suspect it's because there are potentially some Claude code process running so if you find some, kill them before. This is the way it worked before we had to kill all of them and then actually when we replaced and I run it, it worked.",
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " No, absolutely not. Do not re-identicate by any means because the Claude account is working on everything including this machine apart in local on my Mac. I suspect it's because there are potentially some Claude code process running so if you find some, kill them before. This is the way it worked before we had to kill all of them and then actually when we replaced and I run it, it worked.",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "recordingDevice" : "",
+  "datetime" : "2026-04-23T11:21:57",
+  "duration" : 25981,
+  "segments" : [
+    {
+      "text" : "No, absolutely not. Do not re-identicate by any means because the Claude account is working on everything including this machine apart in local on my Mac.",
+      "end" : 10.64,
+      "start" : 0
+    },
+    {
+      "text" : "I suspect it's because there are potentially some Claude code process running so if you find some, kill them before.",
+      "end" : 19.46,
+      "start" : 11.52
+    },
+    {
+      "text" : "This is the way it worked before we had to kill all of them and then actually when we replaced and I run it, it worked.",
+      "end" : 25.8,
+      "start" : 19.72
+    }
+  ],
+  "processingTime" : 1111,
+  "modeName" : "Default"
+}

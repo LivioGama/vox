@@ -1,0 +1,60 @@
+{
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Claude",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "recordingDevice" : "",
+  "processingTime" : 1383,
+  "rawResult" : " I really like to slice what I see. I would actually like that the two curves enlarging occur earlier, a tiny bit earlier and that the delay between both animations is a bit longer. 700 milliseconds",
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "I really like to slice what I see. I would actually like that the two curves enlarging occur earlier, a tiny bit earlier and that the delay between both animations is a bit longer. 700 milliseconds",
+  "realtimeEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "end" : 28.76,
+      "text" : "I really like to slice what I see. I would actually like that the two curves enlarging occur earlier, a tiny bit earlier and that the delay between both animations is a bit longer.",
+      "start" : 0
+    },
+    {
+      "end" : 33.1,
+      "text" : "700 milliseconds",
+      "start" : 31.32
+    }
+  ],
+  "translationEnabled" : false,
+  "datetime" : "2026-04-03T02:12:18",
+  "appVersion" : "2.11.0",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "duration" : 33783,
+  "languageModelKey" : ""
+}

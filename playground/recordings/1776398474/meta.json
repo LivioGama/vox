@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "We don't see much, JESUS CHRIST!",
+      "end" : 2.38,
+      "start" : 0
+    }
+  ],
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    }
+  },
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " We don't see much, JESUS CHRIST!",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-17T04:01:14",
+  "result" : "We don't see much, JESUS CHRIST!",
+  "systemAudioEnabled" : false,
+  "duration" : 2480,
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "processingTime" : 674
+}

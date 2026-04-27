@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "appVersion" : "2.12.0",
+  "separateSpeakersEnabled" : false,
+  "processingTime" : 1154,
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "rawResult" : " Also, I noticed that the last shield fast is not the last deployment. So can you fix both issues? You have the deploy CLI and I already set the persistent token so you can use the CLI directly.",
+  "datetime" : "2026-04-15T10:05:20",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "end" : 12.22,
+      "text" : "Also, I noticed that the last shield fast is not the last deployment. So can you fix both issues? You have the deploy CLI and I already set the persistent token so you can use the CLI directly.",
+      "start" : 0.74
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Also, I noticed that the last shield fast is not the last deployment. So can you fix both issues? You have the deploy CLI and I already set the persistent token so you can use the CLI directly.",
+  "duration" : 13017,
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "prompt" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  }
+}

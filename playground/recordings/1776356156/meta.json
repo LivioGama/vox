@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Warp"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : "",
+  "processingTime" : 371,
+  "datetime" : "2026-04-16T16:15:56",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "To install Notion MCP.",
+      "end" : 1.96,
+      "start" : 0
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "languageModelKey" : "",
+  "appVersion" : "2.12.0",
+  "realtimeEnabled" : false,
+  "duration" : 2532,
+  "prompt" : "",
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "result" : "To install Notion MCP.",
+  "recordingDevice" : "",
+  "rawResult" : " To install Notion MCP.",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

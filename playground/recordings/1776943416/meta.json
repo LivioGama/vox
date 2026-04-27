@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "result" : "You can try to run a Claude dash beat.",
+  "languageSelected" : "en",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "rawResult" : " You can try to run a Claude dash beat.",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "processingTime" : 791,
+  "duration" : 5707,
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "text" : "You can try to run a Claude dash beat.",
+      "start" : 0,
+      "end" : 2.76
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "prompt" : "",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.12.1",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "datetime" : "2026-04-23T11:23:36",
+  "modeName" : "Default"
+}

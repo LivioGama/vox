@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "appVersion" : "2.12.0",
+  "languageModelName" : "",
+  "duration" : 10869,
+  "processingTime" : 855,
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "result" : "So now, ShipFastProduct is an XJS project to confirm. If yes, can you actually launch it? The GlassNext folder is to be deleted.",
+  "datetime" : "2026-04-16T14:19:37",
+  "rawResult" : " So now, ShipFastProduct is an XJS project to confirm. If yes, can you actually launch it? The GlassNext folder is to be deleted.",
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "So now, ShipFastProduct is an XJS project to confirm. If yes, can you actually launch it? The GlassNext folder is to be deleted.",
+      "end" : 10.1
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "prompt" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default"
+}

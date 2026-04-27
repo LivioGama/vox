@@ -1,0 +1,1 @@
+I could test the 2FA, it's working, but for the chat, I don't think it's. So can you provide me some insight or some logs?

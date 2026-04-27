@@ -1,0 +1,1 @@
+No, no, you don't get it. I need to prepare a script that when someone else will run it without Claude Code, maybe with GitHub CLI, it will be able to achieve the sixth agent in parallel.

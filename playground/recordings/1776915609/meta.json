@@ -1,0 +1,55 @@
+{
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-23T03:40:09",
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 765,
+  "rawResult" : " Change the old model to use Copilot Claude Sony 4.6.",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "result" : "Change the old model to use Copilot Claude Sony 4.6.",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Change the old model to use Copilot Claude Sony 4.6.",
+      "end" : 5.3,
+      "start" : 0
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 5974,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "speakers" : [
+
+  ]
+}

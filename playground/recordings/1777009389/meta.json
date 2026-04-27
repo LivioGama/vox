@@ -1,0 +1,135 @@
+{
+  "applicationContextEnabled" : false,
+  "processingTime" : 2592,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T05:43:09",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Finder",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " The project is almost finished, I have a feeling we are reaching the end. But I still have a lot of trouble coordinating Iris. One of the first problems is that she would catch messages that I talk randomly and that are not worth being treated. So you should implement a filter to not treat what makes sense. sometimes I also get a delay when I talk and sometimes it's not caught by the system. It should never happen, it should always be real time and never drop anything I ever said. Then we have normally a self-sustainable system which is able to create new skills on demand according to what I asked. Yet when I ask to simply do web research to check the news about Cursor and GPT 5.5 model it's completely lost so there is something missing about linking what we achieved for self-sustainability and at the same time usability of the project that needs to be finalized. On the final end I think you should use the agent browser skill, dog food and also the electron skill in order to test the app and find different dead ends and also simplify the stuff that are useless now for example there is still a window in the view for the vibe combo or the combo that we completely need to remove and potentially a lot of other cleaning to do because we just merge a project and we want to simplify it and use it to the core.",
+  "segments" : [
+    {
+      "end" : 4.66,
+      "start" : 0,
+      "text" : "The project is almost finished, I have a feeling we are reaching the end."
+    },
+    {
+      "end" : 9.84,
+      "start" : 5.04,
+      "text" : "But I still have a lot of trouble coordinating Iris."
+    },
+    {
+      "end" : 18.96,
+      "start" : 10.92,
+      "text" : "One of the first problems is that she would catch messages that I talk randomly and that are not worth being treated."
+    },
+    {
+      "end" : 25.2,
+      "start" : 19.4,
+      "text" : "So you should implement a filter to not treat what makes sense."
+    },
+    {
+      "end" : 34.54,
+      "start" : 25.2,
+      "text" : "sometimes I also get a delay when I talk and sometimes it's not caught by the system."
+    },
+    {
+      "end" : 41.56,
+      "start" : 35.86,
+      "text" : "It should never happen, it should always be real time and never drop anything I ever said."
+    },
+    {
+      "end" : 49.18,
+      "start" : 42.36,
+      "text" : "Then we have normally a self-sustainable system which is able to create new skills on demand"
+    },
+    {
+      "end" : 56.06,
+      "start" : 49.18,
+      "text" : "according to what I asked. Yet when I ask to simply do web research to check the"
+    },
+    {
+      "end" : 62.08,
+      "start" : 56.06,
+      "text" : "news about Cursor and GPT 5.5 model it's completely lost so there is something"
+    },
+    {
+      "end" : 68.78,
+      "start" : 62.08,
+      "text" : "missing about linking what we achieved for self-sustainability and at the same"
+    },
+    {
+      "end" : 76.28,
+      "start" : 68.78,
+      "text" : "time usability of the project that needs to be finalized. On the final end"
+    },
+    {
+      "end" : 84.38,
+      "start" : 76.28,
+      "text" : "I think you should use the agent browser skill, dog food and also the electron skill"
+    },
+    {
+      "end" : 91.5,
+      "start" : 84.38,
+      "text" : "in order to test the app and find different dead ends and also simplify"
+    },
+    {
+      "end" : 96.2,
+      "start" : 91.5,
+      "text" : "the stuff that are useless now for example there is still a window in the"
+    },
+    {
+      "end" : 101.28,
+      "start" : 96.2,
+      "text" : "view for the vibe combo or the combo that we completely need to remove and"
+    },
+    {
+      "end" : 106,
+      "start" : 101.28,
+      "text" : "potentially a lot of other cleaning to do because we just merge a project and"
+    },
+    {
+      "end" : 108.94,
+      "start" : 106,
+      "text" : "we want to simplify it and use it to the core."
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.1",
+  "duration" : 109985,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "result" : "The project is almost finished, I have a feeling we are reaching the end. But I still have a lot of trouble coordinating Iris. One of the first problems is that she would catch messages that I talk randomly and that are not worth being treated. So you should implement a filter to not treat what makes sense. sometimes I also get a delay when I talk and sometimes it's not caught by the system. It should never happen, it should always be real time and never drop anything I ever said. Then we have normally a self-sustainable system which is able to create new skills on demand according to what I asked. Yet when I ask to simply do web research to check the news about Cursor and GPT 5.5 model it's completely lost so there is something missing about linking what we achieved for self-sustainability and at the same time usability of the project that needs to be finalized. On the final end I think you should use the agent browser skill, dog food and also the electron skill in order to test the app and find different dead ends and also simplify the stuff that are useless now for example there is still a window in the view for the vibe combo or the combo that we completely need to remove and potentially a lot of other cleaning to do because we just merge a project and we want to simplify it and use it to the core.",
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "prompt" : ""
+}

@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Mr. Schferl en directorie. Amen.",
+  "duration" : 2480,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 2.16,
+      "start" : 0,
+      "text" : "Mr. Schferl en directorie. Amen."
+    }
+  ],
+  "result" : "Mr. Schferl en directorie. Amen.",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "languageSelected" : "en",
+  "processingTime" : 779,
+  "recordingDevice" : "",
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "datetime" : "2026-04-24T21:46:18",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false
+}

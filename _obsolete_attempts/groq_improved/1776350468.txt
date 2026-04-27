@@ -1,0 +1,1 @@
+We should use ban, get rid of the package.loc, remove those empty folders everywhere, get rid of the old documentation. What is this site spec even?

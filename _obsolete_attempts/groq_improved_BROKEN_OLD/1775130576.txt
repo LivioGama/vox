@@ -1,0 +1,1 @@
+It looks like time code was truncated at 2048 characters. I think it's because of time way we launched time model. Is there something you can do about it?

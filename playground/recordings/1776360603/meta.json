@@ -1,0 +1,55 @@
+{
+  "rawResult" : " I don't understand anything about how to configure a reverse DNS on Netcap.",
+  "speakers" : [
+
+  ],
+  "processingTime" : 419,
+  "translationEnabled" : false,
+  "duration" : 4488,
+  "languageModelKey" : "",
+  "modelName" : "Ultra (Cloud)",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "datetime" : "2026-04-16T17:30:03",
+  "recordingDevice" : "",
+  "result" : "I don't understand anything about how to configure a reverse DNS on Netcap.",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "realtimeEnabled" : false,
+  "segments" : [
+    {
+      "text" : "I don't understand anything about how to configure a reverse DNS on Netcap.",
+      "end" : 4.1,
+      "start" : 0
+    }
+  ],
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Comet"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "appVersion" : "2.12.0",
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "modeName" : "Default"
+}

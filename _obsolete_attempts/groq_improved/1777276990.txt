@@ -1,0 +1,1 @@
+Vous pouvez déjà commettre, mais nous confirmons que nous avons un mode toujours en mode qui peut utiliser Deepgram pour la détection de l'activation de la voix, le frais pour terminer de parler, filtrer. pour la détection, la transformation et le vocabulaire de la énergie.

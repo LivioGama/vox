@@ -1,0 +1,55 @@
+{
+  "prompt" : "",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "segments" : [
+    {
+      "start" : 0.544,
+      "text" : "But I'm in a rock tree, so how can I run this? I don't even know in which folder to go.",
+      "end" : 6.912
+    }
+  ],
+  "languageModelName" : "",
+  "rawResult" : " But I'm in a rock tree, so how can I run this? I don't even know in which folder to go.",
+  "datetime" : "2026-04-27T08:24:02",
+  "applicationContextEnabled" : false,
+  "duration" : 7310,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "languageModelKey" : "",
+  "processingTime" : 952,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "result" : "But I'm in a rock tree, so how can I run this? I don't even know in which folder to go.",
+  "separateSpeakersEnabled" : false
+}

@@ -1,0 +1,1 @@
+Je commence à installer NetCup en ordre pour pouvoir travailler à distance le projet Rust puis le faire fonctionner et voir l'Ui localement sur ma Mac par la meilleure façon de lancer l'Ui

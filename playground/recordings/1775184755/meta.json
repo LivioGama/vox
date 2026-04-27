@@ -1,0 +1,60 @@
+{
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "processingTime" : 1090,
+  "duration" : 10270,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-03T02:52:35",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Terminal",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " No, actually I'm not okay with the list of comments or the list. I would like you to scratch them either into one, either in multiple that makes sense.",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "text" : "No, actually I'm not okay with the list of comments or the list.",
+      "start" : 0,
+      "end" : 3.8
+    },
+    {
+      "text" : "I would like you to scratch them either into one, either in multiple that makes sense.",
+      "start" : 4.1,
+      "end" : 10.04
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "result" : "No, actually I'm not okay with the list of comments or the list. I would like you to scratch them either into one, either in multiple that makes sense."
+}

@@ -1,0 +1,150 @@
+{
+  "prompt" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "result" : "The users should be clearly informed that it's not a prompt but more like a brand description to make it right. And then this text is actually sent to the new API of OpenAI. Don't try to doubt the model I'm saying, I know it exists. You have to use images 2.0, okay? You can do it with the Vercel AI SDK. This way, it will be well-structured. And this image has to be stored somewhere local. I can open it easily, maybe in a root folder or something. I mean you will see where you want to put it because you will need it. The thing is once we have this image for the deck of the company that they entered, They can even enter their website inside the brand stuff and then we should actually find a way to browse that. We will use GPT 5.5 through Codex CLI ACP to generate their website based on the image. and then at the same time for Shift Fast it will open in a preview, kind of like a browser-ish of the browser to show how good it is. Of course, the important thing now is not to do all 5.06. The most important part to validate is really the engine. And the engine is about this prompt as I told you with the image I have to see it the fastest possible. And then send the image to the website. So this can be done, for example, in a playground folder in Roots and then integrated later in a web interface.",
+  "modeName" : "Default",
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "appVersion" : "2.13.0",
+  "datetime" : "2026-04-25T16:09:34",
+  "systemAudioEnabled" : false,
+  "rawResult" : " The users should be clearly informed that it's not a prompt but more like a brand description to make it right. And then this text is actually sent to the new API of OpenAI. Don't try to doubt the model I'm saying, I know it exists. You have to use images 2.0, okay? You can do it with the Vercel AI SDK. This way, it will be well-structured. And this image has to be stored somewhere local. I can open it easily, maybe in a root folder or something. I mean you will see where you want to put it because you will need it. The thing is once we have this image for the deck of the company that they entered, They can even enter their website inside the brand stuff and then we should actually find a way to browse that. We will use GPT 5.5 through Codex CLI ACP to generate their website based on the image. and then at the same time for Shift Fast it will open in a preview, kind of like a browser-ish of the browser to show how good it is. Of course, the important thing now is not to do all 5.06. The most important part to validate is really the engine. And the engine is about this prompt as I told you with the image I have to see it the fastest possible. And then send the image to the website. So this can be done, for example, in a playground folder in Roots and then integrated later in a web interface.",
+  "segments" : [
+    {
+      "start" : 0.352,
+      "text" : "The users should be clearly informed that it's not a prompt but more like a brand description to make it right.",
+      "end" : 10.164
+    },
+    {
+      "start" : 10.824,
+      "text" : "And then this text is actually sent to the new API of OpenAI.",
+      "end" : 18.896
+    },
+    {
+      "start" : 19.576,
+      "text" : "Don't try to doubt the model I'm saying, I know it exists.",
+      "end" : 23.932
+    },
+    {
+      "start" : 24.292,
+      "text" : "You have to use images 2.0, okay?",
+      "end" : 29.812
+    },
+    {
+      "start" : 29.812,
+      "text" : "You can do it with the Vercel AI SDK.",
+      "end" : 34.332
+    },
+    {
+      "start" : 34.772,
+      "text" : "This way, it will be well-structured.",
+      "end" : 38.92
+    },
+    {
+      "start" : 39.72,
+      "text" : "And this image has to be stored somewhere local.",
+      "end" : 45.884
+    },
+    {
+      "start" : 46.264,
+      "text" : "I can open it easily, maybe in a root folder or something.",
+      "end" : 51.736
+    },
+    {
+      "start" : 52.42,
+      "text" : "I mean you will see where you want to put it because you will need it.",
+      "end" : 56.176
+    },
+    {
+      "start" : 56.416,
+      "text" : "The thing is once we have this image for the deck of the company that they entered,",
+      "end" : 65.732
+    },
+    {
+      "start" : 65.732,
+      "text" : "They can even enter their website inside the brand stuff and then we should actually find a way to browse that.",
+      "end" : 77.168
+    },
+    {
+      "start" : 77.428,
+      "text" : "We will use GPT 5.5 through Codex CLI ACP to generate their website based on the image.",
+      "end" : 95.408
+    },
+    {
+      "start" : 95.408,
+      "text" : "and then at the same time for Shift Fast it will open in a preview, kind of like a browser-ish",
+      "end" : 104.404
+    },
+    {
+      "start" : 104.404,
+      "text" : "of the browser to show how good it is.",
+      "end" : 107.728
+    },
+    {
+      "start" : 108.108,
+      "text" : "Of course, the important thing now is not to do all 5.06.",
+      "end" : 114.4
+    },
+    {
+      "start" : 114.64,
+      "text" : "The most important part to validate is really the engine.",
+      "end" : 119.112
+    },
+    {
+      "start" : 119.372,
+      "text" : "And the engine is about this prompt as I told you with the image",
+      "end" : 123.264
+    },
+    {
+      "start" : 123.264,
+      "text" : "I have to see it the fastest possible.",
+      "end" : 123.264
+    },
+    {
+      "start" : 123.264,
+      "text" : "And then send the image to the website. So this can be done, for example, in a playground folder in Roots",
+      "end" : 123.264
+    },
+    {
+      "start" : 123.264,
+      "text" : "and then integrated later in a web interface.",
+      "end" : 123.264
+    }
+  ],
+  "languageModelName" : "",
+  "processingTime" : 3000,
+  "languageModelKey" : "",
+  "speakers" : [
+
+  ],
+  "duration" : 123964,
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false
+}

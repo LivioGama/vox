@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T17:40:55",
+  "appVersion" : "2.12.1",
+  "duration" : 15422,
+  "result" : "Should be the default prompt pre-field if I do CTRL plus S Easter Egg keyboard in development.",
+  "realtimeEnabled" : false,
+  "processingTime" : 1038,
+  "rawResult" : " Should be the default prompt pre-field if I do CTRL plus S Easter Egg keyboard in development.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Should be the default prompt pre-field if I do CTRL plus S Easter Egg keyboard in development.",
+      "end" : 14.4,
+      "start" : 0
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

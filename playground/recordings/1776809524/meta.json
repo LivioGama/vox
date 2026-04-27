@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 6.88,
+      "text" : "What is the fastest way to get Kimi in terms of token per second with thinking disabled?"
+    }
+  ],
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " What is the fastest way to get Kimi in terms of token per second with thinking disabled?",
+  "languageModelName" : "",
+  "translationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-21T22:12:04",
+  "result" : "What is the fastest way to get Kimi in terms of token per second with thinking disabled?",
+  "systemAudioEnabled" : false,
+  "recordingDevice" : "",
+  "duration" : 7513,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "processingTime" : 890
+}

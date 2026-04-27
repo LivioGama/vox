@@ -1,0 +1,65 @@
+{
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Can you align the kindly respond numbers to have the same format? I don't like the fact that there is one with 0,0. The other one with plus 35 or so. I'm not sure if the number format is correct.",
+      "end" : 19.12
+    },
+    {
+      "start" : 19.12,
+      "text" : "and I would actually love this bar to always be visible regardless where is",
+      "end" : 31.2
+    },
+    {
+      "start" : 31.2,
+      "text" : "scroll",
+      "end" : 31.42
+    }
+  ],
+  "processingTime" : 1447,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "rawResult" : " Can you align the kindly respond numbers to have the same format? I don't like the fact that there is one with 0,0. The other one with plus 35 or so. I'm not sure if the number format is correct. and I would actually love this bar to always be visible regardless where is scroll",
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "appVersion" : "2.11.0",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-11T05:47:54",
+  "speakers" : [
+
+  ],
+  "duration" : 35674,
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Can you align the kindly respond numbers to have the same format? I don't like the fact that there is one with 0,0. The other one with plus 35 or so. I'm not sure if the number format is correct. and I would actually love this bar to always be visible regardless where is scroll"
+}

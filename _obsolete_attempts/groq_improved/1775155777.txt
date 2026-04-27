@@ -1,0 +1,1 @@
+I have English, French and Italian. And now when I load the webpage, my only choice is English. I should have French selected and English as an option.

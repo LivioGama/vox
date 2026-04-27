@@ -1,0 +1,55 @@
+{
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "datetime" : "2026-04-23T11:52:16",
+  "appVersion" : "2.12.1",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 439,
+  "rawResult" : " Do we have the same type of install on the Macs that owns the DPS?",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "result" : "Do we have the same type of install on the Macs that owns the DPS?",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Do we have the same type of install on the Macs that owns the DPS?",
+      "start" : 0,
+      "end" : 3.72
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 4478,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "speakers" : [
+
+  ]
+}

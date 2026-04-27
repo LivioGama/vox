@@ -1,0 +1,60 @@
+{
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "I could test the 2FA, it's working but for the chat, I don't think it is.",
+      "end" : 4.84
+    },
+    {
+      "start" : 5.08,
+      "text" : "So can you provide me some insight or some logs?",
+      "end" : 7.24
+    }
+  ],
+  "result" : "I could test the 2FA, it's working but for the chat, I don't think it is. So can you provide me some insight or some logs?",
+  "prompt" : "",
+  "languageModelName" : "",
+  "datetime" : "2026-04-02T03:14:02",
+  "appVersion" : "2.11.0",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 893,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "duration" : 7524,
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " I could test the 2FA, it's working but for the chat, I don't think it is. So can you provide me some insight or some logs?",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

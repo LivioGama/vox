@@ -1,0 +1,65 @@
+{
+  "applicationContextEnabled" : false,
+  "processingTime" : 1034,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T06:38:35",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " Using this file, add a new test for SWE 1.6 Fast and other models from WinFurf. You don't need to put the regular model like Sone, like Oppo and so on. Maybe just two Sone and something like that.",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Using this file, add a new test for SWE 1.6 Fast and other models from WinFurf.",
+      "end" : 9.46
+    },
+    {
+      "start" : 11.36,
+      "text" : "You don't need to put the regular model like Sone, like Oppo and so on.",
+      "end" : 17.38
+    },
+    {
+      "start" : 18.68,
+      "text" : "Maybe just two Sone and something like that.",
+      "end" : 22.5
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.1",
+  "duration" : 23341,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "result" : "Using this file, add a new test for SWE 1.6 Fast and other models from WinFurf. You don't need to put the regular model like Sone, like Oppo and so on. Maybe just two Sone and something like that.",
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "prompt" : ""
+}

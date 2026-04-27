@@ -1,0 +1,1 @@
+I would like to create a snap email application in order to same a webmail client configured my my stalwart server email.

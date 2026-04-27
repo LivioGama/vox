@@ -1,0 +1,7 @@
+{
+  "recording_id": "1776347589",
+  "text": " Alright, we started to migrate this project to an FBS from Vanilla. I want you to take over and continue finish the migration considering that of course we will not be able to deploy on Vercel because the sessions are generated with file so we need a monolith so we will keep deploying on Docploy.",
+  "segments": null,
+  "language": null,
+  "duration": null
+}

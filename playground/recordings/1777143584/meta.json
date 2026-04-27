@@ -1,0 +1,85 @@
+{
+  "modeName" : "Default",
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "start" : 0.416,
+      "text" : "Build for me, yet one of the millions of ED and RNS that is released in the world.",
+      "end" : 5.936
+    },
+    {
+      "start" : 6.988,
+      "text" : "This one will be based on the fact that the user has an input that will be sheet,",
+      "end" : 13.792
+    },
+    {
+      "start" : 14.052,
+      "text" : "that will pass through an orchestrator and a planner that will decide how to split the task",
+      "end" : 22.168
+    },
+    {
+      "start" : 22.168,
+      "text" : "and decide how much terminals that will be spawned. For this we will use WazeTerm because it has multi-pans.",
+      "end" : 33.048
+    },
+    {
+      "start" : 33.048,
+      "text" : "We want to have the feature that spawns in Grid and since SWE 1.6 fast is just a model,",
+      "end" : 49.284
+    },
+    {
+      "start" : 49.464,
+      "text" : "we need a real harness to use it in our term. So for that we will take a generic one like",
+      "end" : 53.458874
+    },
+    {
+      "start" : 53.458874,
+      "text" : "open code configured on it to run the task.",
+      "end" : 53.458874
+    }
+  ],
+  "translationEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "duration" : 53458,
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Windsurf"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "appVersion" : "2.13.0",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 1871,
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "rawResult" : " Build for me, yet one of the millions of ED and RNS that is released in the world. This one will be based on the fact that the user has an input that will be sheet, that will pass through an orchestrator and a planner that will decide how to split the task and decide how much terminals that will be spawned. For this we will use WazeTerm because it has multi-pans. We want to have the feature that spawns in Grid and since SWE 1.6 fast is just a model, we need a real harness to use it in our term. So for that we will take a generic one like open code configured on it to run the task.",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-25T18:59:44",
+  "result" : "Build for me, yet one of the millions of ED and RNS that is released in the world. This one will be based on the fact that the user has an input that will be sheet, that will pass through an orchestrator and a planner that will decide how to split the task and decide how much terminals that will be spawned. For this we will use WazeTerm because it has multi-pans. We want to have the feature that spawns in Grid and since SWE 1.6 fast is just a model, we need a real harness to use it in our term. So for that we will take a generic one like open code configured on it to run the task.",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ]
+}

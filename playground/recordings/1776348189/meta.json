@@ -1,0 +1,60 @@
+{
+  "rawResult" : " Now, explain how the human design works because there are things that are true for me and my wife and very proper. So how does it make up to a pseudo-marché?",
+  "segments" : [
+    {
+      "text" : "Now, explain how the human design works because there are things that are true for me and my wife and very proper.",
+      "start" : 0,
+      "end" : 9.94
+    },
+    {
+      "text" : "So how does it make up to a pseudo-marché?",
+      "start" : 10.2,
+      "end" : 12.78
+    }
+  ],
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "translationEnabled" : false,
+  "duration" : 13081,
+  "appVersion" : "2.12.0",
+  "separateSpeakersEnabled" : false,
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "Now, explain how the human design works because there are things that are true for me and my wife and very proper. So how does it make up to a pseudo-marché?",
+  "processingTime" : 1052,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "datetime" : "2026-04-16T14:03:09",
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

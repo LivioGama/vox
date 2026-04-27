@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Alright, now you can commit locally this version and then you will switch to a new branch where we will implement pretty much the same thing except that we will replace WazeTerm with CMAX.",
+      "start" : 1.636,
+      "end" : 16.672
+    }
+  ],
+  "appVersion" : "2.13.0",
+  "realtimeEnabled" : false,
+  "rawResult" : " Alright, now you can commit locally this version and then you will switch to a new branch where we will implement pretty much the same thing except that we will replace WazeTerm with CMAX.",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "result" : "Alright, now you can commit locally this version and then you will switch to a new branch where we will implement pretty much the same thing except that we will replace WazeTerm with CMAX.",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "datetime" : "2026-04-25T19:54:24",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 18019,
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 76539,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  }
+}

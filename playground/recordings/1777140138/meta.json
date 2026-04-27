@@ -1,0 +1,60 @@
+{
+  "prompt" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "result" : "The user type shitty prompt, then actually there is a prompt answer that will actually try to make it to something that the LLM can deal with. And actually it goes to the orchestrator or planner and so on that will divide the task and then after it goes to the different developers that will spawn.",
+  "modeName" : "Default",
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-25T18:02:18",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "appVersion" : "2.13.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "systemAudioEnabled" : false,
+  "rawResult" : " The user type shitty prompt, then actually there is a prompt answer that will actually try to make it to something that the LLM can deal with. And actually it goes to the orchestrator or planner and so on that will divide the task and then after it goes to the different developers that will spawn.",
+  "segments" : [
+    {
+      "start" : 0.544,
+      "end" : 10.88,
+      "text" : "The user type shitty prompt, then actually there is a prompt answer that will actually try to make it to something that the LLM can deal with."
+    },
+    {
+      "start" : 11.28,
+      "end" : 18.816,
+      "text" : "And actually it goes to the orchestrator or planner and so on that will divide the task and then after it goes to the different developers that will spawn."
+    }
+  ],
+  "languageModelName" : "",
+  "processingTime" : 1098,
+  "languageModelKey" : "",
+  "speakers" : [
+
+  ],
+  "duration" : 19216,
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false
+}

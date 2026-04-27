@@ -1,0 +1,60 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " You can also set everything up so the Linux fits the Macbook Pro French ASRT keyboard. Also I want to have the command key that acts like control, so I don't have to think about adaptation.",
+  "applicationContextEnabled" : false,
+  "processingTime" : 1051,
+  "languageModelName" : "",
+  "datetime" : "2026-04-24T22:50:36",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modeName" : "Default",
+  "duration" : 19622,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "text" : "You can also set everything up so the Linux fits the Macbook Pro French ASRT keyboard.",
+      "end" : 9.86,
+      "start" : 0
+    },
+    {
+      "text" : "Also I want to have the command key that acts like control, so I don't have to think about adaptation.",
+      "end" : 18.6,
+      "start" : 11
+    }
+  ],
+  "result" : "You can also set everything up so the Linux fits the Macbook Pro French ASRT keyboard. Also I want to have the command key that acts like control, so I don't have to think about adaptation.",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "appVersion" : "2.13.0",
+  "separateSpeakersEnabled" : false,
+  "prompt" : ""
+}

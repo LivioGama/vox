@@ -1,0 +1,60 @@
+{
+  "duration" : 10035,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "So, it means that it's possible that I'm the only person on earth that can do this. Admit it! It's possible! I'm not saying it's the case, but it's possible.",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1033,
+  "languageModelName" : "",
+  "rawResult" : " So, it means that it's possible that I'm the only person on earth that can do this. Admit it! It's possible! I'm not saying it's the case, but it's possible.",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T01:02:52",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "So, it means that it's possible that I'm the only person on earth that can do this.",
+      "end" : 4.54,
+      "start" : 0
+    },
+    {
+      "text" : "Admit it! It's possible! I'm not saying it's the case, but it's possible.",
+      "end" : 8.92,
+      "start" : 5.02
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

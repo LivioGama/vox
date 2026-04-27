@@ -1,0 +1,55 @@
+{
+  "duration" : 23620,
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "processingTime" : 992,
+  "rawResult" : " Regardless of the inverter I check, when I click on the top left circle on my screen that is rotated by 272 degrees, it actually selects the top right circle.",
+  "appVersion" : "2.13.0",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageModelName" : "",
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "datetime" : "2026-04-25T08:47:36",
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "segments" : [
+    {
+      "text" : "Regardless of the inverter I check, when I click on the top left circle on my screen that is rotated by 272 degrees, it actually selects the top right circle.",
+      "start" : 0.608,
+      "end" : 23.008
+    }
+  ],
+  "languageSelected" : "en",
+  "result" : "Regardless of the inverter I check, when I click on the top left circle on my screen that is rotated by 272 degrees, it actually selects the top right circle."
+}

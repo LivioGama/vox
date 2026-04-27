@@ -1,0 +1,1 @@
+In order to decide if my speech is an intent of prompt, I don't want to use CloudIQ. I want to use something faster. So could you configure Groq?

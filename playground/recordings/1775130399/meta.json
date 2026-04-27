@@ -1,0 +1,65 @@
+{
+  "datetime" : "2026-04-02T11:46:39",
+  "duration" : 46095,
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " Now you see I'm currently running a 1-bit model that I would like to try but without heavy integration. The same way actually I integrate OlaMap prompt in this project versus CloudSonic 4.5. So can you actually do the test live without having to touch a website, just simulate the behavior and measure? Maybe just launch a page with model artcoded and the two prompts to take over and analyze the gap.",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "result" : "Now you see I'm currently running a 1-bit model that I would like to try but without heavy integration. The same way actually I integrate OlaMap prompt in this project versus CloudSonic 4.5. So can you actually do the test live without having to touch a website, just simulate the behavior and measure? Maybe just launch a page with model artcoded and the two prompts to take over and analyze the gap.",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "text" : "Now you see I'm currently running a 1-bit model that I would like to try but without heavy integration. The same way actually I integrate OlaMap prompt in this project versus CloudSonic 4.5.",
+      "start" : 0,
+      "end" : 16.14
+    },
+    {
+      "text" : "So can you actually do the test live without having to touch a website, just simulate the behavior and measure?",
+      "start" : 16.14,
+      "end" : 27.24
+    },
+    {
+      "text" : "Maybe just launch a page with model artcoded and the two prompts to take over and analyze the gap.",
+      "start" : 30.5,
+      "end" : 45.52
+    }
+  ],
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "processingTime" : 1527,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Terminal",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.11.0",
+  "languageSelected" : "en"
+}

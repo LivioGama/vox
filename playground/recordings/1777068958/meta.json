@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " In starting reboot, it says leave your login and then there is a fail to get RIP, IP table, error 52.",
+  "duration" : 8420,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 8.28,
+      "text" : "In starting reboot, it says leave your login and then there is a fail to get RIP, IP table, error 52.",
+      "start" : 0
+    }
+  ],
+  "result" : "In starting reboot, it says leave your login and then there is a fail to get RIP, IP table, error 52.",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build"
+    }
+  },
+  "languageSelected" : "en",
+  "processingTime" : 805,
+  "recordingDevice" : "",
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "datetime" : "2026-04-24T22:15:58",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false
+}

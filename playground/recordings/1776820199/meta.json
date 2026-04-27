@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "languageModelKey" : "",
+  "result" : "Implement using 10 subagents.",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "recordingDevice" : "",
+  "processingTime" : 638,
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Implement using 10 subagents.",
+      "end" : 2.8,
+      "start" : 0
+    }
+  ],
+  "duration" : 2939,
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "rawResult" : " Implement using 10 subagents.",
+  "datetime" : "2026-04-22T01:09:59",
+  "languageModelName" : ""
+}

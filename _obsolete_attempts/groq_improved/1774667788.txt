@@ -1,0 +1,1 @@
+Finalement, il est installé dans ShipFast, dans Coolify, et sauve la session générée dans un autre ficheur à l'extérieur.

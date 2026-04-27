@@ -1,0 +1,85 @@
+{
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "result" : "On the free version, I'm clearly getting an OS but on the current version, I'm getting a landing to present something which is real. So basically, I want both things that respect what is asked maybe by taking inspiration from what was done in the free branch, a tiny bit, but what I especially want is to find a way to get a really high quality design without compromising on the time still using GPT-OSS or 20B. For this there are different strategies but I want to avoid strategies that self-loop. It has to be done in one shot regardless of what you try. Thank you.",
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " On the free version, I'm clearly getting an OS but on the current version, I'm getting a landing to present something which is real. So basically, I want both things that respect what is asked maybe by taking inspiration from what was done in the free branch, a tiny bit, but what I especially want is to find a way to get a really high quality design without compromising on the time still using GPT-OSS or 20B. For this there are different strategies but I want to avoid strategies that self-loop. It has to be done in one shot regardless of what you try. Thank you.",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "",
+  "translationEnabled" : false,
+  "datetime" : "2026-04-23T10:54:03",
+  "duration" : 52165,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 9.86,
+      "text" : "On the free version, I'm clearly getting an OS but on the current version, I'm getting a landing to present something which is real."
+    },
+    {
+      "start" : 10.96,
+      "end" : 21.96,
+      "text" : "So basically, I want both things that respect what is asked maybe by taking inspiration from what was done in the free branch,"
+    },
+    {
+      "start" : 23.7,
+      "end" : 32.32,
+      "text" : "a tiny bit, but what I especially want is to find a way to get a really high quality design"
+    },
+    {
+      "start" : 34.14,
+      "end" : 38.94,
+      "text" : "without compromising on the time still using GPT-OSS or 20B."
+    },
+    {
+      "start" : 39.52,
+      "end" : 44.88,
+      "text" : "For this there are different strategies but I want to avoid strategies that self-loop."
+    },
+    {
+      "start" : 45.1,
+      "end" : 48.38,
+      "text" : "It has to be done in one shot regardless of what you try."
+    },
+    {
+      "start" : 51.96,
+      "end" : 52,
+      "text" : "Thank you."
+    }
+  ],
+  "processingTime" : 1842,
+  "modeName" : "Default"
+}

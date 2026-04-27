@@ -1,0 +1,1 @@
+While cargo this building release, time process does not transcript. This it's because we write time binary?

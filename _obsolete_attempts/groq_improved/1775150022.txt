@@ -1,0 +1,1 @@
+I'm on Coolify server and I configured ShipFast to use wildcard but now my main domain is not accessible how I'm supposed to fix it?

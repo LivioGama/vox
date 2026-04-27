@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "rawResult" : " Thank you.",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-03-27T19:48:23",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Warp",
+      "includeInPrompt" : false
+    }
+  },
+  "processingTime" : 559,
+  "duration" : 1827,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Thank you.",
+      "end" : 0.4
+    }
+  ],
+  "result" : "",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "appVersion" : "2.11.0",
+  "modelName" : "Ultra (Cloud)"
+}

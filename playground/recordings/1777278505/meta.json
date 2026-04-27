@@ -1,0 +1,55 @@
+{
+  "prompt" : "",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "segments" : [
+    {
+      "end" : 11.904,
+      "text" : "Does this install vox in my system so I can use the right vox when I configure it?",
+      "start" : 2.624
+    }
+  ],
+  "languageModelName" : "",
+  "rawResult" : " Does this install vox in my system so I can use the right vox when I configure it?",
+  "datetime" : "2026-04-27T08:28:25",
+  "applicationContextEnabled" : false,
+  "duration" : 12151,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "languageModelKey" : "",
+  "processingTime" : 941,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "result" : "Does this install vox in my system so I can use the right vox when I configure it?",
+  "separateSpeakersEnabled" : false
+}

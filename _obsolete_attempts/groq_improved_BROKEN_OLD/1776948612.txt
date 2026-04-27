@@ -1,0 +1,1 @@
+You same to remove telemetry and signs of LOIC stuff to replace with the one that's on the VPS of course.

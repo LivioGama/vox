@@ -1,0 +1,55 @@
+{
+  "appVersion" : "2.13.0",
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "text" : "While Cargo is building release, the process does not transcript. Is it because we write binary?",
+      "start" : 0.512,
+      "end" : 8.64
+    }
+  ],
+  "recordingDevice" : "",
+  "datetime" : "2026-04-27T09:02:37",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "duration" : 8902,
+  "rawResult" : " While Cargo is building release, the process does not transcript. Is it because we write binary?",
+  "literalPunctuationEnabled" : false,
+  "result" : "While Cargo is building release, the process does not transcript. Is it because we write binary?",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 893,
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false
+}

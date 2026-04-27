@@ -1,0 +1,55 @@
+{
+  "applicationContextEnabled" : false,
+  "processingTime" : 1360,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T05:19:21",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " Ok, on the Rinsurf, use only Claude Sonnet 4.6 and SWE 1.6 fast as models, regardless of the role.",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 13.16,
+      "text" : "Ok, on the Rinsurf, use only Claude Sonnet 4.6 and SWE 1.6 fast as models, regardless of the role."
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.1",
+  "duration" : 14406,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "result" : "Ok, on the Rinsurf, use only Claude Sonnet 4.6 and SWE 1.6 fast as models, regardless of the role.",
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "prompt" : ""
+}

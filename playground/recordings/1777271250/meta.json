@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "speakers" : [
+
+  ],
+  "duration" : 9148,
+  "languageModelName" : "",
+  "prompt" : "",
+  "processingTime" : 817,
+  "segments" : [
+    {
+      "end" : 9.1485,
+      "start" : 0.8,
+      "text" : "Don't try to check if I have cargo watch, it doesn't matter. Just tell me how I can improve cargo watch to not trigger too fast."
+    }
+  ],
+  "languageModelKey" : "",
+  "datetime" : "2026-04-27T06:27:30",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "realtimeEnabled" : false,
+  "result" : "Don't try to check if I have cargo watch, it doesn't matter. Just tell me how I can improve cargo watch to not trigger too fast.",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.13.0",
+  "rawResult" : " Don't try to check if I have cargo watch, it doesn't matter. Just tell me how I can improve cargo watch to not trigger too fast.",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false
+}

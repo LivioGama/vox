@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "processingTime" : 947,
+  "realtimeEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "result" : "Look bro, this is filter machine UTM which means I don't need most of the programs that are there. I just need stuff that I use for coding.",
+  "segments" : [
+    {
+      "end" : 18.02,
+      "start" : 0,
+      "text" : "Look bro, this is filter machine UTM which means I don't need most of the programs that are there. I just need stuff that I use for coding."
+    }
+  ],
+  "duration" : 18532,
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "translationEnabled" : false,
+  "recordingDevice" : "",
+  "datetime" : "2026-03-29T02:02:42",
+  "rawResult" : " Look bro, this is filter machine UTM which means I don't need most of the programs that are there. I just need stuff that I use for coding.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "UTM",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "modeName" : "Default",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "systemAudioEnabled" : false
+}

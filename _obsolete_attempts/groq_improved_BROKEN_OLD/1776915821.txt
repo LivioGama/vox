@@ -1,0 +1,1 @@
+Can you copy the gitcrypt key for unixconfig in both netcap and of ofssh?

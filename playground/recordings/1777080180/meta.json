@@ -1,0 +1,55 @@
+{
+  "duration" : 3680,
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "processingTime" : 700,
+  "rawResult" : " Synonyme de conclusion, mais un peu plus dramatique.",
+  "appVersion" : "2.13.0",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Slack"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "languageModelName" : "",
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "datetime" : "2026-04-25T01:23:00",
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "segments" : [
+    {
+      "text" : "Synonyme de conclusion, mais un peu plus dramatique.",
+      "start" : 0.66,
+      "end" : 3.2
+    }
+  ],
+  "languageSelected" : "en",
+  "result" : "Synonyme de conclusion, mais un peu plus dramatique."
+}

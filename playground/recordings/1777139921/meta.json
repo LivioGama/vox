@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "modeName" : "Default",
+  "processingTime" : 594,
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " You can check with Docploy CLI.",
+  "separateSpeakersEnabled" : false,
+  "result" : "You can check with Docploy CLI.",
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "appVersion" : "2.13.0",
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "text" : "You can check with Docploy CLI.",
+      "end" : 2.04,
+      "start" : 0.16
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-25T17:58:41",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "languageModelKey" : "",
+  "prompt" : "",
+  "duration" : 2073,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "realtimeEnabled" : false
+}

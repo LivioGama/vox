@@ -1,0 +1,65 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "duration" : 35600,
+  "datetime" : "2026-04-22T03:31:06",
+  "appVersion" : "2.12.1",
+  "result" : "Alright, so now can you prepare a very detailed script in order to migrate this VPS with an EasyPanel to DOCPLOY. Just in case for inspiration, you can check what has been done on the VPS netcup by SSHintuit and finding trace of migration from Qulify to DOCPLOY. you have a lot of things to do like saving databases etc etc",
+  "realtimeEnabled" : false,
+  "processingTime" : 1336,
+  "rawResult" : " Alright, so now can you prepare a very detailed script in order to migrate this VPS with an EasyPanel to DOCPLOY. Just in case for inspiration, you can check what has been done on the VPS netcup by SSHintuit and finding trace of migration from Qulify to DOCPLOY. you have a lot of things to do like saving databases etc etc",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Alright, so now can you prepare a very detailed script in order to migrate this VPS with an EasyPanel to DOCPLOY.",
+      "end" : 13
+    },
+    {
+      "start" : 14.4,
+      "text" : "Just in case for inspiration, you can check what has been done on the VPS netcup by SSHintuit and finding trace of migration from Qulify to DOCPLOY.",
+      "end" : 26.68
+    },
+    {
+      "start" : 28.02,
+      "text" : "you have a lot of things to do like saving databases etc etc",
+      "end" : 35.02
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

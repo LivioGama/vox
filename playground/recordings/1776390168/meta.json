@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "result" : "Remove all the models apart from Codex 5.3 Spark and Opus 4.7, Sonate 4.6, Composer 2, Kimi K2.",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "appVersion" : "2.12.0",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 22.96,
+      "start" : 0,
+      "text" : "Remove all the models apart from Codex 5.3 Spark and Opus 4.7, Sonate 4.6, Composer 2, Kimi K2."
+    }
+  ],
+  "duration" : 25949,
+  "processingTime" : 1128,
+  "rawResult" : " Remove all the models apart from Codex 5.3 Spark and Opus 4.7, Sonate 4.6, Composer 2, Kimi K2.",
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    }
+  },
+  "translationEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-04-17T01:42:48",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false
+}

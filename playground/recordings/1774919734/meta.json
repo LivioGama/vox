@@ -1,0 +1,75 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-03-31T01:15:34",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " You know, for so long in this mergekit GPUI I'm trying to reproduce JetBrains' GitT Viewer side by side with the feature for the changes but also for the history graph and so on. I actually stupidly didn't know that JetBrains IDE code was open source and that the exact feature I need and every spec was already in a codebase. That I actually now introduced, I put this codebase in the folder at the root called JetBrains.",
+  "translationEnabled" : false,
+  "processingTime" : 1471,
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "You know, for so long in this mergekit GPUI I'm trying to reproduce JetBrains' GitT Viewer side by side with the feature for the changes but also for the history graph and so on. I actually stupidly didn't know that JetBrains IDE code was open source and that the exact feature I need and every spec was already in a codebase. That I actually now introduced, I put this codebase in the folder at the root called JetBrains.",
+  "segments" : [
+    {
+      "text" : "You know, for so long in this mergekit GPUI I'm trying to reproduce JetBrains' GitT Viewer side by side with the feature for the changes but also for the history graph and so on.",
+      "start" : 0.66,
+      "end" : 16.04
+    },
+    {
+      "text" : "I actually stupidly didn't know that JetBrains IDE code was open source and",
+      "start" : 16.04,
+      "end" : 25.64
+    },
+    {
+      "text" : "that the exact feature I need and every spec was already in a codebase.",
+      "start" : 25.64,
+      "end" : 33.7
+    },
+    {
+      "text" : "That I actually now introduced, I put this codebase in the folder at the root called",
+      "start" : 34.6,
+      "end" : 39.64
+    },
+    {
+      "text" : "JetBrains.",
+      "start" : 39.64,
+      "end" : 40.22
+    }
+  ],
+  "duration" : 40591,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Claude",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

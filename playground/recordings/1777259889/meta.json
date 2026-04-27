@@ -1,0 +1,55 @@
+{
+  "datetime" : "2026-04-27T03:18:09",
+  "rawResult" : " Clean up a bit my memory, my RAM is full and with a lot of demons. Zombies sorry.",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Warp"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "processingTime" : 982,
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "result" : "Clean up a bit my memory, my RAM is full and with a lot of demons. Zombies sorry.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Clean up a bit my memory, my RAM is full and with a lot of demons. Zombies sorry.",
+      "start" : 0.256,
+      "end" : 6.4231877
+    }
+  ],
+  "duration" : 6423,
+  "appVersion" : "2.13.0",
+  "languageSelected" : "en"
+}

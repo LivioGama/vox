@@ -1,0 +1,1 @@
+So, can you actually drop it's commit you just made and then actually, don't revert for now because I want to test but I also want you to plug the home page to the one-bit model.

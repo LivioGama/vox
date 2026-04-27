@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1112,
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "text" : "The part talking about editors brings no value. What is important for me is to say, of course if it's true, that using ACP provide more performance than using the CLI with Claude P or Claude Print.",
+      "end" : 20.94,
+      "start" : 0
+    }
+  ],
+  "languageModelName" : "",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-04T07:05:21",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " The part talking about editors brings no value. What is important for me is to say, of course if it's true, that using ACP provide more performance than using the CLI with Claude P or Claude Print.",
+  "duration" : 21204,
+  "result" : "The part talking about editors brings no value. What is important for me is to say, of course if it's true, that using ACP provide more performance than using the CLI with Claude P or Claude Print.",
+  "realtimeEnabled" : false,
+  "appVersion" : "2.11.0",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ]
+}

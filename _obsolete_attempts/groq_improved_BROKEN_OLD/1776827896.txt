@@ -1,0 +1,1 @@
+i ne vois pas de text ou de rédaction de détails dans la fenêtre, donc vous pourriez vouloir vérifier comment le GPUI est impliqué dans les documents MergeKit ou GPUI pour le fixer. Il y a une subtilité concernant la librairie et la façon d'instancier la librairie.

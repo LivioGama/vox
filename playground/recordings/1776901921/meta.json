@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "result" : "U-Password.",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    }
+  },
+  "prompt" : "",
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "separateSpeakersEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "U-Password.",
+      "start" : 0,
+      "end" : 0.6
+    }
+  ],
+  "recordingDevice" : "",
+  "rawResult" : " U-Password.",
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "duration" : 961,
+  "appVersion" : "2.12.1",
+  "processingTime" : 869,
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-22T23:52:01"
+}

@@ -1,0 +1,1 @@
+Now, starting on a new branch, can you also do the same logic but instead of pointing to GitHub Copilot or Juni, it would point to Ollama Cloud?

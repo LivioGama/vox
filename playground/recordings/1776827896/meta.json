@@ -1,0 +1,60 @@
+{
+  "result" : "I actually don't see any text or any detail rendering inside the window, so you might want to check how GPUI is implemented in documents mergekit.gpu in order to fix it. There is a subtility about the library and the way to instantiate it.",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "rawResult" : " I actually don't see any text or any detail rendering inside the window, so you might want to check how GPUI is implemented in documents mergekit.gpu in order to fix it. There is a subtility about the library and the way to instantiate it.",
+  "segments" : [
+    {
+      "text" : "I actually don't see any text or any detail rendering inside the window, so you might want to check how GPUI is implemented in documents mergekit.gpu in order to fix it.",
+      "start" : 0,
+      "end" : 16.4
+    },
+    {
+      "text" : "There is a subtility about the library and the way to instantiate it.",
+      "start" : 16.6,
+      "end" : 23.14
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "processingTime" : 1134,
+  "duration" : 23491,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T03:18:16",
+  "languageSelected" : "en"
+}

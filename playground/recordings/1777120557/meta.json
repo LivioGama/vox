@@ -1,0 +1,95 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Find me the best way to replace GroK Kimi K2 model by GPT-OSS 120B on GroK, plus maybe some skill for design because GPT-OSS sucks for UI and it cannot match Kimi. or maybe some alternative would be to use the library OpenUI. But how should I use it efficiently to be able to generate a website very fast with your template model and the renderer? But, I mean, I can already do this and it's quite fast, but I don't know how to customize this and have a method to build my components or my libraries. So study those two aspects.",
+  "applicationContextEnabled" : false,
+  "processingTime" : 2046,
+  "languageModelName" : "",
+  "datetime" : "2026-04-25T12:35:57",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Google Gemini",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "duration" : 52956,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "end" : 23.828,
+      "start" : 1.152,
+      "text" : "Find me the best way to replace GroK Kimi K2 model by GPT-OSS 120B on GroK, plus maybe some skill for design because GPT-OSS sucks for UI and it cannot match Kimi."
+    },
+    {
+      "end" : 31.364,
+      "start" : 23.828,
+      "text" : "or maybe some alternative would be to use the library OpenUI."
+    },
+    {
+      "end" : 35.732,
+      "start" : 32.468,
+      "text" : "But how should I use it efficiently"
+    },
+    {
+      "end" : 42.092,
+      "start" : 35.732,
+      "text" : "to be able to generate a website very fast"
+    },
+    {
+      "end" : 45.516,
+      "start" : 42.092,
+      "text" : "with your template model and the renderer?"
+    },
+    {
+      "end" : 49.944,
+      "start" : 46.3,
+      "text" : "But, I mean, I can already do this and it's quite fast,"
+    },
+    {
+      "end" : 52.704,
+      "start" : 50.004,
+      "text" : "but I don't know how to customize this"
+    },
+    {
+      "end" : 52.956562,
+      "start" : 52.704,
+      "text" : "and have a method to build my components or my libraries."
+    },
+    {
+      "end" : 52.956562,
+      "start" : 52.956562,
+      "text" : "So study those two aspects."
+    }
+  ],
+  "result" : "Find me the best way to replace GroK Kimi K2 model by GPT-OSS 120B on GroK, plus maybe some skill for design because GPT-OSS sucks for UI and it cannot match Kimi. or maybe some alternative would be to use the library OpenUI. But how should I use it efficiently to be able to generate a website very fast with your template model and the renderer? But, I mean, I can already do this and it's quite fast, but I don't know how to customize this and have a method to build my components or my libraries. So study those two aspects.",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "appVersion" : "2.13.0",
+  "separateSpeakersEnabled" : false,
+  "prompt" : ""
+}

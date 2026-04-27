@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "datetime" : "2026-04-11T05:54:22",
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " For both phone numbers, could you provide an additional WhatsApp button that would open those conversations with the WA.ME link?",
+  "duration" : 23384,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 20.98,
+      "text" : "For both phone numbers, could you provide an additional WhatsApp button that would open those conversations with the WA.ME link?",
+      "start" : 0
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "processingTime" : 806,
+  "languageModelKey" : "",
+  "result" : "For both phone numbers, could you provide an additional WhatsApp button that would open those conversations with the WA.ME link?",
+  "modelName" : "Ultra (Cloud)"
+}

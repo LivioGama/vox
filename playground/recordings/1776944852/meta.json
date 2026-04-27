@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-23T11:47:32",
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 761,
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    }
+  },
+  "separateSpeakersEnabled" : false,
+  "result" : "No, it's not true. Fuck you.",
+  "rawResult" : " No, it's not true. Fuck you.",
+  "duration" : 2586,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "No, it's not true. Fuck you.",
+      "end" : 2.16,
+      "start" : 0
+    }
+  ]
+}

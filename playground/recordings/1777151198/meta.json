@@ -1,0 +1,65 @@
+{
+  "translationEnabled" : false,
+  "datetime" : "2026-04-25T21:06:38",
+  "duration" : 20167,
+  "realtimeEnabled" : false,
+  "processingTime" : 1185,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "end" : 5.7,
+      "text" : "In the agentic world, the tool for developers, most of the time the message piles up is called steering.",
+      "start" : 0.256
+    },
+    {
+      "end" : 12.152,
+      "text" : "Do you know if there are some models that are able to take a message that were sent",
+      "start" : 6.06
+    },
+    {
+      "end" : 19.36,
+      "text" : "to analyze if it's worth to pile or to queue automatically? Or maybe even to merge around the house of all?",
+      "start" : 12.152
+    }
+  ],
+  "rawResult" : " In the agentic world, the tool for developers, most of the time the message piles up is called steering. Do you know if there are some models that are able to take a message that were sent to analyze if it's worth to pile or to queue automatically? Or maybe even to merge around the house of all?",
+  "result" : "In the agentic world, the tool for developers, most of the time the message piles up is called steering. Do you know if there are some models that are able to take a message that were sent to analyze if it's worth to pile or to queue automatically? Or maybe even to merge around the house of all?",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "appVersion" : "2.13.0"
+}

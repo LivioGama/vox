@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "duration" : 5589,
+  "datetime" : "2026-04-22T00:03:58",
+  "result" : "So why didn't you find this tache earlier when I asked? I just gave you the name.",
+  "realtimeEnabled" : false,
+  "processingTime" : 780,
+  "rawResult" : " So why didn't you find this tache earlier when I asked? I just gave you the name.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "So why didn't you find this tache earlier when I asked? I just gave you the name.",
+      "end" : 5.08
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

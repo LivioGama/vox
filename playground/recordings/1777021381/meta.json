@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "duration" : 4040,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.12.1",
+  "processingTime" : 637,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "datetime" : "2026-04-24T09:03:01",
+  "translationEnabled" : false,
+  "result" : "Change also in the preset, I still see 406 when I launch.",
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "rawResult" : " Change also in the preset, I still see 406 when I launch.",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 3.58,
+      "text" : "Change also in the preset, I still see 406 when I launch."
+    }
+  ],
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "speakers" : [
+
+  ],
+  "recordingDevice" : ""
+}

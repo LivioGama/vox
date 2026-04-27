@@ -1,0 +1,1 @@
+Also, I noticed that time last shield fast. is not time last deployment, so can you fix both issues? You same this deploy CLI and I already set the persistent token, so you can use this CLI directly.

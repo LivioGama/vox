@@ -1,0 +1,7 @@
+{
+  "recording_id": "1775026675",
+  "text": " Two problems. First of all, the added blocks start to scroll or virally disappear when we reach the start of the screen, instead of scrolling slowly and normally, like MKII. And I think that the UnchainedBlocks logic is actually screwing the scroll, so you should also copy this logic from MKII.",
+  "segments": null,
+  "language": null,
+  "duration": null
+}

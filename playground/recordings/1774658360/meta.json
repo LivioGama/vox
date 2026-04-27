@@ -1,0 +1,60 @@
+{
+  "duration" : 22721,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I'm trying to measure how exceptional my work is because I can take any prompt, not use any prefabricated template only LLM and orchestration and generate a full website with the frontend and the backend. In 45 seconds max, done!",
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1010,
+  "languageModelName" : "",
+  "rawResult" : " I'm trying to measure how exceptional my work is because I can take any prompt, not use any prefabricated template only LLM and orchestration and generate a full website with the frontend and the backend. In 45 seconds max, done!",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T00:39:20",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "I'm trying to measure how exceptional my work is because I can take any prompt, not use any prefabricated template only LLM and orchestration",
+      "end" : 12.08,
+      "start" : 0
+    },
+    {
+      "text" : "and generate a full website with the frontend and the backend. In 45 seconds max, done!",
+      "end" : 21.8,
+      "start" : 12.08
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

@@ -1,0 +1,1 @@
+Also avoid that Iris can be launched two times and kill the old instances.

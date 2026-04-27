@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "cmux",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "result" : "No, but the expiration is not happening on the FreeVPS. It's only on the MAC local.",
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " No, but the expiration is not happening on the FreeVPS. It's only on the MAC local.",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.1",
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "recordingDevice" : "",
+  "datetime" : "2026-04-23T11:26:37",
+  "duration" : 7438,
+  "segments" : [
+    {
+      "end" : 7.06,
+      "text" : "No, but the expiration is not happening on the FreeVPS. It's only on the MAC local.",
+      "start" : 0
+    }
+  ],
+  "processingTime" : 747,
+  "modeName" : "Default"
+}

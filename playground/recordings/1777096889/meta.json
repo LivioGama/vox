@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "datetime" : "2026-04-25T06:01:29",
+  "result" : "Alright, your goal is to use Browser Agent. Don't use the Headless Mode and you have to test in front of me the feature to e-commerceify and to end.",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " Alright, your goal is to use Browser Agent. Don't use the Headless Mode and you have to test in front of me the feature to e-commerceify and to end.",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "segments" : [
+    {
+      "end" : 16.84,
+      "start" : 0,
+      "text" : "Alright, your goal is to use Browser Agent. Don't use the Headless Mode and you have to test in front of me the feature to e-commerceify and to end."
+    }
+  ],
+  "processingTime" : 962,
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "",
+  "prompt" : "",
+  "duration" : 17538,
+  "languageSelected" : "en"
+}

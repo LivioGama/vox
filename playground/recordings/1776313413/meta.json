@@ -1,0 +1,65 @@
+{
+  "applicationContextEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "systemAudioEnabled" : false,
+  "duration" : 267,
+  "processingTime" : 2639,
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " . . .",
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-16T04:23:33",
+  "appVersion" : "2.12.0",
+  "segments" : [
+    {
+      "text" : ".",
+      "start" : 0,
+      "end" : 0.1
+    },
+    {
+      "text" : ".",
+      "start" : 0.1,
+      "end" : 0.12
+    },
+    {
+      "text" : ".",
+      "start" : 0.12,
+      "end" : 0.24
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "result" : ". . .",
+  "translationEnabled" : false
+}

@@ -1,0 +1,1 @@
+Two problems. First of all, time added blocks start to scroll or virally disappear when we reach the start of the screen, instead of scrolling slowly and normally, like MKII. And I think that time UnchainedBlocks logic is actually, screwing time scroll, so you should also copy this logic from MKII.

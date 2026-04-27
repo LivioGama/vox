@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "processingTime" : 832,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "UTM"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "At the end, provide me convenient command line CD and link in order to create the pod request for each work tree.",
+      "start" : 0,
+      "end" : 16.34
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-16T08:26:06",
+  "languageModelName" : "",
+  "result" : "At the end, provide me convenient command line CD and link in order to create the pod request for each work tree.",
+  "appVersion" : "2.12.0",
+  "languageModelKey" : "",
+  "duration" : 18051,
+  "rawResult" : " At the end, provide me convenient command line CD and link in order to create the pod request for each work tree.",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

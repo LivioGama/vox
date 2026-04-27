@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-02T13:53:52",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " This skill is actually oriented in order to migrate from agent SDK to ACP. Could you actually also adapt it in the way to handle people in Go using Cloud CLI to go to ACP equivalent in Go and also adapt it for Python?",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1190,
+  "recordingDevice" : "",
+  "result" : "This skill is actually oriented in order to migrate from agent SDK to ACP. Could you actually also adapt it in the way to handle people in Go using Cloud CLI to go to ACP equivalent in Go and also adapt it for Python?",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 28.62,
+      "text" : "This skill is actually oriented in order to migrate from agent SDK to ACP. Could you actually also adapt it in the way to handle people in Go using Cloud CLI to go to ACP equivalent in Go and also adapt it for Python?"
+    }
+  ],
+  "duration" : 29166,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Terminal"
+    },
+    "userContext" : {
+
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

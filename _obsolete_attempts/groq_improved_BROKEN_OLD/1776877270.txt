@@ -1,0 +1,1 @@
+Are you sure you cannot replace Qdrant with a Rust thing? Look on the GitHub, something modern.

@@ -1,0 +1,65 @@
+{
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "datetime" : "2026-04-11T06:04:36",
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " So, okay, so finally I got some changes on the video. The problem is that now it's completely upside down like it was rotated by... 180 videos. So you were on the right track, it just said the angle is not correct. you either need 90 degrees more or 90 degrees less I mean 180",
+  "duration" : 38998,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "So, okay, so finally I got some changes on the video. The problem is that now it's completely upside down like it was rotated by...",
+      "start" : 0,
+      "end" : 12.74
+    },
+    {
+      "text" : "180 videos. So you were on the right track, it just said the angle is not correct.",
+      "start" : 21.72,
+      "end" : 28.4
+    },
+    {
+      "text" : "you either need 90 degrees more or 90 degrees less I mean 180",
+      "start" : 28.4,
+      "end" : 36.58
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "processingTime" : 1388,
+  "languageModelKey" : "",
+  "result" : "So, okay, so finally I got some changes on the video. The problem is that now it's completely upside down like it was rotated by... 180 videos. So you were on the right track, it just said the angle is not correct. you either need 90 degrees more or 90 degrees less I mean 180",
+  "modelName" : "Ultra (Cloud)"
+}

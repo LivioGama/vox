@@ -1,0 +1,55 @@
+{
+  "processingTime" : 982,
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "result" : "Alright, so now go to the new design 5.5 and actually rebase that branch on 3 and then run it to show it to me in the browser.",
+  "duration" : 19077,
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T07:32:50",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "rawResult" : " Alright, so now go to the new design 5.5 and actually rebase that branch on 3 and then run it to show it to me in the browser.",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 18.68,
+      "text" : "Alright, so now go to the new design 5.5 and actually rebase that branch on 3 and then run it to show it to me in the browser."
+    }
+  ],
+  "languageModelKey" : "",
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en"
+}

@@ -1,0 +1,75 @@
+{
+  "rawResult" : " But actually, I just want to go back to the commit where we had Next.js working and all the optimization done to clean the script but also using a very simple way and original to run the project still with GPT OSS 120B that will be as fast as before. now we are at seven minutes and I can't figure out from where it comes so I think the correct way for you would be to use an agent browser to test the platform when you actually switch to a branch in order to make sure to retrieve to find the correct commit where everything we're still working with under the minutes or under 70 seconds.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "duration" : 70227,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 2865,
+  "datetime" : "2026-04-27T04:30:14",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Warp",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "result" : "But actually, I just want to go back to the commit where we had Next.js working and all the optimization done to clean the script but also using a very simple way and original to run the project still with GPT OSS 120B that will be as fast as before. now we are at seven minutes and I can't figure out from where it comes so I think the correct way for you would be to use an agent browser to test the platform when you actually switch to a branch in order to make sure to retrieve to find the correct commit where everything we're still working with under the minutes or under 70 seconds.",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "But actually, I just want to go back to the commit where we had Next.js working and all the optimization done to clean the script but also using a very simple way and original to run the project still with GPT OSS 120B that will be as fast as before.",
+      "start" : 0.576,
+      "end" : 37.104
+    },
+    {
+      "text" : "now we are at seven minutes and I can't figure out from where it comes so I think the correct way",
+      "start" : 37.104,
+      "end" : 50.096
+    },
+    {
+      "text" : "for you would be to use an agent browser to test the platform when you actually switch",
+      "start" : 50.096,
+      "end" : 66.496
+    },
+    {
+      "text" : "to a branch in order to make sure to retrieve to find the correct commit where everything",
+      "start" : 67.216,
+      "end" : 70.22756
+    },
+    {
+      "text" : "we're still working with under the minutes or under 70 seconds.",
+      "start" : 70.22756,
+      "end" : 70.22756
+    }
+  ]
+}

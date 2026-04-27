@@ -1,0 +1,1 @@
+Ok, so now I often have to run boonex-copilot-api-start. I kind of want to have this as a service on my Dokploy-VPS that you have a CLI that you can configure it with. So can you help me with that? I would like also to have a public HTTPS URL allowing me to exploit it.

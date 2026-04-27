@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " The problem is not necessarily rejection, it's just that I have an infinite loop of thank you alert.",
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 872,
+  "modeName" : "Default",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "translationEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build"
+    },
+    "userContext" : {
+
+    }
+  },
+  "languageModelKey" : "",
+  "duration" : 6380,
+  "segments" : [
+    {
+      "start" : 0.224,
+      "end" : 5.792,
+      "text" : "The problem is not necessarily rejection, it's just that I have an infinite loop of thank you alert."
+    }
+  ],
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "appVersion" : "2.13.0",
+  "datetime" : "2026-04-25T20:47:27",
+  "result" : "The problem is not necessarily rejection, it's just that I have an infinite loop of thank you alert.",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false
+}

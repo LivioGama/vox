@@ -1,0 +1,70 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Wait, I really want you to go until the end. I cannot do this anymore. What you have to do is cut the software and then you need to make sure it works. And for this you are going to go to the HDMI screen, start the process and you will actually try to screenshot an area and see if that match. And you loop over until you are something that were 100% sure and then you tell me that I have to check.",
+  "applicationContextEnabled" : false,
+  "processingTime" : 1213,
+  "languageModelName" : "",
+  "datetime" : "2026-04-24T22:49:11",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "duration" : 26558,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "end" : 4.26,
+      "start" : 0.82,
+      "text" : "Wait, I really want you to go until the end. I cannot do this anymore."
+    },
+    {
+      "end" : 8.68,
+      "start" : 4.68,
+      "text" : "What you have to do is cut the software and then you need to make sure it works."
+    },
+    {
+      "end" : 18,
+      "start" : 9.16,
+      "text" : "And for this you are going to go to the HDMI screen, start the process and you will actually try to screenshot an area and see if that match."
+    },
+    {
+      "end" : 26.42,
+      "start" : 18.64,
+      "text" : "And you loop over until you are something that were 100% sure and then you tell me that I have to check."
+    }
+  ],
+  "result" : "Wait, I really want you to go until the end. I cannot do this anymore. What you have to do is cut the software and then you need to make sure it works. And for this you are going to go to the HDMI screen, start the process and you will actually try to screenshot an area and see if that match. And you loop over until you are something that were 100% sure and then you tell me that I have to check.",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "appVersion" : "2.13.0",
+  "recordingDevice" : "",
+  "separateSpeakersEnabled" : false,
+  "prompt" : ""
+}

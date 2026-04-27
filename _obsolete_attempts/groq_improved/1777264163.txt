@@ -1,0 +1,1 @@
+I'm really lost because my project used to generate a website in less than 45 seconds. It was working when we still had a KimiK2 model with Groq. The problem is that Groq has been discontinued, so we replaced it with GPT-OSS 120B. But then we started to do a few changes like moving to Next.js, but also introducing a RALF loop and also using OpenUI.

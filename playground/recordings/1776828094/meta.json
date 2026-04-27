@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 5568,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 786,
+  "rawResult" : " Be aggressive in the change and do it fast with at least 10 parallel sub-agents.",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 5.3,
+      "text" : "Be aggressive in the change and do it fast with at least 10 parallel sub-agents."
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T03:21:34",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "Be aggressive in the change and do it fast with at least 10 parallel sub-agents."
+}

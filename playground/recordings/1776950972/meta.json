@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "segments" : [
+    {
+      "text" : "I'm going to clean up the ROVO MCP that does not exist and add the SEM3-1.",
+      "start" : 0,
+      "end" : 6.1
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "result" : "I'm going to clean up the ROVO MCP that does not exist and add the SEM3-1.",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    }
+  },
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 903,
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "datetime" : "2026-04-23T13:29:32",
+  "duration" : 6647,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " I'm going to clean up the ROVO MCP that does not exist and add the SEM3-1."
+}

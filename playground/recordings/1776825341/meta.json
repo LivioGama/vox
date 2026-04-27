@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "duration" : 5204,
+  "datetime" : "2026-04-22T02:35:41",
+  "appVersion" : "2.12.1",
+  "result" : "Find on the internet a solution and remove that crap.",
+  "realtimeEnabled" : false,
+  "processingTime" : 805,
+  "rawResult" : " Find on the internet a solution and remove that crap.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Find on the internet a solution and remove that crap.",
+      "end" : 4.86,
+      "start" : 1.62
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

@@ -1,0 +1,55 @@
+{
+  "duration" : 14118,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Finewary is installed in Poolify and save the session generated in another folder outside.",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 978,
+  "languageModelName" : "",
+  "rawResult" : " Finewary is installed in Poolify and save the session generated in another folder outside.",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T03:16:28",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Finewary is installed in Poolify and save the session generated in another folder outside.",
+      "end" : 13.1,
+      "start" : 0
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

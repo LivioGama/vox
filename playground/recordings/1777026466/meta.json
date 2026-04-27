@@ -1,0 +1,75 @@
+{
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "result" : "Not to retrieve a maximum of effort that were done on the other branch to pull part it to develop, if that makes sense. And then actually what I actually need to do is to work on the Open UI to improve the library of components and get really high quality design like I used to when Kimi K2 was a model that was not deprecated and that I had to remove.",
+  "datetime" : "2026-04-24T10:27:46",
+  "appVersion" : "2.12.1",
+  "prompt" : "",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "rawResult" : " Not to retrieve a maximum of effort that were done on the other branch to pull part it to develop, if that makes sense. And then actually what I actually need to do is to work on the Open UI to improve the library of components and get really high quality design like I used to when Kimi K2 was a model that was not deprecated and that I had to remove.",
+  "duration" : 34640,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 13.76,
+      "text" : "Not to retrieve a maximum of effort that were done on the other branch to pull part it to develop, if that makes sense."
+    },
+    {
+      "start" : 14.36,
+      "end" : 19.94,
+      "text" : "And then actually what I actually need to do is to work on the Open UI"
+    },
+    {
+      "start" : 19.94,
+      "end" : 28.12,
+      "text" : "to improve the library of components and get really high quality design"
+    },
+    {
+      "start" : 28.12,
+      "end" : 33.08,
+      "text" : "like I used to when Kimi K2 was a model that was not deprecated"
+    },
+    {
+      "start" : 33.08,
+      "end" : 33.94,
+      "text" : "and that I had to remove."
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "processingTime" : 1527
+}

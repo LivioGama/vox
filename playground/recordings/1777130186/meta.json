@@ -1,0 +1,55 @@
+{
+  "languageModelName" : "",
+  "appVersion" : "2.13.0",
+  "literalPunctuationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "processingTime" : 1065,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "datetime" : "2026-04-25T15:16:26",
+  "rawResult" : " Use AgentBrowser, not endless in order to test a prompt and see if it gets through after each time that you do something until it works.",
+  "result" : "Use AgentBrowser, not endless in order to test a prompt and see if it gets through after each time that you do something until it works.",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Claude",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "segments" : [
+    {
+      "text" : "Use AgentBrowser, not endless in order to test a prompt and see if it gets through after each time that you do something until it works.",
+      "end" : 10.816,
+      "start" : 1.184
+    }
+  ],
+  "duration" : 11756,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2"
+}

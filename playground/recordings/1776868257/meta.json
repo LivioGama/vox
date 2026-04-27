@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "duration" : 8240,
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-22T14:30:57",
+  "result" : "Why does the generation suck so much? I thought we took the prompt engineering from the develop branch.",
+  "realtimeEnabled" : false,
+  "processingTime" : 597,
+  "rawResult" : " Why does the generation suck so much? I thought we took the prompt engineering from the develop branch.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 7.18,
+      "text" : "Why does the generation suck so much? I thought we took the prompt engineering from the develop branch."
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

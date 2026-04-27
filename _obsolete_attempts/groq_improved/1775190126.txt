@@ -1,0 +1,1 @@
+Implemented with Coolify CLI to deploy this service following those indications.

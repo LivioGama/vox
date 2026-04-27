@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "prompt" : "",
+  "appVersion" : "2.12.1",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 10.32,
+      "text" : "Is there an MCP or a tool that will allow Claude Code to attach to the embedded terminal in CMAX?"
+    }
+  ],
+  "rawResult" : " Is there an MCP or a tool that will allow Claude Code to attach to the embedded terminal in CMAX?",
+  "languageModelKey" : "",
+  "duration" : 10505,
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "result" : "Is there an MCP or a tool that will allow Claude Code to attach to the embedded terminal in CMAX?",
+  "datetime" : "2026-04-24T14:49:55",
+  "languageModelName" : "",
+  "processingTime" : 1024
+}

@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "processingTime" : 946,
+  "modelName" : "Ultra (Cloud)",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " SSH into the Debian 12 Claudia and make a rough check to see if it's fully equipped the same way I equip the rest, for example SSH NetCup.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "SSH into the Debian 12 Claudia and make a rough check to see if it's fully equipped the same way I equip the rest, for example SSH NetCup.",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 13.028063,
+      "start" : 0.576,
+      "text" : "SSH into the Debian 12 Claudia and make a rough check to see if it's fully equipped the same way I equip the rest, for example SSH NetCup."
+    }
+  ],
+  "appVersion" : "2.13.0",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-25T21:28:33",
+  "duration" : 13028,
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false
+}

@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "result" : "And run the task till the end in order to make sure you can use the agent browser CLI and the skill related to Electron.",
+  "datetime" : "2026-04-24T03:31:14",
+  "appVersion" : "2.12.1",
+  "prompt" : "",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "rawResult" : " And run the task till the end in order to make sure you can use the agent browser CLI and the skill related to Electron.",
+  "duration" : 8507,
+  "segments" : [
+    {
+      "end" : 7.42,
+      "text" : "And run the task till the end in order to make sure you can use the agent browser CLI and the skill related to Electron.",
+      "start" : 0
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "processingTime" : 785
+}

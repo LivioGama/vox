@@ -1,0 +1,65 @@
+{
+  "segments" : [
+    {
+      "end" : 12.76,
+      "text" : "Look bro, I'm really desperate. I need to buy a DGX Spark or RTX 5090 but I'm super pro, I lost my job two months ago.",
+      "start" : 0
+    },
+    {
+      "end" : 20.62,
+      "text" : "I'm desperate and I can't find a job but I am really resourceful and I am able to create anything, any business and so on.",
+      "start" : 12.98
+    },
+    {
+      "end" : 26.6,
+      "text" : "So give me a plan so I can make it in less than 2 weeks.",
+      "start" : 21.24
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "duration" : 27263,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Look bro, I'm really desperate. I need to buy a DGX Spark or RTX 5090 but I'm super pro, I lost my job two months ago. I'm desperate and I can't find a job but I am really resourceful and I am able to create anything, any business and so on. So give me a plan so I can make it in less than 2 weeks.",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 787,
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "rawResult" : " Look bro, I'm really desperate. I need to buy a DGX Spark or RTX 5090 but I'm super pro, I lost my job two months ago. I'm desperate and I can't find a job but I am really resourceful and I am able to create anything, any business and so on. So give me a plan so I can make it in less than 2 weeks.",
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Comet",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-24T19:10:41",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

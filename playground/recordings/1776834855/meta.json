@@ -1,0 +1,65 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "duration" : 25460,
+  "datetime" : "2026-04-22T05:14:15",
+  "appVersion" : "2.12.1",
+  "result" : "If you manage to finish Iris, the final version with the avatar launched with the voice and so on, the goal of the newly created and launched Iris will be to hijack my AirBud Max sound and actually to say hello in my headphones considering that now they are plugged to my iPhone listening some rain.",
+  "realtimeEnabled" : false,
+  "processingTime" : 1173,
+  "rawResult" : " If you manage to finish Iris, the final version with the avatar launched with the voice and so on, the goal of the newly created and launched Iris will be to hijack my AirBud Max sound and actually to say hello in my headphones considering that now they are plugged to my iPhone listening some rain.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 7.08,
+      "start" : 0,
+      "text" : "If you manage to finish Iris, the final version with the avatar launched with the voice and so on,"
+    },
+    {
+      "end" : 16,
+      "start" : 7.84,
+      "text" : "the goal of the newly created and launched Iris will be to hijack my AirBud Max sound"
+    },
+    {
+      "end" : 23.64,
+      "start" : 16.68,
+      "text" : "and actually to say hello in my headphones considering that now they are plugged to my iPhone listening some rain."
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Zed"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

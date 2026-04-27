@@ -1,0 +1,80 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "No, I want it to be on the client side because I don't want...",
+      "end" : 4.48
+    },
+    {
+      "start" : 14.82,
+      "text" : "I don't want everyone from the same region to be blocked. You can really just make a local storage count.",
+      "end" : 21.96
+    },
+    {
+      "start" : 22.9,
+      "text" : "I don't make it obvious but LocustorHcount to show, to see how much time they submit the form for the situation",
+      "end" : 34.24
+    },
+    {
+      "start" : 36.96,
+      "text" : "For the blind spot and the dominant",
+      "end" : 40.52
+    },
+    {
+      "start" : 40.52,
+      "text" : "and then if that reach 15 you don't indicate any message, you just block it",
+      "end" : 45.94
+    },
+    {
+      "start" : 46.52,
+      "text" : "and show a generic error that people will not guess.",
+      "end" : 52.24
+    }
+  ],
+  "recordingDevice" : "",
+  "duration" : 53138,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.0",
+  "processingTime" : 1828,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-14T11:16:57",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Cursor"
+    }
+  },
+  "rawResult" : " No, I want it to be on the client side because I don't want... I don't want everyone from the same region to be blocked. You can really just make a local storage count. I don't make it obvious but LocustorHcount to show, to see how much time they submit the form for the situation For the blind spot and the dominant and then if that reach 15 you don't indicate any message, you just block it and show a generic error that people will not guess.",
+  "result" : "No, I want it to be on the client side because I don't want... I don't want everyone from the same region to be blocked. You can really just make a local storage count. I don't make it obvious but LocustorHcount to show, to see how much time they submit the form for the situation For the blind spot and the dominant and then if that reach 15 you don't indicate any message, you just block it and show a generic error that people will not guess.",
+  "realtimeEnabled" : false,
+  "languageModelName" : ""
+}

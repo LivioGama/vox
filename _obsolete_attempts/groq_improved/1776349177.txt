@@ -1,0 +1,1 @@
+So now ShipFast is an Next.js project, you confirm. If yes, can you actually launch it? The Glass Next folder is to be deleted.

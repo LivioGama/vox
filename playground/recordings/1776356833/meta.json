@@ -1,0 +1,80 @@
+{
+  "segments" : [
+    {
+      "text" : "The current problem is right now I have the feeling that I need to go feature by feature in order to improve Iris, but I don't want to have to do anything.",
+      "start" : 0,
+      "end" : 7.76
+    },
+    {
+      "text" : "I want to reach a stage where Iris maintains Iris and then Iris will be able to work on my project and she will be able to learn new stuff,",
+      "start" : 7.78,
+      "end" : 20.92
+    },
+    {
+      "text" : "to actually discover the web and search for new topic for self-improvement when",
+      "start" : 20.92,
+      "end" : 28.1
+    },
+    {
+      "text" : "she's not busy with me, with a notion of time passing and so on. So yeah, to find",
+      "start" : 28.1,
+      "end" : 36.7
+    },
+    {
+      "text" : "a way to give me the perfect prompt to launch with a plugin and it's a perfect",
+      "start" : 36.7,
+      "end" : 41.48
+    },
+    {
+      "text" : "goal so I can run this now.",
+      "start" : 41.48,
+      "end" : 43.52
+    }
+  ],
+  "processingTime" : 1582,
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.12.0",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "rawResult" : " The current problem is right now I have the feeling that I need to go feature by feature in order to improve Iris, but I don't want to have to do anything. I want to reach a stage where Iris maintains Iris and then Iris will be able to work on my project and she will be able to learn new stuff, to actually discover the web and search for new topic for self-improvement when she's not busy with me, with a notion of time passing and so on. So yeah, to find a way to give me the perfect prompt to launch with a plugin and it's a perfect goal so I can run this now.",
+  "separateSpeakersEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "datetime" : "2026-04-16T16:27:13",
+  "result" : "The current problem is right now I have the feeling that I need to go feature by feature in order to improve Iris, but I don't want to have to do anything. I want to reach a stage where Iris maintains Iris and then Iris will be able to work on my project and she will be able to learn new stuff, to actually discover the web and search for new topic for self-improvement when she's not busy with me, with a notion of time passing and so on. So yeah, to find a way to give me the perfect prompt to launch with a plugin and it's a perfect goal so I can run this now.",
+  "duration" : 44182,
+  "modelName" : "Ultra (Cloud)"
+}

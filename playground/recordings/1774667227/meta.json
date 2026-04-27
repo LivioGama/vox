@@ -1,0 +1,60 @@
+{
+  "duration" : 22112,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "If the machine is turned off, the sandbox are turned off and I throw a prompt that they should auto turn in. Also configure 15 minutes delay timeout to avoid the incidents where I wasted $150 while they were running for 3 days for nothing.",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Warp",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1081,
+  "languageModelName" : "",
+  "rawResult" : " If the machine is turned off, the sandbox are turned off and I throw a prompt that they should auto turn in. Also configure 15 minutes delay timeout to avoid the incidents where I wasted $150 while they were running for 3 days for nothing.",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T03:07:07",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 7.88,
+      "text" : "If the machine is turned off, the sandbox are turned off and I throw a prompt that they should auto turn in.",
+      "start" : 0
+    },
+    {
+      "end" : 21.02,
+      "text" : "Also configure 15 minutes delay timeout to avoid the incidents where I wasted $150 while they were running for 3 days for nothing.",
+      "start" : 8.32
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

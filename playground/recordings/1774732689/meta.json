@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Try to install Stripe CLI or MCP and then we will create in Playground a script allowing to create the product and the subscription that we want.",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 12279,
+  "processingTime" : 726,
+  "datetime" : "2026-03-28T21:18:09",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "result" : "Try to install Stripe CLI or MCP and then we will create in Playground a script allowing to create the product and the subscription that we want.",
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Try to install Stripe CLI or MCP and then we will create in Playground a script allowing to create the product and the subscription that we want.",
+      "end" : 11.36,
+      "start" : 0.98
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false
+}

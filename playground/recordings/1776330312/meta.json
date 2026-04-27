@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Can you create different profiles for me? I want one for Github Copilot, one for Juni and one for Olama.",
+  "speakers" : [
+
+  ],
+  "processingTime" : 1138,
+  "translationEnabled" : false,
+  "duration" : 15261,
+  "literalPunctuationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "datetime" : "2026-04-16T09:05:12",
+  "recordingDevice" : "",
+  "result" : "Can you create different profiles for me? I want one for Github Copilot, one for Juni and one for Olama.",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "realtimeEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Can you create different profiles for me? I want one for Github Copilot, one for Juni and one for Olama.",
+      "start" : 0,
+      "end" : 13.86
+    }
+  ],
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "appVersion" : "2.12.0",
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "modeName" : "Default"
+}

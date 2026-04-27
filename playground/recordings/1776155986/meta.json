@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Why did you do this? I meant for you to launch a project, not to do modification. Rollback and launch a project, do the .r and etc. etc.",
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Why did you do this? I meant for you to launch a project, not to do modification. Rollback and launch a project, do the .r and etc. etc.",
+  "appVersion" : "2.12.0",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Zed"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Why did you do this? I meant for you to launch a project, not to do modification. Rollback and launch a project, do the .r and etc. etc.",
+      "end" : 9.06
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-14T08:39:46",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "duration" : 9469,
+  "separateSpeakersEnabled" : false,
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "processingTime" : 772
+}

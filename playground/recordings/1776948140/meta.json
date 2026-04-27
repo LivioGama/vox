@@ -1,0 +1,60 @@
+{
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "datetime" : "2026-04-23T12:42:20",
+  "appVersion" : "2.12.1",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 1961,
+  "rawResult" : " Yeah, but that's not the same credential and what you see in the telemetry is the LOIC accounts is not supposed to be there. It's the one that is replaced.",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    }
+  },
+  "result" : "Yeah, but that's not the same credential and what you see in the telemetry is the LOIC accounts is not supposed to be there. It's the one that is replaced.",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Yeah, but that's not the same credential and what you see in the telemetry is the LOIC accounts",
+      "end" : 4.1
+    },
+    {
+      "start" : 4.1,
+      "text" : "is not supposed to be there. It's the one that is replaced.",
+      "end" : 7.48
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 8122,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "speakers" : [
+
+  ]
+}

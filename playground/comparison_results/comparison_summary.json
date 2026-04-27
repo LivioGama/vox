@@ -1,0 +1,60 @@
+{
+  "total_recordings": 5,
+  "valid_comparisons": 5,
+  "meta_only": 0,
+  "groq_only": 0,
+  "avg_wer": 0.07058823529411765,
+  "avg_cer": 0.047524752475247525,
+  "avg_word_diff": -0.6,
+  "wer_distribution": {
+    "excellent (0-0.1)": 4,
+    "good (0.1-0.2)": 0,
+    "fair (0.2-0.3)": 0,
+    "poor (0.3-0.5)": 1,
+    "very poor (>0.5)": 0
+  },
+  "most_common_additions": [
+    [
+      "click?",
+      1
+    ],
+    [
+      "not",
+      1
+    ],
+    [
+      "be",
+      1
+    ],
+    [
+      "displayed.",
+      1
+    ],
+    [
+      "for",
+      1
+    ],
+    [
+      "example",
+      1
+    ]
+  ],
+  "most_common_removals": [
+    [
+      "click,",
+      1
+    ],
+    [
+      "un-display",
+      1
+    ],
+    [
+      "the",
+      1
+    ]
+  ],
+  "improvement_suggestions": [
+    "Common hallucinated words detected: click?, not, be, displayed., for - consider adding to stop words list",
+    "Commonly missed words: click,, un-display, the - may indicate audio quality issues for these phonemes"
+  ]
+}

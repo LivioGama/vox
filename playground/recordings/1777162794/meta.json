@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "modeName" : "Default",
+  "result" : "Make SWE 1.6 Fast, Rock and Claude Code by AnyMe.",
+  "speakers" : [
+
+  ],
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "processingTime" : 1021,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "duration" : 6059,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Warp"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "datetime" : "2026-04-26T00:19:54",
+  "segments" : [
+    {
+      "text" : "Make SWE 1.6 Fast, Rock and Claude Code by AnyMe.",
+      "end" : 6.0598125,
+      "start" : 0.192
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "rawResult" : " Make SWE 1.6 Fast, Rock and Claude Code by AnyMe."
+}

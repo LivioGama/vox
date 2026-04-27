@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "duration" : 8956,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "result" : "The read me is so misleading, I'm actually losing credibility. For example...",
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "The read me is so misleading, I'm actually losing credibility. For example...",
+      "end" : 7.58
+    }
+  ],
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-04T06:51:27",
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "rawResult" : " The read me is so misleading, I'm actually losing credibility. For example...",
+  "appVersion" : "2.11.0",
+  "speakers" : [
+
+  ],
+  "processingTime" : 894
+}

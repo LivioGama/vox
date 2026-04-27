@@ -1,0 +1,1 @@
+Now what I want to do is that when we launch a prompt and there is a screen with time animation of the text writing and so on, I want to integrate in the background by any method that will be able nice even if we are to use absolute. The kind of animation that we can find is a repo, but adapted with the right colors for Shift-Right.

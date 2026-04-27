@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-02T14:09:21",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " I still don't get why it's so long since the ACP has SAC streaming can you actually take advantage of that to see if it's working?",
+  "translationEnabled" : false,
+  "processingTime" : 965,
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "I still don't get why it's so long since the ACP has SAC streaming can you actually take advantage of that to see if it's working?",
+  "segments" : [
+    {
+      "text" : "I still don't get why it's so long since the ACP has SAC streaming can you actually take advantage of that to see if it's working?",
+      "start" : 0,
+      "end" : 10.64
+    }
+  ],
+  "duration" : 11093,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Terminal",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

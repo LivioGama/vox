@@ -1,0 +1,55 @@
+{
+  "modeName" : "Default",
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "text" : "Were you able to configure the hooks just like we can find them on some of myVPS that will auto-start the copilot API.",
+      "start" : 0.256,
+      "end" : 16.064
+    }
+  ],
+  "translationEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "duration" : 16597,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "appVersion" : "2.13.0",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 1125,
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "rawResult" : " Were you able to configure the hooks just like we can find them on some of myVPS that will auto-start the copilot API.",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-25T20:00:22",
+  "result" : "Were you able to configure the hooks just like we can find them on some of myVPS that will auto-start the copilot API.",
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ]
+}

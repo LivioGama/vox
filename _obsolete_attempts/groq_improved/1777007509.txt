@@ -1,0 +1,1 @@
+Can you create a new preset for my OpenCode Slim with the model Opus for reasoning and... no, Claude Sonnet 4.6 for reasoning. No, Claude Sonnet 4.5 for reasoning and everything that is implementing and supposed to be fast with a windsurf SWE 1.6 FAST.

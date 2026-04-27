@@ -1,0 +1,80 @@
+{
+  "processingTime" : 1472,
+  "segments" : [
+    {
+      "text" : "Please, very important, remember the settings that you currently have because it's okay for me.",
+      "end" : 8.68,
+      "start" : 1.32
+    },
+    {
+      "text" : "I probably will want to go back to what we currently have but I'm going to do some tests.",
+      "end" : 14.64,
+      "start" : 9.16
+    },
+    {
+      "text" : "Can you now please switch to font and a font setting on CMUX that is famous for being smooth?",
+      "end" : 27.96,
+      "start" : 15.04
+    },
+    {
+      "text" : "so I can just look.",
+      "end" : 29.9,
+      "start" : 27.96
+    },
+    {
+      "text" : "If I don't like it, be prepared to roll back immediately",
+      "end" : 33.26,
+      "start" : 30.56
+    },
+    {
+      "text" : "to what we currently have.",
+      "end" : 34.7,
+      "start" : 33.26
+    }
+  ],
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "rawResult" : " Please, very important, remember the settings that you currently have because it's okay for me. I probably will want to go back to what we currently have but I'm going to do some tests. Can you now please switch to font and a font setting on CMUX that is famous for being smooth? so I can just look. If I don't like it, be prepared to roll back immediately to what we currently have.",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-17T04:04:10",
+  "result" : "Please, very important, remember the settings that you currently have because it's okay for me. I probably will want to go back to what we currently have but I'm going to do some tests. Can you now please switch to font and a font setting on CMUX that is famous for being smooth? so I can just look. If I don't like it, be prepared to roll back immediately to what we currently have.",
+  "systemAudioEnabled" : false,
+  "recordingDevice" : "",
+  "duration" : 34980,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false
+}

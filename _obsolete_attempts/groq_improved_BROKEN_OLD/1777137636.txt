@@ -1,0 +1,1 @@
+Existe-t-il en fait un outil, un harnais en fait de développement qui est vraiment complètement orienté voix ? C'est-à-dire qu'en gros, je vais pouvoir discuter avec mon élève et je veux que j'entende parler pour ne pas que j'aie à interagir avec Super Whisper et que j'aie pas besoin de taper ou de lire.

@@ -1,0 +1,55 @@
+{
+  "recordingDevice" : "",
+  "segments" : [
+    {
+      "end" : 9.14,
+      "start" : 0,
+      "text" : "When I use Superwhisper and I press the toggle keyboard record, it actually changes the quality of the music until I release Y. And how can I fix it?"
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "duration" : 9160,
+  "languageModelKey" : "",
+  "separateSpeakersEnabled" : false,
+  "languageSelected" : "en",
+  "datetime" : "2026-04-24T22:45:08",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " When I use Superwhisper and I press the toggle keyboard record, it actually changes the quality of the music until I release Y. And how can I fix it?",
+  "processingTime" : 814,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "appVersion" : "2.13.0",
+  "result" : "When I use Superwhisper and I press the toggle keyboard record, it actually changes the quality of the music until I release Y. And how can I fix it?",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "modelName" : "Ultra (Cloud)"
+}

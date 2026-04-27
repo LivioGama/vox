@@ -1,0 +1,235 @@
+{
+  "processingTime" : 3692,
+  "result" : "I'm going to put SSH into the MacBook Clodia on the network. And then you will see it's a Debian version that I've just freshly installed. The user is Livio, the password is Lolo. You should copy there my FreeSSH key, you should also copy my OVPN file which is called Profile Backup, something like this. Check someone that I'm using according to the modified all-in tab. And then you should install OpenVPN on there. You should connect the VPN. You should also configure, check out the directory that is called UnixConfig from my GitHub. You should also configure the SSH Conf just like on my macOS because I have a specific port to access some machine. I'm talking about the Mac Mini, the Pro and so on. I also need you to copy my ZSH RC it will be restored through the Unix config so it's fine but you have to copy my ZSH history to have the list of command line I was using don't forget to start actually by installing on my ZSH because you won't be able to have ZSH on the right, it's really required to install a lot of slang but you need to do something really authentic until in the end and also I would encourage that You should also install Node, you should install BAN, you should install Copilot API which is a proxy that will allow to target the YouTube Copilot models locally. And you should configure also the... You should also install Cloud CLI and you should configure the Cloud setting global in order so they target the Copilot API. But do that after the check-in and the configuration of unit config because otherwise it will be overridden. Then when you reach that stage and that you have pretty much everything set up, I invite you to try to check out the repository that is called Server Apps. If you don't know where it is, you can check easily by SSHing into the FNC62VPS and you will find it somewhere in one of the services.",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "realtimeEnabled" : false,
+  "appVersion" : "2.13.0",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " I'm going to put SSH into the MacBook Clodia on the network. And then you will see it's a Debian version that I've just freshly installed. The user is Livio, the password is Lolo. You should copy there my FreeSSH key, you should also copy my OVPN file which is called Profile Backup, something like this. Check someone that I'm using according to the modified all-in tab. And then you should install OpenVPN on there. You should connect the VPN. You should also configure, check out the directory that is called UnixConfig from my GitHub. You should also configure the SSH Conf just like on my macOS because I have a specific port to access some machine. I'm talking about the Mac Mini, the Pro and so on. I also need you to copy my ZSH RC it will be restored through the Unix config so it's fine but you have to copy my ZSH history to have the list of command line I was using don't forget to start actually by installing on my ZSH because you won't be able to have ZSH on the right, it's really required to install a lot of slang but you need to do something really authentic until in the end and also I would encourage that You should also install Node, you should install BAN, you should install Copilot API which is a proxy that will allow to target the YouTube Copilot models locally. And you should configure also the... You should also install Cloud CLI and you should configure the Cloud setting global in order so they target the Copilot API. But do that after the check-in and the configuration of unit config because otherwise it will be overridden. Then when you reach that stage and that you have pretty much everything set up, I invite you to try to check out the repository that is called Server Apps. If you don't know where it is, you can check easily by SSHing into the FNC62VPS and you will find it somewhere in one of the services.",
+  "prompt" : "",
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false,
+  "duration" : 159703,
+  "translationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0.64,
+      "text" : "I'm going to put SSH into the MacBook Clodia on the network.",
+      "end" : 8.136
+    },
+    {
+      "start" : 8.868,
+      "text" : "And then you will see it's a Debian version that I've just freshly installed.",
+      "end" : 16.068
+    },
+    {
+      "start" : 16.548,
+      "text" : "The user is Livio, the password is Lolo.",
+      "end" : 22.752
+    },
+    {
+      "start" : 23.112,
+      "text" : "You should copy there my FreeSSH key, you should also copy my OVPN file which is called Profile Backup, something like this.",
+      "end" : 36.332
+    },
+    {
+      "start" : 36.472,
+      "text" : "Check someone that I'm using according to the modified all-in tab.",
+      "end" : 41.004
+    },
+    {
+      "start" : 41.004,
+      "text" : "And then you should install OpenVPN on there.",
+      "end" : 48.24
+    },
+    {
+      "start" : 48.62,
+      "text" : "You should connect the VPN.",
+      "end" : 52.52
+    },
+    {
+      "start" : 52.88,
+      "text" : "You should also configure, check out the directory",
+      "end" : 56.988
+    },
+    {
+      "start" : 56.988,
+      "text" : "that is called UnixConfig from my GitHub.",
+      "end" : 60.6
+    },
+    {
+      "start" : 60.94,
+      "text" : "You should also configure the SSH Conf",
+      "end" : 65.38
+    },
+    {
+      "start" : 65.38,
+      "text" : "just like on my macOS",
+      "end" : 67.456
+    },
+    {
+      "start" : 67.456,
+      "text" : "because I have a specific port to access some machine.",
+      "end" : 71.956
+    },
+    {
+      "start" : 72.336,
+      "text" : "I'm talking about the Mac Mini, the Pro and so on.",
+      "end" : 74.796
+    },
+    {
+      "start" : 75.436,
+      "text" : "I also need you to copy my",
+      "end" : 77.176
+    },
+    {
+      "start" : 78.176,
+      "text" : "ZSH RC",
+      "end" : 79.036
+    },
+    {
+      "start" : 79.036,
+      "text" : "it will be restored through the",
+      "end" : 81.316
+    },
+    {
+      "start" : 81.316,
+      "text" : "Unix config so it's fine but",
+      "end" : 82.956
+    },
+    {
+      "start" : 82.956,
+      "text" : "you have to copy my ZSH history",
+      "end" : 85.804
+    },
+    {
+      "start" : 85.804,
+      "text" : "to have the list of command line I was using",
+      "end" : 88.012
+    },
+    {
+      "start" : 88.012,
+      "text" : "don't forget to start",
+      "end" : 89.752
+    },
+    {
+      "start" : 89.752,
+      "text" : "actually by installing on my",
+      "end" : 91.912
+    },
+    {
+      "start" : 91.912,
+      "text" : "ZSH because you won't be able to have",
+      "end" : 94.308
+    },
+    {
+      "start" : 94.308,
+      "text" : "ZSH on the right, it's really required",
+      "end" : 96.448
+    },
+    {
+      "start" : 96.448,
+      "text" : "to install a lot of slang but you need",
+      "end" : 98.712
+    },
+    {
+      "start" : 98.712,
+      "text" : "to do something really authentic until in the end",
+      "end" : 100.832
+    },
+    {
+      "start" : 101.74,
+      "text" : "and also",
+      "end" : 102.54
+    },
+    {
+      "start" : 102.54,
+      "text" : "I would encourage that",
+      "end" : 105.28
+    },
+    {
+      "start" : 105.28,
+      "text" : "You should also install Node, you should install BAN, you should install Copilot API which",
+      "end" : 116.92
+    },
+    {
+      "start" : 116.92,
+      "text" : "is a proxy that will allow to target the YouTube Copilot models locally.",
+      "end" : 126.776
+    },
+    {
+      "start" : 127.82,
+      "text" : "And you should configure also the...",
+      "end" : 129.916
+    },
+    {
+      "start" : 130.436,
+      "text" : "You should also install Cloud CLI and you should configure the Cloud setting global in order",
+      "end" : 138.96
+    },
+    {
+      "start" : 138.96,
+      "text" : "so they target the Copilot API.",
+      "end" : 144.272
+    },
+    {
+      "start" : 144.272,
+      "text" : "But do that after the check-in and the configuration of unit config because otherwise it will be overridden.",
+      "end" : 155.9
+    },
+    {
+      "start" : 156.14,
+      "text" : "Then when you reach that stage and that you have pretty much everything set up,",
+      "end" : 159.456
+    },
+    {
+      "start" : 159.456,
+      "text" : "I invite you to try to check out the repository that is called Server Apps.",
+      "end" : 159.456
+    },
+    {
+      "start" : 159.456,
+      "text" : "If you don't know where it is, you can check easily by SSHing into the FNC62VPS",
+      "end" : 159.456
+    },
+    {
+      "start" : 159.456,
+      "text" : "and you will find it somewhere in one of the services.",
+      "end" : 159.456
+    }
+  ],
+  "languageSelected" : "en",
+  "datetime" : "2026-04-25T17:09:03",
+  "languageModelKey" : "",
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "prompt" : "",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "segments" : [
+    {
+      "text" : "How to avoid cargo watch to trigger too fast.",
+      "start" : 0.384,
+      "end" : 3.911625
+    }
+  ],
+  "languageModelName" : "",
+  "rawResult" : " How to avoid cargo watch to trigger too fast.",
+  "datetime" : "2026-04-27T07:14:20",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "duration" : 3911,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageModelKey" : "",
+  "processingTime" : 712,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "result" : "How to avoid cargo watch to trigger too fast.",
+  "separateSpeakersEnabled" : false
+}

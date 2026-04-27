@@ -1,0 +1,75 @@
+{
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-11T06:00:44",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " I would like the Flyer Tribute section, as you called it, to be full width. Now there is some margin on the sides and maybe less height since now it got pixelized. also the map is too white for my taste so if you could find a way to customize it to something a bit darker and I still have this hero video issue where it's rotated so could you please fix it once for all now I see the father dancing horizontally instead of being vertically stand up",
+  "duration" : 66882,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 20.68,
+      "text" : "I would like the Flyer Tribute section, as you called it, to be full width. Now there is some margin on the sides and maybe less height since now it got pixelized.",
+      "start" : 0
+    },
+    {
+      "end" : 32.3,
+      "text" : "also the map is too white for my taste so if you could find a way to customize it",
+      "start" : 23.34
+    },
+    {
+      "end" : 40.76,
+      "start" : 32.3,
+      "text" : "to something a bit darker and I still have this hero video issue where it's"
+    },
+    {
+      "end" : 53.18,
+      "start" : 40.76,
+      "text" : "rotated so could you please fix it once for all now I see the father dancing"
+    },
+    {
+      "end" : 66.34,
+      "start" : 56.28,
+      "text" : "horizontally instead of being vertically stand up"
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "processingTime" : 2066,
+  "languageModelKey" : "",
+  "result" : "I would like the Flyer Tribute section, as you called it, to be full width. Now there is some margin on the sides and maybe less height since now it got pixelized. also the map is too white for my taste so if you could find a way to customize it to something a bit darker and I still have this hero video issue where it's rotated so could you please fix it once for all now I see the father dancing horizontally instead of being vertically stand up",
+  "modelName" : "Ultra (Cloud)"
+}

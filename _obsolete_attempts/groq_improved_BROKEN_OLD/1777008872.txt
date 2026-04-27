@@ -1,0 +1,1 @@
+Makes 100% sure that the tool call does not use those tags anymore by any means. If you same to use the open code CLI with a flag parameter, do

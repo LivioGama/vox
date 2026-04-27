@@ -1,0 +1,75 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-03-31T01:08:51",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " Wait, it looks way too complicated. Let's do something completely different. What you will do and you will only do that is that you will make a list of all the files needed in order to make the git-divviewer works and the git graph too. make this list and then we will use a simple copy command line in order to copy them in another folder. Those files are will just be there for inspiration not for buildings so it doesn't matter if they are not compiling",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "processingTime" : 1702,
+  "result" : "Wait, it looks way too complicated. Let's do something completely different. What you will do and you will only do that is that you will make a list of all the files needed in order to make the git-divviewer works and the git graph too. make this list and then we will use a simple copy command line in order to copy them in another folder. Those files are will just be there for inspiration not for buildings so it doesn't matter if they are not compiling",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Wait, it looks way too complicated. Let's do something completely different.",
+      "end" : 3.94
+    },
+    {
+      "start" : 4.84,
+      "text" : "What you will do and you will only do that is that you will make a list of all the files needed in order to make the git-divviewer works and the git graph too.",
+      "end" : 20.66
+    },
+    {
+      "start" : 23.46,
+      "text" : "make this list and then we will use a simple",
+      "end" : 28.54
+    },
+    {
+      "start" : 36,
+      "text" : "copy command line in order to copy them in another folder. Those files are will just be there for",
+      "end" : 46.24
+    },
+    {
+      "start" : 46.24,
+      "text" : "inspiration not for buildings so it doesn't matter if they are not compiling",
+      "end" : 50.28
+    }
+  ],
+  "duration" : 50722,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Can you fix iOS push-notive problem where actually when reinstalling the app and the push token notification is not triggered because there is already one we actually don't get the token to be sent to the backend.",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 23.72,
+      "text" : "Can you fix iOS push-notive problem where actually when reinstalling the app and the push token notification is not triggered because there is already one we actually don't get the token to be sent to the backend."
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Can you fix iOS push-notive problem where actually when reinstalling the app and the push token notification is not triggered because there is already one we actually don't get the token to be sent to the backend.",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    }
+  },
+  "datetime" : "2026-04-01T11:27:11",
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "duration" : 27734,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 1307,
+  "recordingDevice" : "",
+  "appVersion" : "2.11.0",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)"
+}

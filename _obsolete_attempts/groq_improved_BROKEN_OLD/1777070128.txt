@@ -1,0 +1,1 @@
+This is SSH config for Claudia. Can you redo the setup that you did on the Mac previously, which is copy the SSH history, install OMAZEDSH and so on. Copy also the IDRSK by overwriting and so also don't forget to configure stuff for the root user if you have to.

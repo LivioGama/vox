@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 800,
+  "datetime" : "2026-04-16T16:30:40",
+  "languageModelName" : "",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "segments" : [
+    {
+      "end" : 13.86,
+      "text" : "Can you copy the alias that you have, like C and OC, and a few other convenient ones that does not exist but on the NSH version of the SSH VPS?",
+      "start" : 0
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "languageModelKey" : "",
+  "appVersion" : "2.12.0",
+  "realtimeEnabled" : false,
+  "duration" : 14492,
+  "prompt" : "",
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "result" : "Can you copy the alias that you have, like C and OC, and a few other convenient ones that does not exist but on the NSH version of the SSH VPS?",
+  "recordingDevice" : "",
+  "rawResult" : " Can you copy the alias that you have, like C and OC, and a few other convenient ones that does not exist but on the NSH version of the SSH VPS?",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

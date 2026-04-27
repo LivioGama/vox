@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "processingTime" : 1590,
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " I'm going to show you how to use ACP, so I can use ACP.",
+  "duration" : 1720,
+  "result" : "I'm going to show you how to use ACP, so I can use ACP.",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "segments" : [
+    {
+      "text" : "I'm going to show you how to use ACP, so I can use ACP.",
+      "start" : 0,
+      "end" : 1.68
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-25T19:44:43",
+  "languageModelName" : "",
+  "appVersion" : "2.13.0",
+  "applicationContextEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

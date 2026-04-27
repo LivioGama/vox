@@ -1,0 +1,55 @@
+{
+  "duration" : 6166,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I'm gonna tell you something. I see the future.",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Comet"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 800,
+  "languageModelName" : "",
+  "rawResult" : " I'm gonna tell you something. I see the future.",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T02:25:55",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0.74,
+      "end" : 4.62,
+      "text" : "I'm gonna tell you something. I see the future."
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

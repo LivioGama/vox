@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "UTM",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "No, no, you don't get it. I need to prepare a script that when someone else will run it without cloud code, maybe with GitHub CLI, it will be able to achieve the six agents in parallel.",
+      "end" : 13.34
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "rawResult" : " No, no, you don't get it. I need to prepare a script that when someone else will run it without cloud code, maybe with GitHub CLI, it will be able to achieve the six agents in parallel.",
+  "translationEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false,
+  "speakers" : [
+
+  ],
+  "systemAudioEnabled" : false,
+  "appVersion" : "2.12.0",
+  "languageModelName" : "",
+  "processingTime" : 900,
+  "duration" : 13583,
+  "datetime" : "2026-04-16T08:08:28",
+  "recordingDevice" : "",
+  "result" : "No, no, you don't get it. I need to prepare a script that when someone else will run it without cloud code, maybe with GitHub CLI, it will be able to achieve the six agents in parallel."
+}

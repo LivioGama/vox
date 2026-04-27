@@ -1,0 +1,1 @@
+Use agents browser, not headless, in order to test a prompt and see it it gets through after each time that do do something until it's works.

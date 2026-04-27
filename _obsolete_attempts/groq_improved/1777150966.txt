@@ -1,0 +1,1 @@
+Can you confirm that you can run Claude Code on the Debian machine with only 4.5 models?

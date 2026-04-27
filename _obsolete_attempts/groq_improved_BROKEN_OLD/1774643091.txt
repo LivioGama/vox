@@ -1,0 +1,1 @@
+Je commence up installer Netcap en ordre pour pouvoir travailler à distance le project Rust puis le faire fonctionner et voir l'Ui localement sur on mac par la meilleure façon de lancer l'Ui

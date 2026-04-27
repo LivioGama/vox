@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-02T14:26:00",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " So can you actually drop the commit you just made and then actually don't revert for now because I want to test but I also want you to plug the home page to the 1-bit model.",
+  "translationEnabled" : false,
+  "processingTime" : 1011,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "result" : "So can you actually drop the commit you just made and then actually don't revert for now because I want to test but I also want you to plug the home page to the 1-bit model.",
+  "segments" : [
+    {
+      "end" : 14.56,
+      "text" : "So can you actually drop the commit you just made and then actually don't revert for now because I want to test but I also want you to plug the home page to the 1-bit model.",
+      "start" : 0
+    }
+  ],
+  "duration" : 14791,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Cursor"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageModelName" : "",
+  "modeName" : "Default",
+  "processingTime" : 858,
+  "duration" : 7043,
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-01T05:40:22",
+  "result" : "It just looks like you are vibe coding instead of taking the JetBrains source code as a reference.",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "rawResult" : " It just looks like you are vibe coding instead of taking the JetBrains source code as a reference.",
+  "segments" : [
+    {
+      "end" : 6.64,
+      "start" : 0,
+      "text" : "It just looks like you are vibe coding instead of taking the JetBrains source code as a reference."
+    }
+  ]
+}

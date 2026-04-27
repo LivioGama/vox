@@ -1,0 +1,1 @@
+Let's say I want to test the security of a website by checking if for example there are firebase, credential and other stuff with an agent LLM. How should I do it?

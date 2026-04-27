@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "processingTime" : 1095,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Claude",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 23.34,
+      "text" : "Now, starting on a new branch, can you also do the same logic but instead of pointing to GitHub Copilot or Juni it would point to Olama Cloud."
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-16T06:04:17",
+  "languageModelName" : "",
+  "result" : "Now, starting on a new branch, can you also do the same logic but instead of pointing to GitHub Copilot or Juni it would point to Olama Cloud.",
+  "appVersion" : "2.12.0",
+  "duration" : 24185,
+  "languageModelKey" : "",
+  "rawResult" : " Now, starting on a new branch, can you also do the same logic but instead of pointing to GitHub Copilot or Juni it would point to Olama Cloud.",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

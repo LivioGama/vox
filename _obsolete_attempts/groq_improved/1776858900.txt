@@ -1,0 +1,1 @@
+create this user there and copy the config from Claude Code from this server to the other one and he starts the Claude Code there also.

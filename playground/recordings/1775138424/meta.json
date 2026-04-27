@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-02T14:00:24",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " I think at the end we will just merge the two repos. The voice stuff will be just an example inside the project and we will rename the repo to migrate SDK to ACP.",
+  "translationEnabled" : false,
+  "processingTime" : 1094,
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "I think at the end we will just merge the two repos. The voice stuff will be just an example inside the project and we will rename the repo to migrate SDK to ACP.",
+  "segments" : [
+    {
+      "text" : "I think at the end we will just merge the two repos. The voice stuff will be just an example inside the project and we will rename the repo to migrate SDK to ACP.",
+      "start" : 0,
+      "end" : 24.24
+    }
+  ],
+  "duration" : 25853,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "Terminal",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

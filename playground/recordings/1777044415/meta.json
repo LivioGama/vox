@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "processingTime" : 767,
+  "duration" : 13883,
+  "appVersion" : "2.12.1",
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "datetime" : "2026-04-24T15:26:55",
+  "languageModelName" : "",
+  "result" : "Alright, now focus only on building the new CMUX that you will check out from GitHub. I want the ad.",
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "rawResult" : " Alright, now focus only on building the new CMUX that you will check out from GitHub. I want the ad.",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 13.68,
+      "text" : "Alright, now focus only on building the new CMUX that you will check out from GitHub. I want the ad."
+    }
+  ],
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "speakers" : [
+
+  ],
+  "recordingDevice" : ""
+}

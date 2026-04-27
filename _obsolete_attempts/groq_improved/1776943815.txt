@@ -1,0 +1,1 @@
+all right listen to me carefully the only one that is working is the ssh NetCup so can you copy the cloud conf and oats from ssh NetCup to ssh

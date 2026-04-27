@@ -1,0 +1,1 @@
+command, I made it's switch with time dev command script where did I do this in which commit which branch or which stash

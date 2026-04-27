@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "processingTime" : 920,
+  "duration" : 9543,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-03T03:53:44",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "rawResult" : " Where when I would do CMD plus 1 or CMD plus 2 or CMD plus 3, it would autofill a pre-prepared prop.",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "text" : "Where when I would do CMD plus 1 or CMD plus 2 or CMD plus 3, it would autofill a pre-prepared prop.",
+      "start" : 0,
+      "end" : 9.28
+    }
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Where when I would do CMD plus 1 or CMD plus 2 or CMD plus 3, it would autofill a pre-prepared prop."
+}

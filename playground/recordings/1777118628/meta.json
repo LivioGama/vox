@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "result" : "The homepage is generated with OpenRodder and Kimi.",
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-25T12:03:48",
+  "rawResult" : " The homepage is generated with OpenRodder and Kimi.",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "segments" : [
+    {
+      "text" : "The homepage is generated with OpenRodder and Kimi.",
+      "start" : 0,
+      "end" : 6.56
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 6840,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 1427,
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "appVersion" : "2.13.0",
+  "languageModelName" : ""
+}

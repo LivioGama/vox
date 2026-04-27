@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "result" : "So why does it build after each actually finish in every chat? If you don't know why, you can also add a rule saying to never run cargo. Build our cargo.",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "rawResult" : " So why does it build after each actually finish in every chat? If you don't know why, you can also add a rule saying to never run cargo. Build our cargo.",
+  "duration" : 17709,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "datetime" : "2026-04-27T01:22:39",
+  "realtimeEnabled" : false,
+  "processingTime" : 1577,
+  "appVersion" : "2.13.0",
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "text" : "So why does it build after each actually finish in every chat? If you don't know why, you can also add a rule saying to never run cargo. Build our cargo.",
+      "start" : 0.64,
+      "end" : 13.728
+    }
+  ]
+}

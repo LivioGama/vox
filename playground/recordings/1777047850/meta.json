@@ -1,0 +1,55 @@
+{
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Change the...",
+      "end" : 1.4
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "duration" : 12686,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Change the...",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "processingTime" : 940,
+  "speakers" : [
+
+  ],
+  "rawResult" : " Change the...",
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Comet",
+      "includeInPrompt" : false
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-24T16:24:10",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

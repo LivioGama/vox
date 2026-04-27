@@ -1,0 +1,55 @@
+{
+  "rawResult" : " It's also rough to mention that I think that few of ABBY commits introduced slowness and problems.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "duration" : 11884,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 815,
+  "datetime" : "2026-04-27T04:34:18",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "result" : "It's also rough to mention that I think that few of ABBY commits introduced slowness and problems.",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "It's also rough to mention that I think that few of ABBY commits introduced slowness and problems.",
+      "end" : 11.744,
+      "start" : 0.128
+    }
+  ]
+}

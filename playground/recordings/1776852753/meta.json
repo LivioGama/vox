@@ -1,0 +1,60 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 19248,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Comet",
+      "includeInPrompt" : false
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 1099,
+  "rawResult" : " Look, for a while I have a countable VPS and I have heard that the hardware is shit which is not something I find true. Then I took a net cap and actually I don't find it's actually different so can you explain to me where does this come from?",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Look, for a while I have a countable VPS and I have heard that the hardware is shit which is not something I find true.",
+      "end" : 9.48,
+      "start" : 0
+    },
+    {
+      "text" : "Then I took a net cap and actually I don't find it's actually different so can you explain to me where does this come from?",
+      "end" : 18.92,
+      "start" : 9.86
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T10:12:33",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "Look, for a while I have a countable VPS and I have heard that the hardware is shit which is not something I find true. Then I took a net cap and actually I don't find it's actually different so can you explain to me where does this come from?"
+}

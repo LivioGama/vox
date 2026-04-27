@@ -1,0 +1,60 @@
+{
+  "duration" : 16063,
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "text" : "We should use ban, get rid of the package.lock, remove those empty folders everywhere, get rid of the old documentation.",
+      "start" : 0,
+      "end" : 11.1
+    },
+    {
+      "text" : "What is this side spec even?",
+      "start" : 12.46,
+      "end" : 14.66
+    }
+  ],
+  "processingTime" : 978,
+  "appVersion" : "2.12.0",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "datetime" : "2026-04-16T14:41:08",
+  "realtimeEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " We should use ban, get rid of the package.lock, remove those empty folders everywhere, get rid of the old documentation. What is this side spec even?",
+  "languageSelected" : "en",
+  "prompt" : "",
+  "separateSpeakersEnabled" : false,
+  "result" : "We should use ban, get rid of the package.lock, remove those empty folders everywhere, get rid of the old documentation. What is this side spec even?"
+}

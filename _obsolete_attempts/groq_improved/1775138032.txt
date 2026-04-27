@@ -1,0 +1,1 @@
+This skill is actually oriented in order to migrate from agent SDK to ACP. Could you actually also adapt it in the way to handle people in Go using Claude Code to go to ACP equivalent in Go and also adapt it for Python?

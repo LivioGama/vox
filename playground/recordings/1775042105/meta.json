@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Now put the list back to what it was and run the Olamacloud complete test.",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "end" : 13.82,
+      "text" : "Now put the list back to what it was and run the Olamacloud complete test.",
+      "start" : 0
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Now put the list back to what it was and run the Olamacloud complete test.",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Terminal",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "datetime" : "2026-04-01T11:15:05",
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "duration" : 14107,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 1196,
+  "recordingDevice" : "",
+  "appVersion" : "2.11.0",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)"
+}

@@ -1,0 +1,55 @@
+{
+  "duration" : 16693,
+  "processingTime" : 1055,
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.13.0",
+  "rawResult" : " Ok, so wait, what you just generated? What is it? How was it generated? Because from what I remember when I asked, I injected the image that you have and that it passed through LGBT5.5, generated a website. It has nothing to do.",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "result" : "Ok, so wait, what you just generated? What is it? How was it generated? Because from what I remember when I asked, I injected the image that you have and that it passed through LGBT5.5, generated a website. It has nothing to do.",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "languageModelKey" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "datetime" : "2026-04-25T17:23:15",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf",
+      "includeInPrompt" : false
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "segments" : [
+    {
+      "text" : "Ok, so wait, what you just generated? What is it? How was it generated? Because from what I remember when I asked, I injected the image that you have and that it passed through LGBT5.5, generated a website. It has nothing to do.",
+      "end" : 16.693874,
+      "start" : 0.416
+    }
+  ]
+}

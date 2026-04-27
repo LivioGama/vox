@@ -1,0 +1,55 @@
+{
+  "duration" : 11115,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "It's both B and C. It's actually pushing to the limit. I did something nobody on earth is capable of, so now respect me.",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 859,
+  "languageModelName" : "",
+  "rawResult" : " It's both B and C. It's actually pushing to the limit. I did something nobody on earth is capable of, so now respect me.",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T00:47:55",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "It's both B and C. It's actually pushing to the limit. I did something nobody on earth is capable of, so now respect me.",
+      "end" : 10.36,
+      "start" : 0
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

@@ -1,0 +1,55 @@
+{
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-23T04:16:55",
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 1091,
+  "rawResult" : " The URL runs on a VPS and the Chromium instance is on the same VPS but it's on Dockploy.",
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "cmux",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "result" : "The URL runs on a VPS and the Chromium instance is on the same VPS but it's on Dockploy.",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "The URL runs on a VPS and the Chromium instance is on the same VPS but it's on Dockploy.",
+      "end" : 6.7
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 7117,
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "speakers" : [
+
+  ]
+}

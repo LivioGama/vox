@@ -1,0 +1,55 @@
+{
+  "segments" : [
+    {
+      "end" : 6.72,
+      "text" : "Always remember that when I ask to clone it's always using Bitbucket MNC.",
+      "start" : 0
+    }
+  ],
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "UTM"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "prompt" : "",
+  "modeName" : "Default",
+  "processingTime" : 1230,
+  "literalPunctuationEnabled" : false,
+  "result" : "Always remember that when I ask to clone it's always using Bitbucket MNC.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.0",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "duration" : 7363,
+  "recordingDevice" : "",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "rawResult" : " Always remember that when I ask to clone it's always using Bitbucket MNC.",
+  "datetime" : "2026-04-16T01:29:36",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false
+}

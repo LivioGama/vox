@@ -1,0 +1,60 @@
+{
+  "rawResult" : " Can you include in the specs that we should intercept the ARAM command to replace it and other stuff like you show in AI Trash? And maybe also there could be a way to have a local history, very light. I don't want something very heavy.",
+  "duration" : 22625,
+  "prompt" : "",
+  "processingTime" : 1168,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "appVersion" : "2.12.1",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "result" : "Can you include in the specs that we should intercept the ARAM command to replace it and other stuff like you show in AI Trash? And maybe also there could be a way to have a local history, very light. I don't want something very heavy.",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "ChatGPT"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 13.38,
+      "text" : "Can you include in the specs that we should intercept the ARAM command to replace it and other stuff like you show in AI Trash?"
+    },
+    {
+      "start" : 13.54,
+      "end" : 22.18,
+      "text" : "And maybe also there could be a way to have a local history, very light. I don't want something very heavy."
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-22T16:57:25"
+}

@@ -1,0 +1,60 @@
+{
+  "segments" : [
+    {
+      "text" : "Scan a bit my project which is in Vanilla and consider which framework I should might do.",
+      "start" : 0,
+      "end" : 7.62
+    },
+    {
+      "text" : "I hesitate between Neck.js, React.js and other options so try to use the best considering that what I'm targeting is maximum performance for the website.",
+      "start" : 7.96,
+      "end" : 25.92
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "processingTime" : 1111,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "rawResult" : " Scan a bit my project which is in Vanilla and consider which framework I should might do. I hesitate between Neck.js, React.js and other options so try to use the best considering that what I'm targeting is maximum performance for the website.",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "duration" : 26665,
+  "result" : "Scan a bit my project which is in Vanilla and consider which framework I should might do. I hesitate between Neck.js, React.js and other options so try to use the best considering that what I'm targeting is maximum performance for the website.",
+  "prompt" : "",
+  "translationEnabled" : false,
+  "appVersion" : "2.12.0",
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "datetime" : "2026-04-16T06:55:32"
+}

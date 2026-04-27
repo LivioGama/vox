@@ -1,0 +1,1 @@
+Pouvez-vous vérifier le plus rapidement possible si dans la repo, juste après le commut, potentiellement dans un développement, où KimiK2 a été débloqué sur Groq, nous aurions pu essayer de utiliser KimiK2 sur OpenRouter ou Ollama Cloud ?

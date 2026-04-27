@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 8357,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "processingTime" : 586,
+  "recordingDevice" : "",
+  "rawResult" : " Are you sure you cannot replace Skudrant with a Rust thing? Look on the GitHub, something modern.",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "end" : 7.94,
+      "text" : "Are you sure you cannot replace Skudrant with a Rust thing? Look on the GitHub, something modern.",
+      "start" : 0
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T17:01:10",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "Are you sure you cannot replace Skudrant with a Rust thing? Look on the GitHub, something modern."
+}

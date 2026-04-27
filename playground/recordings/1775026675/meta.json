@@ -1,0 +1,65 @@
+{
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageModelName" : "",
+  "modeName" : "Default",
+  "processingTime" : 1828,
+  "duration" : 39490,
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-01T06:57:55",
+  "result" : "Two problems. First of all, the added blocks start to scroll or violently disappear when we reach the top of the screen instead of scrolling slowly and normally like MK2. and I think that the un-chance block logic is actually screwing the scroll so you should also copy this logic from MK2",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.11.0",
+  "applicationContextEnabled" : false,
+  "rawResult" : " Two problems. First of all, the added blocks start to scroll or violently disappear when we reach the top of the screen instead of scrolling slowly and normally like MK2. and I think that the un-chance block logic is actually screwing the scroll so you should also copy this logic from MK2",
+  "segments" : [
+    {
+      "end" : 22.22,
+      "text" : "Two problems. First of all, the added blocks start to scroll or violently disappear when we reach the top of the screen instead of scrolling slowly and normally like MK2.",
+      "start" : 0
+    },
+    {
+      "end" : 33.64,
+      "text" : "and I think that the un-chance block logic is actually screwing the scroll",
+      "start" : 22.22
+    },
+    {
+      "end" : 39.2,
+      "text" : "so you should also copy this logic from MK2",
+      "start" : 33.64
+    }
+  ]
+}

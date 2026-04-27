@@ -1,0 +1,1 @@
+I want to be able to launch Claude Code configured on the model SWE 1.6 FAST that comes from windsurf, expose-world proxy Dokploy on my windsurf.devlive.io so make it work

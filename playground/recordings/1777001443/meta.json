@@ -1,0 +1,65 @@
+{
+  "segments" : [
+    {
+      "start" : 2.1,
+      "text" : "I'm a bit lost because currently I worked a lot on this project and I feel like it's almost ready.",
+      "end" : 7.92
+    },
+    {
+      "start" : 8.56,
+      "text" : "But for example when I drop task in one of the item cells, it gets stuck and never starts.",
+      "end" : 16.94
+    },
+    {
+      "start" : 17.64,
+      "text" : "Can you review the whole process and make sure it runs using ACP and Claude Code?",
+      "end" : 23.3
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "duration" : 25286,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I'm a bit lost because currently I worked a lot on this project and I feel like it's almost ready. But for example when I drop task in one of the item cells, it gets stuck and never starts. Can you review the whole process and make sure it runs using ACP and Claude Code?",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 1124,
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "rawResult" : " I'm a bit lost because currently I worked a lot on this project and I feel like it's almost ready. But for example when I drop task in one of the item cells, it gets stuck and never starts. Can you review the whole process and make sure it runs using ACP and Claude Code?",
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf",
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-24T03:30:43",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

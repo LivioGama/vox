@@ -1,0 +1,55 @@
+{
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " Can you reload the MCPs?",
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 1859,
+  "processingTime" : 492,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Warp"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "translationEnabled" : false,
+  "appVersion" : "2.12.0",
+  "modeName" : "Default",
+  "result" : "Can you reload the MCPs?",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-16T16:20:38",
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Can you reload the MCPs?",
+      "start" : 0,
+      "end" : 1.5
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "applicationContextEnabled" : false
+}

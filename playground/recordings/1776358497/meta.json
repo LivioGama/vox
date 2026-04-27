@@ -1,0 +1,105 @@
+{
+  "speakers" : [
+
+  ],
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "segments" : [
+    {
+      "text" : "I want to make sure that in the Next.js migration we kept all the cool features that we had about pasting a text that is more than 65 characters, detecting the language, translating the button, translating the title of the website, shaking the button with an animation.",
+      "end" : 15.62,
+      "start" : 0
+    },
+    {
+      "text" : "verify all of this actually you can take control",
+      "end" : 19.48,
+      "start" : 17.16
+    },
+    {
+      "text" : "of the browser and",
+      "end" : 21.78,
+      "start" : 19.48
+    },
+    {
+      "text" : "then after we will",
+      "end" : 23.94,
+      "start" : 22.62
+    },
+    {
+      "text" : "you can also in parallel with another sub-agent",
+      "end" : 26.96,
+      "start" : 23.94
+    },
+    {
+      "text" : "see if we went through a feature I asked earlier",
+      "end" : 30.96,
+      "start" : 28.06
+    },
+    {
+      "text" : "that does not seem to be implemented which is",
+      "end" : 32.92,
+      "start" : 30.96
+    },
+    {
+      "text" : "autocomplete while the people are writing",
+      "end" : 35.9,
+      "start" : 34.02
+    },
+    {
+      "text" : "when they are posing to propose a few suggestions",
+      "end" : 38.92,
+      "start" : 35.9
+    },
+    {
+      "text" : "like me since but without overloading",
+      "end" : 41.14,
+      "start" : 38.92
+    },
+    {
+      "text" : "and without trying to anticipate too much",
+      "end" : 42.84,
+      "start" : 41.14
+    }
+  ],
+  "appVersion" : "2.12.0",
+  "rawResult" : " I want to make sure that in the Next.js migration we kept all the cool features that we had about pasting a text that is more than 65 characters, detecting the language, translating the button, translating the title of the website, shaking the button with an animation. verify all of this actually you can take control of the browser and then after we will you can also in parallel with another sub-agent see if we went through a feature I asked earlier that does not seem to be implemented which is autocomplete while the people are writing when they are posing to propose a few suggestions like me since but without overloading and without trying to anticipate too much",
+  "languageModelName" : "",
+  "datetime" : "2026-04-16T16:54:57",
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I want to make sure that in the Next.js migration we kept all the cool features that we had about pasting a text that is more than 65 characters, detecting the language, translating the button, translating the title of the website, shaking the button with an animation. verify all of this actually you can take control of the browser and then after we will you can also in parallel with another sub-agent see if we went through a feature I asked earlier that does not seem to be implemented which is autocomplete while the people are writing when they are posing to propose a few suggestions like me since but without overloading and without trying to anticipate too much",
+  "processingTime" : 1602,
+  "separateSpeakersEnabled" : false,
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "duration" : 43316,
+  "prompt" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "languageSelected" : "en"
+}

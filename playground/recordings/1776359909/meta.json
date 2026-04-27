@@ -1,0 +1,65 @@
+{
+  "rawResult" : " Alright, I'm really shocked and excited about what you are telling me. So obviously you should commit and push. But then tell me what I should do in order to test Iris, like launch it and ask something it never did before to see if it works like you pretend.",
+  "segments" : [
+    {
+      "text" : "Alright, I'm really shocked and excited about what you are telling me. So obviously you should commit and push.",
+      "start" : 0,
+      "end" : 4.36
+    },
+    {
+      "text" : "But then tell me what I should do in order to test Iris, like launch it and ask something",
+      "start" : 4.58,
+      "end" : 11.54
+    },
+    {
+      "text" : "it never did before to see if it works like you pretend.",
+      "start" : 11.54,
+      "end" : 14.88
+    }
+  ],
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "duration" : 15293,
+  "translationEnabled" : false,
+  "appVersion" : "2.12.0",
+  "separateSpeakersEnabled" : false,
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "languageModelKey" : "",
+  "result" : "Alright, I'm really shocked and excited about what you are telling me. So obviously you should commit and push. But then tell me what I should do in order to test Iris, like launch it and ask something it never did before to see if it works like you pretend.",
+  "processingTime" : 848,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Warp"
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "datetime" : "2026-04-16T17:18:29",
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

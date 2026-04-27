@@ -1,0 +1,55 @@
+{
+  "result" : "Yes, it's all on Vercel and you have the CLI for it.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "processingTime" : 492,
+  "prompt" : "",
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "rawResult" : " Yes, it's all on Vercel and you have the CLI for it.",
+  "duration" : 4820,
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.0",
+  "datetime" : "2026-04-16T16:50:46",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Yes, it's all on Vercel and you have the CLI for it.",
+      "end" : 4.3
+    }
+  ],
+  "modelName" : "Ultra (Cloud)"
+}

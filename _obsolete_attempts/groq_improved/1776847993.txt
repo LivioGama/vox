@@ -1,0 +1,1 @@
+GitHub Copilot CLI, how to use YOLO mode but still with some deny command where permission is asked.

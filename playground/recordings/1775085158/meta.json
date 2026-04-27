@@ -1,0 +1,55 @@
+{
+  "duration" : 6476,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I don't get it, this was working so why did it break? Just take the old code in the history, fuck!",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Cursor",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "processingTime" : 860,
+  "rawResult" : " I don't get it, this was working so why did it break? Just take the old code in the history, fuck!",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-01T23:12:38",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "I don't get it, this was working so why did it break? Just take the old code in the history, fuck!",
+      "end" : 5.9,
+      "start" : 0
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

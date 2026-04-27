@@ -1,0 +1,55 @@
+{
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-23T03:33:30",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 680,
+  "rawResult" : " The UF Current Git Diff.",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "result" : "The UF Current Git Diff.",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "text" : "The UF Current Git Diff.",
+      "end" : 1.72,
+      "start" : 0
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 1945,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "speakers" : [
+
+  ]
+}

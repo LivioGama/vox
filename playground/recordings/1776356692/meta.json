@@ -1,0 +1,55 @@
+{
+  "speakers" : [
+
+  ],
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "ChatGPT"
+    }
+  },
+  "segments" : [
+    {
+      "text" : "Help me generate a nice Ralph Wigum in order to create Iris.",
+      "start" : 0,
+      "end" : 5.04
+    }
+  ],
+  "appVersion" : "2.12.0",
+  "rawResult" : " Help me generate a nice Ralph Wigum in order to create Iris.",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "datetime" : "2026-04-16T16:24:52",
+  "systemAudioEnabled" : false,
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Help me generate a nice Ralph Wigum in order to create Iris.",
+  "processingTime" : 588,
+  "separateSpeakersEnabled" : false,
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "duration" : 5450,
+  "prompt" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "languageSelected" : "en"
+}

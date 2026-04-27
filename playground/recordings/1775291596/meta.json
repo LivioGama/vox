@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "processingTime" : 1083,
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "So now what do you think is missing? Also, what we could do as a nice test is that you could maybe curl all the URL from the project to see if you get 200.",
+      "end" : 18.56
+    }
+  ],
+  "languageModelName" : "",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "datetime" : "2026-04-04T08:33:16",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " So now what do you think is missing? Also, what we could do as a nice test is that you could maybe curl all the URL from the project to see if you get 200.",
+  "duration" : 19397,
+  "result" : "So now what do you think is missing? Also, what we could do as a nice test is that you could maybe curl all the URL from the project to see if you get 200.",
+  "realtimeEnabled" : false,
+  "appVersion" : "2.11.0",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ]
+}

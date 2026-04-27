@@ -1,0 +1,65 @@
+{
+  "appVersion" : "2.12.1",
+  "result" : "The shortcut like Ctrl1, Ctrl2 and Ctrl3 are not working because of the nature of the browser use. So could you actually put only in development mode when I run locally? Thank you.",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "processingTime" : 1456,
+  "prompt" : "",
+  "duration" : 35557,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 9,
+      "text" : "The shortcut like Ctrl1, Ctrl2 and Ctrl3 are not working because of the nature of the browser use."
+    },
+    {
+      "start" : 9.58,
+      "end" : 15.3,
+      "text" : "So could you actually put only in development mode when I run locally?"
+    },
+    {
+      "start" : 34.02,
+      "end" : 35.22,
+      "text" : "Thank you."
+    }
+  ],
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " The shortcut like Ctrl1, Ctrl2 and Ctrl3 are not working because of the nature of the browser use. So could you actually put only in development mode when I run locally? Thank you.",
+  "languageModelKey" : "",
+  "separateSpeakersEnabled" : false,
+  "datetime" : "2026-04-24T14:34:57",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

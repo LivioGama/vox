@@ -1,0 +1,1 @@
+If not mentioned in this agents.md and cloudcode.md, you should know that you should never run cargo build nor pickaxe because actually I already have a watch command doing this.

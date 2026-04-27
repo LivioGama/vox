@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "speakers" : [
+
+  ],
+  "duration" : 8186,
+  "languageModelName" : "",
+  "prompt" : "",
+  "processingTime" : 787,
+  "segments" : [
+    {
+      "text" : "Is any of those branch or rock trees about extracting the engine?",
+      "start" : 0.416,
+      "end" : 7.808
+    }
+  ],
+  "languageModelKey" : "",
+  "datetime" : "2026-04-27T06:48:20",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "realtimeEnabled" : false,
+  "result" : "Is any of those branch or rock trees about extracting the engine?",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.13.0",
+  "rawResult" : " Is any of those branch or rock trees about extracting the engine?",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false
+}

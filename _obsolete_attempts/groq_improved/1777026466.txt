@@ -1,0 +1,1 @@
+To retrieve a maximum of effort that were done on the other branch to port it to develop, if that makes sense. And then actually what I actually need to do is to work on the OpenUI to improve the library of components and get really high quality design like I used to when KimiK2 was a model that was not deprecated and that I had to remove.

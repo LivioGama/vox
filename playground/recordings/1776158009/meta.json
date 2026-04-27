@@ -1,0 +1,60 @@
+{
+  "rawResult" : " Let's build... what was this lemon squeeze stick? I don't know.",
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "Let's build... what was this lemon squeeze stick? I don't know.",
+  "appVersion" : "2.12.0",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Cursor"
+    }
+  },
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 3.54,
+      "text" : "Let's build... what was this lemon squeeze stick?"
+    },
+    {
+      "start" : 3.9,
+      "end" : 4.76,
+      "text" : "I don't know."
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-14T09:13:29",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "duration" : 5856,
+  "separateSpeakersEnabled" : false,
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "languageSelected" : "en",
+  "processingTime" : 636
+}

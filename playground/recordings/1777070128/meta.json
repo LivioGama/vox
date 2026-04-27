@@ -1,0 +1,65 @@
+{
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.12.1",
+  "segments" : [
+    {
+      "text" : "To place an SSH config for Clozda, can you redo the setup that you did on the Mac previously?",
+      "start" : 0,
+      "end" : 7.4
+    },
+    {
+      "text" : "Copy the SSH history, install omaiz.sh and so on. Copy also the IDR-SAK by overwriting.",
+      "start" : 9.2,
+      "end" : 19.38
+    },
+    {
+      "text" : "Also don't forget to configure stuff for the root user if you have to.",
+      "start" : 20.5,
+      "end" : 25.16
+    }
+  ],
+  "datetime" : "2026-04-24T22:35:28",
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "duration" : 26900,
+  "modelName" : "Ultra (Cloud)",
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "processingTime" : 1444,
+  "result" : "To place an SSH config for Clozda, can you redo the setup that you did on the Mac previously? Copy the SSH history, install omaiz.sh and so on. Copy also the IDR-SAK by overwriting. Also don't forget to configure stuff for the root user if you have to.",
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " To place an SSH config for Clozda, can you redo the setup that you did on the Mac previously? Copy the SSH history, install omaiz.sh and so on. Copy also the IDR-SAK by overwriting. Also don't forget to configure stuff for the root user if you have to.",
+  "realtimeEnabled" : false
+}

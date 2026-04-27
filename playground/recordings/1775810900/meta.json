@@ -1,0 +1,60 @@
+{
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "recordingDevice" : "",
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Comet",
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "appVersion" : "2.11.0",
+  "datetime" : "2026-04-10T08:48:20",
+  "literalPunctuationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "rawResult" : " How is called already the code name for Netflix charge test where they would actually turn off servers in Europe or something like this? Don't take my words, it's just some approximation but I want to find the code name.",
+  "duration" : 18297,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "How is called already the code name for Netflix charge test where they would actually turn off servers in Europe or something like this?",
+      "start" : 0,
+      "end" : 12.62
+    },
+    {
+      "text" : "Don't take my words, it's just some approximation but I want to find the code name.",
+      "start" : 13.88,
+      "end" : 18.08
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "processingTime" : 1109,
+  "languageModelKey" : "",
+  "result" : "How is called already the code name for Netflix charge test where they would actually turn off servers in Europe or something like this? Don't take my words, it's just some approximation but I want to find the code name.",
+  "modelName" : "Ultra (Cloud)"
+}

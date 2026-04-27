@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "text" : "I'm on a MacBook Pro M4 Max 64GB of RAM, what variant should I use for coding?",
+      "start" : 0,
+      "end" : 7.38
+    }
+  ],
+  "rawResult" : " I'm on a MacBook Pro M4 Max 64GB of RAM, what variant should I use for coding?",
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "languageModelKey" : "",
+  "datetime" : "2026-04-23T01:23:42",
+  "processingTime" : 1533,
+  "result" : "I'm on a MacBook Pro M4 Max 64GB of RAM, what variant should I use for coding?",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "duration" : 7791,
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Comet"
+    }
+  }
+}

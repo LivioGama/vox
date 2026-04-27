@@ -1,0 +1,1 @@
+I really don't like the way Warp terminal handle history of command line. How can I disable this feature because even control R is intercepted.

@@ -1,0 +1,65 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 33526,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Cursor"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "processingTime" : 1411,
+  "recordingDevice" : "",
+  "rawResult" : " I did today recently a change where the dev script would run both Next.js and backend. I'm 100% sure I did this change days ago before, so find the stash, the shelf or the worktree or the git commit where this was done. we need to retrieve it and if you don't find it look in your history of the past conversation for this project",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 8.28,
+      "text" : "I did today recently a change where the dev script would run both Next.js and backend."
+    },
+    {
+      "start" : 9.68,
+      "end" : 24.5,
+      "text" : "I'm 100% sure I did this change days ago before, so find the stash, the shelf or the worktree or the git commit where this was done."
+    },
+    {
+      "start" : 25.3,
+      "end" : 32.78,
+      "text" : "we need to retrieve it and if you don't find it look in your history of the past conversation for this project"
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-21T23:41:45",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "I did today recently a change where the dev script would run both Next.js and backend. I'm 100% sure I did this change days ago before, so find the stash, the shelf or the worktree or the git commit where this was done. we need to retrieve it and if you don't find it look in your history of the past conversation for this project"
+}

@@ -1,0 +1,65 @@
+{
+  "languageModelName" : "",
+  "datetime" : "2026-04-25T08:57:20",
+  "result" : "Right now we have a problem, the new first start by GitPulling and then actually we need to work on two issues on the most parallel agent that we can which is that we cannot generate a project and we cannot sign it. When you actually address the problems, also test in the browser and check the logs in the network and so on. And use 15 parallel sub-agents.",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " Right now we have a problem, the new first start by GitPulling and then actually we need to work on two issues on the most parallel agent that we can which is that we cannot generate a project and we cannot sign it. When you actually address the problems, also test in the browser and check the logs in the network and so on. And use 15 parallel sub-agents.",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "segments" : [
+    {
+      "end" : 34.416,
+      "start" : 0.544,
+      "text" : "Right now we have a problem, the new first start by GitPulling and then actually we need to work on two issues on the most parallel agent that we can which is that we cannot generate a project and we cannot sign it."
+    },
+    {
+      "end" : 40.736,
+      "start" : 34.416,
+      "text" : "When you actually address the problems, also test in the browser and check the logs in the network and so on."
+    },
+    {
+      "end" : 40.736,
+      "start" : 40.736,
+      "text" : "And use 15 parallel sub-agents."
+    }
+  ],
+  "processingTime" : 2365,
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "modeName" : "Default",
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "",
+  "prompt" : "",
+  "duration" : 41680,
+  "languageSelected" : "en"
+}

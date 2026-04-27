@@ -1,0 +1,55 @@
+{
+  "result" : "It's still not working. I load the home page, I can see the project, I click on one of the projects it opens and then when I click on the back button on the top left, I go back to the home page and I don't see any project. There are a lot of hot reloads, I don't know why but there is an issue there.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "processingTime" : 1076,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "rawResult" : " It's still not working. I load the home page, I can see the project, I click on one of the projects it opens and then when I click on the back button on the top left, I go back to the home page and I don't see any project. There are a lot of hot reloads, I don't know why but there is an issue there.",
+  "duration" : 16736,
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-16T20:29:41",
+  "appVersion" : "2.12.0",
+  "realtimeEnabled" : false,
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Cursor"
+    },
+    "userContext" : {
+
+    }
+  },
+  "segments" : [
+    {
+      "end" : 16.3,
+      "start" : 0,
+      "text" : "It's still not working. I load the home page, I can see the project, I click on one of the projects it opens and then when I click on the back button on the top left, I go back to the home page and I don't see any project. There are a lot of hot reloads, I don't know why but there is an issue there."
+    }
+  ],
+  "modelName" : "Ultra (Cloud)"
+}

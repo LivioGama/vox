@@ -1,0 +1,60 @@
+{
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T21:56:11",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "duration" : 6444,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "You can delete Automate, Bold and Zulip. But then...",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "processingTime" : 805,
+  "appVersion" : "2.12.1",
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "text" : "You can delete Automate, Bold and Zulip.",
+      "start" : 0,
+      "end" : 3.5
+    },
+    {
+      "text" : "But then...",
+      "start" : 5.16,
+      "end" : 6.42
+    }
+  ],
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "rawResult" : " You can delete Automate, Bold and Zulip. But then...",
+  "systemAudioEnabled" : false
+}

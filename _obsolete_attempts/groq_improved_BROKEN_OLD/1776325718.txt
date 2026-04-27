@@ -1,0 +1,1 @@
+Et ensuite, simplement avoir one script qui ouvrira Westerne et qui pourra voir les 6 agents dans différents pans. Pas avec un dummy mais avec un réel que vous allez timer 20 secondes. Et nettoyer un peu le repos.

@@ -1,0 +1,1 @@
+Should I change the back-off priority? Should I check the integrity of media installation? Should I execute cell? Should I execute a CD from drive about installation? What should I do?

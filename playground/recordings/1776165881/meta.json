@@ -1,0 +1,65 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Make sure that I want to be informed on Slack when somebody has been banned.",
+      "end" : 4.32,
+      "start" : 0
+    },
+    {
+      "text" : "And make sure that this person cannot query anymore and just...",
+      "end" : 10.3,
+      "start" : 5.14
+    },
+    {
+      "text" : "Just abuse my API because they are draining my OpenAI quota, you know?",
+      "end" : 18.78,
+      "start" : 13.1
+    }
+  ],
+  "recordingDevice" : "",
+  "duration" : 19141,
+  "languageModelKey" : "",
+  "applicationContextEnabled" : false,
+  "appVersion" : "2.12.0",
+  "processingTime" : 905,
+  "systemAudioEnabled" : false,
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-14T11:24:41",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Cursor"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "rawResult" : " Make sure that I want to be informed on Slack when somebody has been banned. And make sure that this person cannot query anymore and just... Just abuse my API because they are draining my OpenAI quota, you know?",
+  "result" : "Make sure that I want to be informed on Slack when somebody has been banned. And make sure that this person cannot query anymore and just... Just abuse my API because they are draining my OpenAI quota, you know?",
+  "realtimeEnabled" : false,
+  "languageModelName" : ""
+}

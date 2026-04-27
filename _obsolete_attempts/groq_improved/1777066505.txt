@@ -1,0 +1,1 @@
+Say something like, cannot set terminal process group, inappropriate EOCTL for device, no job control in this shell, and then I cannot type.

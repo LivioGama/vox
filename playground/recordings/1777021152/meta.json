@@ -1,0 +1,75 @@
+{
+  "segments" : [
+    {
+      "end" : 20.52,
+      "text" : "I have a few fixes to suggest on this page. First of all, the top bar containing the logo and the three buttons. The background should be full width. Right now it has a margin left and right.",
+      "start" : 0
+    },
+    {
+      "end" : 40.78,
+      "text" : "Then for the number in the Euro 987, it should be something like",
+      "start" : 26.7
+    },
+    {
+      "end" : 49.76,
+      "text" : "the average of everything time below.",
+      "start" : 43.04
+    },
+    {
+      "end" : 62.56,
+      "text" : "Then in the build for speed delivered at light speed,",
+      "start" : 59.3
+    },
+    {
+      "end" : 70.34,
+      "text" : "The number should be 45 seconds.",
+      "start" : 62.56
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "duration" : 77580,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I have a few fixes to suggest on this page. First of all, the top bar containing the logo and the three buttons. The background should be full width. Right now it has a margin left and right. Then for the number in the Euro 987, it should be something like the average of everything time below. Then in the build for speed delivered at light speed, The number should be 45 seconds.",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "processingTime" : 1756,
+  "speakers" : [
+
+  ],
+  "rawResult" : " I have a few fixes to suggest on this page. First of all, the top bar containing the logo and the three buttons. The background should be full width. Right now it has a margin left and right. Then for the number in the Euro 987, it should be something like the average of everything time below. Then in the build for speed delivered at light speed, The number should be 45 seconds.",
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-24T08:59:12",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

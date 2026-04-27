@@ -1,0 +1,60 @@
+{
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "speakers" : [
+
+  ],
+  "rawResult" : " I actually have a monitor that I bought, that we need to detect through USB. That is touch but I cannot use because I related the screen angle to 280 degrees and now it's offset so can you do the thing that touch base UPD and implement a fixed driver?",
+  "systemAudioEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "result" : "I actually have a monitor that I bought, that we need to detect through USB. That is touch but I cannot use because I related the screen angle to 280 degrees and now it's offset so can you do the thing that touch base UPD and implement a fixed driver?",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "duration" : 21400,
+  "prompt" : "",
+  "recordingDevice" : "",
+  "translationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "I actually have a monitor that I bought, that we need to detect through USB.",
+      "end" : 5.3
+    },
+    {
+      "start" : 5.82,
+      "text" : "That is touch but I cannot use because I related the screen angle to 280 degrees and now it's offset so can you do the thing that touch base UPD and implement a fixed driver?",
+      "end" : 20.44
+    }
+  ],
+  "languageModelKey" : "",
+  "datetime" : "2026-04-24T21:27:41",
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "processingTime" : 1123,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : ""
+}

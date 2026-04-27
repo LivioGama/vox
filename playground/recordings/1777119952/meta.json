@@ -1,0 +1,55 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Potentially with a Ralph Loop, can you find it? And then actually can you explain to me how it worked and if it worked?",
+  "applicationContextEnabled" : false,
+  "processingTime" : 5675,
+  "languageModelName" : "",
+  "datetime" : "2026-04-25T12:25:52",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "duration" : 8154,
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "end" : 8.154563,
+      "start" : 0.608,
+      "text" : "Potentially with a Ralph Loop, can you find it? And then actually can you explain to me how it worked and if it worked?"
+    }
+  ],
+  "result" : "Potentially with a Ralph Loop, can you find it? And then actually can you explain to me how it worked and if it worked?",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "appVersion" : "2.13.0",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "separateSpeakersEnabled" : false,
+  "prompt" : ""
+}

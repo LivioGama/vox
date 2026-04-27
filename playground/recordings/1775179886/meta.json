@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " Beep.",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "prompt" : "",
+  "duration" : 1945,
+  "segments" : [
+    {
+      "end" : 0.46,
+      "start" : 0,
+      "text" : "Beep."
+    }
+  ],
+  "recordingDevice" : "",
+  "result" : "Beep.",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-03T01:31:26",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "appVersion" : "2.11.0",
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1549,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Claude",
+      "nouns" : [
+
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Okay on the Rinsurf, use only Claude Sonnet 4.6 and SWE 1.6 FAST as models, regardless of the role.

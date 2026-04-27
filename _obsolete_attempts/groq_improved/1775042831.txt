@@ -1,0 +1,1 @@
+Can you fix iOS pushnotif problem where actually when reinstalling the app and the push token notification is not triggered because there is already one, we actually don't get the token to be sent to the backend?

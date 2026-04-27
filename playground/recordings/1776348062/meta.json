@@ -1,0 +1,55 @@
+{
+  "result" : "Measure le degré d'effet Barnum dans tout ce que tu m'as dit.",
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " Measure le degré d'effet Barnum dans tout ce que tu m'as dit.",
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-16T14:01:02",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.12.0",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 3.46,
+      "text" : "Measure le degré d'effet Barnum dans tout ce que tu m'as dit."
+    }
+  ],
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "processingTime" : 693,
+  "duration" : 3922
+}

@@ -1,0 +1,60 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-02T13:47:42",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " Now you see the part where we use Grok GPT OSS 120B to generate all the frontend and backend tasks. I want you to replace that with the current LLM I'm running locally, which is the 1B. modeled on AT80",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1211,
+  "recordingDevice" : "",
+  "result" : "Now you see the part where we use Grok GPT OSS 120B to generate all the frontend and backend tasks. I want you to replace that with the current LLM I'm running locally, which is the 1B. modeled on AT80",
+  "segments" : [
+    {
+      "text" : "Now you see the part where we use Grok GPT OSS 120B to generate all the frontend and backend tasks. I want you to replace that with the current LLM I'm running locally, which is the 1B.",
+      "end" : 28.5,
+      "start" : 0
+    },
+    {
+      "text" : "modeled on AT80",
+      "end" : 32.08,
+      "start" : 30
+    }
+  ],
+  "duration" : 32586,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Warp"
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

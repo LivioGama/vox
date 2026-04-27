@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "duration" : 12080,
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "result" : "Create a new project on Backploy to deploy this branch to a new domain.",
+  "processingTime" : 1143,
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-24T07:41:47",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " Create a new project on Backploy to deploy this branch to a new domain.",
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 10.3,
+      "text" : "Create a new project on Backploy to deploy this branch to a new domain.",
+      "start" : 0
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

@@ -1,0 +1,1 @@
+Why does it write SONE 4.6 instead of OpenAI?

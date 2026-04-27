@@ -1,0 +1,1 @@
+all right so now how can you explain that the files from unix config are not decrypted on NetCup

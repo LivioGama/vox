@@ -1,0 +1,55 @@
+{
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "languageSelected" : "en",
+  "prompt" : "",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "translationEnabled" : false,
+  "realtimeEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "applicationContextEnabled" : false,
+  "result" : "Alright, so now we miss a part where you use that image to generate a full website one shot using Codex CLI ACP with the model GPT 5.5 including in your social description and yeah.",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "segments" : [
+    {
+      "end" : 27.873,
+      "text" : "Alright, so now we miss a part where you use that image to generate a full website one shot using Codex CLI ACP with the model GPT 5.5 including in your social description and yeah.",
+      "start" : 0.064
+    }
+  ],
+  "languageModelName" : "",
+  "duration" : 27873,
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Alright, so now we miss a part where you use that image to generate a full website one shot using Codex CLI ACP with the model GPT 5.5 including in your social description and yeah.",
+  "processingTime" : 2137,
+  "datetime" : "2026-04-25T16:33:03",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0"
+}

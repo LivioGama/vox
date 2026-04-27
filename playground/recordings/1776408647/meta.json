@@ -1,0 +1,95 @@
+{
+  "rawResult" : " So basically, what you need to understand is that the monosons that I'm trying to replace is design. This is the main criteria. Yeah, so do everything you have to. Even if you have to do Google search or test but I want to find the best UI. You are actually also allowed to search for skills or maybe some things that is really specific to GPT OSS 120B that actually elevates the design part for building website.",
+  "duration" : 44940,
+  "prompt" : "",
+  "processingTime" : 1766,
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "result" : "So basically, what you need to understand is that the monosons that I'm trying to replace is design. This is the main criteria. Yeah, so do everything you have to. Even if you have to do Google search or test but I want to find the best UI. You are actually also allowed to search for skills or maybe some things that is really specific to GPT OSS 120B that actually elevates the design part for building website.",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "segments" : [
+    {
+      "start" : 1.48,
+      "text" : "So basically, what you need to understand is that the monosons that I'm trying to replace",
+      "end" : 7.02
+    },
+    {
+      "start" : 12.56,
+      "text" : "is design. This is the main criteria.",
+      "end" : 14.74
+    },
+    {
+      "start" : 14.74,
+      "text" : "Yeah, so do everything you have to.",
+      "end" : 17.46
+    },
+    {
+      "start" : 19.62,
+      "text" : "Even if you have to do Google search",
+      "end" : 24.72
+    },
+    {
+      "start" : 28.88,
+      "text" : "or test but I want to find the best UI.",
+      "end" : 31.66
+    },
+    {
+      "start" : 32.06,
+      "text" : "You are actually also allowed to search for skills",
+      "end" : 34.44
+    },
+    {
+      "start" : 34.44,
+      "text" : "or maybe some things that is really specific",
+      "end" : 36.74
+    },
+    {
+      "start" : 36.74,
+      "text" : "to GPT OSS 120B",
+      "end" : 38.84
+    },
+    {
+      "start" : 38.84,
+      "text" : "that actually elevates the design part for building website.",
+      "end" : 44.3
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-17T06:50:47"
+}

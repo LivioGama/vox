@@ -1,0 +1,1 @@
+Make a list of all the speech-to-text tools like Super Whisper, Whisperflow, Murmur, etc.

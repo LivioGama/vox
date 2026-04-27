@@ -1,0 +1,65 @@
+{
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Can you create a new preset for all my OpenCode Slim with the model Opus for reasoning and...",
+      "end" : 13.14
+    },
+    {
+      "start" : 13.14,
+      "text" : "No, Sony 4.6 for reasoning.",
+      "end" : 16.04
+    },
+    {
+      "start" : 16.42,
+      "text" : "No, Sony 4.5 for reasoning and everything that is implementing and supposed to be fast with Winsurf SWE 1.6 fast.",
+      "end" : 27.7
+    }
+  ],
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    }
+  },
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "processingTime" : 1135,
+  "datetime" : "2026-04-24T05:11:49",
+  "rawResult" : " Can you create a new preset for all my OpenCode Slim with the model Opus for reasoning and... No, Sony 4.6 for reasoning. No, Sony 4.5 for reasoning and everything that is implementing and supposed to be fast with Winsurf SWE 1.6 fast.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 27915,
+  "result" : "Can you create a new preset for all my OpenCode Slim with the model Opus for reasoning and... No, Sony 4.6 for reasoning. No, Sony 4.5 for reasoning and everything that is implementing and supposed to be fast with Winsurf SWE 1.6 fast.",
+  "applicationContextEnabled" : false
+}

@@ -1,0 +1,60 @@
+{
+  "translationEnabled" : false,
+  "appVersion" : "2.13.0",
+  "duration" : 13327,
+  "realtimeEnabled" : false,
+  "processingTime" : 1048,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "start" : 0.352,
+      "end" : 10.412,
+      "text" : "You know, each time that you finish to the same change, you should recompile the vox and reinstall it so I can test it directly in OpenCode."
+    },
+    {
+      "start" : 10.652,
+      "end" : 13.327312,
+      "text" : "And you tell me if we do that, if I need to restart OpenCode or not."
+    }
+  ],
+  "rawResult" : " You know, each time that you finish to the same change, you should recompile the vox and reinstall it so I can test it directly in OpenCode. And you tell me if we do that, if I need to restart OpenCode or not.",
+  "result" : "You know, each time that you finish to the same change, you should recompile the vox and reinstall it so I can test it directly in OpenCode. And you tell me if we do that, if I need to restart OpenCode or not.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "datetime" : "2026-04-25T20:35:19",
+  "languageSelected" : "en"
+}

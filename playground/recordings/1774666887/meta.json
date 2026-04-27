@@ -1,0 +1,60 @@
+{
+  "duration" : 25617,
+  "modelName" : "Ultra (Cloud)",
+  "result" : "I'll find all the rare relevant job offers that are actually worth my level regardless where they are in US or Europe. The salary must be of course superior to 200k per year dollars and ideally way more.",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Google Gemini",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelName" : "",
+  "processingTime" : 1049,
+  "rawResult" : " I'll find all the rare relevant job offers that are actually worth my level regardless where they are in US or Europe. The salary must be of course superior to 200k per year dollars and ideally way more.",
+  "recordingDevice" : "",
+  "datetime" : "2026-03-28T03:01:27",
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 1.4,
+      "end" : 13.06,
+      "text" : "I'll find all the rare relevant job offers that are actually worth my level regardless where they are in US or Europe."
+    },
+    {
+      "start" : 13.64,
+      "end" : 25.32,
+      "text" : "The salary must be of course superior to 200k per year dollars and ideally way more."
+    }
+  ],
+  "languageSelected" : "en",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : ""
+}

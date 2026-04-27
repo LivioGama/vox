@@ -1,0 +1,55 @@
+{
+  "result" : "Why can't I configure CTRL plus OPTION plus ARROW RIGHT on CMAX to split?",
+  "rawResult" : " Why can't I configure CTRL plus OPTION plus ARROW RIGHT on CMAX to split?",
+  "segments" : [
+    {
+      "end" : 7.8,
+      "text" : "Why can't I configure CTRL plus OPTION plus ARROW RIGHT on CMAX to split?",
+      "start" : 0
+    }
+  ],
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "duration" : 9426,
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "languageModelKey" : "",
+  "processingTime" : 912,
+  "modeName" : "Default",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    }
+  },
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.12.0",
+  "datetime" : "2026-04-17T01:57:30",
+  "modelName" : "Ultra (Cloud)",
+  "recordingDevice" : ""
+}

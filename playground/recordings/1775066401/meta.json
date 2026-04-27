@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "rawResult" : " Still not Jesus.",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-04-01T18:00:01",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "processingTime" : 546,
+  "duration" : 1378,
+  "segments" : [
+    {
+      "text" : "Still not Jesus.",
+      "start" : 0,
+      "end" : 1
+    }
+  ],
+  "result" : "Still not Jesus.",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "appVersion" : "2.11.0",
+  "modelName" : "Ultra (Cloud)"
+}

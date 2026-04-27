@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Now kill the process for this project, port 3000 and 7420.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageModelKey" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "processingTime" : 864,
+  "duration" : 9383,
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "datetime" : "2026-04-27T02:33:58",
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "result" : "Now kill the process for this project, port 3000 and 7420.",
+  "languageModelName" : "",
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 9.383625,
+      "text" : "Now kill the process for this project, port 3000 and 7420.",
+      "start" : 0.352
+    }
+  ]
+}

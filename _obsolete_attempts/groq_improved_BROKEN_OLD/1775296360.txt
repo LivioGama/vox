@@ -1,0 +1,1 @@
+It's still limits me to the model that I can deploy myself. For example, it won't help me accessing cursor, composer to model, right?

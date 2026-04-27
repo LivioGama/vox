@@ -1,0 +1,1 @@
+Finewary is installed in Poolify and save the session generated in another folder outside.

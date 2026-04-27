@@ -1,0 +1,55 @@
+{
+  "duration" : 12076,
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "I don't see the changes. Normally with the D letter, I can delete by covering a project and also when I open an existing project it's not supposed to show the animation and so on.",
+      "end" : 11.74
+    }
+  ],
+  "processingTime" : 962,
+  "appVersion" : "2.12.0",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "datetime" : "2026-04-16T15:38:13",
+  "realtimeEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " I don't see the changes. Normally with the D letter, I can delete by covering a project and also when I open an existing project it's not supposed to show the animation and so on.",
+  "languageSelected" : "en",
+  "prompt" : "",
+  "separateSpeakersEnabled" : false,
+  "result" : "I don't see the changes. Normally with the D letter, I can delete by covering a project and also when I open an existing project it's not supposed to show the animation and so on."
+}

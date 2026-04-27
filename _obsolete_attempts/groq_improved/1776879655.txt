@@ -1,0 +1,1 @@
+should be the default prompt prefilled if I do a Ctrl plus S Easter egg keyboard in development.

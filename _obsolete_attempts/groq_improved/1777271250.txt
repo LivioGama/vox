@@ -1,0 +1,1 @@
+Don't try to check if I have Cargo Watch, it doesn't matter. Just tell me how I can improve Cargo Watch to not trigger too fast.

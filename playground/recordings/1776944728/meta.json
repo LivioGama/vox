@@ -1,0 +1,60 @@
+{
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "datetime" : "2026-04-23T11:45:28",
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 861,
+  "rawResult" : " It does not work, maybe... What is CNI local?",
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "result" : "It does not work, maybe... What is CNI local?",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "end" : 2,
+      "start" : 0,
+      "text" : "It does not work, maybe..."
+    },
+    {
+      "end" : 9.24,
+      "start" : 6.36,
+      "text" : "What is CNI local?"
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 9768,
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "speakers" : [
+
+  ]
+}

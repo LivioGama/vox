@@ -1,0 +1,65 @@
+{
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Oh, but wait! I'm actually fine for Iris to use Claude Code ACP to create skill. It's fine for me.",
+      "end" : 9.7
+    },
+    {
+      "start" : 11.26,
+      "text" : "It's not a reproach, I just wanted to know how it works.",
+      "end" : 14.3
+    },
+    {
+      "start" : 14.58,
+      "text" : "But be careful to actually use haiku 4.5 models because it needs to be fast.",
+      "end" : 24.44
+    }
+  ],
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "rawResult" : " Oh, but wait! I'm actually fine for Iris to use Claude Code ACP to create skill. It's fine for me. It's not a reproach, I just wanted to know how it works. But be careful to actually use haiku 4.5 models because it needs to be fast.",
+  "languageSelected" : "en",
+  "processingTime" : 1139,
+  "datetime" : "2026-04-16T17:27:23",
+  "result" : "Oh, but wait! I'm actually fine for Iris to use Claude Code ACP to create skill. It's fine for me. It's not a reproach, I just wanted to know how it works. But be careful to actually use haiku 4.5 models because it needs to be fast.",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.0",
+  "duration" : 24912,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "prompt" : "",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Warp",
+      "includeInPrompt" : false
+    }
+  }
+}

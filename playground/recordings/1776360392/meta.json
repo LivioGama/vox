@@ -1,0 +1,60 @@
+{
+  "rawResult" : " What are you actually trying to do? Ah, because I don't understand the SCP thing and I don't see why it should be on Netcup and not on my registrar which is Versal.",
+  "segments" : [
+    {
+      "text" : "What are you actually trying to do?",
+      "start" : 0,
+      "end" : 1.64
+    },
+    {
+      "text" : "Ah, because I don't understand the SCP thing and I don't see why it should be on Netcup and not on my registrar which is Versal.",
+      "start" : 2.48,
+      "end" : 10.9
+    }
+  ],
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "duration" : 11168,
+  "translationEnabled" : false,
+  "appVersion" : "2.12.0",
+  "separateSpeakersEnabled" : false,
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "What are you actually trying to do? Ah, because I don't understand the SCP thing and I don't see why it should be on Netcup and not on my registrar which is Versal.",
+  "processingTime" : 979,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Warp",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "datetime" : "2026-04-16T17:26:32",
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

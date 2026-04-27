@@ -1,0 +1,55 @@
+{
+  "recordingDevice" : "",
+  "languageSelected" : "en",
+  "datetime" : "2026-04-23T11:50:48",
+  "appVersion" : "2.12.1",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 337,
+  "rawResult" : " Yes.",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "result" : "Yes.",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 0.1,
+      "text" : "Yes."
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 203,
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ]
+}

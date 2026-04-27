@@ -1,0 +1,90 @@
+{
+  "result" : "Now can you add to Iris one of the most important features that will be about the notion of time, like she should actually have a periodic crown that every hour if there is no task assigned to her and I'm not talking to her, she should actually run deep research with perplexity API keys that you would find the credential either in Composio or either in my ZSH arm. And actually this deep research should be about finding new topics, new ideas of things to improve, to learn that you should develop new skills from and actually write a report about it. So for now it will be a markdown file that will be on my desktop.",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "rawResult" : " Now can you add to Iris one of the most important features that will be about the notion of time, like she should actually have a periodic crown that every hour if there is no task assigned to her and I'm not talking to her, she should actually run deep research with perplexity API keys that you would find the credential either in Composio or either in my ZSH arm. And actually this deep research should be about finding new topics, new ideas of things to improve, to learn that you should develop new skills from and actually write a report about it. So for now it will be a markdown file that will be on my desktop.",
+  "segments" : [
+    {
+      "text" : "Now can you add to Iris one of the most important features that will be about the notion of time,",
+      "start" : 1.08,
+      "end" : 8.2
+    },
+    {
+      "text" : "like she should actually have a periodic crown that every hour if there is no task assigned",
+      "start" : 8.38,
+      "end" : 15.28
+    },
+    {
+      "text" : "to her and I'm not talking to her, she should actually run deep research with perplexity API",
+      "start" : 15.28,
+      "end" : 22.66
+    },
+    {
+      "text" : "keys that you would find the credential either in Composio or either in my ZSH arm.",
+      "start" : 22.66,
+      "end" : 28.32
+    },
+    {
+      "text" : "And actually this deep research should be about finding new topics,",
+      "start" : 28.32,
+      "end" : 32.56
+    },
+    {
+      "text" : "new ideas of things to improve, to learn that you should develop new skills from",
+      "start" : 32.8,
+      "end" : 37.38
+    },
+    {
+      "text" : "and actually write a report about it.",
+      "start" : 37.38,
+      "end" : 40.18
+    },
+    {
+      "text" : "So for now it will be a markdown file that will be on my desktop.",
+      "start" : 40.36,
+      "end" : 43
+    }
+  ],
+  "prompt" : "",
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "duration" : 44640,
+  "processingTime" : 1589,
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "datetime" : "2026-04-22T05:42:34",
+  "languageSelected" : "en"
+}

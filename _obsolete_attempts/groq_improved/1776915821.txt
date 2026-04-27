@@ -1,0 +1,1 @@
+Can you copy the git-crypt key for unixconfig in both NetCup and of ssh?

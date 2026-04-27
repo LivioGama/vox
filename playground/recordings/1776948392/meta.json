@@ -1,0 +1,55 @@
+{
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-23T12:46:32",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 1143,
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "separateSpeakersEnabled" : false,
+  "result" : "Why the fuck are you trying to fix instead of copying what is on the VPS?",
+  "rawResult" : " Why the fuck are you trying to fix instead of copying what is on the VPS?",
+  "duration" : 6241,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Why the fuck are you trying to fix instead of copying what is on the VPS?",
+      "start" : 0,
+      "end" : 5.74
+    }
+  ]
+}

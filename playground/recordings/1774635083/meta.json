@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "rawResult" : " It was something I saw on Z, at some point there was like a top left toggle button that would open a left sider with different projects open simultaneously.",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-03-27T18:11:23",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Warp"
+    }
+  },
+  "processingTime" : 969,
+  "duration" : 17848,
+  "segments" : [
+    {
+      "end" : 16.98,
+      "text" : "It was something I saw on Z, at some point there was like a top left toggle button that would open a left sider with different projects open simultaneously.",
+      "start" : 0
+    }
+  ],
+  "result" : "It was something I saw on Z, at some point there was like a top left toggle button that would open a left sider with different projects open simultaneously.",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "appVersion" : "2.11.0",
+  "modelName" : "Ultra (Cloud)"
+}

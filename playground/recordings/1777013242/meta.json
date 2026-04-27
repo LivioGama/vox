@@ -1,0 +1,60 @@
+{
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 10.68,
+      "text" : "Alright, perfect. You can already commit and push that in the 3Rub3-branch."
+    },
+    {
+      "start" : 12.8,
+      "end" : 16.88,
+      "text" : "And then can you tell me what you see that can be improved for the design?"
+    }
+  ],
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "rawResult" : " Alright, perfect. You can already commit and push that in the 3Rub3-branch. And then can you tell me what you see that can be improved for the design?",
+  "duration" : 18019,
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "result" : "Alright, perfect. You can already commit and push that in the 3Rub3-branch. And then can you tell me what you see that can be improved for the design?",
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "processingTime" : 772,
+  "datetime" : "2026-04-24T06:47:22",
+  "realtimeEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : ""
+}

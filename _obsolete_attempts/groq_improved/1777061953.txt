@@ -1,0 +1,1 @@
+What's the best optimization for RAM footprint? For example, when it's idle, I want it to be under 40 megabytes of RAM.

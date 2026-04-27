@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 16896,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "ChatGPT",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "processingTime" : 1097,
+  "rawResult" : " I heard that on Linux, Docker, Rust, Gradle and a ton of other stuff works better. Is it the case if the Linux distribution is an ARM version?",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 16.42,
+      "text" : "I heard that on Linux, Docker, Rust, Gradle and a ton of other stuff works better. Is it the case if the Linux distribution is an ARM version?"
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T09:41:40",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "I heard that on Linux, Docker, Rust, Gradle and a ton of other stuff works better. Is it the case if the Linux distribution is an ARM version?"
+}

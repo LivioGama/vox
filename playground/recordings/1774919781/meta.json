@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-03-31T01:16:21",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " Your goal is to extract all those features and the way they are implemented meticulously, like with really a lot of precision, and to implement the Merge Kit app 1.1 with the JetBrains Java code that you will find in the folder.",
+  "translationEnabled" : false,
+  "processingTime" : 1094,
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "Your goal is to extract all those features and the way they are implemented meticulously, like with really a lot of precision, and to implement the Merge Kit app 1.1 with the JetBrains Java code that you will find in the folder.",
+  "segments" : [
+    {
+      "text" : "Your goal is to extract all those features and the way they are implemented meticulously, like with really a lot of precision, and to implement the Merge Kit app 1.1 with the JetBrains Java code that you will find in the folder.",
+      "end" : 22.7,
+      "start" : 0.9
+    }
+  ],
+  "duration" : 23213,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Claude",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

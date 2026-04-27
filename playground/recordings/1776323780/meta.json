@@ -1,0 +1,55 @@
+{
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Did you commit to push that on a new branch and not ON?",
+      "end" : 4.46
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "processingTime" : 775,
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "rawResult" : " Did you commit to push that on a new branch and not ON?",
+  "literalPunctuationEnabled" : false,
+  "recordingDevice" : "",
+  "duration" : 4820,
+  "result" : "Did you commit to push that on a new branch and not ON?",
+  "prompt" : "",
+  "translationEnabled" : false,
+  "appVersion" : "2.12.0",
+  "realtimeEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Claude"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageSelected" : "en",
+  "datetime" : "2026-04-16T07:16:20",
+  "languageModelName" : ""
+}

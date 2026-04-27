@@ -1,0 +1,70 @@
+{
+  "languageModelName" : "",
+  "datetime" : "2026-04-25T10:19:36",
+  "result" : "I have a big issue, I cannot manage to calibrate my touchscreen. First of all when I touch my touchscreen, instead of bringing the cursor under my finger, it actually stays on the other monitor and clicks there. And actually the axis is inverted and I cannot manage to fix it. A few buttons are not working so can you actually fix the code and then actually manage to find a way to test yourself, take screenshots? I really want you to do everything in autonomy before asking me to... Do something.",
+  "systemAudioEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " I have a big issue, I cannot manage to calibrate my touchscreen. First of all when I touch my touchscreen, instead of bringing the cursor under my finger, it actually stays on the other monitor and clicks there. And actually the axis is inverted and I cannot manage to fix it. A few buttons are not working so can you actually fix the code and then actually manage to find a way to test yourself, take screenshots? I really want you to do everything in autonomy before asking me to... Do something.",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "realtimeEnabled" : false,
+  "translationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "segments" : [
+    {
+      "text" : "I have a big issue, I cannot manage to calibrate my touchscreen. First of all when I touch my touchscreen, instead of bringing the cursor under my finger, it actually stays on the other monitor and clicks there.",
+      "start" : 0,
+      "end" : 15.708
+    },
+    {
+      "text" : "And actually the axis is inverted and I cannot manage to fix it. A few buttons are not working so can you actually fix the code and then actually manage to find a way to test yourself, take screenshots?",
+      "start" : 16.408,
+      "end" : 33.004
+    },
+    {
+      "text" : "I really want you to do everything in autonomy before asking me to...",
+      "start" : 33.004,
+      "end" : 34.88
+    },
+    {
+      "text" : "Do something.",
+      "start" : 34.88,
+      "end" : 34.88
+    }
+  ],
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "processingTime" : 1523,
+  "modeName" : "Default",
+  "appVersion" : "2.13.0",
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "prompt" : "",
+  "duration" : 36572,
+  "languageSelected" : "en"
+}

@@ -1,0 +1,55 @@
+{
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-02T14:18:59",
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.11.0",
+  "rawResult" : " We are working on the rebuild of Iris, so basically you should ignore every folder except the agent one.",
+  "translationEnabled" : false,
+  "processingTime" : 846,
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "result" : "We are working on the rebuild of Iris, so basically you should ignore every folder except the agent one.",
+  "segments" : [
+    {
+      "text" : "We are working on the rebuild of Iris, so basically you should ignore every folder except the agent one.",
+      "end" : 6.78,
+      "start" : 0
+    }
+  ],
+  "duration" : 7117,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Terminal"
+    }
+  },
+  "literalPunctuationEnabled" : false
+}

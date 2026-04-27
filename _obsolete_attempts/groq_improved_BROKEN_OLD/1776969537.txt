@@ -1,0 +1,1 @@
+Cursor ACP. with model codex 5.3 spark, which is 1000 TPS, to replace time homepage generation model that this currently too slow.

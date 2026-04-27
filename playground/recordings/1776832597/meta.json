@@ -1,0 +1,65 @@
+{
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "Thank you. Thank you. Is it okay?",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "Slack"
+    }
+  },
+  "recordingDevice" : "",
+  "processingTime" : 2748,
+  "prompt" : "",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "text" : "Thank you.",
+      "start" : 24.62,
+      "end" : 27.42
+    },
+    {
+      "text" : "Thank you.",
+      "start" : 42.2,
+      "end" : 45
+    },
+    {
+      "text" : "Is it okay?",
+      "start" : 63,
+      "end" : 63.84
+    }
+  ],
+  "duration" : 86269,
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelName" : "Ultra (Cloud)",
+  "systemAudioEnabled" : false,
+  "rawResult" : " Thank you. Thank you. Is it okay?",
+  "datetime" : "2026-04-22T04:36:37",
+  "appVersion" : "2.12.1"
+}

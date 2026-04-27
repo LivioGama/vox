@@ -1,0 +1,1 @@
+If the machine is turned off, the sandboxes are turned off and I throw a prompt, it's should auto turn in. Also configure a 15-minute delay timeout to avoid time incidents where I wasted $150 while they're running for three days for nothing.

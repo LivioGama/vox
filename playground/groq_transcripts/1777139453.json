@@ -1,0 +1,7 @@
+{
+  "recording_id": "1777139453",
+  "text": " I would like you to create an harness that will take advantage of Westerm or C-Max. For now we focus on Westerm and the multiple panes it can spawn. This harness will be able to have in the first place an orchestrator or a planner that will split the task in a number of tasks and this those tasks will be each treated separately in a pane as depends the pan of western using all those pans will be using the SWE 1.6 fast model which which is normally only inside Winesurf but I found a way to expose it through a proxy and the address of this proxy is already self-hosted on my VPS and this address is",
+  "segments": null,
+  "language": null,
+  "duration": null
+}

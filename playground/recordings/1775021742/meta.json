@@ -1,0 +1,60 @@
+{
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    }
+  },
+  "languageModelName" : "",
+  "modeName" : "Default",
+  "processingTime" : 1141,
+  "duration" : 16383,
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-01T05:35:42",
+  "result" : "We tried to implement the same Git-deviewer from the JetBrains folder you can find in the root, but the implementation is a disaster. It doesn't look at all, there is no curved connector, everything is shitty. Can you fix it?",
+  "separateSpeakersEnabled" : false,
+  "speakers" : [
+
+  ],
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "appVersion" : "2.11.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "applicationContextEnabled" : false,
+  "rawResult" : " We tried to implement the same Git-deviewer from the JetBrains folder you can find in the root, but the implementation is a disaster. It doesn't look at all, there is no curved connector, everything is shitty. Can you fix it?",
+  "segments" : [
+    {
+      "text" : "We tried to implement the same Git-deviewer from the JetBrains folder you can find in the root, but the implementation is a disaster.",
+      "end" : 10.54,
+      "start" : 0
+    },
+    {
+      "text" : "It doesn't look at all, there is no curved connector, everything is shitty. Can you fix it?",
+      "end" : 15.9,
+      "start" : 11.04
+    }
+  ]
+}

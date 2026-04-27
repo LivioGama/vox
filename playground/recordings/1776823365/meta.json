@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "duration" : 10078,
+  "datetime" : "2026-04-22T02:02:45",
+  "appVersion" : "2.12.1",
+  "result" : "Check deeper than the sub-agent will not use here for ACP but GitHub Copilot model for Sony 4.6.",
+  "realtimeEnabled" : false,
+  "processingTime" : 1542,
+  "rawResult" : " Check deeper than the sub-agent will not use here for ACP but GitHub Copilot model for Sony 4.6.",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Check deeper than the sub-agent will not use here for ACP but GitHub Copilot model for Sony 4.6.",
+      "end" : 9.98
+    }
+  ],
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Zed",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "prompt" : "",
+  "modelName" : "Ultra (Cloud)"
+}

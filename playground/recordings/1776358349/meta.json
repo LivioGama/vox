@@ -1,0 +1,65 @@
+{
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : "",
+  "processingTime" : 1324,
+  "datetime" : "2026-04-16T16:52:29",
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "segments" : [
+    {
+      "text" : "Can you commit already this? And then you will start aligning the design of the session page where we can see the preview of website with the same background.",
+      "start" : 0,
+      "end" : 15.56
+    },
+    {
+      "text" : "I want to get rid of the Safari window aspect. Let's kill this and have something more modern that will look like Google Stitch.",
+      "start" : 16.58,
+      "end" : 28.42
+    },
+    {
+      "text" : "I provided a screenshot.",
+      "start" : 28.42,
+      "end" : 29.42
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "languageModelKey" : "",
+  "appVersion" : "2.12.0",
+  "realtimeEnabled" : false,
+  "duration" : 29860,
+  "prompt" : "",
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "result" : "Can you commit already this? And then you will start aligning the design of the session page where we can see the preview of website with the same background. I want to get rid of the Safari window aspect. Let's kill this and have something more modern that will look like Google Stitch. I provided a screenshot.",
+  "recordingDevice" : "",
+  "rawResult" : " Can you commit already this? And then you will start aligning the design of the session page where we can see the preview of website with the same background. I want to get rid of the Safari window aspect. Let's kill this and have something more modern that will look like Google Stitch. I provided a screenshot.",
+  "applicationContextEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

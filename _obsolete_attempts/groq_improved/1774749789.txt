@@ -1,0 +1,1 @@
+By extension I meant the Comet browser extension, not the Visual Studio Code that you can remove.

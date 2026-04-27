@@ -1,0 +1,55 @@
+{
+  "rawResult" : " Alright, we started to migrate this project to Next.js from Vanilla. I want you to take over and continue finishing the migration considering that of course we will not be able to deploy on Vercel because the sessions are generated with file so we need monoliths so we will keep deploying on Docploy.",
+  "segments" : [
+    {
+      "end" : 21.04,
+      "start" : 0,
+      "text" : "Alright, we started to migrate this project to Next.js from Vanilla. I want you to take over and continue finishing the migration considering that of course we will not be able to deploy on Vercel because the sessions are generated with file so we need monoliths so we will keep deploying on Docploy."
+    }
+  ],
+  "literalPunctuationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "translationEnabled" : false,
+  "duration" : 21642,
+  "appVersion" : "2.12.0",
+  "separateSpeakersEnabled" : false,
+  "modeName" : "Default",
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "Alright, we started to migrate this project to Next.js from Vanilla. I want you to take over and continue finishing the migration considering that of course we will not be able to deploy on Vercel because the sessions are generated with file so we need monoliths so we will keep deploying on Docploy.",
+  "processingTime" : 1171,
+  "realtimeEnabled" : false,
+  "recordingDevice" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Cursor",
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "languageSelected" : "en",
+  "datetime" : "2026-04-16T13:53:09",
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

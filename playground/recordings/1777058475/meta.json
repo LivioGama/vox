@@ -1,0 +1,55 @@
+{
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Comet",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "duration" : 7716,
+  "systemAudioEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "result" : "Does Infomaniac has a CLI?",
+  "processingTime" : 750,
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "languageModelKey" : "",
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "datetime" : "2026-04-24T19:21:15",
+  "translationEnabled" : false,
+  "languageModelName" : "",
+  "rawResult" : " Does Infomaniac has a CLI?",
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 7.6,
+      "text" : "Does Infomaniac has a CLI?"
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

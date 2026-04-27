@@ -1,0 +1,1 @@
+Can you duplicate the fastagent folder without the gitignore file?

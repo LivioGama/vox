@@ -1,0 +1,1 @@
+Why does time generation suck so much? I thought we took time prompt engineering from time develop branch.

@@ -1,0 +1,65 @@
+{
+  "duration" : 28834,
+  "processingTime" : 1231,
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "literalPunctuationEnabled" : false,
+  "appVersion" : "2.13.0",
+  "rawResult" : " Alright, so first thing is I would like you to configure windsurf shortcuts so that command plus one toggles the sessions sidebar. Command plus two opens the terminal or close it, toggle it. Command plus three opens the right sidebar or close it.",
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "modeName" : "Default",
+  "result" : "Alright, so first thing is I would like you to configure windsurf shortcuts so that command plus one toggles the sessions sidebar. Command plus two opens the terminal or close it, toggle it. Command plus three opens the right sidebar or close it.",
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "realtimeEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "languageModelKey" : "",
+  "separateSpeakersEnabled" : false,
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "datetime" : "2026-04-25T17:24:37",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "segments" : [
+    {
+      "start" : 0.48,
+      "end" : 16.572,
+      "text" : "Alright, so first thing is I would like you to configure windsurf shortcuts so that command plus one toggles the sessions sidebar."
+    },
+    {
+      "start" : 17.308,
+      "end" : 27.052,
+      "text" : "Command plus two opens the terminal or close it, toggle it."
+    },
+    {
+      "start" : 27.136,
+      "end" : 27.136,
+      "text" : "Command plus three opens the right sidebar or close it."
+    }
+  ]
+}

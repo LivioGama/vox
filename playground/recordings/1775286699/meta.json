@@ -1,0 +1,55 @@
+{
+  "appVersion" : "2.11.0",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 8.42,
+      "text" : "Can you migrate the notification settings from Golyfy to Docloy via Telegram and Slack?"
+    }
+  ],
+  "result" : "Can you migrate the notification settings from Golyfy to Docloy via Telegram and Slack?",
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "cmux",
+      "includeInPrompt" : false
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "datetime" : "2026-04-04T07:11:39",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "rawResult" : " Can you migrate the notification settings from Golyfy to Docloy via Telegram and Slack?",
+  "processingTime" : 921,
+  "languageModelKey" : "",
+  "modelName" : "Ultra (Cloud)",
+  "translationEnabled" : false,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "literalPunctuationEnabled" : false,
+  "duration" : 9105
+}

@@ -1,0 +1,1 @@
+Try to install a Stripe CLI or Notion MCP and then we will create in Playground a script allowing to create the product and the subscription that we want.

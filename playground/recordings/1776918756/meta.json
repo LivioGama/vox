@@ -1,0 +1,55 @@
+{
+  "recordingDevice" : "",
+  "appVersion" : "2.12.1",
+  "languageSelected" : "en",
+  "datetime" : "2026-04-23T04:32:36",
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "processingTime" : 1151,
+  "rawResult" : " True, it's working. It's a bug of cache in the cursor cache browser. But the problem is that now the preview is below the right sidebar and it's not aligned to the left of the window like it was before. Fix it.",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "cmux",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "result" : "True, it's working. It's a bug of cache in the cursor cache browser. But the problem is that now the preview is below the right sidebar and it's not aligned to the left of the window like it was before. Fix it.",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "segments" : [
+    {
+      "end" : 19.9,
+      "text" : "True, it's working. It's a bug of cache in the cursor cache browser. But the problem is that now the preview is below the right sidebar and it's not aligned to the left of the window like it was before. Fix it.",
+      "start" : 0
+    }
+  ],
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "duration" : 20391,
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "languageModelKey" : "",
+  "literalPunctuationEnabled" : false,
+  "speakers" : [
+
+  ]
+}

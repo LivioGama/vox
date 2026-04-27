@@ -1,0 +1,60 @@
+{
+  "prompt" : "",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "ChatGPT",
+      "includeInPrompt" : false
+    }
+  },
+  "result" : "I need to understand why and what is capability are this place compared to GEN3.6, to GMAT4, to Claude Sonnet, to GPT 4.5, at 4.3. So find info and make me a comprehensive but readable table.",
+  "modeName" : "Default",
+  "separateSpeakersEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "translationEnabled" : false,
+  "datetime" : "2026-04-25T17:36:49",
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "systemAudioEnabled" : false,
+  "rawResult" : " I need to understand why and what is capability are this place compared to GEN3.6, to GMAT4, to Claude Sonnet, to GPT 4.5, at 4.3. So find info and make me a comprehensive but readable table.",
+  "segments" : [
+    {
+      "start" : 0.384,
+      "end" : 16.352,
+      "text" : "I need to understand why and what is capability are this place compared to GEN3.6, to GMAT4, to Claude Sonnet, to GPT 4.5, at 4.3."
+    },
+    {
+      "start" : 16.572,
+      "end" : 20.787188,
+      "text" : "So find info and make me a comprehensive but readable table."
+    }
+  ],
+  "languageModelName" : "",
+  "processingTime" : 1010,
+  "languageModelKey" : "",
+  "speakers" : [
+
+  ],
+  "duration" : 20787,
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "realtimeEnabled" : false
+}

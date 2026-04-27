@@ -1,0 +1,55 @@
+{
+  "prompt" : "",
+  "modeName" : "Default",
+  "modelName" : "Ultra (Cloud)",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "appVersion" : "2.13.0",
+  "segments" : [
+    {
+      "start" : 0.32,
+      "text" : "When using Cargo build release in this repo, are we taking advantage of my M4 Max 64GB of RAM because I want to use a maximum of parallelism to avoid waiting time?",
+      "end" : 16.96
+    }
+  ],
+  "languageModelName" : "",
+  "rawResult" : " When using Cargo build release in this repo, are we taking advantage of my M4 Max 64GB of RAM because I want to use a maximum of parallelism to avoid waiting time?",
+  "datetime" : "2026-04-27T07:47:25",
+  "applicationContextEnabled" : false,
+  "languageSelected" : "en",
+  "duration" : 17420,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Windsurf",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    }
+  },
+  "languageModelKey" : "",
+  "processingTime" : 1416,
+  "recordingDevice" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "translationEnabled" : false,
+  "result" : "When using Cargo build release in this repo, are we taking advantage of my M4 Max 64GB of RAM because I want to use a maximum of parallelism to avoid waiting time?",
+  "separateSpeakersEnabled" : false
+}

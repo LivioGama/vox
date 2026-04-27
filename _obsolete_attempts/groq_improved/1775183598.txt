@@ -1,0 +1,1 @@
+Should we precise in the documentation the fact that we can get an easy preview for free or not?

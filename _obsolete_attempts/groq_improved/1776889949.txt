@@ -1,0 +1,1 @@
+Using the Claude Code Installation CLI in the SSH VPS, can you copy everything to the other VPS NetCup? The idea is that we really want to have everything the same in order to benefit from the same authentication. So I think the best is that you simply zip all the relevant file and then SCP them to the NetCup to the NetCup and then unzip them.

@@ -1,0 +1,65 @@
+{
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-24T16:31:20",
+  "duration" : 35354,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "name" : "cmux",
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    }
+  },
+  "languageModelKey" : "",
+  "appVersion" : "2.12.1",
+  "result" : "Can you gather the list of public domain on devlive.io I use across all my services? and then with one line you will give me a one-liner script that allow me to open all those public URL on my Mac",
+  "prompt" : "",
+  "processingTime" : 1476,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "translationEnabled" : false,
+  "rawResult" : " Can you gather the list of public domain on devlive.io I use across all my services? and then with one line you will give me a one-liner script that allow me to open all those public URL on my Mac",
+  "modelName" : "Ultra (Cloud)",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "segments" : [
+    {
+      "start" : 12.86,
+      "end" : 20.02,
+      "text" : "Can you gather the list of public domain on devlive.io I use across all my services?"
+    },
+    {
+      "start" : 20.02,
+      "end" : 29.6,
+      "text" : "and then with one line you will give me a one-liner script that allow me to open"
+    },
+    {
+      "start" : 30.4,
+      "end" : 34.84,
+      "text" : "all those public URL on my Mac"
+    }
+  ]
+}

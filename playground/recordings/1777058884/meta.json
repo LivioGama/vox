@@ -1,0 +1,55 @@
+{
+  "segments" : [
+    {
+      "end" : 3.82,
+      "text" : "And I SSH into these small hosting they offer.",
+      "start" : 0
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "duration" : 4146,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "result" : "And I SSH into these small hosting they offer.",
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "languageModelName" : "",
+  "processingTime" : 728,
+  "speakers" : [
+
+  ],
+  "rawResult" : " And I SSH into these small hosting they offer.",
+  "appVersion" : "2.12.1",
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Comet"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "realtimeEnabled" : false,
+  "datetime" : "2026-04-24T19:28:04",
+  "translationEnabled" : false,
+  "systemAudioEnabled" : false,
+  "prompt" : ""
+}

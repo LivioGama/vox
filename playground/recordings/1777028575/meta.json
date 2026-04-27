@@ -1,0 +1,55 @@
+{
+  "appVersion" : "2.12.1",
+  "result" : "Can you actually clone there the GitHub repo Unix config from mine and git decrypt it with the keys that I have?",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "processingTime" : 958,
+  "prompt" : "",
+  "duration" : 11480,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "languageSelected" : "en",
+  "segments" : [
+    {
+      "start" : 0,
+      "text" : "Can you actually clone there the GitHub repo Unix config from mine and git decrypt it with the keys that I have?",
+      "end" : 11.18
+    }
+  ],
+  "languageModelName" : "",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux"
+    }
+  },
+  "literalPunctuationEnabled" : false,
+  "rawResult" : " Can you actually clone there the GitHub repo Unix config from mine and git decrypt it with the keys that I have?",
+  "languageModelKey" : "",
+  "separateSpeakersEnabled" : false,
+  "datetime" : "2026-04-24T11:02:55",
+  "recordingDevice" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east"
+}

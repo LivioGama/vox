@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "languageModelName" : "",
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "result" : "Fix the model to SWE 1.6 fast.",
+  "speakers" : [
+
+  ],
+  "systemAudioEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageModelKey" : "",
+  "processingTime" : 680,
+  "applicationContextEnabled" : false,
+  "prompt" : "",
+  "duration" : 4617,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "literalPunctuationEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "type" : "custom",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "name" : "Windsurf",
+      "includeInPrompt" : false
+    }
+  },
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.13.0",
+  "datetime" : "2026-04-26T00:44:29",
+  "segments" : [
+    {
+      "text" : "Fix the model to SWE 1.6 fast.",
+      "start" : 0.576,
+      "end" : 4.617
+    }
+  ],
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "rawResult" : " Fix the model to SWE 1.6 fast."
+}

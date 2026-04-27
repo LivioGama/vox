@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "appVersion" : "2.13.0",
+  "duration" : 8336,
+  "realtimeEnabled" : false,
+  "processingTime" : 815,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "cmux DEV latest-build"
+    }
+  },
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modelName" : "Ultra (Cloud)",
+  "literalPunctuationEnabled" : false,
+  "languageModelKey" : "",
+  "segments" : [
+    {
+      "text" : "When I don't touch my MacBook, Claudia, for a while, the screen continues to turn off. Can you fix it?",
+      "end" : 8.032,
+      "start" : 0.096
+    }
+  ],
+  "rawResult" : " When I don't touch my MacBook, Claudia, for a while, the screen continues to turn off. Can you fix it?",
+  "result" : "When I don't touch my MacBook, Claudia, for a while, the screen continues to turn off. Can you fix it?",
+  "languageModelName" : "",
+  "separateSpeakersEnabled" : false,
+  "recordingDevice" : "AppleUSBAudioEngine:Elgato:Elgato Wave:3 MK.2:AD0JH550109QA0:1,2",
+  "prompt" : "",
+  "systemAudioEnabled" : false,
+  "speakers" : [
+
+  ],
+  "modeName" : "Default",
+  "datetime" : "2026-04-25T20:34:27",
+  "languageSelected" : "en"
+}

@@ -1,0 +1,55 @@
+{
+  "literalPunctuationEnabled" : false,
+  "separateSpeakersEnabled" : false,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 10.26,
+      "text" : "It's working, looks good. So can you try querying the API with message and beta link?"
+    }
+  ],
+  "rawResult" : " It's working, looks good. So can you try querying the API with message and beta link?",
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "languageModelKey" : "",
+  "datetime" : "2026-04-23T00:03:15",
+  "processingTime" : 1579,
+  "result" : "It's working, looks good. So can you try querying the API with message and beta link?",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "speakers" : [
+
+  ],
+  "translationEnabled" : false,
+  "appVersion" : "2.12.1",
+  "realtimeEnabled" : false,
+  "systemAudioEnabled" : false,
+  "duration" : 10687,
+  "recordingDevice" : "",
+  "modelName" : "Ultra (Cloud)",
+  "prompt" : "",
+  "promptContext" : {
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "cmux"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    }
+  }
+}

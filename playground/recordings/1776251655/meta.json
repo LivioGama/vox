@@ -1,0 +1,70 @@
+{
+  "speakers" : [
+
+  ],
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.12.0",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "datetime" : "2026-04-15T11:14:15",
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Fix those two deployments with the deploy CLI and everything you've got until it's done. Don't ask me for anything, you have to fix it by yourself in all autonomy.",
+      "start" : 0,
+      "end" : 10.58
+    },
+    {
+      "text" : "And I don't want to come back because we are looping over and over and you're not getting any progress.",
+      "start" : 10.84,
+      "end" : 15.16
+    },
+    {
+      "text" : "Don't ask me to do anything, do everything by yourself in all autonomy.",
+      "start" : 16.2,
+      "end" : 20.36
+    },
+    {
+      "text" : "You have a way to check it and you know how to get there. So basically don't annoy me with any questions or any actions, just do it.",
+      "start" : 21.08,
+      "end" : 28.82
+    }
+  ],
+  "rawResult" : " Fix those two deployments with the deploy CLI and everything you've got until it's done. Don't ask me for anything, you have to fix it by yourself in all autonomy. And I don't want to come back because we are looping over and over and you're not getting any progress. Don't ask me to do anything, do everything by yourself in all autonomy. You have a way to check it and you know how to get there. So basically don't annoy me with any questions or any actions, just do it.",
+  "separateSpeakersEnabled" : false,
+  "duration" : 29155,
+  "applicationContextEnabled" : false,
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "recordingDevice" : "",
+  "result" : "Fix those two deployments with the deploy CLI and everything you've got until it's done. Don't ask me for anything, you have to fix it by yourself in all autonomy. And I don't want to come back because we are looping over and over and you're not getting any progress. Don't ask me to do anything, do everything by yourself in all autonomy. You have a way to check it and you know how to get there. So basically don't annoy me with any questions or any actions, just do it.",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "userContext" : {
+
+    }
+  },
+  "languageModelKey" : "",
+  "systemAudioEnabled" : false,
+  "languageModelName" : "",
+  "processingTime" : 1239
+}

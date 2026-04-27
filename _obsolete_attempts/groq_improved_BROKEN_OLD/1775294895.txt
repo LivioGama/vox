@@ -1,0 +1,1 @@
+My conflict is not opening the specific window with the free check, logical resolve.

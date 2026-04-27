@@ -1,0 +1,55 @@
+{
+  "languageModelKey" : "",
+  "processingTime" : 829,
+  "realtimeEnabled" : false,
+  "languageModelName" : "",
+  "languageSelected" : "en",
+  "literalPunctuationEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "applicationContextEnabled" : false,
+  "result" : "By extension I meant the Comet Browser extension that Visual Studio Code that you can remove.",
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 7.94,
+      "text" : "By extension I meant the Comet Browser extension that Visual Studio Code that you can remove."
+    }
+  ],
+  "duration" : 8806,
+  "separateSpeakersEnabled" : false,
+  "appVersion" : "2.11.0",
+  "translationEnabled" : false,
+  "recordingDevice" : "",
+  "datetime" : "2026-03-29T02:03:09",
+  "rawResult" : " By extension I meant the Comet Browser extension that Visual Studio Code that you can remove.",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ],
+      "name" : "UTM"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "examples" : [
+
+      ],
+      "language" : "en"
+    }
+  },
+  "modeName" : "Default",
+  "prompt" : "",
+  "speakers" : [
+
+  ],
+  "systemAudioEnabled" : false
+}

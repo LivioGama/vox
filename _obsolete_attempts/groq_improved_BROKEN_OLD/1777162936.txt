@@ -1,0 +1,1 @@
+I want to be able to launch cloud code configured on the model CWUE 1.6 fast that comes from WindSurf, expose-world proxy deployed on my WindSurf.devlog.io so makes it work.

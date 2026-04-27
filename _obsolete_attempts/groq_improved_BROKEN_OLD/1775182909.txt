@@ -1,0 +1,1 @@
+We add more delay between both parts of the animation, like a tiny bit, maybe 700 ms.

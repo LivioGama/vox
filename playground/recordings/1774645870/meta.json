@@ -1,0 +1,90 @@
+{
+  "systemAudioEnabled" : false,
+  "rawResult" : " This is the reference you should align on about adapting the coders to start then the git, the diviewer list of files, panel. but also the colors for the blocks. All the commit input, but also the buttons to fetch, to pull etc. I mean this is really a reference you should copy the good stuff on while not losing the identity of what we are trying to build here, which is this top bar with the segment in control should never in any case be altered and we are only working on the embedded view to match a bit more the professional things that we have in the reference.",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "prompt" : "",
+  "datetime" : "2026-03-27T21:11:10",
+  "separateSpeakersEnabled" : false,
+  "promptContext" : {
+    "applicationContext" : {
+      "name" : "Warp",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "processingTime" : 1889,
+  "duration" : 78969,
+  "segments" : [
+    {
+      "start" : 0,
+      "end" : 28.38,
+      "text" : "This is the reference you should align on about adapting the coders to start then the git, the diviewer list of files, panel."
+    },
+    {
+      "start" : 30,
+      "end" : 35.82,
+      "text" : "but also the colors for the blocks."
+    },
+    {
+      "start" : 41.12,
+      "end" : 47.84,
+      "text" : "All the commit input, but also the buttons to fetch, to pull etc."
+    },
+    {
+      "start" : 48.78,
+      "end" : 54.84,
+      "text" : "I mean this is really a reference you should copy the good stuff on"
+    },
+    {
+      "start" : 54.84,
+      "end" : 59.48,
+      "text" : "while not losing the identity of what we are trying to build here,"
+    },
+    {
+      "start" : 60.7,
+      "end" : 69,
+      "text" : "which is this top bar with the segment in control should never in any case be altered"
+    },
+    {
+      "start" : 69,
+      "end" : 72.24,
+      "text" : "and we are only working on the embedded view"
+    },
+    {
+      "start" : 73.12,
+      "end" : 78.04,
+      "text" : "to match a bit more the professional things that we have in the reference."
+    }
+  ],
+  "result" : "This is the reference you should align on about adapting the coders to start then the git, the diviewer list of files, panel. but also the colors for the blocks. All the commit input, but also the buttons to fetch, to pull etc. I mean this is really a reference you should copy the good stuff on while not losing the identity of what we are trying to build here, which is this top bar with the segment in control should never in any case be altered and we are only working on the embedded view to match a bit more the professional things that we have in the reference.",
+  "speakers" : [
+
+  ],
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "translationEnabled" : false,
+  "modeName" : "Default",
+  "recordingDevice" : "",
+  "appVersion" : "2.11.0",
+  "modelName" : "Ultra (Cloud)"
+}

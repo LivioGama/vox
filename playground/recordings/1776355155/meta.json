@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Comet",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "modeContext" : {
+      "language" : "en",
+      "examples" : [
+
+      ],
+      "type" : "custom"
+    },
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    }
+  },
+  "duration" : 5781,
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "How to define an account for stalwart docker with varam?",
+      "start" : 0,
+      "end" : 5.6
+    }
+  ],
+  "datetime" : "2026-04-16T15:59:15",
+  "languageSelected" : "en",
+  "realtimeEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "processingTime" : 839,
+  "systemAudioEnabled" : false,
+  "modeName" : "Default",
+  "languageModelName" : "",
+  "recordingDevice" : "",
+  "languageModelKey" : "",
+  "rawResult" : " How to define an account for stalwart docker with varam?",
+  "appVersion" : "2.12.0",
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "literalPunctuationEnabled" : false,
+  "result" : "How to define an account for stalwart docker with varam?"
+}

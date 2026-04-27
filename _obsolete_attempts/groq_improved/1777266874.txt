@@ -1,0 +1,1 @@
+Among the stuff to retrieve is the mechanic where we would load pexels API in parallel and display the images at the animating screen stage.

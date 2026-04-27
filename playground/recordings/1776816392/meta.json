@@ -1,0 +1,55 @@
+{
+  "translationEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "duration" : 10409,
+  "modelName" : "Ultra (Cloud)",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.1",
+  "separateSpeakersEnabled" : false,
+  "realtimeEnabled" : false,
+  "promptContext" : {
+    "userContext" : {
+
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Zed"
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    }
+  },
+  "systemAudioEnabled" : false,
+  "languageSelected" : "en",
+  "modeName" : "Default",
+  "processingTime" : 1466,
+  "recordingDevice" : "",
+  "rawResult" : " But I need to understand why you didn't systematically check all the stash and how can I avoid this in the future? I'm scared now.",
+  "literalPunctuationEnabled" : false,
+  "segments" : [
+    {
+      "end" : 10.04,
+      "start" : 0,
+      "text" : "But I need to understand why you didn't systematically check all the stash and how can I avoid this in the future? I'm scared now."
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "datetime" : "2026-04-22T00:06:32",
+  "languageModelKey" : "",
+  "languageModelName" : "",
+  "result" : "But I need to understand why you didn't systematically check all the stash and how can I avoid this in the future? I'm scared now."
+}

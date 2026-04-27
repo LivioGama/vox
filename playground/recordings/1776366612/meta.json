@@ -1,0 +1,80 @@
+{
+  "result" : "What I want is that the Generate Another button appears for not authenticated users with editing studio, but for the people who are actually paying, the Generate Another button should not appear. I don't want neither this copy bar at the bottom and I want the premium badge to appear in all the menu, it's a new sidebar on the right for people who are not paying. And actually they should be clickable still and when you click on them it triggers the paywall. Of course if the user is not out it should trigger the old tool before.",
+  "modeName" : "Default",
+  "systemAudioEnabled" : false,
+  "translationEnabled" : false,
+  "processingTime" : 1737,
+  "prompt" : "",
+  "languageSelected" : "en",
+  "languageModelKey" : "",
+  "rawResult" : " What I want is that the Generate Another button appears for not authenticated users with editing studio, but for the people who are actually paying, the Generate Another button should not appear. I don't want neither this copy bar at the bottom and I want the premium badge to appear in all the menu, it's a new sidebar on the right for people who are not paying. And actually they should be clickable still and when you click on them it triggers the paywall. Of course if the user is not out it should trigger the old tool before.",
+  "duration" : 46223,
+  "recordingDevice" : "",
+  "speakers" : [
+
+  ],
+  "appVersion" : "2.12.0",
+  "literalPunctuationEnabled" : false,
+  "datetime" : "2026-04-16T19:10:12",
+  "realtimeEnabled" : false,
+  "languageModelName" : "",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "separateSpeakersEnabled" : false,
+  "applicationContextEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "language" : "en",
+      "type" : "custom",
+      "examples" : [
+
+      ]
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "applicationContext" : {
+      "name" : "Cursor",
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false
+    },
+    "userContext" : {
+
+    }
+  },
+  "segments" : [
+    {
+      "end" : 17.84,
+      "text" : "What I want is that the Generate Another button appears for not authenticated users with editing studio, but for the people who are actually paying, the Generate Another button should not appear.",
+      "start" : 0
+    },
+    {
+      "end" : 25.64,
+      "text" : "I don't want neither this copy bar at the bottom and I want the premium badge to",
+      "start" : 17.84
+    },
+    {
+      "end" : 31.5,
+      "text" : "appear in all the menu, it's a new sidebar on the right for people who are",
+      "start" : 25.64
+    },
+    {
+      "end" : 35.86,
+      "text" : "not paying. And actually they should be clickable still and when you click on",
+      "start" : 31.5
+    },
+    {
+      "end" : 42.44,
+      "text" : "them it triggers the paywall. Of course if the user is not out it should trigger",
+      "start" : 35.86
+    },
+    {
+      "end" : 43.8,
+      "text" : "the old tool before.",
+      "start" : 42.44
+    }
+  ],
+  "modelName" : "Ultra (Cloud)"
+}

@@ -1,0 +1,55 @@
+{
+  "languageSelected" : "en",
+  "translationEnabled" : false,
+  "promptContext" : {
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    },
+    "applicationContext" : {
+      "nouns" : [
+
+      ],
+      "includeInPrompt" : false,
+      "name" : "Mail+ for Gmail"
+    },
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    }
+  },
+  "recordingDevice" : "BuiltInMicrophoneDevice",
+  "literalPunctuationEnabled" : false,
+  "realtimeEnabled" : false,
+  "modeName" : "Default",
+  "processingTime" : 417,
+  "languageModelName" : "",
+  "applicationContextEnabled" : false,
+  "modelName" : "Ultra (Cloud)",
+  "rawResult" : " Thank you.",
+  "result" : "",
+  "separateSpeakersEnabled" : false,
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "Thank you.",
+      "start" : 0,
+      "end" : 0.2
+    }
+  ],
+  "speakers" : [
+
+  ],
+  "languageModelKey" : "",
+  "appVersion" : "2.11.0",
+  "systemAudioEnabled" : false,
+  "datetime" : "2026-03-27T03:15:02",
+  "duration" : 395
+}

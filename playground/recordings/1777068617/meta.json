@@ -1,0 +1,55 @@
+{
+  "systemAudioEnabled" : false,
+  "promptContext" : {
+    "systemContext" : {
+      "time" : "",
+      "language" : "en"
+    },
+    "userContext" : {
+
+    },
+    "modeContext" : {
+      "type" : "custom",
+      "language" : "en",
+      "examples" : [
+
+      ]
+    },
+    "applicationContext" : {
+      "name" : "cmux DEV latest-build",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    }
+  },
+  "speakers" : [
+
+  ],
+  "datetime" : "2026-04-24T22:10:17",
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "modeName" : "Default",
+  "translationEnabled" : false,
+  "duration" : 14800,
+  "languageModelKey" : "",
+  "result" : "We are installing. Now I reached the screen where I have to select the software. There is Debian Desktop Environment checked, Xerix NUM, then the REST is unchecked, then there is Web Server, SSH Server and Standard System Utility.",
+  "rawResult" : " We are installing. Now I reached the screen where I have to select the software. There is Debian Desktop Environment checked, Xerix NUM, then the REST is unchecked, then there is Web Server, SSH Server and Standard System Utility.",
+  "separateSpeakersEnabled" : false,
+  "prompt" : "",
+  "segments" : [
+    {
+      "end" : 14.32,
+      "text" : "We are installing. Now I reached the screen where I have to select the software. There is Debian Desktop Environment checked, Xerix NUM, then the REST is unchecked, then there is Web Server, SSH Server and Standard System Utility.",
+      "start" : 0
+    }
+  ],
+  "realtimeEnabled" : false,
+  "languageSelected" : "en",
+  "recordingDevice" : "",
+  "processingTime" : 1025,
+  "languageModelName" : "",
+  "modelName" : "Ultra (Cloud)",
+  "appVersion" : "2.12.1",
+  "applicationContextEnabled" : false,
+  "literalPunctuationEnabled" : false
+}

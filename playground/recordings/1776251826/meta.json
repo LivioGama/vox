@@ -1,0 +1,55 @@
+{
+  "modelKey" : "sw-ultra-cloud-v1-east",
+  "literalPunctuationEnabled" : false,
+  "languageSelected" : "en",
+  "systemAudioEnabled" : false,
+  "appVersion" : "2.12.0",
+  "promptContext" : {
+    "systemContext" : {
+      "language" : "en",
+      "time" : ""
+    },
+    "userContext" : {
+
+    },
+    "applicationContext" : {
+      "name" : "Slack",
+      "includeInPrompt" : false,
+      "nouns" : [
+
+      ]
+    },
+    "modeContext" : {
+      "examples" : [
+
+      ],
+      "language" : "en",
+      "type" : "custom"
+    }
+  },
+  "recordingDevice" : "",
+  "result" : "And this way also we can avoid writing long prompts for the LLM since actually the MCP for GitHub can take care of the task if it's described well enough.",
+  "datetime" : "2026-04-15T11:17:06",
+  "prompt" : "",
+  "segments" : [
+    {
+      "text" : "And this way also we can avoid writing long prompts for the LLM since actually the MCP for GitHub can take care of the task if it's described well enough.",
+      "start" : 0,
+      "end" : 12.82
+    }
+  ],
+  "applicationContextEnabled" : false,
+  "duration" : 13327,
+  "modeName" : "Default",
+  "rawResult" : " And this way also we can avoid writing long prompts for the LLM since actually the MCP for GitHub can take care of the task if it's described well enough.",
+  "processingTime" : 716,
+  "realtimeEnabled" : false,
+  "speakers" : [
+
+  ],
+  "separateSpeakersEnabled" : false,
+  "translationEnabled" : false,
+  "languageModelKey" : "",
+  "modelName" : "Ultra (Cloud)",
+  "languageModelName" : ""
+}
