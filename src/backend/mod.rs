@@ -51,6 +51,53 @@ pub trait TtsBackend {
     fn is_available(&self) -> bool;
 }
 
+pub fn available_backends() -> Vec<(String, String)> {
+    let mut backends = Vec::new();
+
+    #[cfg(target_os = "macos")]
+    {
+        backends.push((
+            "say          ★★★  quality  ⚡ 3s".to_string(),
+            "say".to_string(),
+        ));
+    }
+
+    backends.push((
+        "piper        ★★   quality  ⚡ <1s  [Rust]".to_string(),
+        "piper".to_string(),
+    ));
+
+    #[cfg(target_os = "macos")]
+    {
+        backends.push((
+            "qwen-native  ★★★★ quality  ⚡ 12s  [Rust+Metal]".to_string(),
+            "qwen-native".to_string(),
+        ));
+    }
+    #[cfg(not(target_os = "macos"))]
+    {
+        backends.push((
+            "qwen-native  ★★★★ quality  ⚡ 3s   [Rust+CUDA]".to_string(),
+            "qwen-native".to_string(),
+        ));
+    }
+
+    backends.push((
+        "voxtream     ★★★★★ quality ⚡ 170ms [CUDA]".to_string(),
+        "voxtream".to_string(),
+    ));
+
+    #[cfg(target_os = "macos")]
+    {
+        backends.push((
+            "qwen         ★★★★ quality  ⚡ 2s   [Python+MLX]".to_string(),
+            "qwen".to_string(),
+        ));
+    }
+
+    backends
+}
+
 pub fn get_backend(name: &str) -> Result<Box<dyn TtsBackend>> {
     match name {
         #[cfg(feature = "kokoro")]

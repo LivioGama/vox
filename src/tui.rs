@@ -1,7 +1,7 @@
 //! Interactive TUI for human users to configure vox.
 //!
 //! Launched via `vox setup`. Provides a menu to select backend, voice, language,
-//! style, and test speech in real-time. AI agents use CLI flags instead.
+//! style, STT settings, and test speech in real-time. AI agents use CLI flags instead.
 
 use std::io::{self, Stdout};
 
@@ -15,6 +15,7 @@ use ratatui::widgets::*;
 use crate::backend::{self, SpeakOptions};
 use crate::config;
 use crate::db;
+use crate::tui_stt;
 
 /// All screens in the TUI.
 #[derive(Clone, Copy, PartialEq)]
@@ -24,6 +25,9 @@ enum Screen {
     Language,
     Style,
     Volume,
+    SttThreshold,
+    SttSilence,
+    SttToggles,
     Test,
 }
 
@@ -40,6 +44,11 @@ struct App {
     styles: Vec<&'static str>,
     style_idx: usize,
     volume_idx: usize,
+    stt_threshold_idx: usize,
+    stt_silence_idx: usize,
+    stt_toggle_idx: usize,
+    stt_trim_silence: bool,
+    stt_auto_enter: bool,
     status: String,
     should_quit: bool,
 }
@@ -101,6 +110,24 @@ impl App {
             .unwrap_or(0);
 
         let volume_idx = VOLUME_PRESETS.iter().position(|x| *x == "1.0").unwrap_or(2);
+        let stt_threshold_idx = prefs
+            .stt_threshold
+            .and_then(|v| {
+                tui_stt::THRESHOLD_PRESETS
+                    .iter()
+                    .position(|x| x.parse::<f64>().ok() == Some(v))
+            })
+            .unwrap_or(2);
+        let stt_silence_idx = prefs
+            .stt_silence
+            .and_then(|v| {
+                tui_stt::SILENCE_PRESETS
+                    .iter()
+                    .position(|x| x.parse::<f64>().ok() == Some(v))
+            })
+            .unwrap_or(2);
+        let stt_trim_silence = prefs.stt_trim_silence.unwrap_or(true);
+        let stt_auto_enter = prefs.stt_auto_enter.unwrap_or(false);
 
         Ok(Self {
             screen: Screen::Backend,
@@ -113,7 +140,12 @@ impl App {
             styles,
             style_idx,
             volume_idx,
-            status: "Arrow keys to navigate, Enter to select, Tab to switch section, T to test, S to save, Q to quit".into(),
+            stt_threshold_idx,
+            stt_silence_idx,
+            stt_toggle_idx: 0,
+            stt_trim_silence,
+            stt_auto_enter,
+            status: "Arrow keys to navigate, Enter to select, Tab to switch section, T to test, S to save, Q to quit  |  Enter on toggles to switch".into(),
             should_quit: false,
         })
     }
@@ -125,7 +157,6 @@ impl App {
     }
 
     fn selected_backend(&self) -> &str {
-        // Extract backend name (first word before spaces)
         self.backends[self.backend_idx]
             .split_whitespace()
             .next()
@@ -157,6 +188,9 @@ impl App {
             Screen::Language => self.languages.len(),
             Screen::Style => self.styles.len(),
             Screen::Volume => VOLUME_PRESETS.len(),
+            Screen::SttThreshold => tui_stt::THRESHOLD_PRESETS.len(),
+            Screen::SttSilence => tui_stt::SILENCE_PRESETS.len(),
+            Screen::SttToggles => tui_stt::TOGGLE_COUNT,
             Screen::Test => 2,
         }
     }
@@ -168,6 +202,9 @@ impl App {
             Screen::Language => self.lang_idx,
             Screen::Style => self.style_idx,
             Screen::Volume => self.volume_idx,
+            Screen::SttThreshold => self.stt_threshold_idx,
+            Screen::SttSilence => self.stt_silence_idx,
+            Screen::SttToggles => self.stt_toggle_idx,
             Screen::Test => 0,
         }
     }
@@ -187,6 +224,9 @@ impl App {
             Screen::Language => self.lang_idx = idx,
             Screen::Style => self.style_idx = idx,
             Screen::Volume => self.volume_idx = idx,
+            Screen::SttThreshold => self.stt_threshold_idx = idx,
+            Screen::SttSilence => self.stt_silence_idx = idx,
+            Screen::SttToggles => self.stt_toggle_idx = idx,
             Screen::Test => {}
         }
     }
@@ -212,7 +252,10 @@ impl App {
             Screen::Voice => Screen::Language,
             Screen::Language => Screen::Style,
             Screen::Style => Screen::Volume,
-            Screen::Volume => Screen::Test,
+            Screen::Volume => Screen::SttThreshold,
+            Screen::SttThreshold => Screen::SttSilence,
+            Screen::SttSilence => Screen::SttToggles,
+            Screen::SttToggles => Screen::Test,
             Screen::Test => Screen::Backend,
         };
     }
@@ -224,7 +267,10 @@ impl App {
             Screen::Language => Screen::Voice,
             Screen::Style => Screen::Language,
             Screen::Volume => Screen::Style,
-            Screen::Test => Screen::Volume,
+            Screen::SttThreshold => Screen::Volume,
+            Screen::SttSilence => Screen::SttThreshold,
+            Screen::SttToggles => Screen::SttSilence,
+            Screen::Test => Screen::SttToggles,
         };
     }
 
@@ -264,6 +310,26 @@ impl App {
         if let Some(s) = self.selected_style() {
             db::set_preference(&conn, "style", s)?;
         }
+        db::set_preference(
+            &conn,
+            "stt_threshold",
+            tui_stt::THRESHOLD_PRESETS[self.stt_threshold_idx],
+        )?;
+        db::set_preference(
+            &conn,
+            "stt_silence",
+            tui_stt::SILENCE_PRESETS[self.stt_silence_idx],
+        )?;
+        db::set_preference(
+            &conn,
+            "stt_trim_silence",
+            if self.stt_trim_silence { "1" } else { "0" },
+        )?;
+        db::set_preference(
+            &conn,
+            "stt_auto_enter",
+            if self.stt_auto_enter { "1" } else { "0" },
+        )?;
         self.status = "Preferences saved.".into();
         Ok(())
     }
@@ -309,7 +375,6 @@ fn draw(frame: &mut Frame, app: &App) {
     ])
     .split(frame.area());
 
-    // Title
     frame.render_widget(
         Paragraph::new(" vox setup — interactive voice configuration").style(
             Style::default()
@@ -319,8 +384,10 @@ fn draw(frame: &mut Frame, app: &App) {
         outer[0],
     );
 
-    // Main area: 6 columns
-    let cols = Layout::horizontal([
+    let rows =
+        Layout::vertical([Constraint::Percentage(50), Constraint::Percentage(50)]).split(outer[1]);
+
+    let top_cols = Layout::horizontal([
         Constraint::Percentage(18),
         Constraint::Percentage(22),
         Constraint::Percentage(12),
@@ -328,9 +395,17 @@ fn draw(frame: &mut Frame, app: &App) {
         Constraint::Percentage(12),
         Constraint::Percentage(20),
     ])
-    .split(outer[1]);
+    .split(rows[0]);
 
-    // Backend list
+    let bottom_cols = Layout::horizontal([
+        Constraint::Percentage(18),
+        Constraint::Percentage(15),
+        Constraint::Percentage(15),
+        Constraint::Percentage(20),
+        Constraint::Percentage(32),
+    ])
+    .split(rows[1]);
+
     let backend_items: Vec<&str> = app.backends.to_vec();
     frame.render_widget(
         render_list(
@@ -339,10 +414,9 @@ fn draw(frame: &mut Frame, app: &App) {
             app.backend_idx,
             app.screen == Screen::Backend,
         ),
-        cols[0],
+        top_cols[0],
     );
 
-    // Voice list
     let voice_items: Vec<&str> = app.voices.iter().map(|s| s.as_str()).collect();
     frame.render_widget(
         render_list(
@@ -351,10 +425,9 @@ fn draw(frame: &mut Frame, app: &App) {
             app.voice_idx,
             app.screen == Screen::Voice,
         ),
-        cols[1],
+        top_cols[1],
     );
 
-    // Language list
     frame.render_widget(
         render_list(
             "Language",
@@ -362,10 +435,9 @@ fn draw(frame: &mut Frame, app: &App) {
             app.lang_idx,
             app.screen == Screen::Language,
         ),
-        cols[2],
+        top_cols[2],
     );
 
-    // Style list
     frame.render_widget(
         render_list(
             "Style",
@@ -373,10 +445,9 @@ fn draw(frame: &mut Frame, app: &App) {
             app.style_idx,
             app.screen == Screen::Style,
         ),
-        cols[3],
+        top_cols[3],
     );
 
-    // Volume list
     let volume_items: Vec<&str> = VOLUME_PRESETS.to_vec();
     frame.render_widget(
         render_list(
@@ -385,11 +456,10 @@ fn draw(frame: &mut Frame, app: &App) {
             app.volume_idx,
             app.screen == Screen::Volume,
         ),
-        cols[4],
+        top_cols[4],
     );
 
-    // Summary + actions
-    let summary = vec![
+    let mut summary = vec![
         Line::from(vec![
             Span::styled("Backend: ", Style::default().fg(Color::DarkGray)),
             Span::styled(app.selected_backend(), Style::default().fg(Color::White)),
@@ -421,10 +491,23 @@ fn draw(frame: &mut Frame, app: &App) {
         ]),
         Line::from(""),
         Line::from(Span::styled(
+            "── STT ──",
+            Style::default().fg(Color::DarkGray),
+        )),
+    ];
+    summary.extend(tui_stt::summary_lines(
+        app.stt_threshold_idx,
+        app.stt_silence_idx,
+        app.stt_trim_silence,
+        app.stt_auto_enter,
+    ));
+    summary.extend([
+        Line::from(""),
+        Line::from(Span::styled(
             "[T] Test  [S] Save  [Q] Quit",
             Style::default().fg(Color::Green),
         )),
-    ];
+    ]);
 
     let active_test = app.screen == Screen::Test;
     let border_style = if active_test {
@@ -439,10 +522,51 @@ fn draw(frame: &mut Frame, app: &App) {
                 .title(" Config ")
                 .border_style(border_style),
         ),
-        cols[5],
+        top_cols[5],
     );
 
-    // Status bar
+    frame.render_widget(
+        Block::bordered()
+            .title(" STT Settings ")
+            .border_style(Style::default().fg(Color::DarkGray)),
+        bottom_cols[0],
+    );
+
+    frame.render_widget(
+        tui_stt::render_threshold_list(app.stt_threshold_idx, app.screen == Screen::SttThreshold),
+        bottom_cols[1],
+    );
+
+    frame.render_widget(
+        tui_stt::render_silence_list(app.stt_silence_idx, app.screen == Screen::SttSilence),
+        bottom_cols[2],
+    );
+
+    frame.render_widget(
+        tui_stt::render_toggle_list(
+            app.stt_toggle_idx,
+            app.screen == Screen::SttToggles,
+            app.stt_trim_silence,
+            app.stt_auto_enter,
+        ),
+        bottom_cols[3],
+    );
+
+    frame.render_widget(
+        Paragraph::new(tui_stt::summary_lines(
+            app.stt_threshold_idx,
+            app.stt_silence_idx,
+            app.stt_trim_silence,
+            app.stt_auto_enter,
+        ))
+        .block(
+            Block::bordered()
+                .title(" STT Summary ")
+                .border_style(Style::default().fg(Color::DarkGray)),
+        ),
+        bottom_cols[4],
+    );
+
     frame.render_widget(
         Paragraph::new(app.status.as_str()).block(
             Block::bordered()
@@ -491,6 +615,13 @@ fn run_loop(terminal: &mut Terminal<CrosstermBackend<Stdout>>, app: &mut App) ->
                 KeyCode::Char('t') | KeyCode::Enter if app.screen == Screen::Test => {
                     app.test_speak();
                 }
+                code if app.screen == Screen::SttToggles
+                    && tui_stt::handle_toggle_key(
+                        code,
+                        app.stt_toggle_idx,
+                        &mut app.stt_trim_silence,
+                        &mut app.stt_auto_enter,
+                    ) => {}
                 KeyCode::Char('t') => app.test_speak(),
                 KeyCode::Char('s') => {
                     if let Err(e) = app.save() {

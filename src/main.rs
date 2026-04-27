@@ -5,7 +5,7 @@ use clap::{Parser, Subcommand, ValueEnum};
 
 use vox::backend::{self, SpeakOptions};
 use vox::config::DEFAULT_BACKEND;
-use vox::{clone, daemon, db, init, input, mcp, pack, tui};
+use vox::{clone, daemon, db, gui, init, input, mcp, pack};
 
 fn parse_volume(s: &str) -> Result<f32, String> {
     let v: f32 = s.parse().map_err(|e| format!("{e}"))?;
@@ -111,7 +111,7 @@ enum Commands {
     #[cfg(target_os = "macos")]
     Hear {
         /// Language code for transcription (default: fr)
-        #[arg(short = 'l', long, default_value = "fr")]
+        #[arg(short = 'l', long, default_value = "en")]
         lang: String,
         /// Maximum recording duration in seconds
         #[arg(short = 't', long, default_value = "30")]
@@ -119,6 +119,18 @@ enum Commands {
         /// Seconds of silence before stopping
         #[arg(short = 's', long, default_value = "2.0")]
         silence: f64,
+        /// Input level threshold in percent for voice activation
+        #[arg(long, default_value = "2.0")]
+        threshold: f64,
+        /// Trim extra leading/trailing silence from captured audio
+        #[arg(long, default_value_t = true)]
+        trim_silence: bool,
+    },
+    /// Always-on voice activation mode: speak, transcribe, paste, repeat (macOS only)
+    #[cfg(target_os = "macos")]
+    Always {
+        #[command(subcommand)]
+        action: AlwaysAction,
     },
 }
 
@@ -201,7 +213,7 @@ enum PackAction {
 enum ConfigAction {
     /// Show current preferences
     Show,
-    /// Set a preference (backend, voice, lang, rate, gender, style, model)
+    /// Set a preference (backend, voice, lang, rate, gender, style, model, pack, STT/always settings)
     Set {
         /// Preference key
         key: String,
@@ -232,6 +244,63 @@ enum DaemonAction {
     },
 }
 
+#[derive(Subcommand)]
+enum AlwaysAction {
+    /// Start always-on daemon in background
+    Start {
+        /// Language code for transcription
+        #[arg(short = 'l', long, default_value = "en")]
+        lang: String,
+        /// Maximum recording duration per phrase in seconds
+        #[arg(short = 't', long, default_value = "30")]
+        timeout: u32,
+        /// Seconds of silence before considering phrase complete
+        #[arg(short = 's', long, default_value = "2.0")]
+        silence: f64,
+        /// Input level threshold in percent for voice activation
+        #[arg(long, default_value = "2.0")]
+        threshold: f64,
+        /// Trim leading/trailing silence from captured audio
+        #[arg(long, default_value_t = true)]
+        trim_silence: bool,
+        /// Press Enter automatically after pasting transcript
+        #[arg(long, default_value_t = false)]
+        auto_enter: bool,
+        /// Disable Claude intent filter (pass all transcripts through)
+        #[arg(long, default_value_t = false)]
+        no_filter: bool,
+    },
+    /// Stop always-on daemon
+    Stop,
+    /// Show always-on daemon status
+    Status,
+    /// Run always-on in foreground (for debugging)
+    #[command(name = "run")]
+    RunForeground {
+        /// Language code for transcription
+        #[arg(short = 'l', long, default_value = "en")]
+        lang: String,
+        /// Maximum recording duration per phrase in seconds
+        #[arg(short = 't', long, default_value = "30")]
+        timeout: u32,
+        /// Seconds of silence before considering phrase complete
+        #[arg(short = 's', long, default_value = "2.0")]
+        silence: f64,
+        /// Input level threshold in percent for voice activation
+        #[arg(long, default_value = "2.0")]
+        threshold: f64,
+        /// Trim leading/trailing silence from captured audio
+        #[arg(long, default_value_t = true)]
+        trim_silence: bool,
+        /// Press Enter automatically after pasting transcript
+        #[arg(long, default_value_t = false)]
+        auto_enter: bool,
+        /// Disable Claude intent filter (pass all transcripts through)
+        #[arg(long, default_value_t = false)]
+        no_filter: bool,
+    },
+}
+
 fn main() -> Result<()> {
     let cli = Cli::parse();
 
@@ -239,7 +308,7 @@ fn main() -> Result<()> {
         Some(Commands::Clone { action }) => handle_clone(action),
         Some(Commands::Config { action }) => handle_config(action),
         Some(Commands::Stats) => handle_stats(),
-        Some(Commands::Setup) => tui::run(),
+        Some(Commands::Setup) => gui::run(),
         Some(Commands::Bench) => handle_bench(),
         Some(Commands::Daemon { action }) => handle_daemon(action),
         Some(Commands::Init { mode }) => handle_init(mode),
@@ -252,7 +321,11 @@ fn main() -> Result<()> {
             lang,
             timeout,
             silence,
-        }) => handle_hear(lang, timeout, silence),
+            threshold,
+            trim_silence,
+        }) => handle_hear(lang, timeout, silence, threshold, trim_silence),
+        #[cfg(target_os = "macos")]
+        Some(Commands::Always { action }) => handle_always_action(action),
         None => handle_speak(cli),
     }
 }
@@ -430,6 +503,75 @@ fn handle_config(action: ConfigAction) -> Result<()> {
             println!("style:   {}", prefs.style.as_deref().unwrap_or("(default)"));
             println!("model:   {}", prefs.model.as_deref().unwrap_or("(default)"));
             println!("pack:    {}", prefs.pack.as_deref().unwrap_or("(none)"));
+            println!(
+                "stt_threshold: {}",
+                prefs
+                    .stt_threshold
+                    .map(|v| format!("{v}%"))
+                    .unwrap_or_else(|| "1.0%".to_string())
+            );
+            println!(
+                "stt_energy_threshold: {}",
+                prefs
+                    .stt_energy_threshold
+                    .map(|v| v.to_string())
+                    .unwrap_or_else(|| "0.05".to_string())
+            );
+            println!(
+                "hear_energy_threshold: {}",
+                prefs
+                    .hear_energy_threshold
+                    .map(|v| v.to_string())
+                    .unwrap_or_else(|| "0.002".to_string())
+            );
+            println!(
+                "stt_cooldown_ms: {}",
+                prefs
+                    .stt_cooldown_ms
+                    .map(|v| v.to_string())
+                    .unwrap_or_else(|| "1500".to_string())
+            );
+            println!(
+                "always_log_path: {}",
+                prefs.always_log_path.as_deref().unwrap_or("(default)")
+            );
+            println!(
+                "stt_silence: {}",
+                prefs
+                    .stt_silence
+                    .map(|v| format!("{v}s"))
+                    .unwrap_or_else(|| "2.0s".to_string())
+            );
+            println!(
+                "stt_trim_silence: {}",
+                prefs
+                    .stt_trim_silence
+                    .map(|v| v.to_string())
+                    .unwrap_or_else(|| "true".to_string())
+            );
+            println!(
+                "stt_auto_enter: {}",
+                prefs
+                    .stt_auto_enter
+                    .map(|v| v.to_string())
+                    .unwrap_or_else(|| "false".to_string())
+            );
+            println!(
+                "anthropic_api_key: {}",
+                prefs
+                    .anthropic_api_key
+                    .as_deref()
+                    .map(|k| format!("{}...", &k[..k.len().min(12)]))
+                    .unwrap_or_else(|| "(not set)".to_string())
+            );
+            println!(
+                "groq_api_key: {}",
+                prefs
+                    .groq_api_key
+                    .as_deref()
+                    .map(|k| format!("{}...", &k[..k.len().min(12)]))
+                    .unwrap_or_else(|| "(not set)".to_string())
+            );
         }
         ConfigAction::Set { key, value } => {
             db::set_preference(&conn, &key, &value)?;
@@ -473,58 +615,95 @@ fn handle_chat(voice: Option<String>, lang: Option<String>) -> Result<()> {
 }
 
 #[cfg(target_os = "macos")]
-fn handle_hear(lang: String, timeout: u32, silence: f64) -> Result<()> {
-    use vox::stt;
-
-    let tmp_dir = std::env::temp_dir();
-    let audio_path = tmp_dir.join("vox_hear_input.wav");
-    let audio_str = audio_path.to_string_lossy().to_string();
-
-    eprintln!("Listening... (speak now, will stop after {silence}s of silence)");
-
-    let status = std::process::Command::new("rec")
-        .arg(&audio_str)
-        .arg("rate")
-        .arg("16k")
-        .arg("silence")
-        .arg("1")
-        .arg("0.1")
-        .arg("1%")
-        .arg("1")
-        .arg(format!("{silence}"))
-        .arg("1%")
-        .arg("trim")
-        .arg("0")
-        .arg(timeout.to_string())
-        .stdout(std::process::Stdio::null())
-        .stderr(std::process::Stdio::null())
-        .status()
-        .context(clone::sox_install_hint())?;
-
-    if !status.success() {
-        anyhow::bail!("Recording failed");
+fn handle_hear(
+    lang: String,
+    timeout: u32,
+    silence: f64,
+    threshold: f64,
+    trim_silence: bool,
+) -> Result<()> {
+    eprintln!("Listening... (stop after {silence}s of silence)");
+    if (threshold - 2.0).abs() > f64::EPSILON || !trim_silence {
+        eprintln!(
+            "threshold={threshold}% and trim_silence={trim_silence} are compatibility no-ops for the streaming recorder"
+        );
     }
-
-    // Check for empty recording
-    if let Ok(m) = std::fs::metadata(&audio_path)
-        && m.len() < 1000
-    {
-        let _ = std::fs::remove_file(&audio_path);
-        eprintln!("(no speech detected)");
-        return Ok(());
-    }
-
     eprintln!("Transcribing...");
-    let text = stt::transcribe(&audio_str, Some(&lang))?;
-    let _ = std::fs::remove_file(&audio_path);
 
-    if text.is_empty() {
-        eprintln!("(no speech detected)");
-    } else {
-        println!("{text}");
+    let cfg = vox::always::AlwaysConfig::for_hear(lang, timeout, silence)?;
+    match vox::always::vad::record_utterance(&cfg)? {
+        vox::always::vad::RecordResult::Speech { text, .. } => println!("{text}"),
+        vox::always::vad::RecordResult::DroppedLowEnergy { energy } => {
+            eprintln!("(no speech detected: low energy {energy:.4})");
+        }
+        vox::always::vad::RecordResult::DroppedWhisperNoise { raw } => {
+            eprintln!("(no speech detected: whisper noise {raw:?})");
+        }
+        vox::always::vad::RecordResult::Silence | vox::always::vad::RecordResult::Timeout => {
+            eprintln!("(no speech detected)");
+        }
     }
-
     Ok(())
+}
+
+#[cfg(target_os = "macos")]
+fn handle_always_action(action: AlwaysAction) -> Result<()> {
+    match action {
+        AlwaysAction::Start {
+            lang,
+            timeout,
+            silence,
+            threshold,
+            trim_silence,
+            auto_enter,
+            no_filter,
+        } => vox::always::daemon::start(&always_config(
+            lang,
+            timeout,
+            silence,
+            threshold,
+            trim_silence,
+            auto_enter,
+            no_filter,
+        )?),
+        AlwaysAction::Stop => vox::always::daemon::stop(),
+        AlwaysAction::Status => vox::always::daemon::status(),
+        AlwaysAction::RunForeground {
+            lang,
+            timeout,
+            silence,
+            threshold,
+            trim_silence,
+            auto_enter,
+            no_filter,
+        } => vox::always::run(always_config(
+            lang,
+            timeout,
+            silence,
+            threshold,
+            trim_silence,
+            auto_enter,
+            no_filter,
+        )?),
+    }
+}
+
+#[cfg(target_os = "macos")]
+fn always_config(
+    lang: String,
+    timeout: u32,
+    silence: f64,
+    threshold: f64,
+    trim_silence: bool,
+    auto_enter: bool,
+    no_filter: bool,
+) -> Result<vox::always::AlwaysConfig> {
+    if (threshold - 2.0).abs() > f64::EPSILON || !trim_silence {
+        eprintln!(
+            "always: threshold={threshold}% and trim_silence={trim_silence} are compatibility no-ops"
+        );
+    }
+    vox::always::AlwaysConfig::from_cli(lang, timeout, silence, auto_enter, no_filter)
 }
 
 fn handle_init(mode: InitMode) -> Result<()> {

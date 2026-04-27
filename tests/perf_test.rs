@@ -300,21 +300,21 @@ fn sentence_splitting_performance_large_text() {
 }
 
 // ---------------------------------------------------------------------------
-// STT command building performance
+// STT fallback smoke performance
 // ---------------------------------------------------------------------------
 
 #[cfg(target_os = "macos")]
 #[test]
-fn stt_command_building_performance() {
+fn stt_missing_file_returns_quickly() {
     let start = std::time::Instant::now();
-    for i in 0..1000 {
+    for i in 0..100 {
         let path = format!("/tmp/audio_{i}.wav");
-        let _cmd = vox::stt::build_transcribe_command(&path, Some("fr"));
+        let _ = vox::stt::transcribe(&path, Some("fr"));
     }
     let elapsed = start.elapsed();
     assert!(
-        elapsed.as_millis() < 200,
-        "1000 STT command builds took {}ms, expected <200ms",
+        elapsed.as_millis() < 5000,
+        "100 STT attempts took {}ms",
         elapsed.as_millis()
     );
 }
