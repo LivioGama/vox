@@ -213,7 +213,7 @@ enum PackAction {
 enum ConfigAction {
     /// Show current preferences
     Show,
-    /// Set a preference (backend, voice, lang, rate, gender, style, model, pack, stt_threshold, stt_silence, stt_trim_silence, stt_auto_enter)
+    /// Set a preference (backend, voice, lang, rate, gender, style, model, pack, STT/always settings)
     Set {
         /// Preference key
         key: String,
@@ -511,6 +511,31 @@ fn handle_config(action: ConfigAction) -> Result<()> {
                     .unwrap_or_else(|| "1.0%".to_string())
             );
             println!(
+                "stt_energy_threshold: {}",
+                prefs
+                    .stt_energy_threshold
+                    .map(|v| v.to_string())
+                    .unwrap_or_else(|| "0.05".to_string())
+            );
+            println!(
+                "hear_energy_threshold: {}",
+                prefs
+                    .hear_energy_threshold
+                    .map(|v| v.to_string())
+                    .unwrap_or_else(|| "0.002".to_string())
+            );
+            println!(
+                "stt_cooldown_ms: {}",
+                prefs
+                    .stt_cooldown_ms
+                    .map(|v| v.to_string())
+                    .unwrap_or_else(|| "1500".to_string())
+            );
+            println!(
+                "always_log_path: {}",
+                prefs.always_log_path.as_deref().unwrap_or("(default)")
+            );
+            println!(
                 "stt_silence: {}",
                 prefs
                     .stt_silence
@@ -590,288 +615,6 @@ fn handle_chat(voice: Option<String>, lang: Option<String>) -> Result<()> {
 }
 
 #[cfg(target_os = "macos")]
-fn build_hear_command(
-    audio_str: &str,
-    timeout: u32,
-    silence: f64,
-    threshold: f64,
-    trim_silence: bool,
-) -> std::process::Command {
-    let mut cmd = std::process::Command::new("rec");
-    cmd.arg(audio_str)
-        .arg("rate")
-        .arg("16k")
-        .arg("silence")
-        .arg("1")
-        .arg("0.1")
-        .arg(format!("{threshold}%"))
-        .arg("1")
-        .arg(format!("{silence}"))
-        .arg(format!("{threshold}%"));
-
-    if trim_silence {
-        cmd.arg("reverse")
-            .arg("silence")
-            .arg("1")
-            .arg("0.1")
-            .arg(format!("{threshold}%"))
-            .arg("reverse");
-    }
-
-    cmd.arg("trim")
-        .arg("0")
-        .arg(timeout.to_string())
-        .stdout(std::process::Stdio::null())
-        .stderr(std::process::Stdio::null());
-    cmd
-}
-
-#[cfg(target_os = "macos")]
-fn has_speech_energy(path: &std::path::Path) -> bool {
-    use hound::WavReader;
-    let Ok(mut reader) = WavReader::open(path) else {
-        return true; // can't read → let whisper decide
-    };
-    let spec = reader.spec();
-    let bits = spec.bits_per_sample.max(1) as u32;
-    let max = ((1_i64 << (bits - 1)) - 1) as f64;
-    let samples: Vec<f64> = reader
-        .samples::<i32>()
-        .filter_map(|s| s.ok())
-        .map(|s| s as f64 / max)
-        .collect();
-    if samples.is_empty() {
-        return false;
-    }
-    let rms = (samples.iter().map(|s| s * s).sum::<f64>() / samples.len() as f64).sqrt();
-    rms > 0.002 // ~-54 dBFS — below this is just mic hiss
-}
-
-#[cfg(target_os = "macos")]
-fn record_streaming_vad(
-    lang: &str,
-    silence_secs: f64,
-    timeout_secs: u32,
-) -> Result<RecordResult> {
-    use std::io::Read;
-    use webrtc_vad::{Vad, VadMode};
-
-    const RATE: u32 = 16_000;
-    const FRAME_MS: u32 = 30;
-    const FRAME_SAMPLES: usize = (RATE * FRAME_MS / 1000) as usize; // 480
-    const FRAME_BYTES: usize = FRAME_SAMPLES * 2;
-
-    let silence_frames = ((silence_secs * 1000.0) / FRAME_MS as f64).ceil() as usize;
-    let max_frames = (timeout_secs as usize * 1000) / FRAME_MS as usize;
-    // Require at least 200ms of continuous speech before accepting — faster detection
-    let min_speech_frames = (200 / FRAME_MS) as usize;
-
-    let mut vad = Vad::new_with_rate_and_mode(
-        webrtc_vad::SampleRate::Rate16kHz,
-        VadMode::VeryAggressive,
-    );
-
-    struct ChildGuard(std::process::Child);
-    impl Drop for ChildGuard {
-        fn drop(&mut self) {
-            let _ = self.0.kill();
-            let _ = self.0.wait();
-        }
-    }
-
-    let mut child = ChildGuard(
-        std::process::Command::new("rec")
-            .args([
-                "--no-show-progress",
-                "-r", "16000",
-                "-c", "1",
-                "-t", "raw",
-                "-e", "signed-integer",
-                "-b", "16",
-                "-",
-            ])
-            .stdout(std::process::Stdio::piped())
-            .stderr(std::process::Stdio::null())
-            .spawn()
-            .context(clone::sox_install_hint())?
-    );
-
-    let mut stdout = child.0.stdout.take().context("sox stdout missing")?;
-    let mut frame_buf = vec![0u8; FRAME_BYTES];
-    let mut speech_samples: Vec<i16> = Vec::new();
-    let mut consecutive_silence = 0usize;
-    let mut consecutive_speech = 0usize;
-    let mut in_speech = false;
-    let mut total_frames = 0usize;
-    let mut max_energy = 0.0f64;
-
-    'capture: loop {
-        let mut read = 0;
-        while read < FRAME_BYTES {
-            match stdout.read(&mut frame_buf[read..]) {
-                Ok(0) | Err(_) => break 'capture,
-                Ok(n) => read += n,
-            }
-        }
-        if read < FRAME_BYTES {
-            break;
-        }
-
-        let samples: Vec<i16> = frame_buf
-            .chunks_exact(2)
-            .map(|c| i16::from_le_bytes([c[0], c[1]]))
-            .collect();
-
-        // Calculate RMS energy for this frame
-        let rms: f64 = if samples.is_empty() {
-            0.0
-        } else {
-            let sum_sq: i64 = samples.iter().map(|&s| (s as i64) * (s as i64)).sum();
-            (sum_sq as f64 / samples.len() as f64).sqrt()
-        };
-        let energy_normalized = rms / 32768.0; // Normalize to 0-1
-        max_energy = max_energy.max(energy_normalized);
-
-        let is_speech = vad.is_voice_segment(&samples).unwrap_or(false);
-
-        if is_speech {
-            consecutive_speech += 1;
-            consecutive_silence = 0;
-            if consecutive_speech >= min_speech_frames {
-                in_speech = true;
-            }
-            if in_speech {
-                speech_samples.extend_from_slice(&samples);
-            }
-        } else if in_speech {
-            consecutive_silence += 1;
-            consecutive_speech = 0;
-            speech_samples.extend_from_slice(&samples);
-            if consecutive_silence >= silence_frames {
-                break;
-            }
-        } else {
-            consecutive_speech = 0;
-        }
-
-        total_frames += 1;
-        if total_frames >= max_frames {
-            break;
-        }
-    }
-
-    drop(stdout); // release pipe before drop(child) kills+waits
-    drop(child);  // kill + wait — reaps zombie on ALL exit paths
-
-    if speech_samples.is_empty() {
-        return Ok(RecordResult::Silence);
-    }
-
-    // Energy threshold: reject if max energy is too low (background noise)
-    const MIN_ENERGY_THRESHOLD: f64 = 0.005; // ~-46 dBFS
-    if max_energy < MIN_ENERGY_THRESHOLD {
-        return Ok(RecordResult::DroppedLowEnergy(max_energy));
-    }
-
-    // Write collected speech to WAV
-    let audio_path = std::env::temp_dir().join("vox_hear_input.wav");
-    {
-        let spec = hound::WavSpec {
-            channels: 1,
-            sample_rate: RATE,
-            bits_per_sample: 16,
-            sample_format: hound::SampleFormat::Int,
-        };
-        let mut w = hound::WavWriter::create(&audio_path, spec)
-            .context("failed to create WAV")?;
-        for s in &speech_samples {
-            w.write_sample(*s).context("failed to write sample")?;
-        }
-        w.finalize().context("failed to finalize WAV")?;
-    }
-
-    let audio_str = audio_path.to_string_lossy().to_string();
-    let raw = vox::stt::transcribe(&audio_str, Some(lang))?;
-    let _ = std::fs::remove_file(&audio_path);
-
-    let text: String = {
-        let mut s = raw.clone();
-        while let (Some(a), Some(b)) = (s.find('<'), s.find('>')) {
-            if a < b { s.replace_range(a..=b, ""); } else { break; }
-        }
-        s.trim().to_string()
-    };
-
-    if text.is_empty() {
-        return Ok(RecordResult::DroppedWhisperNoise(raw));
-    }
-
-    Ok(RecordResult::Speech(text, max_energy))
-}
-
-#[cfg(target_os = "macos")]
-enum RecordResult {
-    Speech(String, f64), // text, max_energy
-    Silence,
-    DroppedSmall,
-    DroppedLowEnergy(f64), // max_energy
-    DroppedWhisperNoise(String),
-}
-
-#[cfg(target_os = "macos")]
-fn record_and_transcribe(
-    lang: &str,
-    timeout: u32,
-    silence: f64,
-    threshold: f64,
-    trim_silence: bool,
-) -> Result<RecordResult> {
-    use vox::stt;
-
-    let tmp_dir = std::env::temp_dir();
-    let audio_path = tmp_dir.join("vox_hear_input.wav");
-    let audio_str = audio_path.to_string_lossy().to_string();
-
-    let status = build_hear_command(&audio_str, timeout, silence, threshold, trim_silence)
-        .status()
-        .context(clone::sox_install_hint())?;
-
-    if !status.success() {
-        anyhow::bail!("Recording failed");
-    }
-
-    if let Ok(m) = std::fs::metadata(&audio_path)
-        && m.len() < 1000
-    {
-        let _ = std::fs::remove_file(&audio_path);
-        return Ok(RecordResult::DroppedSmall);
-    }
-
-    if !has_speech_energy(&audio_path) {
-        let _ = std::fs::remove_file(&audio_path);
-        return Ok(RecordResult::DroppedLowEnergy(0.0));
-    }
-
-    let raw = stt::transcribe(&audio_str, Some(lang))?;
-    let _ = std::fs::remove_file(&audio_path);
-
-    // Strip whisper hallucination tokens like <|en|>, <|transcribe|>, etc.
-    let text: String = {
-        let mut s = raw.clone();
-        while let (Some(a), Some(b)) = (s.find('<'), s.find('>')) {
-            if a < b { s.replace_range(a..=b, ""); } else { break; }
-        }
-        s.trim().to_string()
-    };
-
-    if text.is_empty() {
-        return Ok(RecordResult::DroppedWhisperNoise(raw));
-    }
-
-    Ok(RecordResult::Speech(text, 0.0)) // record_and_transcribe doesn't track energy
-}
-
-#[cfg(target_os = "macos")]
 fn handle_hear(
     lang: String,
     timeout: u32,
@@ -879,135 +622,28 @@ fn handle_hear(
     threshold: f64,
     trim_silence: bool,
 ) -> Result<()> {
-    eprintln!(
-        "Listening... (threshold: {threshold}%, stop after {silence}s of silence, trim_silence: {trim_silence})"
-    );
-    eprintln!("Transcribing...");
-    let RecordResult::Speech(text, _) = record_and_transcribe(&lang, timeout, silence, threshold, trim_silence)?
-    else {
-        eprintln!("(no speech detected)");
-        return Ok(());
-    };
-
-    println!("{text}");
-
-    Ok(())
-}
-
-#[cfg(target_os = "macos")]
-fn paste_transcript(text: &str, auto_enter: bool) -> Result<()> {
-    use std::io::Write;
-
-    let mut pbcopy = std::process::Command::new("pbcopy")
-        .stdin(std::process::Stdio::piped())
-        .spawn()
-        .context("Failed to run pbcopy")?;
-    pbcopy
-        .stdin
-        .as_mut()
-        .context("Failed to open pbcopy stdin")?
-        .write_all(text.as_bytes())
-        .context("Failed to write transcript to clipboard")?;
-    let status = pbcopy.wait().context("Failed waiting for pbcopy")?;
-    if !status.success() {
-        anyhow::bail!("pbcopy failed");
-    }
-
-    let mut script =
-        String::from("tell application \"System Events\" to keystroke \"v\" using command down");
-    if auto_enter {
-        script.push_str("\ntell application \"System Events\" to key code 36");
-    }
-
-    let status = std::process::Command::new("osascript")
-        .arg("-e")
-        .arg(script)
-        .status()
-        .context("Failed to run osascript for paste automation")?;
-    if !status.success() {
-        anyhow::bail!(
-            "Paste automation failed. Ensure Accessibility permissions are enabled for vox/Terminal"
+    eprintln!("Listening... (stop after {silence}s of silence)");
+    if (threshold - 2.0).abs() > f64::EPSILON || !trim_silence {
+        eprintln!(
+            "threshold={threshold}% and trim_silence={trim_silence} are compatibility no-ops for the streaming recorder"
         );
     }
+    eprintln!("Transcribing...");
 
-    Ok(())
-}
-
-#[cfg(target_os = "macos")]
-fn quick_reject(text: &str) -> bool {
-    let t = text.trim().to_lowercase();
-    // Only reject single-word obvious fillers
-    if t.split_whitespace().count() < 2 {
-        const SINGLE_FILLERS: &[&str] = &[
-            "ok", "okay", "yes", "no", "yeah", "yep", "nope", "hmm",
-            "uh", "um", "ah", "oh", "wow", "cool", "nice", "sure",
-        ];
-        return SINGLE_FILLERS.iter().any(|f| t == *f);
-    }
-    false
-}
-
-#[cfg(target_os = "macos")]
-fn is_intent_prompt(text: &str, _api_key: &str) -> bool {
-    // Simple filter: reject only obvious single-word noise
-    !quick_reject(text)
-}
-
-#[cfg(target_os = "macos")]
-fn always_daemon_pid_path() -> std::path::PathBuf {
-    vox::config::config_dir().join("always_daemon.pid")
-}
-
-#[cfg(target_os = "macos")]
-fn always_daemon_log_path() -> std::path::PathBuf {
-    vox::config::config_dir().join("always_daemon.log")
-}
-
-#[cfg(target_os = "macos")]
-fn write_always_daemon_pid() -> Result<()> {
-    use std::io::Write;
-    let path = always_daemon_pid_path();
-    if let Some(parent) = path.parent() {
-        std::fs::create_dir_all(parent).ok();
-    }
-    let mut f = std::fs::File::create(&path).context("failed to write always daemon PID file")?;
-    writeln!(f, "{}", std::process::id())?;
-    Ok(())
-}
-
-#[cfg(target_os = "macos")]
-fn read_always_daemon_pid() -> Option<u32> {
-    std::fs::read_to_string(always_daemon_pid_path())
-        .ok()
-        .and_then(|s| s.trim().parse().ok())
-}
-
-#[cfg(target_os = "macos")]
-fn remove_always_daemon_pid() {
-    let _ = std::fs::remove_file(always_daemon_pid_path());
-}
-
-#[cfg(target_os = "macos")]
-fn is_always_daemon_running() -> bool {
-    if let Some(pid) = read_always_daemon_pid() {
-        // Check if process is alive
-        #[cfg(unix)]
-        {
-            use std::process::Command;
-            Command::new("kill")
-                .arg("-0")
-                .arg(pid.to_string())
-                .output()
-                .map(|o| o.status.success())
-                .unwrap_or(false)
+    let cfg = vox::always::AlwaysConfig::for_hear(lang, timeout, silence)?;
+    match vox::always::vad::record_utterance(&cfg)? {
+        vox::always::vad::RecordResult::Speech { text, .. } => println!("{text}"),
+        vox::always::vad::RecordResult::DroppedLowEnergy { energy } => {
+            eprintln!("(no speech detected: low energy {energy:.4})");
         }
-        #[cfg(not(unix))]
-        {
-            true // Fallback for non-Unix
+        vox::always::vad::RecordResult::DroppedWhisperNoise { raw } => {
+            eprintln!("(no speech detected: whisper noise {raw:?})");
         }
-    } else {
-        false
+        vox::always::vad::RecordResult::Silence | vox::always::vad::RecordResult::Timeout => {
+            eprintln!("(no speech detected)");
+        }
     }
+    Ok(())
 }
 
 #[cfg(target_os = "macos")]
@@ -1021,73 +657,17 @@ fn handle_always_action(action: AlwaysAction) -> Result<()> {
             trim_silence,
             auto_enter,
             no_filter,
-        } => {
-            if is_always_daemon_running() {
-                println!("Always-on daemon already running.");
-                return Ok(());
-            }
-
-            let exe = std::env::current_exe().context("cannot find vox binary")?;
-            let child = std::process::Command::new(&exe)
-                .args([
-                    "always",
-                    "run",
-                    "--lang", &lang,
-                    "--timeout", &timeout.to_string(),
-                    "--silence", &silence.to_string(),
-                    "--threshold", &threshold.to_string(),
-                ])
-                .args(if trim_silence { vec!["--trim-silence"] } else { vec![] })
-                .args(if auto_enter { vec!["--auto-enter"] } else { vec![] })
-                .args(if no_filter { vec!["--no-filter"] } else { vec![] })
-                .stdin(std::process::Stdio::null())
-                .stdout(std::process::Stdio::null())
-                .stderr(std::process::Stdio::null())
-                .spawn()
-                .context("failed to spawn always daemon process")?;
-
-            println!("Always-on daemon starting (pid {})...", child.id());
-            println!("Log: {}", always_daemon_log_path().display());
-
-            std::thread::sleep(std::time::Duration::from_millis(500));
-            if is_always_daemon_running() {
-                println!("Always-on daemon ready.");
-            } else {
-                anyhow::bail!("Always-on daemon failed to start");
-            }
-            Ok(())
-        }
-        AlwaysAction::Stop => {
-            if !is_always_daemon_running() {
-                println!("Always-on daemon not running.");
-                remove_always_daemon_pid();
-                return Ok(());
-            }
-
-            if let Some(pid) = read_always_daemon_pid() {
-                #[cfg(unix)]
-                {
-                    std::process::Command::new("kill")
-                        .arg(pid.to_string())
-                        .status()
-                        .ok();
-                }
-                remove_always_daemon_pid();
-                println!("Always-on daemon stopped (pid {pid}).");
-            }
-            Ok(())
-        }
-        AlwaysAction::Status => {
-            if is_always_daemon_running() {
-                if let Some(pid) = read_always_daemon_pid() {
-                    println!("Always-on daemon running (pid {pid})");
-                    println!("Log: {}", always_daemon_log_path().display());
-                }
-            } else {
-                println!("Always-on daemon not running.");
-            }
-            Ok(())
-        }
+        } => vox::always::daemon::start(&always_config(
+            lang,
+            timeout,
+            silence,
+            threshold,
+            trim_silence,
+            auto_enter,
+            no_filter,
+        )?),
+        AlwaysAction::Stop => vox::always::daemon::stop(),
+        AlwaysAction::Status => vox::always::daemon::status(),
         AlwaysAction::RunForeground {
             lang,
             timeout,
@@ -1096,14 +676,20 @@ fn handle_always_action(action: AlwaysAction) -> Result<()> {
             trim_silence,
             auto_enter,
             no_filter,
-        } => {
-            handle_always(lang, timeout, silence, threshold, trim_silence, auto_enter, no_filter)
-        }
+        } => vox::always::run(always_config(
+            lang,
+            timeout,
+            silence,
+            threshold,
+            trim_silence,
+            auto_enter,
+            no_filter,
+        )?),
     }
 }
 
 #[cfg(target_os = "macos")]
-fn handle_always(
+fn always_config(
     lang: String,
     timeout: u32,
     silence: f64,
@@ -1111,99 +697,13 @@ fn handle_always(
     trim_silence: bool,
     auto_enter: bool,
     no_filter: bool,
-) -> Result<()> {
-    let api_key = if no_filter {
-        None
-    } else {
-        std::env::var("GROQ_API_KEY").ok().or_else(|| {
-            db::open()
-                .ok()
-                .and_then(|conn| db::get_preferences(&conn).ok())
-                .and_then(|p| p.groq_api_key)
-        })
-    };
-    if api_key.is_none() && !no_filter {
-        eprintln!("(no Groq key — run `vox config set groq_api_key gsk_...` or set GROQ_API_KEY)");
+) -> Result<vox::always::AlwaysConfig> {
+    if (threshold - 2.0).abs() > f64::EPSILON || !trim_silence {
+        eprintln!(
+            "always: threshold={threshold}% and trim_silence={trim_silence} are compatibility no-ops"
+        );
     }
-
-    // Write PID file for daemon management
-    write_always_daemon_pid()?;
-
-    let log_path = always_daemon_log_path();
-    let mut log = std::fs::OpenOptions::new()
-        .create(true)
-        .append(true)
-        .open(&log_path)?;
-
-    let log_line = |f: &mut std::fs::File, msg: &str| {
-        use std::io::Write;
-        let ts = chrono::Local::now().format("%H:%M:%S");
-        let _ = writeln!(f, "[{ts}] {msg}");
-    };
-
-    eprintln!("Always-on mode enabled. Press Ctrl+C to stop.");
-    eprintln!("Log: {}", log_path.display());
-    eprintln!(
-        "Settings -> threshold: {threshold}%, break: {silence}s, trim_silence: {trim_silence}, auto_enter: {auto_enter}, filter: {}",
-        api_key.is_some()
-    );
-    log_line(&mut log, &format!(
-        "START threshold:{threshold}% silence:{silence}s filter:{}",
-        api_key.is_some()
-    ));
-
-    let mut last_process = std::time::Instant::now() - std::time::Duration::from_secs(5);
-
-    loop {
-        match record_streaming_vad(&lang, silence, timeout).unwrap_or(RecordResult::Silence) {
-            RecordResult::Speech(text, energy) => {
-                // Cooldown: ignore if processed within last 1.5s
-                let now = std::time::Instant::now();
-                if now.duration_since(last_process).as_millis() < 1500 {
-                    continue;
-                }
-                last_process = now;
-
-                if let Some(ref key) = api_key {
-                    if !is_intent_prompt(&text, key) {
-                        eprintln!("✗ groq  {text}");
-                        log_line(&mut log, &format!("FILTERED  {text} (energy: {:.4})", energy));
-                        continue;
-                    }
-                }
-                eprintln!("✓ {text} (energy: {:.4})", energy);
-                log_line(&mut log, &format!("PASTING   {text} (energy: {:.4})", energy));
-                notify_macos("vox ✓", &text, true);
-                paste_transcript(&text, auto_enter)?;
-            }
-            RecordResult::Silence => {
-                log_line(&mut log, "SILENCE");
-            }
-            RecordResult::DroppedSmall => {
-                log_line(&mut log, "DROPPED   (file too small)");
-            }
-            RecordResult::DroppedLowEnergy(energy) => {
-                log_line(&mut log, &format!("DROPPED   (low energy: {:.4})", energy));
-            }
-            RecordResult::DroppedWhisperNoise(raw) => {
-                eprintln!("✗ noise {raw:?}");
-                log_line(&mut log, &format!("DROPPED   (whisper noise) {raw:?}"));
-            }
-        }
-    }
-}
-
-#[cfg(target_os = "macos")]
-fn notify_macos(title: &str, body: &str, allowed: bool) {
-    let preview = if body.len() > 80 { &body[..80] } else { body };
-    let sound = if allowed { "Glass" } else { "Basso" };
-    let script = format!(
-        "display notification {preview:?} with title {title:?} sound name {sound:?}"
-    );
-    let _ = std::process::Command::new("osascript")
-        .arg("-e")
-        .arg(script)
-        .status();
+    vox::always::AlwaysConfig::from_cli(lang, timeout, silence, auto_enter, no_filter)
 }
 
 fn handle_init(mode: InitMode) -> Result<()> {

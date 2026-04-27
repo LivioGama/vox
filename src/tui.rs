@@ -15,6 +15,7 @@ use ratatui::widgets::*;
 use crate::backend::{self, SpeakOptions};
 use crate::config;
 use crate::db;
+use crate::tui_stt;
 
 /// All screens in the TUI.
 #[derive(Clone, Copy, PartialEq)]
@@ -31,8 +32,6 @@ enum Screen {
 }
 
 const VOLUME_PRESETS: &[&str] = &["0.5", "0.75", "1.0", "1.25", "1.5", "2.0", "3.0"];
-const STT_THRESHOLD_PRESETS: &[&str] = &["0.5", "1.0", "2.0", "3.0", "5.0", "7.5", "10.0"];
-const STT_SILENCE_PRESETS: &[&str] = &["0.5", "0.8", "1.0", "1.5", "2.0", "3.0", "5.0"];
 
 struct App {
     screen: Screen,
@@ -114,7 +113,7 @@ impl App {
         let stt_threshold_idx = prefs
             .stt_threshold
             .and_then(|v| {
-                STT_THRESHOLD_PRESETS
+                tui_stt::THRESHOLD_PRESETS
                     .iter()
                     .position(|x| x.parse::<f64>().ok() == Some(v))
             })
@@ -122,7 +121,7 @@ impl App {
         let stt_silence_idx = prefs
             .stt_silence
             .and_then(|v| {
-                STT_SILENCE_PRESETS
+                tui_stt::SILENCE_PRESETS
                     .iter()
                     .position(|x| x.parse::<f64>().ok() == Some(v))
             })
@@ -189,9 +188,9 @@ impl App {
             Screen::Language => self.languages.len(),
             Screen::Style => self.styles.len(),
             Screen::Volume => VOLUME_PRESETS.len(),
-            Screen::SttThreshold => STT_THRESHOLD_PRESETS.len(),
-            Screen::SttSilence => STT_SILENCE_PRESETS.len(),
-            Screen::SttToggles => 2,
+            Screen::SttThreshold => tui_stt::THRESHOLD_PRESETS.len(),
+            Screen::SttSilence => tui_stt::SILENCE_PRESETS.len(),
+            Screen::SttToggles => tui_stt::TOGGLE_COUNT,
             Screen::Test => 2,
         }
     }
@@ -275,14 +274,6 @@ impl App {
         };
     }
 
-    fn toggle_stt_option(&mut self) {
-        if self.stt_toggle_idx == 0 {
-            self.stt_trim_silence = !self.stt_trim_silence;
-        } else {
-            self.stt_auto_enter = !self.stt_auto_enter;
-        }
-    }
-
     fn test_speak(&mut self) {
         self.status = format!("Speaking with {} ...", self.selected_backend());
         let opts = SpeakOptions {
@@ -322,12 +313,12 @@ impl App {
         db::set_preference(
             &conn,
             "stt_threshold",
-            STT_THRESHOLD_PRESETS[self.stt_threshold_idx],
+            tui_stt::THRESHOLD_PRESETS[self.stt_threshold_idx],
         )?;
         db::set_preference(
             &conn,
             "stt_silence",
-            STT_SILENCE_PRESETS[self.stt_silence_idx],
+            tui_stt::SILENCE_PRESETS[self.stt_silence_idx],
         )?;
         db::set_preference(
             &conn,
@@ -360,47 +351,6 @@ fn render_list<'a>(title: &'a str, items: &[&str], selected: usize, active: bool
                 Style::default().fg(Color::DarkGray)
             };
             ListItem::new(format!("{marker}{item}")).style(style)
-        })
-        .collect();
-
-    let border_style = if active {
-        Style::default().fg(Color::Cyan)
-    } else {
-        Style::default().fg(Color::DarkGray)
-    };
-
-    List::new(items).block(
-        Block::bordered()
-            .title(format!(" {title} "))
-            .border_style(border_style),
-    )
-}
-
-fn render_stt_toggle_list<'a>(
-    title: &'a str,
-    selected: usize,
-    active: bool,
-    trim: bool,
-    auto_enter: bool,
-) -> List<'a> {
-    let items = [(trim, "trim silence"), (auto_enter, "auto enter")];
-
-    let items: Vec<ListItem> = items
-        .iter()
-        .enumerate()
-        .map(|(i, (enabled, label))| {
-            let marker = if i == selected { "> " } else { "  " };
-            let checkbox = if *enabled { "[x]" } else { "[ ]" };
-            let style = if i == selected && active {
-                Style::default()
-                    .fg(Color::Yellow)
-                    .add_modifier(Modifier::BOLD)
-            } else if i == selected {
-                Style::default().fg(Color::White)
-            } else {
-                Style::default().fg(Color::DarkGray)
-            };
-            ListItem::new(format!("{marker}{checkbox} {label}")).style(style)
         })
         .collect();
 
@@ -509,7 +459,7 @@ fn draw(frame: &mut Frame, app: &App) {
         top_cols[4],
     );
 
-    let summary = vec![
+    let mut summary = vec![
         Line::from(vec![
             Span::styled("Backend: ", Style::default().fg(Color::DarkGray)),
             Span::styled(app.selected_backend(), Style::default().fg(Color::White)),
@@ -544,42 +494,20 @@ fn draw(frame: &mut Frame, app: &App) {
             "── STT ──",
             Style::default().fg(Color::DarkGray),
         )),
-        Line::from(vec![
-            Span::styled("Threshold: ", Style::default().fg(Color::DarkGray)),
-            Span::styled(
-                STT_THRESHOLD_PRESETS[app.stt_threshold_idx],
-                Style::default().fg(Color::White),
-            ),
-            Span::styled("%", Style::default().fg(Color::DarkGray)),
-        ]),
-        Line::from(vec![
-            Span::styled("Silence:   ", Style::default().fg(Color::DarkGray)),
-            Span::styled(
-                STT_SILENCE_PRESETS[app.stt_silence_idx],
-                Style::default().fg(Color::White),
-            ),
-            Span::styled("s", Style::default().fg(Color::DarkGray)),
-        ]),
-        Line::from(vec![
-            Span::styled("Trim:      ", Style::default().fg(Color::DarkGray)),
-            Span::styled(
-                if app.stt_trim_silence { "on" } else { "off" },
-                Style::default().fg(Color::White),
-            ),
-        ]),
-        Line::from(vec![
-            Span::styled("AutoEnter: ", Style::default().fg(Color::DarkGray)),
-            Span::styled(
-                if app.stt_auto_enter { "on" } else { "off" },
-                Style::default().fg(Color::White),
-            ),
-        ]),
+    ];
+    summary.extend(tui_stt::summary_lines(
+        app.stt_threshold_idx,
+        app.stt_silence_idx,
+        app.stt_trim_silence,
+        app.stt_auto_enter,
+    ));
+    summary.extend([
         Line::from(""),
         Line::from(Span::styled(
             "[T] Test  [S] Save  [Q] Quit",
             Style::default().fg(Color::Green),
         )),
-    ];
+    ]);
 
     let active_test = app.screen == Screen::Test;
     let border_style = if active_test {
@@ -604,31 +532,18 @@ fn draw(frame: &mut Frame, app: &App) {
         bottom_cols[0],
     );
 
-    let threshold_items: Vec<&str> = STT_THRESHOLD_PRESETS.to_vec();
     frame.render_widget(
-        render_list(
-            "Threshold",
-            &threshold_items,
-            app.stt_threshold_idx,
-            app.screen == Screen::SttThreshold,
-        ),
+        tui_stt::render_threshold_list(app.stt_threshold_idx, app.screen == Screen::SttThreshold),
         bottom_cols[1],
     );
 
-    let silence_items: Vec<&str> = STT_SILENCE_PRESETS.to_vec();
     frame.render_widget(
-        render_list(
-            "Silence",
-            &silence_items,
-            app.stt_silence_idx,
-            app.screen == Screen::SttSilence,
-        ),
+        tui_stt::render_silence_list(app.stt_silence_idx, app.screen == Screen::SttSilence),
         bottom_cols[2],
     );
 
     frame.render_widget(
-        render_stt_toggle_list(
-            "Options",
+        tui_stt::render_toggle_list(
             app.stt_toggle_idx,
             app.screen == Screen::SttToggles,
             app.stt_trim_silence,
@@ -637,41 +552,14 @@ fn draw(frame: &mut Frame, app: &App) {
         bottom_cols[3],
     );
 
-    let stt_summary = vec![
-        Line::from(vec![
-            Span::styled("Threshold: ", Style::default().fg(Color::DarkGray)),
-            Span::styled(
-                STT_THRESHOLD_PRESETS[app.stt_threshold_idx],
-                Style::default().fg(Color::White),
-            ),
-            Span::styled("%", Style::default().fg(Color::DarkGray)),
-        ]),
-        Line::from(vec![
-            Span::styled("Silence:   ", Style::default().fg(Color::DarkGray)),
-            Span::styled(
-                STT_SILENCE_PRESETS[app.stt_silence_idx],
-                Style::default().fg(Color::White),
-            ),
-            Span::styled("s", Style::default().fg(Color::DarkGray)),
-        ]),
-        Line::from(vec![
-            Span::styled("Trim:      ", Style::default().fg(Color::DarkGray)),
-            Span::styled(
-                if app.stt_trim_silence { "on" } else { "off" },
-                Style::default().fg(Color::White),
-            ),
-        ]),
-        Line::from(vec![
-            Span::styled("AutoEnter: ", Style::default().fg(Color::DarkGray)),
-            Span::styled(
-                if app.stt_auto_enter { "on" } else { "off" },
-                Style::default().fg(Color::White),
-            ),
-        ]),
-    ];
-
     frame.render_widget(
-        Paragraph::new(stt_summary).block(
+        Paragraph::new(tui_stt::summary_lines(
+            app.stt_threshold_idx,
+            app.stt_silence_idx,
+            app.stt_trim_silence,
+            app.stt_auto_enter,
+        ))
+        .block(
             Block::bordered()
                 .title(" STT Summary ")
                 .border_style(Style::default().fg(Color::DarkGray)),
@@ -727,8 +615,13 @@ fn run_loop(terminal: &mut Terminal<CrosstermBackend<Stdout>>, app: &mut App) ->
                 KeyCode::Char('t') | KeyCode::Enter if app.screen == Screen::Test => {
                     app.test_speak();
                 }
-                KeyCode::Enter if app.screen == Screen::SttToggles => app.toggle_stt_option(),
-                KeyCode::Char(' ') if app.screen == Screen::SttToggles => app.toggle_stt_option(),
+                code if app.screen == Screen::SttToggles
+                    && tui_stt::handle_toggle_key(
+                        code,
+                        app.stt_toggle_idx,
+                        &mut app.stt_trim_silence,
+                        &mut app.stt_auto_enter,
+                    ) => {}
                 KeyCode::Char('t') => app.test_speak(),
                 KeyCode::Char('s') => {
                     if let Err(e) = app.save() {

@@ -3,7 +3,7 @@
 use std::borrow::Cow;
 use std::fs::{self, File};
 use std::io::{Read, Write};
-use std::path::PathBuf;
+use std::path::{Path, PathBuf};
 use std::process::Command;
 use std::sync::{Mutex, OnceLock};
 
@@ -20,6 +20,10 @@ static WHISPER_CTX: OnceLock<Mutex<WhisperContext>> = OnceLock::new();
 static WHISPER_LOG_SILENCED: OnceLock<()> = OnceLock::new();
 
 pub fn transcribe(audio_path: &str, lang: Option<&str>) -> Result<String> {
+    if !Path::new(audio_path).exists() {
+        anyhow::bail!("audio file not found: {audio_path}");
+    }
+
     if let Ok(ctx) = whisper_ctx()
         && let Ok(text) = transcribe_whisper(ctx, audio_path, lang)
         && !text.trim().is_empty()

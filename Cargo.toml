@@ -34,6 +34,7 @@ qwen3-tts = { git = "https://github.com/TrevorS/qwen3-tts-rs", features = ["hub"
 piper-rs = { git = "https://github.com/thewh1teagle/piper-rs" }
 kokoro-tts = { version = "0.3", optional = true }
 toml = "0.8"
+regex = "1"
 ratatui = "0.29"
 crossterm = "0.28"
 eframe = { version = "0.29", default-features = false, features = ["default_fonts", "glow"] }

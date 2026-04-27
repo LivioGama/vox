@@ -16,6 +16,21 @@ Do not speak for trivial operations (formatting, single-line fixes).
 ## Runtime: Bun
 Toujours utiliser `bun` au lieu de `npm`, `npx`, `node`, ou `tsx`.
 
+## Build Policy
+NEVER run `cargo build` or `cargo run` automatically. The user manages builds manually.
+
+**Single build + start vox always** (no watching):
+```bash
+pkill -f "vox always" ; cargo build --release && vox always & tail -f ~/Library/Application\ Support/vox/always_daemon.log
+```
+
+**Development workflow** (watch for changes + auto-restart vox always):
+```bash
+pkill -f "vox always" ; cargo watch -x "build --release" -s "./restart.sh"
+# Then tail the fixed log file:
+tail -f /Users/livio/Library/Application\ Support/vox/always.log
+```
+
 ## Roadmap: Mode conversationnel (inspiré PersonaPlex/Moshi)
 
 Objectif: transformer vox d'un outil TTS one-shot en un assistant vocal conversationnel

@@ -19,6 +19,10 @@ pub struct Preferences {
     pub model: Option<String>,
     pub pack: Option<String>,
     pub stt_threshold: Option<f64>,
+    pub stt_energy_threshold: Option<f64>,
+    pub stt_cooldown_ms: Option<u32>,
+    pub always_log_path: Option<String>,
+    pub hear_energy_threshold: Option<f64>,
     pub stt_silence: Option<f64>,
     pub stt_trim_silence: Option<bool>,
     pub stt_auto_enter: Option<bool>,
@@ -109,6 +113,34 @@ fn migrate(conn: &Connection) -> Result<()> {
         conn.execute_batch("ALTER TABLE preferences ADD COLUMN stt_threshold REAL;")?;
     }
 
+    let has_stt_energy_threshold = conn
+        .prepare("SELECT stt_energy_threshold FROM preferences LIMIT 0")
+        .is_ok();
+    if !has_stt_energy_threshold {
+        conn.execute_batch("ALTER TABLE preferences ADD COLUMN stt_energy_threshold REAL;")?;
+    }
+
+    let has_stt_cooldown_ms = conn
+        .prepare("SELECT stt_cooldown_ms FROM preferences LIMIT 0")
+        .is_ok();
+    if !has_stt_cooldown_ms {
+        conn.execute_batch("ALTER TABLE preferences ADD COLUMN stt_cooldown_ms INTEGER;")?;
+    }
+
+    let has_always_log_path = conn
+        .prepare("SELECT always_log_path FROM preferences LIMIT 0")
+        .is_ok();
+    if !has_always_log_path {
+        conn.execute_batch("ALTER TABLE preferences ADD COLUMN always_log_path TEXT;")?;
+    }
+
+    let has_hear_energy_threshold = conn
+        .prepare("SELECT hear_energy_threshold FROM preferences LIMIT 0")
+        .is_ok();
+    if !has_hear_energy_threshold {
+        conn.execute_batch("ALTER TABLE preferences ADD COLUMN hear_energy_threshold REAL;")?;
+    }
+
     let has_stt_silence = conn
         .prepare("SELECT stt_silence FROM preferences LIMIT 0")
         .is_ok();
@@ -151,7 +183,7 @@ fn migrate(conn: &Connection) -> Result<()> {
 
 pub fn get_preferences(conn: &Connection) -> Result<Preferences> {
     let mut stmt = conn.prepare(
-        "SELECT backend, voice, lang, rate, gender, style, model, pack, stt_threshold, stt_silence, stt_trim_silence, stt_auto_enter, anthropic_api_key, groq_api_key FROM preferences WHERE id = 1",
+        "SELECT backend, voice, lang, rate, gender, style, model, pack, stt_threshold, stt_energy_threshold, stt_cooldown_ms, always_log_path, hear_energy_threshold, stt_silence, stt_trim_silence, stt_auto_enter, anthropic_api_key, groq_api_key FROM preferences WHERE id = 1",
     )?;
     let result = stmt.query_row([], |row| {
         Ok(Preferences {
@@ -164,11 +196,15 @@ pub fn get_preferences(conn: &Connection) -> Result<Preferences> {
             model: row.get(6)?,
             pack: row.get(7)?,
             stt_threshold: row.get(8)?,
-            stt_silence: row.get(9)?,
-            stt_trim_silence: row.get::<_, Option<i64>>(10)?.map(|v| v != 0),
-            stt_auto_enter: row.get::<_, Option<i64>>(11)?.map(|v| v != 0),
-            anthropic_api_key: row.get(12)?,
-            groq_api_key: row.get(13)?,
+            stt_energy_threshold: row.get(9)?,
+            stt_cooldown_ms: row.get(10)?,
+            always_log_path: row.get(11)?,
+            hear_energy_threshold: row.get(12)?,
+            stt_silence: row.get(13)?,
+            stt_trim_silence: row.get::<_, Option<i64>>(14)?.map(|v| v != 0),
+            stt_auto_enter: row.get::<_, Option<i64>>(15)?.map(|v| v != 0),
+            anthropic_api_key: row.get(16)?,
+            groq_api_key: row.get(17)?,
         })
     });
     match result {
@@ -189,6 +225,10 @@ pub fn set_preference(conn: &Connection, key: &str, value: &str) -> Result<()> {
         "model",
         "pack",
         "stt_threshold",
+        "stt_energy_threshold",
+        "stt_cooldown_ms",
+        "always_log_path",
+        "hear_energy_threshold",
         "stt_silence",
         "stt_trim_silence",
         "stt_auto_enter",
@@ -231,6 +271,35 @@ pub fn set_preference(conn: &Connection, key: &str, value: &str) -> Result<()> {
                 anyhow::bail!("stt_threshold must be between 0.1 and 10.0 (percent)");
             }
         }
+        "stt_energy_threshold" => {
+            let parsed = value
+                .parse::<f64>()
+                .context("stt_energy_threshold must be a number")?;
+            if !(0.0..=1.0).contains(&parsed) {
+                anyhow::bail!("stt_energy_threshold must be between 0.0 and 1.0");
+            }
+        }
+        "stt_cooldown_ms" => {
+            let parsed = value
+                .parse::<u32>()
+                .context("stt_cooldown_ms must be a number")?;
+            if !(0..=5000).contains(&parsed) {
+                anyhow::bail!("stt_cooldown_ms must be between 0 and 5000 milliseconds");
+            }
+        }
+        "always_log_path" => {
+            if value.is_empty() {
+                anyhow::bail!("always_log_path cannot be empty");
+            }
+        }
+        "hear_energy_threshold" => {
+            let parsed = value
+                .parse::<f64>()
+                .context("hear_energy_threshold must be a number")?;
+            if !(0.0..=1.0).contains(&parsed) {
+                anyhow::bail!("hear_energy_threshold must be between 0.0 and 1.0");
+            }
+        }
         "stt_silence" => {
             let parsed = value
                 .parse::<f64>()
@@ -261,8 +330,8 @@ pub fn set_preference(conn: &Connection, key: &str, value: &str) -> Result<()> {
 
     // Upsert: insert or update
     conn.execute(
-        "INSERT INTO preferences (id, backend, voice, lang, rate, gender, style, model, pack, stt_threshold, stt_silence, stt_trim_silence, stt_auto_enter, anthropic_api_key, groq_api_key)
-         VALUES (1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+        "INSERT INTO preferences (id, backend, voice, lang, rate, gender, style, model, pack, stt_threshold, stt_energy_threshold, stt_cooldown_ms, always_log_path, hear_energy_threshold, stt_silence, stt_trim_silence, stt_auto_enter, anthropic_api_key, groq_api_key)
+         VALUES (1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
          ON CONFLICT(id) DO NOTHING",
         [],
     )?;

@@ -4,6 +4,8 @@
 //! `kokoro` (pure Rust). Exposes 14 MCP tools over stdio for integration with
 //! Claude Code, Cursor, VS Code, and 11 other AI tools.
 
+#[cfg(target_os = "macos")]
+pub mod always;
 pub mod audio;
 pub mod backend;
 #[cfg(target_os = "macos")]
@@ -12,6 +14,7 @@ pub mod clone;
 pub mod config;
 pub mod daemon;
 pub mod db;
+pub mod gui;
 pub mod init;
 pub mod input;
 pub mod mcp;
@@ -19,4 +22,4 @@ pub mod pack;
 #[cfg(target_os = "macos")]
 pub mod stt;
 pub mod tui;
-pub mod gui;
+pub mod tui_stt;

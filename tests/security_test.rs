@@ -59,10 +59,12 @@ fn invalid_preference_key_rejected() {
     let conn = db::open_in_memory().unwrap();
     let result = db::set_preference(&conn, "malicious_column", "value");
     assert!(result.is_err());
-    assert!(result
-        .unwrap_err()
-        .to_string()
-        .contains("Unknown preference"));
+    assert!(
+        result
+            .unwrap_err()
+            .to_string()
+            .contains("Unknown preference")
+    );
 }
 
 #[test]
