@@ -18,7 +18,7 @@ pub fn run(cfg: &AlwaysConfig) -> Result<()> {
 }
 
 fn process_one(cfg: &AlwaysConfig, log: &mut Logger, last_process: &mut Instant) -> Result<()> {
-    match vad::record_utterance(cfg).context("failed to record/transcribe utterance")? {
+    match vad::record_utterance(cfg, log).context("failed to record/transcribe utterance")? {
         vad::RecordResult::Speech { text, energy } => {
             handle_speech(cfg, log, &text, energy, last_process)?;
         }
@@ -71,18 +71,18 @@ fn in_cooldown(now: Instant, last_process: Instant, cooldown_ms: u32) -> bool {
 
 fn apply_vocabulary(text: &str, cfg: &AlwaysConfig) -> String {
     let mut result = text.to_string();
-    
+
     // Apply base vocabulary
     if let Some(ref vocab) = cfg.vocab {
         result = vocab.apply(&result);
     }
-    
+
     // Apply learned corrections
     if let Some(ref post_processor) = cfg.post_processor {
         result = post_processor.apply_learned_corrections(&result);
         result = post_processor.code_aware_pattern_match(&result);
     }
-    
+
     result
 }
 

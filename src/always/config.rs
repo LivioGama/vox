@@ -12,7 +12,6 @@ use crate::{config, db};
 #[derive(Debug, Clone)]
 pub enum VadMode {
     Local,
-    DeepGram,
 }
 
 impl Default for VadMode {
@@ -27,8 +26,7 @@ impl std::str::FromStr for VadMode {
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         match s.to_lowercase().as_str() {
             "local" => Ok(Self::Local),
-            "deepgram" => Ok(Self::DeepGram),
-            _ => anyhow::bail!("invalid VAD mode: {s}, must be 'local' or 'deepgram'"),
+            _ => anyhow::bail!("invalid VAD mode: {s}, must be 'local'"),
         }
     }
 }
@@ -37,7 +35,6 @@ impl std::fmt::Display for VadMode {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         match self {
             Self::Local => write!(f, "local"),
-            Self::DeepGram => write!(f, "deepgram"),
         }
     }
 }

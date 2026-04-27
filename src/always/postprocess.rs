@@ -126,7 +126,7 @@ impl PostProcessor {
                 "messages": [
                     {
                         "role": "system",
-                        "content": "You are a grammar correction assistant. Correct the given text for grammar, spelling, and punctuation. Return only the corrected text, no explanations."
+                        "content": "You are a text post-processing assistant for voice transcriptions. Your task is to:\n1. Correct grammar and spelling errors\n2. Add proper punctuation including question marks for questions and periods for statements\n3. Fix capitalization\n4. Return ONLY the corrected text, no explanations or additional text\n\nExamples:\n- Input: 'how does it work with my idea' → Output: 'How does it work with my idea?'\n- Input: 'i want to go to the store' → Output: 'I want to go to the store.'"
                     },
                     {
                         "role": "user",

@@ -4,6 +4,7 @@ use webrtc_vad::{Vad, VadMode};
 
 use crate::always::AlwaysConfig;
 use crate::always::audio::{self, FRAME_BYTES, FRAME_MS};
+use crate::always::log::{Event, Logger};
 
 pub enum RecordResult {
     Speech { text: String, energy: f64 },
@@ -13,14 +14,11 @@ pub enum RecordResult {
     Timeout,
 }
 
-pub fn record_utterance(cfg: &AlwaysConfig) -> Result<RecordResult> {
-    match cfg.vad_mode {
-        crate::always::config::VadMode::Local => record_with_local_vad(cfg),
-        crate::always::config::VadMode::DeepGram => record_with_deepgram_vad(cfg),
-    }
+pub fn record_utterance(cfg: &AlwaysConfig, log: &mut Logger) -> Result<RecordResult> {
+    record_with_local_vad(cfg, log)
 }
 
-fn record_with_local_vad(cfg: &AlwaysConfig) -> Result<RecordResult> {
+fn record_with_local_vad(cfg: &AlwaysConfig, log: &mut Logger) -> Result<RecordResult> {
     let silence_frames = ((cfg.silence_secs * 1000.0) / FRAME_MS as f64).ceil() as usize;
     let max_frames = (cfg.timeout_secs as usize * 1000) / FRAME_MS as usize;
     let min_speech_frames = (cfg.onset_ms / FRAME_MS).max(1) as usize;
@@ -34,6 +32,7 @@ fn record_with_local_vad(cfg: &AlwaysConfig) -> Result<RecordResult> {
     let mut consecutive_silence = 0usize;
     let mut consecutive_speech = 0usize;
     let mut in_speech = false;
+    let mut voice_logged = false;
     let mut total_frames = 0usize;
     let mut pre_buffer: VecDeque<Vec<i16>> = VecDeque::with_capacity(pre_buffer_frames);
 
@@ -54,6 +53,10 @@ fn record_with_local_vad(cfg: &AlwaysConfig) -> Result<RecordResult> {
             consecutive_silence = 0;
             if consecutive_speech >= min_speech_frames {
                 in_speech = true;
+                if !voice_logged {
+                    log.write(Event::VoiceDetected);
+                    voice_logged = true;
+                }
                 // Prepend pre-buffer to capture audio before VAD triggered
                 for buffered_samples in pre_buffer.drain(..) {
                     speech_samples.extend_from_slice(&buffered_samples);
@@ -119,13 +122,6 @@ fn record_with_local_vad(cfg: &AlwaysConfig) -> Result<RecordResult> {
         text: raw,
         energy: speech_energy,
     })
-}
-
-// TODO: Implement DeepGram streaming VAD mode
-// For now, fall back to local VAD
-fn record_with_deepgram_vad(cfg: &AlwaysConfig) -> Result<RecordResult> {
-    eprintln!("DeepGram streaming VAD not yet implemented, falling back to local VAD");
-    record_with_local_vad(cfg)
 }
 
 fn normalized_energy(samples: &[i16]) -> f64 {
