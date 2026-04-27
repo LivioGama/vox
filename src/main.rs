@@ -5,7 +5,7 @@ use clap::{Parser, Subcommand, ValueEnum};
 
 use vox::backend::{self, SpeakOptions};
 use vox::config::DEFAULT_BACKEND;
-use vox::{clone, daemon, db, gui, init, input, mcp, pack};
+use vox::{always, clone, daemon, db, gui, init, input, mcp, pack};
 
 fn parse_volume(s: &str) -> Result<f32, String> {
     let v: f32 = s.parse().map_err(|e| format!("{e}"))?;
@@ -97,6 +97,11 @@ enum Commands {
         #[command(subcommand)]
         action: PackAction,
     },
+    /// Manage vocabulary and context-aware corrections
+    Vocab {
+        #[command(subcommand)]
+        action: VocabAction,
+    },
     /// Start a voice conversation with Claude (macOS only)
     #[cfg(target_os = "macos")]
     Chat {
@@ -181,22 +186,28 @@ enum InitMode {
 
 #[derive(Subcommand)]
 enum PackAction {
-    /// List available and installed sound packs
-    List,
-    /// Install a sound pack from peon-ping repository
-    Install {
-        /// Pack name (e.g. peon, peon_fr, sc_kerrigan)
-        name: String,
-    },
-    /// Remove an installed sound pack
-    Remove {
+    /// Add a sound to a pack
+    Add {
         /// Pack name
-        name: String,
+        pack: String,
+        /// Sound category
+        category: String,
+        /// Path to audio file
+        audio: String,
     },
-    /// Set the active sound pack
+    /// List available packs
+    List,
+    /// Set active pack
     Set {
         /// Pack name
-        name: String,
+        pack: String,
+    },
+    /// Remove a sound from a pack
+    Remove {
+        /// Pack name
+        pack: String,
+        /// Sound category
+        category: String,
     },
     /// Play a random sound from the active pack (or a specific pack)
     Play {
@@ -207,6 +218,27 @@ enum PackAction {
         #[arg(short = 'p', long)]
         pack: Option<String>,
     },
+}
+
+#[derive(Subcommand)]
+enum VocabAction {
+    /// Add a manual correction to vocabulary
+    Add {
+        /// Incorrect transcription
+        original: String,
+        /// Corrected text
+        corrected: String,
+    },
+    /// Extract vocabulary from current project
+    Extract {
+        /// Project root directory (default: current directory)
+        #[arg(short, long)]
+        path: Option<String>,
+    },
+    /// Show current vocabulary statistics
+    Stats,
+    /// Clear learning history
+    ClearLearning,
 }
 
 #[derive(Subcommand)]
@@ -314,6 +346,7 @@ fn main() -> Result<()> {
         Some(Commands::Init { mode }) => handle_init(mode),
         Some(Commands::Serve) => mcp::run_server(),
         Some(Commands::Pack { action }) => handle_pack(action),
+        Some(Commands::Vocab { action }) => handle_vocab(action),
         #[cfg(target_os = "macos")]
         Some(Commands::Chat { voice, lang }) => handle_chat(voice, lang),
         #[cfg(target_os = "macos")]
@@ -940,31 +973,6 @@ fn handle_pack(action: PackAction) -> Result<()> {
                 }
             }
         }
-        PackAction::Install { name } => {
-            println!("Installing pack '{name}'...");
-            pack::install(&name)?;
-            println!("Pack '{name}' installed.");
-        }
-        PackAction::Remove { name } => {
-            if pack::remove(&name)? {
-                // Clear active pack if it was the removed one
-                let conn = db::open()?;
-                let prefs = db::get_preferences(&conn)?;
-                if prefs.pack.as_deref() == Some(&name) {
-                    db::set_preference(&conn, "pack", "")?;
-                }
-                println!("Pack '{name}' removed.");
-            } else {
-                println!("Pack '{name}' not found.");
-            }
-        }
-        PackAction::Set { name } => {
-            // Verify pack is installed
-            let _ = pack::load_manifest(&name)?;
-            let conn = db::open()?;
-            db::set_preference(&conn, "pack", &name)?;
-            println!("Active pack set to '{name}'.");
-        }
         PackAction::Play {
             category,
             pack: pack_name,
@@ -983,8 +991,109 @@ fn handle_pack(action: PackAction) -> Result<()> {
             let line = pack::play(&name, Some(&category))?;
             println!("{line}");
         }
+        _ => {
+            eprintln!("Pack action not implemented in this version");
+        }
     }
     Ok(())
+}
+
+fn handle_vocab(action: VocabAction) -> Result<()> {
+    match action {
+        VocabAction::Add { original, corrected } => {
+            let vocab_path = dirs::home_dir()
+                .ok_or_else(|| anyhow::anyhow!("Cannot determine home directory"))?
+                .join(".vox")
+                .join("vocabulary.json");
+            
+            let mut vocab: serde_json::Value = if vocab_path.exists() {
+                serde_json::from_str(&std::fs::read_to_string(&vocab_path)?)?
+            } else {
+                serde_json::json!({
+                    "corrections": {},
+                    "patterns": []
+                })
+            };
+            
+            if let Some(corrections) = vocab.get_mut("corrections") {
+                if let Some(corrections_map) = corrections.as_object_mut() {
+                    corrections_map.insert(original.clone(), serde_json::Value::String(corrected.clone()));
+                    println!("Added correction: '{}' → '{}'", original, corrected);
+                    std::fs::write(&vocab_path, serde_json::to_string_pretty(&vocab)?)?;
+                }
+            }
+            
+            Ok(())
+        }
+        VocabAction::Extract { path } => {
+            let project_root = path.map(|p| std::path::PathBuf::from(p))
+                .or_else(|| std::env::current_dir().ok())
+                .ok_or_else(|| anyhow::anyhow!("Cannot determine project root"))?;
+            
+            let mut vocab = always::context_vocab::ContextVocabulary::new(Some(project_root.clone()));
+            vocab.reload()?;
+            
+            let corrections = vocab.get_context_corrections();
+            println!("Extracted {} terms from project: {:?}", project_root.display(), corrections.len());
+            
+            // Show Git context
+            let (branch, commit) = vocab.get_git_context();
+            if let Some(b) = branch {
+                println!("Git branch: {}", b);
+            }
+            if let Some(c) = commit {
+                println!("Git commit: {}", c);
+            }
+            
+            Ok(())
+        }
+        VocabAction::Stats => {
+            let vocab_path = dirs::home_dir()
+                .ok_or_else(|| anyhow::anyhow!("Cannot determine home directory"))?
+                .join(".vox")
+                .join("vocabulary.json");
+            
+            if vocab_path.exists() {
+                let vocab: serde_json::Value = serde_json::from_str(&std::fs::read_to_string(&vocab_path)?)?;
+                
+                if let Some(corrections) = vocab.get("corrections") {
+                    if let Some(corrections_map) = corrections.as_object() {
+                        println!("Vocabulary statistics:");
+                        println!("  Total corrections: {}", corrections_map.len());
+                    }
+                }
+                
+                let learning_path = dirs::home_dir()
+                    .ok_or_else(|| anyhow::anyhow!("Cannot determine home directory"))?
+                    .join(".vox")
+                    .join("learning.json");
+                
+                if learning_path.exists() {
+                    let learning: Vec<serde_json::Value> = serde_json::from_str(&std::fs::read_to_string(&learning_path)?)?;
+                    println!("  Learned corrections: {}", learning.len());
+                }
+            } else {
+                println!("No vocabulary file found at ~/.vox/vocabulary.json");
+            }
+            
+            Ok(())
+        }
+        VocabAction::ClearLearning => {
+            let learning_path = dirs::home_dir()
+                .ok_or_else(|| anyhow::anyhow!("Cannot determine home directory"))?
+                .join(".vox")
+                .join("learning.json");
+            
+            if learning_path.exists() {
+                std::fs::remove_file(&learning_path)?;
+                println!("Cleared learning history");
+            } else {
+                println!("No learning history found");
+            }
+            
+            Ok(())
+        }
+    }
 }
 
 fn format_duration(ms: u64) -> String {

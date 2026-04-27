@@ -1,0 +1,49 @@
+{
+  "corrections": {
+    "dont": "don't",
+    "wont": "won't",
+    "cant": "can't",
+    "im": "I'm",
+    "youre": "you're",
+    "thats": "that's",
+    "its": "it's"
+  },
+  "patterns": [
+    {
+      "pattern": "\\bdot\\s+(\\w+)",
+      "replacement": ".$1",
+      "add_quotes": false,
+      "quote_type": "double"
+    },
+    {
+      "pattern": "\\b(\\w+\\.[a-z]{2,4})\\b",
+      "replacement": "`$1`",
+      "add_quotes": true,
+      "quote_type": "backtick"
+    },
+    {
+      "pattern": "\\b(git\\s+\\w+|npm\\s+\\w+|cargo\\s+\\w+|bun\\s+\\w+)",
+      "replacement": "`$1`",
+      "add_quotes": true,
+      "quote_type": "backtick"
+    },
+    {
+      "pattern": "[\\w/\\-\\.]+/[\\w/\\-\\.]+",
+      "replacement": "`$0`",
+      "add_quotes": true,
+      "quote_type": "backtick"
+    },
+    {
+      "pattern": "\\b(create|delete|move|copy)\\s+file\\s+(\\w+)",
+      "replacement": "$1 file \"$2\"",
+      "add_quotes": false,
+      "quote_type": "double"
+    },
+    {
+      "pattern": "\\b(rename)\\s+(\\w+)\\s+to\\s+(\\w+)",
+      "replacement": "$1 \"$2\" to \"$3\"",
+      "add_quotes": false,
+      "quote_type": "double"
+    }
+  ]
+}

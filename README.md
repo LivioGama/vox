@@ -72,6 +72,78 @@ All times measured end-to-end (model loading + inference + audio playback). Cold
 > All CUDA benchmarks measured on RTX 4070 Ti SUPER (16GB).
 > For lowest latency: `say` (macOS) or `piper` (all platforms). For best quality + cloning: `voxtream` on CUDA with daemon.
 
+## Commercial-Grade Features
+
+### Context-Aware Vocabulary
+
+vox now includes intelligent vocabulary management that adapts to your project context:
+
+- **Dynamic term extraction**: Automatically extracts technical terms from your codebase (function names, file names, identifiers)
+- **Git awareness**: Tracks current branch and commit for context-aware corrections
+- **File watching**: Automatically reloads vocabulary when project files change
+- **Phonetic matching**: Generates phonetic approximations for better speech recognition
+
+```bash
+# Extract vocabulary from current project
+vox vocab extract
+
+# Add manual correction
+vox vocab add "live yo" "Livio"
+
+# View vocabulary statistics
+vox vocab stats
+
+# Clear learning history
+vox vocab clear-learning
+```
+
+### Smart Post-Processing
+
+Advanced text processing with automatic learning:
+
+- **Auto-learning**: Learns from user corrections and updates vocabulary automatically
+- **Grammar correction**: Uses Groq Llama 3 8B (877 tokens/s) for grammar correction when `GROQ_API_KEY` is set
+- **Context-aware disambiguation**: Corrects homonyms based on context (e.g., "route" → "root" in filesystem context)
+- **Code-aware patterns**: Special handling for code syntax and technical terms
+
+### Performance Optimizations
+
+Built-in performance layer for faster responses:
+
+- **LRU caching**: Caches transcriptions and vocabulary lookups (1000 transcriptions, 10000 vocab entries)
+- **Background warmup**: Pre-loads models in background for reduced latency
+- **Streaming STT**: Real-time speech-to-text processing (replaces frame-based approach)
+
+These features are automatically enabled when running `vox always` or `vox hear` in a git repository.
+
+### Configuration
+
+All commercial-grade features can be configured via environment variables:
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `VOX_FILE_PATTERNS` | JSON array of regex patterns for term extraction | `["\\b[A-Z][a-zA-Z0-9]*\\b", "\\b[a-z]+_[a-z_]+\\b", "\\b[A-Z_]+\\b", "\\b[a-z]+[A-Z][a-zA-Z0-9]*\\b"]` |
+| `VOX_COMMON_WORDS` | JSON array of common words to filter out | `["the", "and", "for", ...]` |
+| `VOX_MIN_TERM_LENGTH` | Minimum term length to extract | `2` |
+| `VOX_MAX_TERM_LENGTH` | Maximum term length to extract | `50` |
+| `VOX_GROQ_MODEL` | Groq model for grammar correction | `llama3-8b-8192` |
+| `VOX_LEARNING_LIMIT` | Max learning history entries | `1000` |
+| `VOX_GRAMMAR_CORRECTION` | Enable/disable grammar correction | `true` |
+| `VOX_CACHE_TTL` | Cache TTL in seconds (postprocess) | `300` |
+| `VOX_TRANSCRIPTION_CACHE_SIZE` | Transcription cache size | `1000` |
+| `VOX_VOCAB_CACHE_SIZE` | Vocabulary cache size | `10000` |
+| `VOX_WARMUP_DURATION` | Background warmup duration in seconds | `5` |
+| `VOX_PERFORMANCE_CACHE_TTL` | Cache TTL in seconds (performance) | `300` |
+| `GROQ_API_KEY` | API key for Groq grammar correction | - |
+
+Example:
+```bash
+export VOX_GROQ_MODEL="llama3-70b-8192"
+export VOX_TRANSCRIPTION_CACHE_SIZE=5000
+export VOX_LEARNING_LIMIT=2000
+export GROQ_API_KEY="your-api-key"
+```
+
 ## Install
 
 ### Pre-built binaries (recommended)

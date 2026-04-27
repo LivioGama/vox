@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_run": "2026-04-24T18:37:22.405Z",
+    "root": "/Users/livio/Documents/vox",
+    "include_patterns": [
+      "src/**/*.rs",
+      "Cargo.toml",
+      "models.toml"
+    ],
+    "exclude_patterns": [
+      "tests/**",
+      "target/**",
+      "**/*.test.rs",
+      "**/*.spec.rs"
+    ],
+    "exceptions": []
+  },
+  "file_hashes": {
+    "Cargo.toml": "f720bcdd001ca03e54ea7d3c93d0febc",
+    "models.toml": "4cdefc34b28e5aef7947e6e260376f0a",
+    "src/audio.rs": "375f402d1ffdb3c81a4a3ced8a739a6e",
+    "src/backend/kokoro.rs": "f3f3e0544e3081e4294b1d44356754d7",
+    "src/backend/mod.rs": "95cf1facedc9f6edc786243b8277829c",
+    "src/backend/piper.rs": "582e71907f9d8da1f1edc2433b871cb1",
+    "src/backend/qwen.rs": "8984956170c09f64c26417e0d1a8e17c",
+    "src/backend/qwen_native.rs": "26312a131e9d3d565424f1dcef266bde",
+    "src/backend/say.rs": "c996b5bf3bc4f8e91c730d8053e70d62",
+    "src/backend/voxtream.rs": "6648c35af4bd249ffcf2e20b228fb02d",
+    "src/chat/claude_api.rs": "16eeda9deb12ff3c99b924f68947a1c4",
+    "src/chat/mod.rs": "39bd8bc80fc99472cacc1b306743a5b1",
+    "src/chat/sentence.rs": "81442521b2c9c7b40ab08e5926bb1d71",
+    "src/chat/streaming.rs": "9b6ac0b260ff327bec33ba2c17066227",
+    "src/clone.rs": "abeccd857904cbc62e4eb1e93427ad63",
+    "src/config.rs": "aaf15c10fc79a95689d4e33c4f2722bd",
+    "src/daemon.rs": "8c68d115ff1a5889122068312177896a",
+    "src/db.rs": "359c82b51c22550e9afe6c024a23497f",
+    "src/gui.rs": "d42f7f2246e3add8d02669f2fa4bd2d7",
+    "src/init.rs": "1bf0e43d0cf96aa3d453171f7c9c4004",
+    "src/input.rs": "40f38c5bd7e66071c649d73ffa83c64d",
+    "src/lib.rs": "1759acfbefc2739200d06190ec4b3a83",
+    "src/main.rs": "01eb6aee8f119626edd3eb4ff786fb67",
+    "src/mcp.rs": "c0867b6ce795ca1934c1aaa5158b34b1",
+    "src/pack.rs": "0a5d9efc95d1f0e862a78ee4fd42ccd0",
+    "src/stt.rs": "f0ab09614e4f71ca711c548d1324f955",
+    "src/tui.rs": "571fb4ff8d24b400cf271a7564ac7e85"
+  },
+  "folder_hashes": {
+    ".": "bab128f20f62bc75f490701087870914",
+    "src": "97429c92f6cf7855596ffee90a549da6",
+    "src/backend": "6cacebf4409f756dbdaf3247ebd04cad",
+    "src/chat": "0dc7654c6e96c508a38a05f1e459a8a2"
+  }
+}

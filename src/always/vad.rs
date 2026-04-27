@@ -1,4 +1,5 @@
 use anyhow::{Context, Result};
+use std::collections::VecDeque;
 use webrtc_vad::{Vad, VadMode};
 
 use crate::always::AlwaysConfig;
@@ -16,8 +17,10 @@ pub fn record_utterance(cfg: &AlwaysConfig) -> Result<RecordResult> {
     let silence_frames = ((cfg.silence_secs * 1000.0) / FRAME_MS as f64).ceil() as usize;
     let max_frames = (cfg.timeout_secs as usize * 1000) / FRAME_MS as usize;
     let min_speech_frames = (cfg.onset_ms / FRAME_MS).max(1) as usize;
+    // Pre-buffer: keep 500ms of audio before speech detection to catch first words
+    let pre_buffer_frames = (500 / FRAME_MS as usize).max(1);
     let mut vad =
-        Vad::new_with_rate_and_mode(webrtc_vad::SampleRate::Rate16kHz, VadMode::VeryAggressive);
+        Vad::new_with_rate_and_mode(webrtc_vad::SampleRate::Rate16kHz, VadMode::Aggressive);
     let mut rec = audio::RecChild::spawn()?;
     let mut frame_buf = [0u8; FRAME_BYTES];
     let mut speech_samples = Vec::new();
@@ -25,6 +28,7 @@ pub fn record_utterance(cfg: &AlwaysConfig) -> Result<RecordResult> {
     let mut consecutive_speech = 0usize;
     let mut in_speech = false;
     let mut total_frames = 0usize;
+    let mut pre_buffer: VecDeque<Vec<i16>> = VecDeque::with_capacity(pre_buffer_frames);
 
     loop {
         let read = rec.read_frame(&mut frame_buf)?;
@@ -43,6 +47,10 @@ pub fn record_utterance(cfg: &AlwaysConfig) -> Result<RecordResult> {
             consecutive_silence = 0;
             if consecutive_speech >= min_speech_frames {
                 in_speech = true;
+                // Prepend pre-buffer to capture audio before VAD triggered
+                for buffered_samples in pre_buffer.drain(..) {
+                    speech_samples.extend_from_slice(&buffered_samples);
+                }
             }
             if in_speech {
                 speech_samples.extend_from_slice(&samples);
@@ -56,6 +64,11 @@ pub fn record_utterance(cfg: &AlwaysConfig) -> Result<RecordResult> {
             }
         } else {
             consecutive_speech = 0;
+            // Maintain pre-buffer: add new frame, drop oldest if full
+            pre_buffer.push_back(samples.clone());
+            if pre_buffer.len() > pre_buffer_frames {
+                pre_buffer.pop_front();
+            }
         }
 
         total_frames += 1;

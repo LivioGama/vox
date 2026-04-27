@@ -1,0 +1,1 @@
+vox daemon stop ; cargo watch -x "build --release" & tail -f ~/Library/Application\ Support/vox/always_daemon.log

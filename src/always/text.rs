@@ -44,7 +44,7 @@ struct RawPatternRule {
 
 impl Vocabulary {
     pub fn load() -> Option<Self> {
-        let path = dirs::home_dir()?.join(".iris").join("vocabulary.json");
+        let path = dirs::home_dir()?.join(".vox").join("vocabulary.json");
         let content = std::fs::read_to_string(path).ok()?;
         serde_json::from_str::<RawVocabulary>(&content)
             .ok()

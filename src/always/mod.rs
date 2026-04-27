@@ -10,6 +10,9 @@ pub mod notify;
 pub mod paste;
 pub mod text;
 pub mod vad;
+pub mod context_vocab;
+pub mod performance;
+pub mod postprocess;
 
 pub use config::AlwaysConfig;
 pub use event_loop::run;

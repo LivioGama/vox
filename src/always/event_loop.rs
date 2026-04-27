@@ -1,3 +1,4 @@
+use std::sync::Arc;
 use std::time::{Duration, Instant};
 
 use anyhow::{Context, Result};
@@ -11,6 +12,16 @@ pub fn run(cfg: AlwaysConfig) -> Result<()> {
     print_banner(&cfg);
     log.write(Event::Start { cfg: &cfg });
     let mut last_process = Instant::now() - Duration::from_secs(10);
+
+    // Start background warmup if performance layer is available
+    #[cfg(feature = "commercial")]
+    if let Some(ref perf) = cfg.performance {
+        let perf_clone = Arc::clone(perf);
+        std::thread::spawn(move || {
+            let runtime = tokio::runtime::Runtime::new().unwrap();
+            runtime.block_on(perf_clone.warmup_background());
+        });
+    }
 
     loop {
         process_one(&cfg, &mut log, &mut last_process)?;
@@ -71,10 +82,20 @@ fn in_cooldown(now: Instant, last_process: Instant, cooldown_ms: u32) -> bool {
 }
 
 fn apply_vocabulary(text: &str, cfg: &AlwaysConfig) -> String {
-    cfg.vocab
-        .as_ref()
-        .map(|vocab| vocab.apply(text))
-        .unwrap_or_else(|| text.to_string())
+    let mut result = text.to_string();
+    
+    // Apply base vocabulary
+    if let Some(ref vocab) = cfg.vocab {
+        result = vocab.apply(&result);
+    }
+    
+    // Apply learned corrections
+    if let Some(ref post_processor) = cfg.post_processor {
+        result = post_processor.apply_learned_corrections(&result);
+        result = post_processor.code_aware_pattern_match(&result);
+    }
+    
+    result
 }
 
 fn print_banner(cfg: &AlwaysConfig) {
@@ -96,6 +117,10 @@ mod tests {
     use crate::always::text::Vocabulary;
 
     fn test_config(vocab: Option<Vocabulary>) -> AlwaysConfig {
+        use crate::always::config::{VocabConfig, PostprocessConfig};
+        #[cfg(feature = "commercial")]
+        use crate::always::config::PerformanceConfig;
+
         AlwaysConfig {
             lang: "en".to_string(),
             timeout_secs: 30,
@@ -107,6 +132,17 @@ mod tests {
             cooldown_ms: 1500,
             log_path: PathBuf::from("always.log"),
             vocab,
+            context_vocab: None,
+            post_processor: None,
+            #[cfg(feature = "commercial")]
+            performance: None,
+            project_root: None,
+            learning_enabled: false,
+            groq_api_key: None,
+            vocab_config: VocabConfig::default(),
+            postprocess_config: PostprocessConfig::default(),
+            #[cfg(feature = "commercial")]
+            performance_config: PerformanceConfig::default(),
         }
     }
 

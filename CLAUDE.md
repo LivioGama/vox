@@ -1,6 +1,14 @@
 ## Runtime: Bun
 Toujours utiliser `bun` au lieu de `npm`, `npx`, `node`, ou `tsx`.
 
+## Build Policy
+NEVER run `cargo build` or `cargo run` automatically. The user manages builds manually with `cargo watch`.
+
+**Avoid unnecessary rebuilds**: Make changes via configuration files when possible instead of modifying source code. This prevents triggering cargo watch rebuilds. Examples:
+- Configuration changes: Use `vox config set` instead of editing source code
+- Vocabulary updates: Edit `~/.vox/vocabulary.json` instead of `src/always/text.rs`
+- Threshold tuning: Use config commands instead of hardcoding values
+
 ## Roadmap: Mode conversationnel (inspiré PersonaPlex/Moshi)
 
 Objectif: transformer vox d'un outil TTS one-shot en un assistant vocal conversationnel

@@ -26,10 +26,10 @@ impl RecChild {
         let mut child = std::process::Command::new("rec")
             .args([
                 "--no-show-progress",
-                "-r",
-                "16000",
                 "-c",
                 "1",
+                "-r",
+                "16000",
                 "-t",
                 "raw",
                 "-e",
@@ -37,6 +37,10 @@ impl RecChild {
                 "-b",
                 "16",
                 "-",
+                "remix",
+                "-",
+                "rate",
+                "16000",
             ])
             .stdout(std::process::Stdio::piped())
             .stderr(std::process::Stdio::null())
