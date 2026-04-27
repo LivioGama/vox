@@ -1,0 +1,742 @@
+[
+  {
+    "term": "CLI",
+    "mistranscriptions": [],
+    "category": "acronym",
+    "frequency": 28
+  },
+  {
+    "term": "SSH",
+    "mistranscriptions": [],
+    "category": "acronym",
+    "frequency": 22
+  },
+  {
+    "term": "API",
+    "mistranscriptions": [],
+    "category": "acronym",
+    "frequency": 17
+  },
+  {
+    "term": "Dokploy",
+    "mistranscriptions": [
+      "dockploy",
+      "Docploy",
+      "DocPlay",
+      "DOCPLOY",
+      "dock ploy",
+      "DuckPloy",
+      "doccloy",
+      "doc.loy",
+      "dog ploy",
+      "docplot",
+      "deploy"
+    ],
+    "category": "tool",
+    "frequency": 15
+  },
+  {
+    "term": "SWE",
+    "mistranscriptions": [],
+    "category": "acronym",
+    "frequency": 15
+  },
+  {
+    "term": "GPT",
+    "mistranscriptions": [],
+    "category": "acronym",
+    "frequency": 15
+  },
+  {
+    "term": "Claude Code",
+    "mistranscriptions": [
+      "Cloud Code",
+      "cloud code",
+      "ClaudeCode",
+      "cloudcode",
+      "a plot code",
+      "the cloud code",
+      "code-clos CLI",
+      "cloud agent",
+      "cloud code CLI"
+    ],
+    "category": "product",
+    "frequency": 14
+  },
+  {
+    "term": "MCP",
+    "mistranscriptions": [],
+    "category": "acronym",
+    "frequency": 12
+  },
+  {
+    "term": "JetBrains",
+    "mistranscriptions": [],
+    "category": "product",
+    "frequency": 12
+  },
+  {
+    "term": "Iris",
+    "mistranscriptions": [
+      "IRIS",
+      "iris",
+      "Iris Sama",
+      "Iris Chan"
+    ],
+    "category": "product",
+    "frequency": 11
+  },
+  {
+    "term": "RAM",
+    "mistranscriptions": [],
+    "category": "acronym",
+    "frequency": 11
+  },
+  {
+    "term": "OSS",
+    "mistranscriptions": [],
+    "category": "acronym",
+    "frequency": 10
+  },
+  {
+    "term": "cmux",
+    "mistranscriptions": [
+      "C-Max",
+      "C-max",
+      "CMAX",
+      "Cmax",
+      "much"
+    ],
+    "category": "library",
+    "frequency": 9
+  },
+  {
+    "term": "Mac",
+    "mistranscriptions": [],
+    "category": "product",
+    "frequency": 9
+  },
+  {
+    "term": "ShipFast",
+    "mistranscriptions": [
+      "Shipfast",
+      "shift-right",
+      "shitfast.io",
+      "SIPFAST",
+      "ChibFast",
+      "ShipFast product",
+      "shift class"
+    ],
+    "category": "product",
+    "frequency": 8
+  },
+  {
+    "term": "OpenUI",
+    "mistranscriptions": [
+      "UI",
+      "Open UI",
+      "open UI"
+    ],
+    "category": "library",
+    "frequency": 8
+  },
+  {
+    "term": "URL",
+    "mistranscriptions": [],
+    "category": "acronym",
+    "frequency": 8
+  },
+  {
+    "term": "Coolify",
+    "mistranscriptions": [
+      "coolify",
+      "Qulify",
+      "Colyfy",
+      "codify",
+      "Golyfy",
+      "qualify"
+    ],
+    "category": "tool",
+    "frequency": 7
+  },
+  {
+    "term": "Spark",
+    "mistranscriptions": [],
+    "category": "product",
+    "frequency": 7
+  },
+  {
+    "term": "LLM",
+    "mistranscriptions": [],
+    "category": "acronym",
+    "frequency": 7
+  },
+  {
+    "term": "GPT-OSS 120B",
+    "mistranscriptions": [
+      "GPT-OSS 120CB",
+      "GPT-OSS120B",
+      "GPT-OSS-120B",
+      "GPT OSS 120B",
+      "OSS 120b",
+      "OSS 120CB"
+    ],
+    "category": "model",
+    "frequency": 6
+  },
+  {
+    "term": "Claude",
+    "mistranscriptions": [
+      "cloud",
+      "clod"
+    ],
+    "category": "product",
+    "frequency": 6
+  },
+  {
+    "term": "Next.js",
+    "mistranscriptions": [
+      "Neck.js",
+      "an FBS",
+      "XGS",
+      "next JS",
+      "nextgs"
+    ],
+    "category": "framework",
+    "frequency": 6
+  },
+  {
+    "term": "IP",
+    "mistranscriptions": [],
+    "category": "acronym",
+    "frequency": 6
+  },
+  {
+    "term": "Linux",
+    "mistranscriptions": [],
+    "category": "product",
+    "frequency": 6
+  },
+  {
+    "term": "Debian",
+    "mistranscriptions": [],
+    "category": "product",
+    "frequency": 6
+  },
+  {
+    "term": "Ollama Cloud",
+    "mistranscriptions": [
+      "Olama Cloud",
+      "Ola Mac Cloud",
+      "Ola McLeod",
+      "Colama Cloud"
+    ],
+    "category": "product",
+    "frequency": 5
+  },
+  {
+    "term": "Ralph Wiggum",
+    "mistranscriptions": [
+      "Ralph Regum",
+      "Ralph Riggum",
+      "ralph reagan",
+      "RALF RIGAM",
+      "Ralph-Riggum"
+    ],
+    "category": "name",
+    "frequency": 5
+  },
+  {
+    "term": "OpenAI",
+    "mistranscriptions": [],
+    "category": "product",
+    "frequency": 5
+  },
+  {
+    "term": "Rust",
+    "mistranscriptions": [],
+    "category": "language",
+    "frequency": 5
+  },
+  {
+    "term": "Slack",
+    "mistranscriptions": [],
+    "category": "product",
+    "frequency": 5
+  },
+  {
+    "term": "iOS",
+    "mistranscriptions": [],
+    "category": "product",
+    "frequency": 5
+  },
+  {
+    "term": "M4",
+    "mistranscriptions": [],
+    "category": "product",
+    "frequency": 5
+  },
+  {
+    "term": "GB",
+    "mistranscriptions": [],
+    "category": "acronym",
+    "frequency": 5
+  },
+  {
+    "term": "Qdrant",
+    "mistranscriptions": [
+      "Skudrant",
+      "QN",
+      "QEN"
+    ],
+    "category": "product",
+    "frequency": 4
+  },
+  {
+    "term": "OpenRouter",
+    "mistranscriptions": [
+      "open router",
+      "Open Router",
+      "OpenRodder"
+    ],
+    "category": "product",
+    "frequency": 4
+  },
+  {
+    "term": "Vercel",
+    "mistranscriptions": [
+      "Versa",
+      "Versal",
+      "Verso"
+    ],
+    "category": "product",
+    "frequency": 4
+  },
+  {
+    "term": "Anthropic",
+    "mistranscriptions": [
+      "entropic",
+      "Entropic",
+      "entropy"
+    ],
+    "category": "name",
+    "frequency": 4
+  },
+  {
+    "term": "Superwhisper",
+    "mistranscriptions": [
+      "Super Whisper",
+      "Super Whisperer"
+    ],
+    "category": "tool",
+    "frequency": 4
+  },
+  {
+    "term": "Kimi",
+    "mistranscriptions": [
+      "Kimmy",
+      "KeyMe"
+    ],
+    "category": "product",
+    "frequency": 4
+  },
+  {
+    "term": "KimiK2",
+    "mistranscriptions": [
+      "Chimik2",
+      "Chimik 2",
+      "KimiK2.5"
+    ],
+    "category": "model",
+    "frequency": 4
+  },
+  {
+    "term": "Grok",
+    "mistranscriptions": [
+      "Grock",
+      "GroK",
+      "GROK"
+    ],
+    "category": "product",
+    "frequency": 4
+  },
+  {
+    "term": "OpenCode",
+    "mistranscriptions": [
+      "Open Code",
+      "open code"
+    ],
+    "category": "product",
+    "frequency": 4
+  },
+  {
+    "term": "OpenCode Slim",
+    "mistranscriptions": [
+      "open code slim",
+      "OpenCode sleeve"
+    ],
+    "category": "product",
+    "frequency": 4
+  },
+  {
+    "term": "ACP",
+    "mistranscriptions": [
+      "a way",
+      "ascp",
+      "It"
+    ],
+    "category": "acronym",
+    "frequency": 4
+  },
+  {
+    "term": "SDK",
+    "mistranscriptions": [],
+    "category": "acronym",
+    "frequency": 4
+  },
+  {
+    "term": "K2",
+    "mistranscriptions": [],
+    "category": "product",
+    "frequency": 4
+  },
+  {
+    "term": "Cursor",
+    "mistranscriptions": [
+      "cursor"
+    ],
+    "category": "product",
+    "frequency": 3
+  },
+  {
+    "term": "Claude Sonnet",
+    "mistranscriptions": [
+      "CloudSony",
+      "Klotsone"
+    ],
+    "category": "product",
+    "frequency": 3
+  },
+  {
+    "term": "NetCup",
+    "mistranscriptions": [
+      "netcap"
+    ],
+    "category": "product",
+    "frequency": 3
+  },
+  {
+    "term": "TPS",
+    "mistranscriptions": [
+      "token per second",
+      "VPS",
+      "CPS"
+    ],
+    "category": "acronym",
+    "frequency": 3
+  },
+  {
+    "term": "ZSH",
+    "mistranscriptions": [
+      "ZSH-RC",
+      "ZSH history"
+    ],
+    "category": "tool",
+    "frequency": 3
+  },
+  {
+    "term": "Westerm",
+    "mistranscriptions": [
+      "WESTERM",
+      "Westterm"
+    ],
+    "category": "tool",
+    "frequency": 3
+  },
+  {
+    "term": "devlive.io",
+    "mistranscriptions": [
+      "devlib.io",
+      "dev.livio"
+    ],
+    "category": "other",
+    "frequency": 3
+  },
+  {
+    "term": "GPT-4",
+    "mistranscriptions": [
+      "LGBT5.5",
+      "GBT 5.5"
+    ],
+    "category": "model",
+    "frequency": 2
+  },
+  {
+    "term": "Let's Encrypt",
+    "mistranscriptions": [
+      "Let's Send script",
+      "Let's End Script"
+    ],
+    "category": "service",
+    "frequency": 2
+  },
+  {
+    "term": "Ollama",
+    "mistranscriptions": [
+      "Olama",
+      "OlaMap"
+    ],
+    "category": "tool",
+    "frequency": 2
+  },
+  {
+    "term": "GitHub Copilot CLI",
+    "mistranscriptions": [
+      "GitHub Compile.cli"
+    ],
+    "category": "tool",
+    "frequency": 2
+  },
+  {
+    "term": "GitHub Copilot",
+    "mistranscriptions": [
+      "hitup-copilot"
+    ],
+    "category": "product",
+    "frequency": 2
+  },
+  {
+    "term": "GitHub CLI",
+    "mistranscriptions": [
+      "github.cli"
+    ],
+    "category": "tool",
+    "frequency": 2
+  },
+  {
+    "term": "MergeKit",
+    "mistranscriptions": [
+      "mergekit"
+    ],
+    "category": "library",
+    "frequency": 2
+  },
+  {
+    "term": "Cerebras",
+    "mistranscriptions": [],
+    "category": "product",
+    "frequency": 2
+  },
+  {
+    "term": "git-crypt",
+    "mistranscriptions": [
+      "get decrypted",
+      "gitcrypt"
+    ],
+    "category": "tool",
+    "frequency": 2
+  },
+  {
+    "term": "Codex",
+    "mistranscriptions": [
+      "codec"
+    ],
+    "category": "product",
+    "frequency": 2
+  },
+  {
+    "term": "Codex CLI",
+    "mistranscriptions": [
+      "Codec CLI"
+    ],
+    "category": "tool",
+    "frequency": 2
+  },
+  {
+    "term": "GPT-OSS",
+    "mistranscriptions": [
+      "GBT-OSS",
+      "GBT OSS"
+    ],
+    "category": "model",
+    "frequency": 2
+  },
+  {
+    "term": "RALF",
+    "mistranscriptions": [
+      "Ralph"
+    ],
+    "category": "acronym",
+    "frequency": 2
+  },
+  {
+    "term": "SWE 1.6 FAST",
+    "mistranscriptions": [
+      "SWE 1.6 fast"
+    ],
+    "category": "acronym",
+    "frequency": 2
+  },
+  {
+    "term": "VPS",
+    "mistranscriptions": [
+      "CPS"
+    ],
+    "category": "acronym",
+    "frequency": 2
+  },
+  {
+    "term": "Groq",
+    "mistranscriptions": [
+      "Grok"
+    ],
+    "category": "product",
+    "frequency": 1
+  },
+  {
+    "term": "Bun",
+    "mistranscriptions": [
+      "burn"
+    ],
+    "category": "tool",
+    "frequency": 1
+  },
+  {
+    "term": "Raycast",
+    "mistranscriptions": [
+      "for example Raycast"
+    ],
+    "category": "product",
+    "frequency": 1
+  },
+  {
+    "term": "Plausible",
+    "mistranscriptions": [
+      "plausible"
+    ],
+    "category": "product",
+    "frequency": 1
+  },
+  {
+    "term": "Elgato",
+    "mistranscriptions": [
+      "El Gato"
+    ],
+    "category": "product",
+    "frequency": 1
+  },
+  {
+    "term": "OpenVPN",
+    "mistranscriptions": [
+      "open VPN"
+    ],
+    "category": "tool",
+    "frequency": 1
+  },
+  {
+    "term": "npx",
+    "mistranscriptions": [
+      "bx"
+    ],
+    "category": "tool",
+    "frequency": 1
+  },
+  {
+    "term": "SaaS",
+    "mistranscriptions": [
+      "sass"
+    ],
+    "category": "acronym",
+    "frequency": 1
+  },
+  {
+    "term": "pkill",
+    "mistranscriptions": [
+      "pickheel"
+    ],
+    "category": "tool",
+    "frequency": 1
+  },
+  {
+    "term": "macOS",
+    "mistranscriptions": [
+      "MacOS"
+    ],
+    "category": "product",
+    "frequency": 1
+  },
+  {
+    "term": "GitHub",
+    "mistranscriptions": [
+      "Github"
+    ],
+    "category": "product",
+    "frequency": 1
+  },
+  {
+    "term": "Tailwind",
+    "mistranscriptions": [],
+    "category": "framework",
+    "frequency": 1
+  },
+  {
+    "term": "Firebase",
+    "mistranscriptions": [
+      "firebase,"
+    ],
+    "category": "product",
+    "frequency": 1
+  },
+  {
+    "term": "Deepgram",
+    "mistranscriptions": [],
+    "category": "product",
+    "frequency": 1
+  },
+  {
+    "term": "AppleScript",
+    "mistranscriptions": [
+      "Apple Script"
+    ],
+    "category": "language",
+    "frequency": 1
+  },
+  {
+    "term": "Warp",
+    "mistranscriptions": [
+      "War"
+    ],
+    "category": "product",
+    "frequency": 1
+  },
+  {
+    "term": "Perplexity Agent",
+    "mistranscriptions": [
+      "perplexity agent"
+    ],
+    "category": "product",
+    "frequency": 1
+  },
+  {
+    "term": "Medusa",
+    "mistranscriptions": [
+      "medusa"
+    ],
+    "category": "framework",
+    "frequency": 1
+  },
+  {
+    "term": "Composio",
+    "mistranscriptions": [],
+    "category": "product",
+    "frequency": 1
+  },
+  {
+    "term": "Notion MCP",
+    "mistranscriptions": [
+      "Notion NCP"
+    ],
+    "category": "product",
+    "frequency": 1
+  }
+]

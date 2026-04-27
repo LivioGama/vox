@@ -4,6 +4,8 @@ use anyhow::{Context, Result};
 use reqwest::blocking::multipart;
 use std::path::Path;
 
+use crate::glossary;
+
 /// Transcribe audio file using Groq Whisper API.
 pub fn transcribe(audio_path: &str, _lang: Option<&str>, api_key: &str, _model: &str) -> Result<String> {
     if !Path::new(audio_path).exists() {
@@ -15,11 +17,15 @@ pub fn transcribe(audio_path: &str, _lang: Option<&str>, api_key: &str, _model: 
 
     let client = reqwest::blocking::Client::new();
 
-    let form = multipart::Form::new()
+    let mut form = multipart::Form::new()
         .part("file", multipart::Part::bytes(audio_data).file_name("audio.wav").mime_str("audio/wav")?)
         .text("model", "whisper-large-v3")
         .text("response_format", "text")
         .text("language", "en");
+
+    if let Some(prompt) = glossary::whisper_bias_prompt() {
+        form = form.text("prompt", prompt.clone());
+    }
 
     let response = client
         .post("https://api.groq.com/openai/v1/audio/transcriptions")
