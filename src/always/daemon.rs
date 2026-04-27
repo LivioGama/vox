@@ -44,11 +44,6 @@ pub fn start(cfg: &AlwaysConfig) -> Result<()> {
         } else {
             vec![]
         })
-        .args(if cfg.filter_enabled {
-            vec![]
-        } else {
-            vec!["--no-filter"]
-        })
         .stdin(std::process::Stdio::null())
         .stdout(std::process::Stdio::null())
         .stderr(std::process::Stdio::null())
