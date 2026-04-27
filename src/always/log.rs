@@ -8,7 +8,7 @@ use crate::always::AlwaysConfig;
 
 pub enum Event<'a> {
     Start { cfg: &'a AlwaysConfig },
-    Pasting { text: &'a str, energy: f64 },
+    Pasting { raw: &'a str, processed: &'a str, energy: f64 },
     Filtered { text: &'a str, energy: f64 },
     Silence,
     Timeout,
@@ -39,7 +39,9 @@ impl Logger {
                 "START threshold:{} silence:{}s filter:{}",
                 cfg.energy_threshold, cfg.silence_secs, cfg.filter_enabled
             ),
-            Event::Pasting { text, energy } => format!("PASTING   {text} (energy: {energy:.4})"),
+            Event::Pasting { raw, processed, energy } => {
+                format!("TRANSCRIPT {raw} (energy: {energy:.4})\nPASTING    {processed}")
+            }
             Event::Filtered { text, energy } => {
                 format!("FILTERED  {text} (energy: {energy:.4})")
             }

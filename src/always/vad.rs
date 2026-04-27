@@ -102,7 +102,7 @@ fn record_with_local_vad(cfg: &AlwaysConfig) -> Result<RecordResult> {
     let audio_path = audio::temp_wav_path();
     audio::write_wav_i16_mono_16k(&audio_path, &speech_samples)?;
     let audio_str = audio_path.to_string_lossy().to_string();
-    let raw = match crate::stt::transcribe(&audio_str, Some(&cfg.lang), &cfg.deepgram_api_key) {
+    let raw = match crate::stt::transcribe(&audio_str, Some(&cfg.lang), &cfg.groq_stt_api_key, "whisper-large-v3") {
         Ok(raw) => raw,
         Err(err) => {
             let _ = std::fs::remove_file(&audio_path);

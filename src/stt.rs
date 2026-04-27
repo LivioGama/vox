@@ -1,41 +1,36 @@
-//! Speech-to-text with DeepGram API.
+//! Speech-to-text with Groq Whisper API.
 
 use anyhow::{Context, Result};
+use reqwest::blocking::multipart;
 use std::path::Path;
 
-/// Transcribe audio file using DeepGram API.
-pub fn transcribe(audio_path: &str, lang: Option<&str>, api_key: &str) -> Result<String> {
+/// Transcribe audio file using Groq Whisper API.
+pub fn transcribe(audio_path: &str, _lang: Option<&str>, api_key: &str, _model: &str) -> Result<String> {
     if !Path::new(audio_path).exists() {
         anyhow::bail!("audio file not found: {audio_path}");
     }
 
-    let client = reqwest::blocking::Client::builder()
-        .build()
-        .context("failed to create HTTP client")?;
-    let language = lang.unwrap_or("en");
-
     let audio_data = std::fs::read(audio_path)
         .with_context(|| format!("failed to read audio file: {audio_path}"))?;
 
-    let url = "https://api.deepgram.com/v1/listen";
+    let client = reqwest::blocking::Client::new();
+
+    let form = multipart::Form::new()
+        .part("file", multipart::Part::bytes(audio_data).file_name("audio.wav").mime_str("audio/wav")?)
+        .text("model", "whisper-large-v3")
+        .text("response_format", "text")
+        .text("language", "en");
+
     let response = client
-        .post(url)
-        .header("Authorization", format!("Token {}", api_key))
-        .header("Content-Type", "audio/wav")
-        .query(&[("model", "nova-2"), ("language", language), ("smart_format", "true")])
-        .body(audio_data)
+        .post("https://api.groq.com/openai/v1/audio/transcriptions")
+        .header("Authorization", format!("Bearer {}", api_key))
+        .multipart(form)
         .send()
-        .context("failed to send DeepGram API request")?
+        .context("failed to send Groq Whisper API request")?
         .error_for_status()
-        .context("DeepGram API returned an error")?;
+        .context("Groq Whisper API returned an error")?;
 
-    let json: serde_json::Value = response
-        .json()
-        .context("failed to parse DeepGram API response")?;
-
-    let text = json["results"]["channels"][0]["alternatives"][0]["transcript"]
-        .as_str()
-        .unwrap_or("");
+    let text = response.text().context("failed to read Groq Whisper response")?;
 
     Ok(text.trim().to_string())
 }

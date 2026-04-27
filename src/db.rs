@@ -21,6 +21,7 @@ pub struct Preferences {
     pub stt_auto_enter: Option<bool>,
     pub deepgram_api_key: Option<String>,
     pub groq_api_key: Option<String>,
+    pub deepgram_model: Option<String>,
 }
 
 pub fn open() -> Result<Connection> {
@@ -89,6 +90,13 @@ fn migrate(conn: &Connection) -> Result<()> {
         conn.execute_batch("ALTER TABLE preferences ADD COLUMN deepgram_api_key TEXT;")?;
     }
 
+    let has_deepgram_model = conn
+        .prepare("SELECT deepgram_model FROM preferences LIMIT 0")
+        .is_ok();
+    if !has_deepgram_model {
+        conn.execute_batch("ALTER TABLE preferences ADD COLUMN deepgram_model TEXT;")?;
+    }
+
     Ok(())
 }
 
@@ -96,7 +104,7 @@ fn migrate(conn: &Connection) -> Result<()> {
 
 pub fn get_preferences(conn: &Connection) -> Result<Preferences> {
     let mut stmt = conn.prepare(
-        "SELECT lang, stt_threshold, stt_energy_threshold, stt_cooldown_ms, always_log_path, hear_energy_threshold, stt_silence, stt_trim_silence, stt_auto_enter, deepgram_api_key, groq_api_key FROM preferences WHERE id = 1",
+        "SELECT lang, stt_threshold, stt_energy_threshold, stt_cooldown_ms, always_log_path, hear_energy_threshold, stt_silence, stt_trim_silence, stt_auto_enter, deepgram_api_key, groq_api_key, deepgram_model FROM preferences WHERE id = 1",
     )?;
     let result = stmt.query_row([], |row| {
         Ok(Preferences {
@@ -111,6 +119,7 @@ pub fn get_preferences(conn: &Connection) -> Result<Preferences> {
             stt_auto_enter: row.get::<_, Option<i64>>(8)?.map(|v| v != 0),
             deepgram_api_key: row.get(9)?,
             groq_api_key: row.get(10)?,
+            deepgram_model: row.get(11)?,
         })
     });
     match result {
@@ -133,6 +142,7 @@ pub fn set_preference(conn: &Connection, key: &str, value: &str) -> Result<()> {
         "stt_auto_enter",
         "deepgram_api_key",
         "groq_api_key",
+        "deepgram_model",
     ];
     if !valid_keys.contains(&key) {
         anyhow::bail!(
@@ -206,8 +216,8 @@ pub fn set_preference(conn: &Connection, key: &str, value: &str) -> Result<()> {
 
     // Upsert: insert or update
     conn.execute(
-        "INSERT INTO preferences (id, lang, stt_threshold, stt_energy_threshold, stt_cooldown_ms, always_log_path, hear_energy_threshold, stt_silence, stt_trim_silence, stt_auto_enter, deepgram_api_key, groq_api_key)
-         VALUES (1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+        "INSERT INTO preferences (id, lang, stt_threshold, stt_energy_threshold, stt_cooldown_ms, always_log_path, hear_energy_threshold, stt_silence, stt_trim_silence, stt_auto_enter, deepgram_api_key, groq_api_key, deepgram_model)
+         VALUES (1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
          ON CONFLICT(id) DO NOTHING",
         [],
     )?;

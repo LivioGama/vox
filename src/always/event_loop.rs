@@ -3,7 +3,7 @@ use std::time::{Duration, Instant};
 use anyhow::{Context, Result};
 
 use crate::always::log::{Event, Logger};
-use crate::always::{AlwaysConfig, daemon, filter, notify, paste, vad};
+use crate::always::{AlwaysConfig, daemon, filter, paste, vad};
 
 pub fn run(cfg: &AlwaysConfig) -> Result<()> {
     let _pid = daemon::PidGuard::install()?;
@@ -51,17 +51,16 @@ fn handle_speech(
     if !filter::should_accept(text, cfg) {
         eprintln!("filtered {text}");
         log.write(Event::Filtered { text, energy });
-        notify::notify("vox filtered", text, false);
         return Ok(());
     }
 
     let transformed = apply_vocabulary(text, cfg);
     eprintln!("{transformed} (energy: {energy:.4})");
     log.write(Event::Pasting {
-        text: &transformed,
+        raw: text,
+        processed: &transformed,
         energy,
     });
-    notify::notify("vox", &transformed, true);
     paste::paste(&transformed, cfg.auto_enter)?;
     Ok(())
 }
@@ -123,8 +122,7 @@ mod tests {
             post_processor: None,
             project_root: None,
             learning_enabled: false,
-            groq_api_key: None,
-            deepgram_api_key: "test-key".to_string(),
+            groq_stt_api_key: "test-key".to_string(),
             vad_mode: crate::always::config::VadMode::Local,
             vocab_config: VocabConfig::default(),
             postprocess_config: PostprocessConfig::default(),

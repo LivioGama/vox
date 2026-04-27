@@ -58,8 +58,7 @@ pub struct AlwaysConfig {
     pub post_processor: Option<Arc<PostProcessor>>,
     pub project_root: Option<PathBuf>,
     pub learning_enabled: bool,
-    pub groq_api_key: Option<String>,
-    pub deepgram_api_key: String,
+    pub groq_stt_api_key: String,
     pub vad_mode: VadMode,
     pub vocab_config: VocabConfig,
     pub postprocess_config: PostprocessConfig,
@@ -111,14 +110,14 @@ impl AlwaysConfig {
         auto_enter: bool,
         no_filter: bool,
     ) -> Result<Self> {
-        let deepgram_api_key = get_deepgram_api_key()?;
+        let groq_stt_api_key = get_groq_stt_api_key()?;
         let vad_mode = std::env::var("VOX_VAD_MODE")
             .ok()
             .and_then(|s| s.parse().ok())
             .unwrap_or_default();
         let prefs = load_preferences()?;
         let vocab = Vocabulary::load();
-        
+
         let vocab_config = load_vocab_config();
         let postprocess_config = load_postprocess_config();
 
@@ -160,8 +159,7 @@ impl AlwaysConfig {
             post_processor,
             project_root,
             learning_enabled: postprocess_config.learning_history_limit > 0,
-            groq_api_key: std::env::var("GROQ_API_KEY").ok(),
-            deepgram_api_key,
+            groq_stt_api_key,
             vad_mode,
             vocab_config,
             postprocess_config,
@@ -273,20 +271,20 @@ fn default_log_path() -> PathBuf {
     config::config_dir().join("always.log")
 }
 
-fn get_deepgram_api_key() -> Result<String> {
+fn get_groq_stt_api_key() -> Result<String> {
     // Try environment variable first
-    if let Ok(key) = std::env::var("DEEPGRAM_API_KEY") {
+    if let Ok(key) = std::env::var("GROQ_API_KEY") {
         return Ok(key);
     }
 
-    // Try database preferences
+    // Try database preferences (reusing groq_api_key field for STT)
     if let Ok(conn) = db::open() {
         if let Ok(prefs) = db::get_preferences(&conn) {
-            if let Some(key) = prefs.deepgram_api_key {
+            if let Some(key) = prefs.groq_api_key {
                 return Ok(key);
             }
         }
     }
 
-    anyhow::bail!("DEEPGRAM_API_KEY environment variable not set and no key found in preferences. Set it with: vox config set deepgram_api_key <your-key>")
+    anyhow::bail!("GROQ_API_KEY environment variable not set and no key found in preferences. Set it with: vox config set groq_api_key <your-key>")
 }

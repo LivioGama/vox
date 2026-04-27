@@ -6,7 +6,6 @@ pub mod daemon;
 pub mod event_loop;
 pub mod filter;
 pub mod log;
-pub mod notify;
 pub mod paste;
 pub mod text;
 pub mod vad;
