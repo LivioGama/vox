@@ -1,6 +1,6 @@
 # Vox — Voice Activation Daemon
 
-High-performance voice-to-text automation for macOS. Speak naturally and have your words instantly appear in any application.
+High-performance voice-to-text automation. Speak naturally and have your words instantly appear in any application.
 
 ## Quick Start
 
@@ -33,20 +33,16 @@ Microphone → VAD Detection → Audio Recording → Groq Whisper → Intelligen
 
 ## Installation
 
-### macOS App Bundle (Recommended)
+### From Source
 ```bash
-# Build and install as native macOS app
-./build-macos-app.sh
-
-# Creates:
-# - /Users/[username]/Applications/vox.app
-# - ~/.local/bin/vox (command-line wrapper)
-```
-
-### Manual Build
-```bash
+# Fast development builds
 cargo build --profile release-fast
 cargo install --path .
+```
+
+### Using Cargo
+```bash
+cargo install vox
 ```
 
 ## Usage
@@ -178,11 +174,6 @@ export VOX_GRAMMAR_CORRECTION=true     # Enable grammar fixes
 - **Log File**: `~/.config/vox/always.log`
 - **PID File**: `~/.config/vox/always.pid`
 
-### macOS App Bundle
-- **App**: `~/Applications/vox.app`
-- **Binary**: `~/Applications/vox.app/Contents/MacOS/vox`
-- **CLI Wrapper**: `~/.local/bin/vox`
-
 ## Troubleshooting
 
 ### Daemon Won't Start
@@ -200,7 +191,9 @@ vox always run  # Run in foreground to see errors
 ### Audio Issues
 ```bash
 # Install SoX for audio recording
-brew install sox
+# On macOS: brew install sox
+# On Ubuntu/Debian: apt install sox
+# On Arch: pacman -S sox
 
 # Test microphone
 rec -t wav test.wav trim 0 3  # Record 3 seconds
@@ -219,11 +212,20 @@ curl -H "Authorization: Bearer $GROQ_API_KEY" \
      https://api.groq.com/openai/v1/models
 ```
 
-### Permission Issues (macOS)
+### Permission Issues
+**macOS:**
 1. Grant microphone access when prompted
 2. Grant accessibility access for auto-paste:
    - System Settings → Privacy & Security → Accessibility
-   - Add and enable `vox.app`
+   - Add and enable the application
+
+**Linux:**
+- Ensure your user is in the `audio` group
+- Check PulseAudio/ALSA permissions
+
+**Windows:**
+- Grant microphone permissions in Privacy Settings
+- May require running as administrator for global hotkeys
 
 ## Development
 
@@ -234,9 +236,6 @@ cargo build --profile release-fast
 
 # Optimized production builds  
 cargo build --release
-
-# Create macOS app bundle
-./build-macos-app.sh
 ```
 
 ### Testing
@@ -251,7 +250,11 @@ cargo test audio
 
 ### Dependencies
 - **Rust** 1.70+ 
-- **SoX** (`brew install sox`)
+- **SoX** (audio recording)
+  - macOS: `brew install sox`
+  - Ubuntu/Debian: `apt install sox`
+  - Arch: `pacman -S sox`
+  - Windows: Download from [sox.sourceforge.net](http://sox.sourceforge.net/)
 - **Groq API Key** (free at groq.com)
 
 ## Architecture Details
@@ -282,7 +285,7 @@ cargo test audio
 2. Create a feature branch
 3. Make changes with tests
 4. Run the test suite: `cargo test`
-5. Build and test the app: `./build-macos-app.sh`
+5. Build and test: `cargo build --release`
 6. Submit a pull request
 
 ## License
