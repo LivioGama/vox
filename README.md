@@ -1,325 +1,109 @@
-<p align="center">
-  <img src="assets/banner.png" alt="vox — Voice Command" width="600">
-</p>
+# Vox — DeepGram STT Refactor Worktree
 
-<h1 align="center">vox</h1>
+This is a git worktree for refactoring Vox to use DeepGram API for speech-to-text (STT).
 
-<p align="center">
-  Cross-platform TTS CLI with six backends and MCP server for AI assistants.
-</p>
+## Goal
 
-<p align="center">
-  <a href="https://github.com/rtk-ai/vox/actions"><img src="https://github.com/rtk-ai/vox/workflows/CI/badge.svg" alt="CI"></a>
-  <a href="https://github.com/rtk-ai/vox/releases"><img src="https://img.shields.io/github/v/release/rtk-ai/vox?color=purple" alt="Release"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License"></a>
-</p>
+Transform Vox from a multi-backend TTS/STT application into a lightweight voice activation daemon that uses only DeepGram API for transcription, removing all local ML models and TTS backends.
 
-<p align="center">
-  <a href="README.md">English</a> &bull;
-  <a href="README_fr.md">Fran&ccedil;ais</a> &bull;
-  <a href="README_zh.md">中文</a> &bull;
-  <a href="README_ja.md">日本語</a> &bull;
-  <a href="README_ko.md">한국어</a> &bull;
-  <a href="README_es.md">Espa&ntilde;ol</a>
-</p>
+## What Changed
 
----
+### Removed
+- All TTS backends (say, piper, qwen-native, kokoro, voxtream, qwen)
+- Local ML models (Whisper, voice cloning models)
+- Voice cloning functionality
+- TTS-related database tables (voice_clones, usage_log)
+- TTS configuration options (backend, voice, rate, gender, style, model)
+- Documentation files (READMEs in multiple languages, CHANGELOG, AGENTS.md, CLAUDE.md)
+- CI/CD configurations (.github, release-please)
+- Build scripts (restart.sh, start.sh, install.sh)
+
+### Kept
+- DeepGram API integration for STT
+- Local VAD (webrtc-vad) for speech detection
+- Always-on voice activation daemon
+- Vocabulary transformation and context-aware corrections
+- Groq-based post-processing
+- Clipboard paste automation
+- Configuration management (preferences, API keys)
+
+## Architecture
 
 ```
-                              vox
-                               |
-       +--------+--------+----+----+--------+--------+
-       |        |        |         |        |        |
-     say     piper    qwen-native kokoro  voxtream  qwen
-   (macOS)  (Rust/ort) (Rust/candle) (ONNX) (zero-shot) (MLX/Py)
-   native   CPU       CPU/Metal  opt-in  CUDA/MPS  Apple Si.
-                       /CUDA
-                         |
-                       rodio (audio playback)
+Microphone → VAD (webrtc-vad) → Audio Recording → DeepGram API → Vocabulary Transformation → Groq Post-processing → Clipboard Paste
 ```
 
-## Backends
+## Usage
 
-| Backend | Engine | Voice cloning | Latency (warm) | GPU | Platform |
-|---------|--------|:---:|---:|:---:|----------|
-| `say` | macOS native | No | **3s** | No | macOS |
-| `piper` | ONNX (Rust) | No | **<1s** | No | All |
-| `qwen-native` | Candle (Rust) | Yes | **~3s** | Metal/CUDA | All |
-| `kokoro` | ONNX (Rust, opt-in) | No | **<1s** | No | macOS only |
-| `voxtream` | PyTorch 0.5B | Yes | **~8s** | CUDA/MPS | All |
-| `qwen` | MLX-Audio (Python) | Yes | **~2s** | Apple Neural | macOS |
-
-### Benchmark — single sentence (~50 chars)
-
-All times measured end-to-end (model loading + inference + audio playback). Cold = first CLI call.
-
-| Backend | M2 Pro (CPU) | RTX 4070 Ti SUPER | Voice cloning | Quality |
-|---------|-------------:|-------------------------:|:---:|---------|
-| **`say`** | **3s** | macOS only | No | System voices |
-| **`piper`** | **<1s** | <1s | No | Good |
-| **`kokoro`** | **<1s** | macOS only | No | Fair (EN only) |
-| **`voxtream`** (VoXtream2, 0.5B) | **68s** / 40s warm | **23s** / **19s** warm | Yes (zero-shot) | Excellent |
-| **`qwen-native`** (Qwen3-TTS, 0.6B) | **11m33s** / 3s warm | **48s** (CPU) | Yes | Excellent |
-| **`qwen`** (MLX-Audio) | ~15s / 2s warm | macOS only | Yes | Excellent |
-
-**With daemon** (`vox daemon start` — keeps model server warm):
-
-| Backend | M2 Pro (CPU) | Notes |
-|---------|-------------:|-------|
-| **`voxtream`** | **32s** | Inference CPU-bound (~25s). On CUDA: paper reports 74ms first-packet |
-| **`qwen-native`** | **~3s** | Model stays in RAM via global Mutex |
-
-> All CUDA benchmarks measured on RTX 4070 Ti SUPER (16GB).
-> For lowest latency: `say` (macOS) or `piper` (all platforms). For best quality + cloning: `voxtream` on CUDA with daemon.
-
-## Commercial-Grade Features
-
-### Context-Aware Vocabulary
-
-vox now includes intelligent vocabulary management that adapts to your project context:
-
-- **Dynamic term extraction**: Automatically extracts technical terms from your codebase (function names, file names, identifiers)
-- **Git awareness**: Tracks current branch and commit for context-aware corrections
-- **File watching**: Automatically reloads vocabulary when project files change
-- **Phonetic matching**: Generates phonetic approximations for better speech recognition
-
+### Set API Key
 ```bash
-# Extract vocabulary from current project
-vox vocab extract
-
-# Add manual correction
-vox vocab add "live yo" "Livio"
-
-# View vocabulary statistics
-vox vocab stats
-
-# Clear learning history
-vox vocab clear-learning
+export DEEPGRAM_API_KEY="your-api-key"
+# or
+vox config set deepgram_api_key "your-api-key"
 ```
 
-### Smart Post-Processing
+### Start Always-On Daemon
+```bash
+vox always start
+```
 
-Advanced text processing with automatic learning:
+### Run in Foreground (Debug)
+```bash
+vox always run
+```
 
-- **Auto-learning**: Learns from user corrections and updates vocabulary automatically
-- **Grammar correction**: Uses Groq Llama 3 8B (877 tokens/s) for grammar correction when `GROQ_API_KEY` is set
-- **Context-aware disambiguation**: Corrects homonyms based on context (e.g., "route" → "root" in filesystem context)
-- **Code-aware patterns**: Special handling for code syntax and technical terms
+### Stop Daemon
+```bash
+vox always stop
+```
 
-### Performance Optimizations
-
-Built-in performance layer for faster responses:
-
-- **LRU caching**: Caches transcriptions and vocabulary lookups (1000 transcriptions, 10000 vocab entries)
-- **Background warmup**: Pre-loads models in background for reduced latency
-- **Streaming STT**: Real-time speech-to-text processing (replaces frame-based approach)
-
-These features are automatically enabled when running `vox always` or `vox hear` in a git repository.
+### Show Status
+```bash
+vox always status
+```
 
 ### Configuration
-
-All commercial-grade features can be configured via environment variables:
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `VOX_FILE_PATTERNS` | JSON array of regex patterns for term extraction | `["\\b[A-Z][a-zA-Z0-9]*\\b", "\\b[a-z]+_[a-z_]+\\b", "\\b[A-Z_]+\\b", "\\b[a-z]+[A-Z][a-zA-Z0-9]*\\b"]` |
-| `VOX_COMMON_WORDS` | JSON array of common words to filter out | `["the", "and", "for", ...]` |
-| `VOX_MIN_TERM_LENGTH` | Minimum term length to extract | `2` |
-| `VOX_MAX_TERM_LENGTH` | Maximum term length to extract | `50` |
-| `VOX_GROQ_MODEL` | Groq model for grammar correction | `llama3-8b-8192` |
-| `VOX_LEARNING_LIMIT` | Max learning history entries | `1000` |
-| `VOX_GRAMMAR_CORRECTION` | Enable/disable grammar correction | `true` |
-| `VOX_CACHE_TTL` | Cache TTL in seconds (postprocess) | `300` |
-| `VOX_TRANSCRIPTION_CACHE_SIZE` | Transcription cache size | `1000` |
-| `VOX_VOCAB_CACHE_SIZE` | Vocabulary cache size | `10000` |
-| `VOX_WARMUP_DURATION` | Background warmup duration in seconds | `5` |
-| `VOX_PERFORMANCE_CACHE_TTL` | Cache TTL in seconds (performance) | `300` |
-| `GROQ_API_KEY` | API key for Groq grammar correction | - |
-
-Example:
-```bash
-export VOX_GROQ_MODEL="llama3-70b-8192"
-export VOX_TRANSCRIPTION_CACHE_SIZE=5000
-export VOX_LEARNING_LIMIT=2000
-export GROQ_API_KEY="your-api-key"
-```
-
-## Install
-
-### Pre-built binaries (recommended)
-
-```bash
-# Quick install (macOS ARM / Linux x86_64)
-curl -fsSL https://raw.githubusercontent.com/rtk-ai/vox/main/install.sh | sh
-
-# Homebrew (macOS)
-brew install rtk-ai/tap/vox
-```
-
-Pre-built binaries are available for each release:
-
-| Platform | Binary | GPU |
-|----------|--------|-----|
-| macOS (Apple Silicon) | `vox-aarch64-apple-darwin.tar.gz` | Metal |
-| Linux x86_64 | `vox-x86_64-unknown-linux-gnu.tar.gz` | CPU |
-| Linux x86_64 + CUDA | `vox-x86_64-unknown-linux-gnu-cuda.tar.gz` | CUDA |
-| Windows x86_64 | `vox-x86_64-pc-windows-msvc.zip` | CPU |
-| Windows x86_64 + CUDA | `vox-x86_64-pc-windows-msvc-cuda.zip` | CUDA |
-
-Download from [GitHub Releases](https://github.com/rtk-ai/vox/releases).
-
-### From source
-
-```bash
-cargo install --path .                   # CPU only
-cargo install --path . --features metal  # macOS Apple Silicon (GPU)
-cargo install --path . --features cuda   # Linux/Windows NVIDIA (GPU)
-```
-
-Linux requires `sudo apt install libasound2-dev`.
-
-### Platform defaults
-
-| Platform | Default backend | Notes |
-|----------|----------------|-------|
-| macOS | `say` | No setup needed |
-| Linux / Windows | `piper` | Models auto-download on first use |
-
-### VoXtream backend (optional)
-
-```bash
-brew install espeak-ng                              # macOS (or apt install espeak-ng on Linux)
-uv venv ~/.local/venvs/voxtream --python 3.11
-uv pip install --python ~/.local/venvs/voxtream/bin/python "voxtream>=0.2"
-# Copy config files
-git clone --depth 1 https://github.com/herimor/voxtream.git /tmp/voxtream-repo
-mkdir -p "$(vox config show 2>/dev/null | grep dir | awk '{print $2}' || echo ~/.config/vox)/voxtream"
-cp /tmp/voxtream-repo/configs/*.json "$(vox config show 2>/dev/null | grep dir | awk '{print $2}' || echo ~/.config/vox)/voxtream/"
-```
-
-## Quick start
-
-```bash
-vox "Hello, world."                     # Speak with default backend
-vox -b qwen-native "Neural TTS."        # Qwen3 (best quality)
-vox -b piper "Fast TTS."                # Piper (fastest)
-vox --volume 2.0 "Louder!"             # 2x volume (range: 0.0-5.0)
-vox -l fr "Bonjour"                     # French
-echo "Piped text" | vox                 # Read from stdin
-vox --list-voices                       # List available voices
-vox setup                               # Interactive TUI configuration
-```
-
-## Interactive setup (TUI)
-
-For humans — choose backend, voice, language, style, and volume interactively:
-
-```bash
-vox setup
-```
-
-```
-┌ Backend ──┐┌ Voice ─────┐┌ Lang ┐┌ Style ────┐┌ Volume ┐┌ Config ──────┐
-│> say      ││> Samantha  ││> en  ││> (default)││  0.5   ││ Backend: say │
-│  piper    ││  Thomas    ││  fr  ││  calm     ││> 1.0   ││ Voice: ...   │
-│  qwen-nat ││  Amelie    ││  es  ││  warm     ││  1.5   ││ Lang:  en    │
-│  voxtream ││           ││  de  ││  cheerful ││  2.0   ││ Volume: 1.0x │
-│  qwen     ││           ││  ja  ││          ││  3.0   ││ [T]est [S]ave│
-└───────────┘└────────────┘└──────┘└──────────┘└────────┘└──────────────┘
-```
-
-Navigate with arrow keys / hjkl, Tab to switch panel, T to test, S to save, Q to quit.
-
-AI agents use CLI flags instead: `vox -b qwen-native -l fr "text"`
-
-## AI assistant integration
-
-One command configures **14 AI tools** (Claude Code, Cursor, VS Code, Zed, Codex, Gemini, Amazon Q, and more):
-
-```bash
-vox init                # MCP server (default) — all AI tools
-vox init -m cli         # CLAUDE.md + Stop hook (recommended)
-vox init -m skill       # /speak slash command
-vox init -m all         # all of the above
-```
-
-Running `vox init` again is safe — it skips files that are already configured.
-
-### CLI mode vs MCP mode
-
-**CLI mode is recommended** for AI coding agents. Benchmarks show CLI tools are [10-32x cheaper and 100% reliable vs 72% for MCP](https://mariozechner.at/posts/2025-08-15-mcp-vs-cli/) due to MCP's TCP timeout overhead and JSON schema cost per call.
-
-| Mode | Reliability | Token cost | Best for |
-|------|------------|------------|----------|
-| **CLI** (`vox init -m cli`) | 100% | Low (Bash call) | Claude Code, Codex, terminal agents |
-| **MCP** (`vox init`) | ~72% | Higher (JSON schema) | Cursor, VS Code, GUI-based tools |
-
-## Voice cloning
-
-```bash
-vox clone add patrick --audio ~/voice.wav --text "Transcription"
-vox clone record myvoice --duration 10
-vox -v patrick "This speaks with your voice."
-vox clone list
-vox clone remove patrick
-```
-
-Works with `qwen`, `qwen-native`, and `voxtream` backends. VoXtream2 uses zero-shot cloning (3-10s audio prompt, no training needed).
-
-## Preferences
-
 ```bash
 vox config show
-vox config set backend voxtream
-vox config set lang fr
-vox config set voice Chelsie
-vox config set gender feminine
-vox config set style warm
-vox config reset
+vox config set stt_energy_threshold 0.05
+vox config set hear_energy_threshold 0.002
+vox config set stt_cooldown_ms 1500
 ```
 
-## Sound packs
+## Database
 
+Location: `~/.config/vox/vox.db`
+
+Schema:
+- `preferences` — User settings (API keys, thresholds, timeouts)
+- Removed: `voice_clones`, `usage_log`
+
+## Building
+
+### For local development (faster builds)
 ```bash
-vox pack install peon              # Install a pack
-vox pack set peon                  # Activate it
-vox pack play greeting             # Play a sound
-vox pack list                      # List available packs
+cargo build --profile release-fast
 ```
 
-## Voice conversation (macOS)
-
+### For release builds (maximum performance)
 ```bash
-export ANTHROPIC_API_KEY=sk-...
-vox chat -l fr                     # Talk with Claude
-vox hear -l fr                     # Speech-to-text only
+cargo build --release
 ```
 
-## Data
+The `release-fast` profile uses thin LTO and 16 codegen units for faster builds during development, trading ~1-3% runtime performance for much faster compilation times. Use `--release` for production builds.
 
-All state is stored locally — no data sent to external servers (except `vox chat` which uses Claude API).
+- DeepGram API key required
+- SoX (for audio recording): `brew install sox`
+- VAD mode: `VOX_VAD_MODE=local` (default) or `deepgram` (planned)
 
-```
-~/.config/vox/           # or ~/Library/Application Support/vox/ on macOS
-  vox.db                 # SQLite: preferences, voice clones, usage logs
-  clones/                # Audio files for voice clones
-  packs/                 # Installed sound packs
-  voxtream/              # VoXtream2 config files
-```
+## Status
 
-| Env var | Description |
-|---------|-------------|
-| `VOX_CONFIG_DIR` | Override config directory |
-| `VOX_DB_PATH` | Override database path |
+✅ Compiles successfully  
+⚠️ Minor warnings (unused imports, dead code) — non-blocking
 
-## Documentation
+## Next Steps
 
-| Document | Description |
-|----------|-------------|
-| [Architecture](docs/ARCHITECTURE.md) | Technical architecture, backends, DB schema, MCP protocol, security |
-| [Features](docs/FEATURES.md) | All commands and features documented |
-| [Guide](docs/GUIDE.md) | Installation, quick start, troubleshooting |
-
-## License
-
-[Apache-2.0](LICENSE)
+- Implement DeepGram streaming VAD mode
+- Add real-time streaming transcription
+- Improve vocabulary extraction
+- Add comprehensive tests

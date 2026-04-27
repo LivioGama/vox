@@ -1,9 +1,0 @@
-[watch]
-delay = 2  # seconds to wait after last change before triggering
-ignore = [
-    "*.log",
-    "target/",
-    ".git/",
-    "*.md",
-    "Cargo.lock",
-]

@@ -1,5 +1,4 @@
 use std::collections::HashMap;
-use std::path::PathBuf;
 use std::sync::{Arc, Mutex};
 
 use anyhow::{Context, Result};
@@ -34,7 +33,7 @@ impl PostProcessor {
     pub fn new(
         base_vocab: Vocabulary,
         context_vocab: Arc<Mutex<ContextVocabulary>>,
-        learning_enabled: bool,
+        _learning_enabled: bool,
         groq_api_key: Option<String>,
     ) -> Self {
         Self::new_with_config(base_vocab, context_vocab, PostprocessConfig::default(), groq_api_key)

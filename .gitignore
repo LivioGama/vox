@@ -2,4 +2,3 @@
 *.wav
 .env
 .DS_Store
-.fastembed_cache/

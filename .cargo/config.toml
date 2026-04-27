@@ -1,4 +1,0 @@
-[alias]
-b = "build --features metal"
-r = "run --features metal"
-t = "test --features metal"

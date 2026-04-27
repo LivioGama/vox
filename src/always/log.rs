@@ -13,7 +13,7 @@ pub enum Event<'a> {
     Silence,
     Timeout,
     DroppedLowEnergy { energy: f64 },
-    DroppedWhisperNoise { raw: &'a str },
+    DroppedNoise { raw: &'a str },
 }
 
 pub struct Logger {
@@ -48,7 +48,7 @@ impl Logger {
             Event::DroppedLowEnergy { energy } => {
                 format!("DROPPED   (low energy: {energy:.4})")
             }
-            Event::DroppedWhisperNoise { raw } => format!("DROPPED   (whisper noise) {raw:?}"),
+            Event::DroppedNoise { raw } => format!("DROPPED   (noise) {raw:?}"),
         };
         let _ = writeln!(self.file, "[{ts}] {message}");
     }

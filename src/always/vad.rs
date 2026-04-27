@@ -9,11 +9,18 @@ pub enum RecordResult {
     Speech { text: String, energy: f64 },
     Silence,
     DroppedLowEnergy { energy: f64 },
-    DroppedWhisperNoise { raw: String },
+    DroppedNoise { raw: String },
     Timeout,
 }
 
 pub fn record_utterance(cfg: &AlwaysConfig) -> Result<RecordResult> {
+    match cfg.vad_mode {
+        crate::always::config::VadMode::Local => record_with_local_vad(cfg),
+        crate::always::config::VadMode::DeepGram => record_with_deepgram_vad(cfg),
+    }
+}
+
+fn record_with_local_vad(cfg: &AlwaysConfig) -> Result<RecordResult> {
     let silence_frames = ((cfg.silence_secs * 1000.0) / FRAME_MS as f64).ceil() as usize;
     let max_frames = (cfg.timeout_secs as usize * 1000) / FRAME_MS as usize;
     let min_speech_frames = (cfg.onset_ms / FRAME_MS).max(1) as usize;
@@ -95,7 +102,7 @@ pub fn record_utterance(cfg: &AlwaysConfig) -> Result<RecordResult> {
     let audio_path = audio::temp_wav_path();
     audio::write_wav_i16_mono_16k(&audio_path, &speech_samples)?;
     let audio_str = audio_path.to_string_lossy().to_string();
-    let raw = match crate::stt::transcribe(&audio_str, Some(&cfg.lang)) {
+    let raw = match crate::stt::transcribe(&audio_str, Some(&cfg.lang), &cfg.deepgram_api_key) {
         Ok(raw) => raw,
         Err(err) => {
             let _ = std::fs::remove_file(&audio_path);
@@ -103,28 +110,22 @@ pub fn record_utterance(cfg: &AlwaysConfig) -> Result<RecordResult> {
         }
     };
     let _ = std::fs::remove_file(&audio_path);
-    let text = strip_whisper_tokens(&raw);
 
-    if text.is_empty() {
-        return Ok(RecordResult::DroppedWhisperNoise { raw });
+    if raw.is_empty() {
+        return Ok(RecordResult::DroppedNoise { raw });
     }
 
     Ok(RecordResult::Speech {
-        text,
+        text: raw,
         energy: speech_energy,
     })
 }
 
-pub fn strip_whisper_tokens(raw: &str) -> String {
-    let mut text = raw.to_string();
-    while let (Some(start), Some(end)) = (text.find('<'), text.find('>')) {
-        if start < end {
-            text.replace_range(start..=end, "");
-        } else {
-            break;
-        }
-    }
-    text.trim().to_string()
+// TODO: Implement DeepGram streaming VAD mode
+// For now, fall back to local VAD
+fn record_with_deepgram_vad(cfg: &AlwaysConfig) -> Result<RecordResult> {
+    eprintln!("DeepGram streaming VAD not yet implemented, falling back to local VAD");
+    record_with_local_vad(cfg)
 }
 
 fn normalized_energy(samples: &[i16]) -> f64 {
@@ -140,12 +141,7 @@ fn normalized_energy(samples: &[i16]) -> f64 {
 
 #[cfg(test)]
 mod tests {
-    use super::{normalized_energy, strip_whisper_tokens};
-
-    #[test]
-    fn strips_whisper_tokens() {
-        assert_eq!(strip_whisper_tokens("<|en|>hello<|end|>"), "hello");
-    }
+    use super::normalized_energy;
 
     #[test]
     fn normalized_energy_handles_empty_input() {

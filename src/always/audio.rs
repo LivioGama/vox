@@ -7,8 +7,6 @@ use std::time::{SystemTime, UNIX_EPOCH};
 
 use anyhow::{Context, Result};
 
-use crate::clone;
-
 pub const RATE: u32 = 16_000;
 pub const FRAME_MS: u32 = 30;
 pub const FRAME_SAMPLES: usize = 480;
@@ -45,7 +43,7 @@ impl RecChild {
             .stdout(std::process::Stdio::piped())
             .stderr(std::process::Stdio::null())
             .spawn()
-            .context(clone::sox_install_hint())?;
+            .context("Failed to run 'rec' command. Install SoX: brew install sox")?;
         let stdout = child.stdout.take().context("sox stdout missing")?;
         Ok(Self { child, stdout })
     }

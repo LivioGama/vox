@@ -1,16 +1,9 @@
 use std::collections::{HashMap, HashSet};
 use std::path::{Path, PathBuf};
 use std::process::Command;
-use std::sync::{Arc, Mutex};
-use std::time::Duration;
 
-use anyhow::{Context, Result};
-#[cfg(feature = "ignore")]
-use ignore::Walk;
-#[cfg(feature = "notify")]
-use notify::{RecommendedWatcher, RecursiveMode, Watcher, event::EventKind};
+use anyhow::Result;
 use regex::Regex;
-use tokio::sync::broadcast;
 
 use super::config::VocabConfig;
 
@@ -21,19 +14,8 @@ pub struct ContextVocabulary {
     git_branch: Option<String>,
     git_commit: Option<String>,
     extracted_terms: HashSet<String>,
-    file_patterns: Vec<Regex>,
     config: VocabConfig,
 }
-
-/// File watcher for dynamic vocabulary reloading
-#[cfg(feature = "notify")]
-#[derive(Debug)]
-pub struct VocabularyWatcher {
-    watcher: RecommendedWatcher,
-    vocab: Arc<Mutex<ContextVocabulary>>,
-    reload_tx: broadcast::Sender<()>,
-}
-
 
 impl ContextVocabulary {
     pub fn new(project_root: Option<PathBuf>) -> Self {
@@ -41,18 +23,11 @@ impl ContextVocabulary {
     }
 
     pub fn new_with_config(project_root: Option<PathBuf>, config: VocabConfig) -> Self {
-        let file_patterns: Vec<Regex> = config
-            .file_patterns
-            .iter()
-            .filter_map(|p| Regex::new(p).ok())
-            .collect();
-
         let mut vocab = Self {
             project_root,
             git_branch: None,
             git_commit: None,
             extracted_terms: HashSet::new(),
-            file_patterns,
             config,
         };
 
@@ -100,41 +75,18 @@ impl ContextVocabulary {
         }
 
         // Extract from file names using Walk if available, otherwise simple directory traversal
-        #[cfg(feature = "ignore")]
-        {
-            for entry in Walk::new(root)? {
-                let entry = entry?;
+        if let Ok(entries) = std::fs::read_dir(root) {
+            for entry in entries.flatten() {
                 let path = entry.path();
-
-                if let Some(file_name) = path.file_stem() {
-                    let name = file_name.to_string_lossy().to_string();
-                    Self::extract_terms_from_identifier(&name, &mut terms, &self.config);
-                }
-
-                if path.extension().map_or(false, |ext| matches!(ext.to_str(), Some("rs") | Some("ts") | Some("tsx") | Some("js") | Some("jsx"))) {
-                    if let Ok(content) = std::fs::read_to_string(path) {
-                        Self::extract_terms_from_javascript(&content, &mut terms, &self.config);
+                if path.is_file() {
+                    if let Some(file_name) = path.file_stem() {
+                        let name = file_name.to_string_lossy().to_string();
+                        Self::extract_terms_from_identifier(&name, &mut terms, &self.config);
                     }
-                }
-            }
-        }
 
-        #[cfg(not(feature = "ignore"))]
-        {
-            // Simple directory traversal without ignore crate
-            if let Ok(entries) = std::fs::read_dir(root) {
-                for entry in entries.flatten() {
-                    let path = entry.path();
-                    if path.is_file() {
-                        if let Some(file_name) = path.file_stem() {
-                            let name = file_name.to_string_lossy().to_string();
-                            Self::extract_terms_from_identifier(&name, &mut terms, &self.config);
-                        }
-
-                        if path.extension().map_or(false, |ext| matches!(ext.to_str(), Some("ts") | Some("tsx") | Some("js") | Some("jsx"))) {
-                            if let Ok(content) = std::fs::read_to_string(&path) {
-                                Self::extract_terms_from_javascript(&content, &mut terms, &self.config);
-                            }
+                    if path.extension().map_or(false, |ext| matches!(ext.to_str(), Some("rs") | Some("ts") | Some("tsx") | Some("js") | Some("jsx"))) {
+                        if let Ok(content) = std::fs::read_to_string(path) {
+                            Self::extract_terms_from_javascript(&content, &mut terms, &self.config);
                         }
                     }
                 }
@@ -173,37 +125,6 @@ impl ContextVocabulary {
                 if !config.common_words.contains(&part_lower) {
                     terms.insert(part.to_string());
                 }
-            }
-        }
-    }
-    
-    fn extract_terms_from_rust(content: &str, terms: &mut HashSet<String>, config: &VocabConfig) {
-        // Simple regex-based extraction for Rust (since syn is optional)
-        let fn_regex = Regex::new(r"fn\s+(\w+)").unwrap();
-        for cap in fn_regex.captures_iter(content) {
-            if let Some(name) = cap.get(1) {
-                Self::extract_terms_from_identifier(name.as_str(), terms, config);
-            }
-        }
-
-        let struct_regex = Regex::new(r"struct\s+(\w+)").unwrap();
-        for cap in struct_regex.captures_iter(content) {
-            if let Some(name) = cap.get(1) {
-                Self::extract_terms_from_identifier(name.as_str(), terms, config);
-            }
-        }
-
-        let enum_regex = Regex::new(r"enum\s+(\w+)").unwrap();
-        for cap in enum_regex.captures_iter(content) {
-            if let Some(name) = cap.get(1) {
-                Self::extract_terms_from_identifier(name.as_str(), terms, config);
-            }
-        }
-
-        let impl_regex = Regex::new(r"impl\s+(\w+)").unwrap();
-        for cap in impl_regex.captures_iter(content) {
-            if let Some(name) = cap.get(1) {
-                Self::extract_terms_from_identifier(name.as_str(), terms, config);
             }
         }
     }
@@ -273,54 +194,6 @@ impl ContextVocabulary {
     
     pub fn get_git_context(&self) -> (Option<String>, Option<String>) {
         (self.git_branch.clone(), self.git_commit.clone())
-    }
-}
-
-#[cfg(feature = "notify")]
-#[derive(Debug)]
-pub struct VocabularyWatcher {
-    watcher: RecommendedWatcher,
-    vocab: Arc<Mutex<ContextVocabulary>>,
-    reload_tx: broadcast::Sender<()>,
-}
-
-#[cfg(feature = "notify")]
-impl VocabularyWatcher {
-    pub fn new(project_root: Option<PathBuf>) -> Result<(Self, broadcast::Receiver<()>)> {
-        let vocab = Arc::new(Mutex::new(ContextVocabulary::new(project_root.clone())));
-        let (reload_tx, reload_rx) = broadcast::channel(10);
-
-        let mut watcher = notify::recommended_watcher(move |res| {
-            if let Ok(event) = res {
-                if matches!(event.kind, EventKind::Create(_) | EventKind::Modify(_) | EventKind::Remove(_)) {
-                    if let Ok(mut vocab) = vocab.lock() {
-                        let _ = vocab.reload();
-                    }
-                    let _ = reload_tx.send(());
-                }
-            }
-        })?;
-
-        if let Some(ref root) = project_root {
-            watcher.watch(root, RecursiveMode::Recursive)?;
-        }
-
-        Ok((
-            Self {
-                watcher,
-                vocab,
-                reload_tx,
-            },
-            reload_rx,
-        ))
-    }
-
-    pub fn subscribe(&self) -> broadcast::Receiver<()> {
-        self.reload_tx.subscribe()
-    }
-
-    pub fn get_vocab(&self) -> Arc<Mutex<ContextVocabulary>> {
-        Arc::clone(&self.vocab)
     }
 }
 

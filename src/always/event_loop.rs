@@ -1,4 +1,3 @@
-use std::sync::Arc;
 use std::time::{Duration, Instant};
 
 use anyhow::{Context, Result};
@@ -6,22 +5,12 @@ use anyhow::{Context, Result};
 use crate::always::log::{Event, Logger};
 use crate::always::{AlwaysConfig, daemon, filter, notify, paste, vad};
 
-pub fn run(cfg: AlwaysConfig) -> Result<()> {
+pub fn run(cfg: &AlwaysConfig) -> Result<()> {
     let _pid = daemon::PidGuard::install()?;
     let mut log = Logger::open(&cfg.log_path)?;
+    log.write(Event::Start { cfg });
     print_banner(&cfg);
-    log.write(Event::Start { cfg: &cfg });
     let mut last_process = Instant::now() - Duration::from_secs(10);
-
-    // Start background warmup if performance layer is available
-    #[cfg(feature = "commercial")]
-    if let Some(ref perf) = cfg.performance {
-        let perf_clone = Arc::clone(perf);
-        std::thread::spawn(move || {
-            let runtime = tokio::runtime::Runtime::new().unwrap();
-            runtime.block_on(perf_clone.warmup_background());
-        });
-    }
 
     loop {
         process_one(&cfg, &mut log, &mut last_process)?;
@@ -38,9 +27,9 @@ fn process_one(cfg: &AlwaysConfig, log: &mut Logger, last_process: &mut Instant)
         vad::RecordResult::DroppedLowEnergy { energy } => {
             log.write(Event::DroppedLowEnergy { energy });
         }
-        vad::RecordResult::DroppedWhisperNoise { raw } => {
+        vad::RecordResult::DroppedNoise { raw } => {
             eprintln!("noise {raw:?}");
-            log.write(Event::DroppedWhisperNoise { raw: &raw });
+            log.write(Event::DroppedNoise { raw: &raw });
         }
     }
     Ok(())
@@ -118,8 +107,6 @@ mod tests {
 
     fn test_config(vocab: Option<Vocabulary>) -> AlwaysConfig {
         use crate::always::config::{VocabConfig, PostprocessConfig};
-        #[cfg(feature = "commercial")]
-        use crate::always::config::PerformanceConfig;
 
         AlwaysConfig {
             lang: "en".to_string(),
@@ -134,15 +121,13 @@ mod tests {
             vocab,
             context_vocab: None,
             post_processor: None,
-            #[cfg(feature = "commercial")]
-            performance: None,
             project_root: None,
             learning_enabled: false,
             groq_api_key: None,
+            deepgram_api_key: "test-key".to_string(),
+            vad_mode: crate::always::config::VadMode::Local,
             vocab_config: VocabConfig::default(),
             postprocess_config: PostprocessConfig::default(),
-            #[cfg(feature = "commercial")]
-            performance_config: PerformanceConfig::default(),
         }
     }
 
